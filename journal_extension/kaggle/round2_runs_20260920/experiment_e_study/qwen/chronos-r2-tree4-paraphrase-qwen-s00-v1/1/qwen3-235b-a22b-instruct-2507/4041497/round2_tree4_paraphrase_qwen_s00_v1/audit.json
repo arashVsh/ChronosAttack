@@ -1,0 +1,70 @@
+{
+  "audit_failed": "ValueError('resume ledger contains unknown or invalid call cost')",
+  "contract": {
+    "ceiling_usd": 0.6,
+    "fixture_manifest_sha256": "e21ef13b66dbfdcc7cf14a7294e973c52a2409a138201f925a55d32557351a33",
+    "identity": "60f9afdfc4a4fe82155831d917358e72c8d3bb9ea56153a9390b9e02ce9115e5",
+    "job_count": 6,
+    "jobs_sha256": "19278cc856be1b533b2bf8be6d2d73d92626ee892dad0fffc4531e358d13fad9",
+    "model": "qwen/qwen3-235b-a22b-instruct-2507",
+    "parent_ledger_sha256": null,
+    "phase": "study",
+    "planned_calls": 30,
+    "reasoning": "low",
+    "resume_ledger": {
+      "completed_jobs": 0,
+      "events": 0,
+      "failed_calls": 0,
+      "incomplete_jobs": [],
+      "known_cost_usd": 0.0,
+      "max_attempt_by_job": {},
+      "observed_invocations": 0
+    },
+    "role": "matched_non_off_primary",
+    "schema": "chronos.experiment-e-hosted-cell.v1",
+    "sdk_max_retries": 0,
+    "shard_count": 30,
+    "shard_index": 0,
+    "source_sha256": {
+      "audit_experiment_e.py": "ea08e687d355a91820a3d50802215be8ebf44373cbf83baff393c7974d9e2f94",
+      "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+      "experiment_e_protocol.py": "5534df299d93abeeda5810c35b2d93e93dd2e3d86595ae44f6efb6244fe7cd55",
+      "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+      "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+    },
+    "study_id": "chronos_round2_tree4_paraphrase_qwen_low_study_v1",
+    "transport_policy": {
+      "initial_delay_seconds": 20,
+      "max_delay_seconds": 300,
+      "max_wait_seconds_per_call": 1800,
+      "procedure": "specs/journal-extension-sep14/round2-e-paraphrase-plan-2026-10-04.md",
+      "schema": "chronos.experiment-e-transport-wait.v1",
+      "sdk_max_retries": 0,
+      "wait_on": [
+        "RateLimitError"
+      ]
+    }
+  },
+  "evidence_sha256": "0cd3ffd7b3f008d99023a250811af478bfdec0a812690984d7685e9a65756b57",
+  "parent_prefix_preserved": true,
+  "parse_failures": [],
+  "passed": false,
+  "raw_accounting": {
+    "accounting_complete": false,
+    "complete_calls": 7,
+    "completed_jobs": 1,
+    "events": 12,
+    "failed_calls": 1,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.0015899400000000002,
+    "observed_invocations": 8,
+    "started_attempts": 2,
+    "unknown_cost_calls": 1
+  },
+  "schema": "chronos.experiment-e-hosted-audit.v1",
+  "terminal_error": {
+    "message": "Error code: 429 - {'code': '', 'message': 'The model is currently experiencing heavy load. Try again later.', 'param': '', 'type': 'rate_limit_error'}",
+    "status_code": 429,
+    "type": "RateLimitError"
+  }
+}

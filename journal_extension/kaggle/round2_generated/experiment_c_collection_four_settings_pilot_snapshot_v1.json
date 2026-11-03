@@ -1,0 +1,838 @@
+{
+  "cells": [
+    {
+      "completed_jobs": 24,
+      "failed_calls": 4,
+      "known_cost_usd": 0.5720439999999999,
+      "model": "openai/gpt-5.6-terra",
+      "observed_invocations": 227,
+      "planned_calls": 180,
+      "raw_ledgers": [
+        {
+          "artifacts": {
+            "atif_metadata": {
+              "bytes": 2617,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/chronos-r2-tree4-c-terra-low-s00-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+              "sha256": "e81f30bcd26bfff8a1ddd46fa226b5a3d6cf6ef30e7052593905f8535a998e3d"
+            },
+            "contract": {
+              "bytes": 5225,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s00_v1.contract.json",
+              "sha256": "b1add7da2944abdaa61b75bb6f2a5211f0e5685298880fb538c05803808054a5"
+            },
+            "evidence": {
+              "bytes": 127406,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/round2_tree4_c_terra_low_s00_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "e8970e905ca3e0984b45c77119a8d1a19ea793d939f6e9ad8a766d273fdf4d8c"
+            },
+            "frozen_source": {
+              "bytes": 94245,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s00_v1.py",
+              "sha256": "c53ca1bc7c1ebaf37d988c0ac50b2cd697b35d716935f22ba68c581c0b122540"
+            },
+            "notebook": {
+              "bytes": 324412,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/__notebook__.ipynb",
+              "sha256": "edf3da000142c60d001a19afeca50cf2fda93703d59610df753f34aab435dd83"
+            },
+            "prelaunch_receipt": {
+              "bytes": 934,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s00_v1.prelaunch.json",
+              "sha256": "c98f1f002295a47c7576d275866e29ec3234b5e83efdbfd8c4c05ce57a3ce09d"
+            },
+            "result_metadata": {
+              "bytes": 654,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/chronos-r2-tree4-c-terra-low-s00-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+              "sha256": "5535741c48094b09bb7f91c11641418cb202165488009cebedab85753f32200c"
+            },
+            "run_metadata": {
+              "bytes": 2225,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/chronos-r2-tree4-c-terra-low-s00-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+              "sha256": "616ae58b81436a1745e7d869682e6afd2e683cfed7cff878d90ae3559d1beef6"
+            },
+            "task_metadata": {
+              "bytes": 1630,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/chronos-r2-tree4-c-terra-low-s00-v1.task.json",
+              "sha256": "6502f4c8c9dce5f47d934c8f5b7933df0ec6aa2bf0151e5f27ec41ba19d3c5a0"
+            },
+            "terminal": {
+              "bytes": 634,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/round2_tree4_c_terra_low_s00_v1/terminal.json",
+              "sha256": "86d5c563deec3983976852e9a2875cd20a7a49de9dfddd1554cc5a371ebac552"
+            }
+          },
+          "complete": true,
+          "completed_job_ids": [
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|barrier|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|invariant|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|order_consistency_24|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|randomized|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|undefended_natural|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|undefended_selected_order|0|1"
+          ],
+          "embedded_sources": {
+            "audit_experiment_c_v1.py": {
+              "bytes": 9495,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/round2_tree4_c_terra_low_s00_v1_source/audit_experiment_c_v1.py",
+              "sha256": "1c4c575efe430cc0a434b9bb458a24222a237be14abe1c64a5fc4b95ca7a2d8c"
+            },
+            "completion_protocol.py": {
+              "bytes": 15555,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/round2_tree4_c_terra_low_s00_v1_source/completion_protocol.py",
+              "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+            },
+            "experiment_c_protocol_v1.py": {
+              "bytes": 10407,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/round2_tree4_c_terra_low_s00_v1_source/experiment_c_protocol_v1.py",
+              "sha256": "f3402e723f4d421d5efcc6413e6214fa1e58f50752bdb0b54c2e7a147a9abc58"
+            },
+            "experiment_c_selection_v1.py": {
+              "bytes": 9203,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/round2_tree4_c_terra_low_s00_v1_source/experiment_c_selection_v1.py",
+              "sha256": "920152511d8f99aee026e477a8c39f488445cad2e8ea5f3fc608aea9ebb36456"
+            },
+            "four_observation_defenses.py": {
+              "bytes": 9632,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/round2_tree4_c_terra_low_s00_v1_source/four_observation_defenses.py",
+              "sha256": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f"
+            },
+            "four_observation_protocol.py": {
+              "bytes": 8774,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/round2_tree4_c_terra_low_s00_v1_source/four_observation_protocol.py",
+              "sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40"
+            },
+            "round2_hosted.py": {
+              "bytes": 15052,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1/round2_tree4_c_terra_low_s00_v1_source/round2_hosted.py",
+              "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+            }
+          },
+          "failed_calls": 0,
+          "known_cost_usd": 0.117226,
+          "observed_invocations": 45,
+          "parent_ledger": null,
+          "run_id": 1,
+          "run_root": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s00-v1/1",
+          "shard_index": 0,
+          "task_name": "chronos-r2-tree4-c-terra-low-s00-v1",
+          "task_version": 1,
+          "unknown_cost_calls": 0
+        },
+        {
+          "artifacts": {
+            "atif_metadata": {
+              "bytes": 2617,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/chronos-r2-tree4-c-terra-low-s01-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+              "sha256": "0c9d10817c7769f676a4617ce63bb805791b14fe4e6a17a933ab846593b7dcfb"
+            },
+            "contract": {
+              "bytes": 5141,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s01_v1.contract.json",
+              "sha256": "e172dd8c288b59cc47a4ff7abdb968426e72f6234128c91f15a23942653763c4"
+            },
+            "evidence": {
+              "bytes": 212464,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/round2_tree4_c_terra_low_s01_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "81181dfe3ce4e0b8497ceb911e949bb80cfa3e1094d56abbb3c8894142898857"
+            },
+            "frozen_source": {
+              "bytes": 94161,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s01_v1.py",
+              "sha256": "ae875d8cf4562f2de9f5c1fd642cdd7a9b97c6ebded3cc330286a90d4a0fad62"
+            },
+            "notebook": {
+              "bytes": 98869,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/__notebook__.ipynb",
+              "sha256": "aa9672bacd32df086946d696f26dfd8e90af42ff900dbad8e4554a6f24941105"
+            },
+            "prelaunch_receipt": {
+              "bytes": 934,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s01_v1.prelaunch.json",
+              "sha256": "aaf9940ab8490fcc7cb68b1f8bf5067478dd0bffe4879bce6a409e66a5acd9aa"
+            },
+            "result_metadata": {
+              "bytes": 654,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/chronos-r2-tree4-c-terra-low-s01-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+              "sha256": "f0b18a0aa461de9cba649ab4f9316722432b549c791dc983263fbca3fba037ce"
+            },
+            "run_metadata": {
+              "bytes": 2225,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/chronos-r2-tree4-c-terra-low-s01-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+              "sha256": "9d769036629ad9f362df8a43e99267cecbb3bd6f5871874b5ad27af642ba6c89"
+            },
+            "task_metadata": {
+              "bytes": 1630,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/chronos-r2-tree4-c-terra-low-s01-v1.task.json",
+              "sha256": "545f335e46b79eeab0b884af149fc53b9bd015b6e633a69b40b3a4a5eef2e691"
+            },
+            "terminal": {
+              "bytes": 645,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/round2_tree4_c_terra_low_s01_v1/terminal.json",
+              "sha256": "d4e6746287030576b6b362f720c016c2190d0c24f0a460631a1027b5125cf6d7"
+            }
+          },
+          "complete": true,
+          "completed_job_ids": [
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|barrier|0|2",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|invariant|0|2",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|order_consistency_24|0|2",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|randomized|0|2",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|undefended_natural|0|2",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|undefended_selected_order|0|2"
+          ],
+          "embedded_sources": {
+            "audit_experiment_c_v1.py": {
+              "bytes": 9495,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/round2_tree4_c_terra_low_s01_v1_source/audit_experiment_c_v1.py",
+              "sha256": "1c4c575efe430cc0a434b9bb458a24222a237be14abe1c64a5fc4b95ca7a2d8c"
+            },
+            "completion_protocol.py": {
+              "bytes": 15555,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/round2_tree4_c_terra_low_s01_v1_source/completion_protocol.py",
+              "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+            },
+            "experiment_c_protocol_v1.py": {
+              "bytes": 10407,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/round2_tree4_c_terra_low_s01_v1_source/experiment_c_protocol_v1.py",
+              "sha256": "f3402e723f4d421d5efcc6413e6214fa1e58f50752bdb0b54c2e7a147a9abc58"
+            },
+            "experiment_c_selection_v1.py": {
+              "bytes": 9203,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/round2_tree4_c_terra_low_s01_v1_source/experiment_c_selection_v1.py",
+              "sha256": "920152511d8f99aee026e477a8c39f488445cad2e8ea5f3fc608aea9ebb36456"
+            },
+            "four_observation_defenses.py": {
+              "bytes": 9632,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/round2_tree4_c_terra_low_s01_v1_source/four_observation_defenses.py",
+              "sha256": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f"
+            },
+            "four_observation_protocol.py": {
+              "bytes": 8774,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/round2_tree4_c_terra_low_s01_v1_source/four_observation_protocol.py",
+              "sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40"
+            },
+            "round2_hosted.py": {
+              "bytes": 15052,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1/round2_tree4_c_terra_low_s01_v1_source/round2_hosted.py",
+              "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+            }
+          },
+          "failed_calls": 2,
+          "known_cost_usd": 0.19003799999999993,
+          "observed_invocations": 74,
+          "parent_ledger": null,
+          "run_id": 1,
+          "run_root": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s01-v1/1",
+          "shard_index": 1,
+          "task_name": "chronos-r2-tree4-c-terra-low-s01-v1",
+          "task_version": 1,
+          "unknown_cost_calls": 0
+        },
+        {
+          "artifacts": {
+            "atif_metadata": {
+              "bytes": 2617,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/chronos-r2-tree4-c-terra-low-s02-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+              "sha256": "064dfb51f569875aff411801512dde32529ac52b949df6c059a409cfa1b6fe0c"
+            },
+            "contract": {
+              "bytes": 5121,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s02_v1.contract.json",
+              "sha256": "725ddfad1754989fdf0321f922fcf3a4750c08c1204158a63ad9bb6c2369b78e"
+            },
+            "evidence": {
+              "bytes": 168102,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/round2_tree4_c_terra_low_s02_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "bcdb798b5c56eb5dbfe56f40ebb63d7f56b0a5b0fd5728f9da1b0801b51e23d9"
+            },
+            "frozen_source": {
+              "bytes": 94141,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s02_v1.py",
+              "sha256": "7df7c575063ec124916aa7cb4baf4a120bf8c124356916b24f7576ac52be418c"
+            },
+            "notebook": {
+              "bytes": 98849,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/__notebook__.ipynb",
+              "sha256": "4ebd9d12bedc55726c66cb24b5a5ec09a1552e5053d2f7c2c5560c584167c742"
+            },
+            "prelaunch_receipt": {
+              "bytes": 934,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s02_v1.prelaunch.json",
+              "sha256": "0fe513901539374d0b6c0bbc997afcdcb03030462873e18015e90c4381f8e0b7"
+            },
+            "result_metadata": {
+              "bytes": 654,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/chronos-r2-tree4-c-terra-low-s02-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+              "sha256": "c7aeb96c51fee11f663370ed5fe4930b7ee25fa39bbcd9e151c61d5976bb3ef7"
+            },
+            "run_metadata": {
+              "bytes": 2225,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/chronos-r2-tree4-c-terra-low-s02-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+              "sha256": "65969528500db8900a233017c14143d7b969c5a6d928a64b79489d3e9d7a8b96"
+            },
+            "task_metadata": {
+              "bytes": 1630,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/chronos-r2-tree4-c-terra-low-s02-v1.task.json",
+              "sha256": "bb30af8806eeb04a11ba8e850e90378121d3fc813a1c12c150ba5f00291302d2"
+            },
+            "terminal": {
+              "bytes": 645,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/round2_tree4_c_terra_low_s02_v1/terminal.json",
+              "sha256": "55babda64bd372e165e2efc70d159035c0591587cddbe375f1eaa7ebc2d5bffe"
+            }
+          },
+          "complete": true,
+          "completed_job_ids": [
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|barrier|0|3",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|invariant|0|3",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|order_consistency_24|0|3",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|randomized|0|3",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|undefended_natural|0|3",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|undefended_selected_order|0|3"
+          ],
+          "embedded_sources": {
+            "audit_experiment_c_v1.py": {
+              "bytes": 9495,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/round2_tree4_c_terra_low_s02_v1_source/audit_experiment_c_v1.py",
+              "sha256": "1c4c575efe430cc0a434b9bb458a24222a237be14abe1c64a5fc4b95ca7a2d8c"
+            },
+            "completion_protocol.py": {
+              "bytes": 15555,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/round2_tree4_c_terra_low_s02_v1_source/completion_protocol.py",
+              "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+            },
+            "experiment_c_protocol_v1.py": {
+              "bytes": 10407,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/round2_tree4_c_terra_low_s02_v1_source/experiment_c_protocol_v1.py",
+              "sha256": "f3402e723f4d421d5efcc6413e6214fa1e58f50752bdb0b54c2e7a147a9abc58"
+            },
+            "experiment_c_selection_v1.py": {
+              "bytes": 9203,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/round2_tree4_c_terra_low_s02_v1_source/experiment_c_selection_v1.py",
+              "sha256": "920152511d8f99aee026e477a8c39f488445cad2e8ea5f3fc608aea9ebb36456"
+            },
+            "four_observation_defenses.py": {
+              "bytes": 9632,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/round2_tree4_c_terra_low_s02_v1_source/four_observation_defenses.py",
+              "sha256": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f"
+            },
+            "four_observation_protocol.py": {
+              "bytes": 8774,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/round2_tree4_c_terra_low_s02_v1_source/four_observation_protocol.py",
+              "sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40"
+            },
+            "round2_hosted.py": {
+              "bytes": 15052,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1/round2_tree4_c_terra_low_s02_v1_source/round2_hosted.py",
+              "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+            }
+          },
+          "failed_calls": 1,
+          "known_cost_usd": 0.14145799999999994,
+          "observed_invocations": 59,
+          "parent_ledger": null,
+          "run_id": 1,
+          "run_root": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s02-v1/1",
+          "shard_index": 2,
+          "task_name": "chronos-r2-tree4-c-terra-low-s02-v1",
+          "task_version": 1,
+          "unknown_cost_calls": 0
+        },
+        {
+          "artifacts": {
+            "atif_metadata": {
+              "bytes": 2617,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/chronos-r2-tree4-c-terra-low-s03-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+              "sha256": "830e4394cd60f9e16b8799d62768e1eb53653ab2bf0a4f3f9321d90f8e8e857c"
+            },
+            "contract": {
+              "bytes": 5121,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s03_v1.contract.json",
+              "sha256": "42a55d6814dda871a803e28eac10afb093f2aaa11d632be11f5f97be4b61fd63"
+            },
+            "evidence": {
+              "bytes": 135335,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/round2_tree4_c_terra_low_s03_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "d3983ba13f48f78413d34fe3b9e175c40172c9c81e31da4500d17cddbdce5dc9"
+            },
+            "frozen_source": {
+              "bytes": 94141,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s03_v1.py",
+              "sha256": "42c2fd0db97764e4c6b3e2ec34dd97f3e094a03b1439a6960bef65167b11a5c8"
+            },
+            "notebook": {
+              "bytes": 98849,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/__notebook__.ipynb",
+              "sha256": "a8c410883afc4984e6bd2fdcc044e5631cf5bbabdab3f5aad11176bac28d802f"
+            },
+            "prelaunch_receipt": {
+              "bytes": 934,
+              "path": "kaggle/round2_generated/tree4_c_terra_low_s03_v1.prelaunch.json",
+              "sha256": "4f0b9d155e751d717badee2d2768f4e6d74ef5bbb9cc00937ba1fd1519fcc8ea"
+            },
+            "result_metadata": {
+              "bytes": 654,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/chronos-r2-tree4-c-terra-low-s03-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+              "sha256": "d09dcb013911cd9390e6cc1217e779068f741d3bd73d3655afcd502b2d23fe3d"
+            },
+            "run_metadata": {
+              "bytes": 2225,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/chronos-r2-tree4-c-terra-low-s03-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+              "sha256": "fd98b1dc8287aff4eb07fe25702c8d2faf52360c601ca46c7cd6c6b02dc3d197"
+            },
+            "task_metadata": {
+              "bytes": 1630,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/chronos-r2-tree4-c-terra-low-s03-v1.task.json",
+              "sha256": "f187bf6a2ee98a49d30b29bfa142d19ad637c4a20131b91b7f54489ecc51fcf1"
+            },
+            "terminal": {
+              "bytes": 645,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/round2_tree4_c_terra_low_s03_v1/terminal.json",
+              "sha256": "d707ba1328eccbbe03b313783f41a21d000dcd872dc96fa687e749fef3955c11"
+            }
+          },
+          "complete": true,
+          "completed_job_ids": [
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|barrier|0|4",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|invariant|0|4",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|order_consistency_24|0|4",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|randomized|0|4",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|undefended_natural|0|4",
+            "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|undefended_selected_order|0|4"
+          ],
+          "embedded_sources": {
+            "audit_experiment_c_v1.py": {
+              "bytes": 9495,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/round2_tree4_c_terra_low_s03_v1_source/audit_experiment_c_v1.py",
+              "sha256": "1c4c575efe430cc0a434b9bb458a24222a237be14abe1c64a5fc4b95ca7a2d8c"
+            },
+            "completion_protocol.py": {
+              "bytes": 15555,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/round2_tree4_c_terra_low_s03_v1_source/completion_protocol.py",
+              "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+            },
+            "experiment_c_protocol_v1.py": {
+              "bytes": 10407,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/round2_tree4_c_terra_low_s03_v1_source/experiment_c_protocol_v1.py",
+              "sha256": "f3402e723f4d421d5efcc6413e6214fa1e58f50752bdb0b54c2e7a147a9abc58"
+            },
+            "experiment_c_selection_v1.py": {
+              "bytes": 9203,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/round2_tree4_c_terra_low_s03_v1_source/experiment_c_selection_v1.py",
+              "sha256": "920152511d8f99aee026e477a8c39f488445cad2e8ea5f3fc608aea9ebb36456"
+            },
+            "four_observation_defenses.py": {
+              "bytes": 9632,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/round2_tree4_c_terra_low_s03_v1_source/four_observation_defenses.py",
+              "sha256": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f"
+            },
+            "four_observation_protocol.py": {
+              "bytes": 8774,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/round2_tree4_c_terra_low_s03_v1_source/four_observation_protocol.py",
+              "sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40"
+            },
+            "round2_hosted.py": {
+              "bytes": 15052,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1/round2_tree4_c_terra_low_s03_v1_source/round2_hosted.py",
+              "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+            }
+          },
+          "failed_calls": 1,
+          "known_cost_usd": 0.12332199999999999,
+          "observed_invocations": 49,
+          "parent_ledger": null,
+          "run_id": 1,
+          "run_root": "kaggle/round2_runs_20260920/experiment_c_study/terra-low/chronos-r2-tree4-c-terra-low-s03-v1/1",
+          "shard_index": 3,
+          "task_name": "chronos-r2-tree4-c-terra-low-s03-v1",
+          "task_version": 1,
+          "unknown_cost_calls": 0
+        }
+      ],
+      "reasoning": "low",
+      "role": "primary",
+      "status": "study_partial",
+      "stop_reason": "Snapshot after Terra-low shards 00-03; later Terra-low shards are not yet launched.",
+      "unknown_cost_calls": 0
+    },
+    {
+      "completed_jobs": 6,
+      "failed_calls": 0,
+      "known_cost_usd": 0.03624525,
+      "model": "google/gemini-3.6-flash",
+      "observed_invocations": 46,
+      "planned_calls": 46,
+      "raw_ledgers": [
+        {
+          "artifacts": {
+            "atif_metadata": {
+              "bytes": 2645,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/chronos-r2-tree4-c-gemini-minimal-s00-v1-run_id_Run_1_google_gemini-3.6-flash.atif.json",
+              "sha256": "b4eb855eca58f670cd4fbedc5fdd90a8d5ad940a7b4b074628aafd8c21e92402"
+            },
+            "contract": {
+              "bytes": 5089,
+              "path": "kaggle/round2_generated/tree4_c_gemini_minimal_s00_v1.contract.json",
+              "sha256": "862153ed2a778c0dc1aee89a9b5a874ce483d3236edb4224cc8c786dfe0c2d90"
+            },
+            "evidence": {
+              "bytes": 130834,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/round2_tree4_c_gemini_minimal_s00_v1/google_gemini-3.6-flash.jsonl",
+              "sha256": "567d7e515f21813284046de3aa0ed94dbd1e72f45f090def7aa353935c24e2d5"
+            },
+            "frozen_source": {
+              "bytes": 91479,
+              "path": "kaggle/round2_generated/tree4_c_gemini_minimal_s00_v1.py",
+              "sha256": "41561c8c9a38a6acbb6d4b2c19a99df217a1f2ae67ce1b589fa2f6a54df1c833"
+            },
+            "notebook": {
+              "bytes": 96187,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/__notebook__.ipynb",
+              "sha256": "28d7a306e589415fb1f9ab48ddd85b0c1febda8d3b1191fbff12db7e7f80e41b"
+            },
+            "prelaunch_receipt": {
+              "bytes": 944,
+              "path": "kaggle/round2_generated/tree4_c_gemini_minimal_s00_v1.prelaunch.json",
+              "sha256": "9a2fc471d6facec318bafeafe0813b339b04e65fd0104aa3a05f30ff5a3c7c97"
+            },
+            "result_metadata": {
+              "bytes": 667,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/chronos-r2-tree4-c-gemini-minimal-s00-v1-run_id_Run_1_google_gemini-3.6-flash.result.json",
+              "sha256": "d34895b4b002404ab553ae545383355d91b451b28e35ce9bbbe4d6e768f39562"
+            },
+            "run_metadata": {
+              "bytes": 2248,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/chronos-r2-tree4-c-gemini-minimal-s00-v1-run_id_Run_1_google_gemini-3.6-flash.run.json",
+              "sha256": "1b2027dc8f4b3858814d82061b0b7fd1b9e587e7874874865bf612a0a84e6b8a"
+            },
+            "task_metadata": {
+              "bytes": 1640,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/chronos-r2-tree4-c-gemini-minimal-s00-v1.task.json",
+              "sha256": "bfe27bedcb5a07d7d7d710deb7c8305e21d0f3d6c27495afccb8dbf4447a8f7d"
+            },
+            "terminal": {
+              "bytes": 641,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/round2_tree4_c_gemini_minimal_s00_v1/terminal.json",
+              "sha256": "77bea0285b0f05d211d7e93c401e4e99a9ba1711d17b6477e0422a9425651391"
+            }
+          },
+          "complete": true,
+          "completed_job_ids": [
+            "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|barrier|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|invariant|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|order_consistency_24|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|randomized|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|undefended_natural|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|undefended_selected_order|0|1"
+          ],
+          "embedded_sources": {
+            "audit_experiment_c_v1.py": {
+              "bytes": 9495,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/round2_tree4_c_gemini_minimal_s00_v1_source/audit_experiment_c_v1.py",
+              "sha256": "1c4c575efe430cc0a434b9bb458a24222a237be14abe1c64a5fc4b95ca7a2d8c"
+            },
+            "completion_protocol.py": {
+              "bytes": 15555,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/round2_tree4_c_gemini_minimal_s00_v1_source/completion_protocol.py",
+              "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+            },
+            "experiment_c_protocol_v1.py": {
+              "bytes": 10407,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/round2_tree4_c_gemini_minimal_s00_v1_source/experiment_c_protocol_v1.py",
+              "sha256": "f3402e723f4d421d5efcc6413e6214fa1e58f50752bdb0b54c2e7a147a9abc58"
+            },
+            "experiment_c_selection_v1.py": {
+              "bytes": 9203,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/round2_tree4_c_gemini_minimal_s00_v1_source/experiment_c_selection_v1.py",
+              "sha256": "920152511d8f99aee026e477a8c39f488445cad2e8ea5f3fc608aea9ebb36456"
+            },
+            "four_observation_defenses.py": {
+              "bytes": 9632,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/round2_tree4_c_gemini_minimal_s00_v1_source/four_observation_defenses.py",
+              "sha256": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f"
+            },
+            "four_observation_protocol.py": {
+              "bytes": 8774,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/round2_tree4_c_gemini_minimal_s00_v1_source/four_observation_protocol.py",
+              "sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40"
+            },
+            "round2_hosted.py": {
+              "bytes": 15052,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1/round2_tree4_c_gemini_minimal_s00_v1_source/round2_hosted.py",
+              "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+            }
+          },
+          "failed_calls": 0,
+          "known_cost_usd": 0.03624525,
+          "observed_invocations": 46,
+          "parent_ledger": null,
+          "run_id": 1,
+          "run_root": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s00-v1/1",
+          "shard_index": 0,
+          "task_name": "chronos-r2-tree4-c-gemini-minimal-s00-v1",
+          "task_version": 1,
+          "unknown_cost_calls": 0
+        }
+      ],
+      "reasoning": "minimal",
+      "role": "primary",
+      "status": "study_partial",
+      "stop_reason": "Snapshot after Gemini-minimal shard 00; later Gemini-minimal shards are not yet launched.",
+      "unknown_cost_calls": 0
+    },
+    {
+      "completed_jobs": 6,
+      "failed_calls": 0,
+      "known_cost_usd": 0.01054658,
+      "model": "qwen/qwen3-235b-a22b-instruct-2507",
+      "observed_invocations": 46,
+      "planned_calls": 46,
+      "raw_ledgers": [
+        {
+          "artifacts": {
+            "atif_metadata": {
+              "bytes": 2626,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/chronos-r2-tree4-c-qwen-low-s00-v1-run_id_Run_1_qwen_qwen3-235b-a22b-instruct-2507.atif.json",
+              "sha256": "5f1f7ef605b5bdf9ed11f4d3944671b103ff055cc578e15073250cfc069364ae"
+            },
+            "contract": {
+              "bytes": 5163,
+              "path": "kaggle/round2_generated/tree4_c_qwen_low_s00_v1.contract.json",
+              "sha256": "f212e3d523b955699ea3d7bc39317d17b656f7904e6c5687dcc9ad6e1eb28ba8"
+            },
+            "evidence": {
+              "bytes": 128650,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/round2_tree4_c_qwen_low_s00_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+              "sha256": "6ed62d7f36d48c54a7a087292760380149cf75df16eec508a7b741338cd36e18"
+            },
+            "frozen_source": {
+              "bytes": 91598,
+              "path": "kaggle/round2_generated/tree4_c_qwen_low_s00_v1.py",
+              "sha256": "c79bec1d14440225c8e300b856ada1772a5a0c7819b2efd518dcbfffaf4ee70b"
+            },
+            "notebook": {
+              "bytes": 96306,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/__notebook__.ipynb",
+              "sha256": "69c04ac87d886cbd338188a26f5435518f1ccc1e96baaf3f8fae7c6fe05ca6a8"
+            },
+            "prelaunch_receipt": {
+              "bytes": 932,
+              "path": "kaggle/round2_generated/tree4_c_qwen_low_s00_v1.prelaunch.json",
+              "sha256": "fab3b8e2456aadb65cbd7b5ce736e1060b408aa9b948401acd72df9a5881acc4"
+            },
+            "result_metadata": {
+              "bytes": 666,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/chronos-r2-tree4-c-qwen-low-s00-v1-run_id_Run_1_qwen_qwen3-235b-a22b-instruct-2507.result.json",
+              "sha256": "a27888145723e9c5c8911fd0d1f1379e74d68fa0f952153acbf746c00708fbdd"
+            },
+            "run_metadata": {
+              "bytes": 2235,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/chronos-r2-tree4-c-qwen-low-s00-v1-run_id_Run_1_qwen_qwen3-235b-a22b-instruct-2507.run.json",
+              "sha256": "c8b89bbb82cd76edd86e90fded415dc89e0ea74cc73cf3e1d36dc2f51b397ce8"
+            },
+            "task_metadata": {
+              "bytes": 1628,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/chronos-r2-tree4-c-qwen-low-s00-v1.task.json",
+              "sha256": "67060849d86a2a27260bc7f532b85188ea7fc57e53317426a89a9071bd5830d7"
+            },
+            "terminal": {
+              "bytes": 635,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/round2_tree4_c_qwen_low_s00_v1/terminal.json",
+              "sha256": "ca8b87518f2218d89038a36fb83f25ffc944fb6a1e07dd85015b20d90965d680"
+            }
+          },
+          "complete": true,
+          "completed_job_ids": [
+            "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|barrier|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|invariant|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|randomized|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|undefended_natural|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|undefended_selected_order|0|1"
+          ],
+          "embedded_sources": {
+            "audit_experiment_c_v1.py": {
+              "bytes": 9495,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/round2_tree4_c_qwen_low_s00_v1_source/audit_experiment_c_v1.py",
+              "sha256": "1c4c575efe430cc0a434b9bb458a24222a237be14abe1c64a5fc4b95ca7a2d8c"
+            },
+            "completion_protocol.py": {
+              "bytes": 15555,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/round2_tree4_c_qwen_low_s00_v1_source/completion_protocol.py",
+              "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+            },
+            "experiment_c_protocol_v1.py": {
+              "bytes": 10407,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/round2_tree4_c_qwen_low_s00_v1_source/experiment_c_protocol_v1.py",
+              "sha256": "f3402e723f4d421d5efcc6413e6214fa1e58f50752bdb0b54c2e7a147a9abc58"
+            },
+            "experiment_c_selection_v1.py": {
+              "bytes": 9203,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/round2_tree4_c_qwen_low_s00_v1_source/experiment_c_selection_v1.py",
+              "sha256": "920152511d8f99aee026e477a8c39f488445cad2e8ea5f3fc608aea9ebb36456"
+            },
+            "four_observation_defenses.py": {
+              "bytes": 9632,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/round2_tree4_c_qwen_low_s00_v1_source/four_observation_defenses.py",
+              "sha256": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f"
+            },
+            "four_observation_protocol.py": {
+              "bytes": 8774,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/round2_tree4_c_qwen_low_s00_v1_source/four_observation_protocol.py",
+              "sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40"
+            },
+            "round2_hosted.py": {
+              "bytes": 15052,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1/round2_tree4_c_qwen_low_s00_v1_source/round2_hosted.py",
+              "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+            }
+          },
+          "failed_calls": 0,
+          "known_cost_usd": 0.01054658,
+          "observed_invocations": 46,
+          "parent_ledger": null,
+          "run_id": 1,
+          "run_root": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s00-v1/1",
+          "shard_index": 0,
+          "task_name": "chronos-r2-tree4-c-qwen-low-s00-v1",
+          "task_version": 1,
+          "unknown_cost_calls": 0
+        }
+      ],
+      "reasoning": "low",
+      "role": "primary",
+      "status": "study_partial",
+      "stop_reason": "Snapshot after Qwen-low shard 00; later Qwen-low shards are not yet launched.",
+      "unknown_cost_calls": 0
+    },
+    {
+      "completed_jobs": 6,
+      "failed_calls": 0,
+      "known_cost_usd": 0.19505160000000002,
+      "model": "anthropic/claude-sonnet-4-6@default",
+      "observed_invocations": 45,
+      "planned_calls": 45,
+      "raw_ledgers": [
+        {
+          "artifacts": {
+            "atif_metadata": {
+              "bytes": 2642,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/chronos-r2-tree4-c-claude-none-s00-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.atif.json",
+              "sha256": "02b3615d203cf03d270fb3c72f759896220c7fb6a1dcd183b41df0e7f7810185"
+            },
+            "contract": {
+              "bytes": 5170,
+              "path": "kaggle/round2_generated/tree4_c_claude_none_s00_v1.contract.json",
+              "sha256": "e760c2fe54c1508994636df41a0bd7ad1ad84f83f46bbe231f2e148ca4866331"
+            },
+            "evidence": {
+              "bytes": 138371,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/round2_tree4_c_claude_none_s00_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+              "sha256": "4d4c4b99424dcd097404b6773cc4a3ab98e023f4507ed93e5655aed48b028d1b"
+            },
+            "frozen_source": {
+              "bytes": 91572,
+              "path": "kaggle/round2_generated/tree4_c_claude_none_s00_v1.py",
+              "sha256": "776a33c0666350e826b4165104e24ddfd90c838600c03ecfa5613e125eb1b8ac"
+            },
+            "notebook": {
+              "bytes": 96280,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/__notebook__.ipynb",
+              "sha256": "f5e08bf8540ae05cdbcbab43f4836bde4d2e274f44a67dc53e6bf77e6a2695a4"
+            },
+            "prelaunch_receipt": {
+              "bytes": 938,
+              "path": "kaggle/round2_generated/tree4_c_claude_none_s00_v1.prelaunch.json",
+              "sha256": "c496d676e141f68623517da66c01872a5b4829e96b487c2fae03657616f82f70"
+            },
+            "result_metadata": {
+              "bytes": 673,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/chronos-r2-tree4-c-claude-none-s00-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.result.json",
+              "sha256": "b871ead35f5287157e4bd1c1553d69a65655ea5ec9809a567ccb059d14ba515d"
+            },
+            "run_metadata": {
+              "bytes": 2248,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/chronos-r2-tree4-c-claude-none-s00-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.run.json",
+              "sha256": "e7dfc887cd768c8e3ad76152ad4bb8e9fbba099f3cdb173b6f01644f30289512"
+            },
+            "task_metadata": {
+              "bytes": 1634,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/chronos-r2-tree4-c-claude-none-s00-v1.task.json",
+              "sha256": "b30434bb3086e5ce403e8d3e3b016719cec0550dcf76146d43dc93e2367c32b6"
+            },
+            "terminal": {
+              "bytes": 647,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/round2_tree4_c_claude_none_s00_v1/terminal.json",
+              "sha256": "404ad2305d72bf024c29c5d4a9f28e99451afdff53a222917eeeccb49ca95c04"
+            }
+          },
+          "complete": true,
+          "completed_job_ids": [
+            "chronos_round2_tree4_experiment_c_v1|defense|anthropic/claude-sonnet-4-6@default|tree4|barrier|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|anthropic/claude-sonnet-4-6@default|tree4|invariant|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|anthropic/claude-sonnet-4-6@default|tree4|order_consistency_24|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|anthropic/claude-sonnet-4-6@default|tree4|randomized|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|anthropic/claude-sonnet-4-6@default|tree4|undefended_natural|0|1",
+            "chronos_round2_tree4_experiment_c_v1|defense|anthropic/claude-sonnet-4-6@default|tree4|undefended_selected_order|0|1"
+          ],
+          "embedded_sources": {
+            "audit_experiment_c_v1.py": {
+              "bytes": 9495,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/round2_tree4_c_claude_none_s00_v1_source/audit_experiment_c_v1.py",
+              "sha256": "1c4c575efe430cc0a434b9bb458a24222a237be14abe1c64a5fc4b95ca7a2d8c"
+            },
+            "completion_protocol.py": {
+              "bytes": 15555,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/round2_tree4_c_claude_none_s00_v1_source/completion_protocol.py",
+              "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+            },
+            "experiment_c_protocol_v1.py": {
+              "bytes": 10407,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/round2_tree4_c_claude_none_s00_v1_source/experiment_c_protocol_v1.py",
+              "sha256": "f3402e723f4d421d5efcc6413e6214fa1e58f50752bdb0b54c2e7a147a9abc58"
+            },
+            "experiment_c_selection_v1.py": {
+              "bytes": 9203,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/round2_tree4_c_claude_none_s00_v1_source/experiment_c_selection_v1.py",
+              "sha256": "920152511d8f99aee026e477a8c39f488445cad2e8ea5f3fc608aea9ebb36456"
+            },
+            "four_observation_defenses.py": {
+              "bytes": 9632,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/round2_tree4_c_claude_none_s00_v1_source/four_observation_defenses.py",
+              "sha256": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f"
+            },
+            "four_observation_protocol.py": {
+              "bytes": 8774,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/round2_tree4_c_claude_none_s00_v1_source/four_observation_protocol.py",
+              "sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40"
+            },
+            "round2_hosted.py": {
+              "bytes": 15052,
+              "path": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1/round2_tree4_c_claude_none_s00_v1_source/round2_hosted.py",
+              "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+            }
+          },
+          "failed_calls": 0,
+          "known_cost_usd": 0.19505160000000002,
+          "observed_invocations": 45,
+          "parent_ledger": null,
+          "run_id": 1,
+          "run_root": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s00-v1/1",
+          "shard_index": 0,
+          "task_name": "chronos-r2-tree4-c-claude-none-s00-v1",
+          "task_version": 1,
+          "unknown_cost_calls": 0
+        }
+      ],
+      "reasoning": "none",
+      "role": "sensitivity",
+      "status": "study_partial",
+      "stop_reason": "Snapshot after Claude-none shard 00; later Claude-none sensitivity shards are not yet launched.",
+      "unknown_cost_calls": 0
+    }
+  ],
+  "collection_sha256": "e3976110d434895f77d988d57efd9f4a391fc901650212472838c25a389f3677",
+  "schema": "chronos.experiment-c-collection.v1",
+  "staged_manifest_sha256": "9039d659777cb14ffe2a72123a17ab68e974d7d90a04e9e89d51886b2446dde8",
+  "status": "partial_raw_revalidated"
+}

@@ -1,0 +1,130 @@
+{
+  "effective_ceiling_usd": 0.16,
+  "fixture_manifest_sha256": "358d2389d8abeb8eadc31fe810c6cf1a1d820f740635224f1402ef7cbe5979fc",
+  "identity": "1b30211a9927b70736692d3e79b9623e46c45db565f95591f82b1199a8343607",
+  "incremental_ceiling_usd": 0.16,
+  "job_count": 6,
+  "jobs": [
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_tree4_label_rotation_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree4_rot0|stateful|natural|15",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 15,
+      "scenario": "tree4_rot0"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_tree4_label_rotation_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree4_rot0|stateful|natural|13",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 13,
+      "scenario": "tree4_rot0"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_tree4_label_rotation_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree4_rot2|stateful|natural|15",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 15,
+      "scenario": "tree4_rot2"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_tree4_label_rotation_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree4_rot2|stateful|attack|23",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 23,
+      "scenario": "tree4_rot2"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_tree4_label_rotation_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree4_rot1|stateful|natural|28",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 28,
+      "scenario": "tree4_rot1"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_tree4_label_rotation_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree4_rot0|stateful|natural|29",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 29,
+      "scenario": "tree4_rot0"
+    }
+  ],
+  "jobs_sha256": "ec50f95eadf91dd49159773561a2212ad1b1b90e1e1a2f890dce52ff5034a1d9",
+  "model": "google/gemini-3.6-flash",
+  "parent_ledger_sha256": null,
+  "phase": "study",
+  "pilot_receipt_sha256": "143741aa6e6ef31fd94c0083c95928133d9fda8987adf5c6e172799c915830b5",
+  "planned_calls": 30,
+  "reasoning": "minimal",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-b-hosted-cell.v1",
+  "sdk_max_retries": 0,
+  "shard_count": 30,
+  "shard_index": 3,
+  "source_sha256": {
+    "audit_experiment_b.py": "7453f0f14612007e9ef80a6c7c7dc042f6c8e5f175446f8ee0c7fffb6dc8c4ed",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_b_manifest_v1.json": "aea0abc3698fe959b72716b7d5f587b503f3439de82598b15aed8e782b61ea95",
+    "experiment_b_protocol.py": "9b3c38088a3cc3b762834feeb865aa3782c536e9ad2cfae5163feafa258827a5",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_tree4_label_rotation_gemini_minimal_study_v1"
+}

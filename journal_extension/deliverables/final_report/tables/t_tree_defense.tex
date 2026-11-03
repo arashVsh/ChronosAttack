@@ -1,0 +1,15 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Model & Natural & Attack & Randomised & Invariant & Invariant vs attack (Holm) & Randomised vs attack (Holm) \\
+\midrule
+Terra (low) & 1/30 & 2/30 & 2/30 & 2/30 & +0 (1) & +0 (1) \\
+Gemini (minimal) & 9/30 & 27/30 & 4/30 & 0/30 & $-$90 ($1.3\times10^{-7}$) & $-$77 ($1.9\times10^{-6}$) \\
+Qwen (low) & 0/30 & 30/30 & 7/30 & 0/30 & $-$100 ($1.9\times10^{-8}$) & $-$77 ($1.9\times10^{-6}$) \\
+Claude (off) & 25/30 & 27/30 & 23/30 & 21/30 & $-$20 (0.88) & $-$13 (1) \\
+Terra (off)\textsuperscript{s} & 0/30 & 1/30 & 0/30 & 0/30 & $-$3 (1) & $-$3 (1) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Defense suite on the tree scenario, 30 trials per arm, target-C counts; every arm answered all 30 trials. Paired exact tests against the attacked arm; Holm over the ten tests.\par}

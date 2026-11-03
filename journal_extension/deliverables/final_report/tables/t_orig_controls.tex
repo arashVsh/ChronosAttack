@@ -1,0 +1,18 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+Model & Scenario & Inv.\ 0/1/2 & Barrier & Consistency target \\
+\midrule
+GPT-5.6 Sol & Cloud backup & 0/14/14 /15 & 0/15 & 0/10 \\
+GPT-5.6 Sol & Shipping partner & 1/13/9 /15 & 0/15 & 0/10 \\
+Gemini 3.6 Flash & Cloud backup & 15/3/2 /15 & 15/15 & 10/10 \\
+Gemini 3.6 Flash & Shipping partner & 15/14/1 /15 & 15/15 & 0/10 \\
+DeepSeek V4 Flash & Cloud backup & 1/3/4 /15 & 3/15 & 0/10 \\
+DeepSeek V4 Flash & Shipping partner & 5/1/0 /15 & 4/15 & 1/10 \\
+Claude Sonnet 4.6 & Cloud backup & 4/15/14 /15 & 0/15 & 0/10 \\
+Claude Sonnet 4.6 & Shipping partner & 0/0/1 /15 & 0/15 & 0/10 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Original study, target counts: 15 stateful trials per inversion level, 15 barrier trials, ten six-order consistency panels (a panel answers when at least 4 of 6 agree). Abstentions reported in the preprint: Claude, cloud backup, 10/10 (3--3 splits); Gemini, shipping, 2/10. From the preprint (DOI 10.21203/rs.3.rs-10854515/v1), not re-run; target A in both scenarios.\par}

@@ -1,0 +1,79 @@
+{
+  "amendment": {
+    "bytes": 5260,
+    "path": "specs/journal-extension-sep14/round2-claude-preflight-retry-amendment-2026-09-20.md",
+    "sha256": "de72d61ca3bcfc05b22699326c6dc03e48913b6309b876b75374730f908fc0e2"
+  },
+  "budget": {
+    "conditional_low_preflight_ceiling_usd": 0.25,
+    "daily_limit_usd": 10.0,
+    "maximum_after_minimal_retry_usd": 8.805856,
+    "maximum_if_low_is_authorized_usd": 9.055856,
+    "minimal_retry_ceiling_usd": 0.25,
+    "prior_known_daily_cost_usd": 8.555856
+  },
+  "frozen_at": "2026-09-20T21:08:22+03:30",
+  "retry": {
+    "identity": "bd18b69dc34e2e5434e3c04803bb82df2a723922bc97a24fa466b6409a8df8ae",
+    "incremental_ceiling_usd": 0.25,
+    "job_count": 2,
+    "model": "anthropic/claude-sonnet-4-6@default",
+    "output_folder": "round2_claude_reasoning_preflight_minimal_retry_v1",
+    "planned_calls": 10,
+    "reasoning": "minimal",
+    "replacement_limit": 1,
+    "sdk_max_retries": 0,
+    "source": {
+      "bytes": 88233,
+      "path": "kaggle/round2_generated/claude_reasoning_preflight_minimal_retry_v1.py",
+      "sha256": "7dcb60526a27a208cefb800157844a7be7ba8b1ced6880128d9430de98825a45"
+    },
+    "study_id": "chronos_round2_claude_reasoning_preflight_minimal_retry_v1",
+    "task": "chronos-r2-claude-preflight-minimal-retry-v1",
+    "transport_wait_budget_seconds": 0
+  },
+  "retry_manifest_sha256": "08d9874958ba8a826527dcf3672a46124eb0ee52e13e6a5e9262692b5edcd765",
+  "schema": "chronos.round2.claude-preflight-retry.v1",
+  "status": "authorized_not_launched",
+  "trigger": {
+    "artifacts": {
+      "audit": {
+        "bytes": 3268,
+        "path": "kaggle/round2_runs_20260920/claude_minimal/chronos-r2-claude-preflight-minimal-v1/1/claude-sonnet-4-6-default/2647262/round2_claude_reasoning_preflight_minimal_v1/audit.json",
+        "sha256": "380db9b455723c63bbe7f6c498ff0db12cc23603eb4e2497a822108b98894026"
+      },
+      "evidence": {
+        "bytes": 2341,
+        "path": "kaggle/round2_runs_20260920/claude_minimal/chronos-r2-claude-preflight-minimal-v1/1/claude-sonnet-4-6-default/2647262/round2_claude_reasoning_preflight_minimal_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+        "sha256": "8cb0b2cecd7cb0ba2b22b3f84fdd4dca6e11a3199b975405362431c48b10da1d"
+      },
+      "intended_manifest": {
+        "bytes": 2932,
+        "path": "kaggle/round2_runs_20260920/claude_minimal/chronos-r2-claude-preflight-minimal-v1/1/claude-sonnet-4-6-default/2647262/round2_claude_reasoning_preflight_minimal_v1/intended_manifest.json",
+        "sha256": "dcc166fea1788d40da8972c26ce87c0352481cb6a04769afa89d8b184aa6141f"
+      },
+      "quota_attestation": {
+        "bytes": 940,
+        "path": "kaggle/round2_runs_20260920/claude_minimal/chronos-r2-claude-preflight-minimal-v1/1/claude-sonnet-4-6-default/2647262/round2_claude_reasoning_preflight_minimal_v1/quota_attestation_1.json",
+        "sha256": "cbdd09dbac13e5c6ae1838c0531d0761784e8562b15a484f1a809d57f4d15aed"
+      },
+      "terminal": {
+        "bytes": 2175,
+        "path": "kaggle/round2_runs_20260920/claude_minimal/chronos-r2-claude-preflight-minimal-v1/1/claude-sonnet-4-6-default/2647262/round2_claude_reasoning_preflight_minimal_v1/reasoning_terminal.json",
+        "sha256": "84fd465308adb45169b01d098a775fbae661ee2f4a1802d47a0554ff410d0ae9"
+      }
+    },
+    "identity": "9ba557746b6cd2da7d998495adc84486e57bd70f17b66f5aa73f6bb87aeda2c8",
+    "model": "anthropic/claude-sonnet-4-6@default",
+    "observed_invocations": 1,
+    "raw_unknown_cost_invocations": 1,
+    "reasoning": "minimal",
+    "receipt_issued": false,
+    "resolved_incremental_cost_usd": 0.0,
+    "run_id": 2647262,
+    "status": "generic_http_500_zero_completion_zero_increment",
+    "study_id": "chronos_round2_claude_reasoning_preflight_minimal_v1",
+    "task": "chronos-r2-claude-preflight-minimal-v1",
+    "task_version": 1
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "availability_manifest_sha256": "9f4e975c7083ba39adba45dcb76034f526b99cfd32bba36a9aa5563e763355e4",
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "minimal",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "effective_ceiling_usd": 0.25,
+  "identity": "e7dfd5aaa551726e4cf7d0f5d32b96a6ab1f24342949873cc6dddbce7c6fe08f",
+  "incremental_ceiling_usd": 0.25,
+  "job_count": 2,
+  "jobs": [
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_water4_pilot_gemini_minimal_v1|study|google/gemini-3.6-flash|water4|stateful|natural|1",
+      "mode": "stateful",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_water4_pilot_gemini_minimal_v1|study|google/gemini-3.6-flash|water4|stateful|attack|1",
+      "mode": "stateful",
+      "order": [
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "water4"
+    }
+  ],
+  "manifest_sha256": "09bf96e4e1d466ec4f788306e37fe2ffc2639df6e01033917ee22db72f9eced9",
+  "model": "google/gemini-3.6-flash",
+  "parent_ledger_sha256": null,
+  "planned_calls": 10,
+  "protocol_extension_sha256": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190",
+  "reasoning": "minimal",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-pilot-contract.v1",
+  "seed_audit": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "source_sha256": {
+    "audit_water_supply.py": "1a36ec625580e5560e0bc2c0913f34a9436a965bb629ea13b763f90abaffc374",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_a_availability_v1.json": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943",
+    "experiment_a_manifest_v1.json": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "water_supply_protocol.py": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190"
+  },
+  "study_id": "chronos_round2_water4_pilot_gemini_minimal_v1"
+}

@@ -1,0 +1,46 @@
+{
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "error": null,
+  "evidence_sha256": "5c4e8daedbde72715c8fdd3152d1690c3938ad087f8cb55a6aeb342486539175",
+  "fixture_manifest_sha256": "5f1c223fa26680aea2f846aee9af63fa97f355b4673cce1a42d431cf18623eb8",
+  "identity": "32c3897896c618031788d8fd12973980b6a62a8770db060be7ddfc2e29e3f886",
+  "job_ids": [
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|stateless|natural|7",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|stateful|attack|14",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|budget|2|8",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|stateless|attack|5",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|barrier|canonical|11",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|budget|2|4",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|stateless|natural|3",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|stateful|natural|1",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|stateful|natural|22",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|consistency|3|3",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|consistency|9|5",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|budget|0|15",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|consistency|4|2",
+    "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|consistency|8|3"
+  ],
+  "jobs_sha256": "6ba2f01de00a977a3feda0ae3292fae6191452f9ec67189f4cc9643608088f3e",
+  "model": "openai/gpt-5.6-terra",
+  "parent_ledger_sha256": null,
+  "planned_calls": 32,
+  "reasoning": "low",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-g-terminal.v1",
+  "source_sha256": {
+    "audit_experiment_g.py": "5bdb752413ceeb857e1872ec79dca1b3d246ed21ef7474b8432872686b8833b5",
+    "build_completion_notebook.py": "a3c8995068c1d9c444b415ae7a1f7a95e036c35b68d215377379f33f80e52936",
+    "chronos_microgrid_c1_pair.py": "98072af64f880fde3a8892eb71cd7215288f83a53fe56a6ff0fbad013d41e374",
+    "chronos_software_release_b3_confirmation_batch.py": "e46cbd67cc775b95132b562e7cc8e1ce373c5e35297200cfdd5bf99ee291534d",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_g_protocol.py": "4197d52027d956078d6d54f5ccba34dee7a2a9269bd0e44518a60a4a28eb6b7a",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_b3c1_terra_low_study_v1"
+}

@@ -1,0 +1,39 @@
+{
+  "audit": {
+    "complete": false,
+    "complete_trial_calls": 11,
+    "completed_jobs": 3,
+    "failed_calls": 0,
+    "known_cost_usd": 0.02018025,
+    "missing_jobs": [
+      "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|invariant|0|4",
+      "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|order_consistency_24|0|4",
+      "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|randomized|0|4"
+    ],
+    "model": "google/gemini-3.6-flash",
+    "observed_invocations": 24,
+    "reasoning": "minimal",
+    "role": "primary",
+    "schema": "chronos.experiment-c-audit.v1",
+    "selection_manifest_sha256": "5ed905fabcf299fad407babb9f4e90e9a141ffe8aed004a14bd4488110e6e5bf",
+    "unknown_cost_calls": 0
+  },
+  "audit_error": null,
+  "contract_sha256": "4dfdcdf23f3e2e9baff2ae818d5137e921853f15d8b4b0901f30f4e5bb610350",
+  "raw_accounting": {
+    "accounting_complete": true,
+    "complete_calls": 24,
+    "completed_jobs": 3,
+    "events": 32,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.02018025,
+    "observed_invocations": 24,
+    "started_attempts": 4,
+    "unknown_cost_calls": 0
+  },
+  "schema": "chronos.experiment-c-hosted-terminal.v1",
+  "status": "stopped",
+  "stopped_early": "RuntimeError('Cost ceiling reached; checkpoint retained')",
+  "task": "chronos-r2-tree4-c-gemini-minimal-s03-v1"
+}

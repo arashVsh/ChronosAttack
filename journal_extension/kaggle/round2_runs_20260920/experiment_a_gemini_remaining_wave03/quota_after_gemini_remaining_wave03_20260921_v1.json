@@ -1,0 +1,21 @@
+{
+  "attestation_sha256": "0200831d0176e4e636955bb1f395aa2f04d06d1fafcb0cf4fb3e5a3a9c3965e6",
+  "endpoint": "/api/v1/benchmarks/tasks/quota",
+  "queried_at_end_utc": "2026-09-21T18:15:54.398505+00:00",
+  "queried_at_start_utc": "2026-09-21T18:15:52.389764+00:00",
+  "response": {
+    "daily_quota_used_usd": 1.7228054999999998,
+    "total_daily_quota_allowed_usd": 10.0
+  },
+  "run_context": {
+    "evidence_sha256": "c37aec3a2af8f548ad1ebcba3d61ff38de21fca520a571ff1759b7f710f7e429",
+    "last_evidence_event_utc": "2026-09-21T18:13:08.864884+00:00",
+    "model": "google/gemini-3.6-flash",
+    "reasoning": "minimal",
+    "run_id": 2719337,
+    "study_id": "chronos_round2_water4_study_gemini_minimal_v1",
+    "task": "chronos-r2-water4-study-gemini-minimal-s29-repair-v1",
+    "terminal_sha256": "3fc06feab92294857f2aea468746e2fa08b0f783fbfcc4f8dd7e0ce8cfca3b3e"
+  },
+  "schema": "chronos.kaggle-benchmark-quota-attestation.v1"
+}

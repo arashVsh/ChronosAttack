@@ -1,0 +1,23 @@
+{
+  "completed_jobs": 2,
+  "evidence_sha256": "2db674555683b76bbbe6713cd0d4f963e21e5ad4cdcfc2e0ad4031e3923554bb",
+  "failed_calls": 0,
+  "fixture_manifest_sha256": "358d2389d8abeb8eadc31fe810c6cf1a1d820f740635224f1402ef7cbe5979fc",
+  "identity": "29ad06d33ebc918b13ead6ba803ed499aeb54eebac74f7c698dc563489ea1025",
+  "intended_manifest_sha256": "1b721d87b8e285e756ebb9594e1cd743ca97bd2c632a53237c97a44344e29e0a",
+  "jobs_sha256": "84cc242f75201ea7e430e8371f91ed039dc5ddec8b70aa0f06762ef6064ced2f",
+  "known_cost_usd": 0.00882675,
+  "model": "google/gemini-3.6-flash",
+  "observed_invocations": 10,
+  "outcomes_examined_for_authorization": false,
+  "passed": true,
+  "phase": "pilot",
+  "pilot_excluded_from_study": true,
+  "reasoning": "minimal",
+  "receipt_sha256": "143741aa6e6ef31fd94c0083c95928133d9fda8987adf5c6e172799c915830b5",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-b-pilot-receipt.v1",
+  "study_id": "chronos_round2_tree4_label_rotation_gemini_minimal_pilot_v1",
+  "terminal_sha256": "7813fc1fc22c62bc5d1361768f1496cecb301fbc2b1eecd59f8db8d73a746d21",
+  "unknown_cost_calls": 0
+}

@@ -1,0 +1,482 @@
+{
+  "all_pilots_excluded_from_confirmation": true,
+  "authorization_is_outcome_independent": true,
+  "collection_manifest_sha256": "7a619d747094b83e7eff6a827ee898d412e5d54b0a16e27a77346f4682152766",
+  "daily_limit_usd": 10.0,
+  "failed_calls": 0,
+  "full_cell_status": "not_started",
+  "job_count": 8,
+  "latest_run_end_utc": "2026-09-20T18:29:03.503048Z",
+  "matched_primary_receipts": 3,
+  "observed_invocations": 40,
+  "pilot_known_cost_usd": 0.08991817,
+  "pilot_tasks_manifest_sha256": "aa3c062684af4e7e6b069a46798e7f5d4bb710da26a69605c252a0cd8111432b",
+  "planned_calls": 40,
+  "post_pilot_known_daily_cost_usd": 8.645774170000001,
+  "pre_pilot_known_daily_cost_usd": 8.555856,
+  "quota_ui_after_collection_usd": 8.65,
+  "quota_ui_display_precision_usd": 0.01,
+  "reasoning_off_sensitivity_receipts": 1,
+  "remaining_daily_credit_usd": 1.354225829999999,
+  "runs": [
+    {
+      "artifacts": {
+        "atif_metadata": {
+          "bytes": 5484,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/chronos-r2-water4-pilot-terra-low-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+          "sha256": "2b6e1533296bc34b1f4a561574f056a7155438f5099159316b5b628926063628"
+        },
+        "evidence": {
+          "bytes": 22799,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "df75c7870eb421c445131a6e20710d7bd0ac7a5d146f3d26f1c96bb5b2bfc5af"
+        },
+        "frozen_source": {
+          "bytes": 73453,
+          "path": "kaggle/round2_generated/water4_pilot_terra_low_v1.py",
+          "sha256": "3817742578acac2b92c0ccfd7110f0044b19a7aad98e366fab9b8a6f7011bdee"
+        },
+        "hosted_audit": {
+          "bytes": 74874,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1/audit.json",
+          "sha256": "d31c2f35a05c2f0471b34b24ffca0c97fbddcf3683feb101305bf1b7e716999d"
+        },
+        "intended_manifest": {
+          "bytes": 2779,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1/intended_manifest.json",
+          "sha256": "745887c52fb5b823b9885eaed60072fb7879eab31b38d6b42088098259ff3bfb"
+        },
+        "notebook": {
+          "bytes": 258418,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/__notebook__.ipynb",
+          "sha256": "012feacad26795aac445ec0e5efa85b3d9ef4be13f259ea706523bead70a3856"
+        },
+        "receipt": {
+          "bytes": 75209,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1/pilot_receipt.json",
+          "sha256": "6a5d65343b207e3af10101c19c344554d595324368dd34ed100cc550df301ff3"
+        },
+        "result_metadata": {
+          "bytes": 656,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/chronos-r2-water4-pilot-terra-low-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+          "sha256": "9eddfb7942c071c0406fca01cc2f41476808a5876e5170d94054e54f81f060f6"
+        },
+        "run_metadata": {
+          "bytes": 5091,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/chronos-r2-water4-pilot-terra-low-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+          "sha256": "31dc8973f7d3ff0c8443063d2d6a0c204a2f58bb4fed1f289b1f18c965eebfb5"
+        },
+        "task_metadata": {
+          "bytes": 4494,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/chronos-r2-water4-pilot-terra-low-v1.task.json",
+          "sha256": "524036b5bdcbf0c21937064b79845e5c3e83e77f25a75a41098b8762ed576fed"
+        },
+        "terminal": {
+          "bytes": 1867,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1/pilot_terminal.json",
+          "sha256": "2e1e91e47f6bfd7c8d6cd61ae91cabd07674d05da5bbdc0bcfbd29b6f338d4ab"
+        }
+      },
+      "embedded_sources": {
+        "audit_water_supply.py": {
+          "bytes": 6148,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1_source/audit_water_supply.py",
+          "sha256": "1a36ec625580e5560e0bc2c0913f34a9436a965bb629ea13b763f90abaffc374"
+        },
+        "completion_protocol.py": {
+          "bytes": 15555,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1_source/completion_protocol.py",
+          "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+        },
+        "experiment_a_availability_v1.json": {
+          "bytes": 5625,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1_source/experiment_a_availability_v1.json",
+          "sha256": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943"
+        },
+        "experiment_a_manifest_v1.json": {
+          "bytes": 4441,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1_source/experiment_a_manifest_v1.json",
+          "sha256": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d"
+        },
+        "reasoning_preflight_v1.py": {
+          "bytes": 3530,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1_source/reasoning_preflight_v1.py",
+          "sha256": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb"
+        },
+        "round2_hosted.py": {
+          "bytes": 15052,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1_source/round2_hosted.py",
+          "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+        },
+        "water_supply_protocol.py": {
+          "bytes": 10742,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/terra_low/chronos-r2-water4-pilot-terra-low-v1/1/gpt-5.6-terra/2674517/round2_water4_pilot_terra_low_v1_source/water_supply_protocol.py",
+          "sha256": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190"
+        }
+      },
+      "end_time": "2026-09-20T18:12:53.680519Z",
+      "evidence_sha256": "df75c7870eb421c445131a6e20710d7bd0ac7a5d146f3d26f1c96bb5b2bfc5af",
+      "job_count": 2,
+      "known_cost_usd": 0.028532,
+      "label": "terra_low",
+      "model": "openai/gpt-5.6-terra",
+      "output_folder": "round2_water4_pilot_terra_low_v1",
+      "planned_calls": 10,
+      "py_run_id": "chronos-r2-water4-pilot-terra-low-v1-Run #1",
+      "reasoning": "low",
+      "receipt_sha256": "91e1361a475725b9d75113c986896d2beb8ddede33d2137d2524a092dfa1a3a0",
+      "role": "matched_non_off_primary",
+      "run_id": 2674517,
+      "start_time": "2026-09-20T18:12:35.138899Z",
+      "status": "passed_raw_revalidated",
+      "study_id": "chronos_round2_water4_pilot_terra_low_v1",
+      "task": "chronos-r2-water4-pilot-terra-low-v1",
+      "task_version": 1
+    },
+    {
+      "artifacts": {
+        "atif_metadata": {
+          "bytes": 5512,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/chronos-r2-water4-pilot-gemini-minimal-v1-run_id_Run_1_google_gemini-3.6-flash.atif.json",
+          "sha256": "10b400501c5c969a7176ba27609a8d3a10d98efb3c8974ae6845228dda5d5827"
+        },
+        "evidence": {
+          "bytes": 23052,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "7538efa7125d4e598a28aec2bb91b063a75145331dc54676da1f04aec1d7e868"
+        },
+        "frozen_source": {
+          "bytes": 73507,
+          "path": "kaggle/round2_generated/water4_pilot_gemini_minimal_v1.py",
+          "sha256": "019fb56a8bc8ac5933c168c81d5b7bca117c4255c78f50e70022df019b38c959"
+        },
+        "hosted_audit": {
+          "bytes": 80423,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1/audit.json",
+          "sha256": "519c58256a150de2bd8aaa9f166ba7d63551d9d43446207ed7df35913e23ad10"
+        },
+        "intended_manifest": {
+          "bytes": 2811,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1/intended_manifest.json",
+          "sha256": "a14303f67db1201a678593f52b447ac6ab124cf1a98cd2a5f230616394bc860e"
+        },
+        "notebook": {
+          "bytes": 264305,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/__notebook__.ipynb",
+          "sha256": "7e608f322e89031af3ba09693ed59f47637dc3c939629e40856b42d3c41c1d73"
+        },
+        "receipt": {
+          "bytes": 80752,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1/pilot_receipt.json",
+          "sha256": "db57b463c86b3ff037aad95bb9e7e067248052b398d261f7d760f7dc2b31ba85"
+        },
+        "result_metadata": {
+          "bytes": 669,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/chronos-r2-water4-pilot-gemini-minimal-v1-run_id_Run_1_google_gemini-3.6-flash.result.json",
+          "sha256": "f442c880e63183c2af0ffb60e3a72b924ada3cb31415597f701c4e2d23488062"
+        },
+        "run_metadata": {
+          "bytes": 5114,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/chronos-r2-water4-pilot-gemini-minimal-v1-run_id_Run_1_google_gemini-3.6-flash.run.json",
+          "sha256": "895778196d43da097f487e2a987726d42e7e0866a8f8737a7c2b401f0ed7aac7"
+        },
+        "task_metadata": {
+          "bytes": 4504,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/chronos-r2-water4-pilot-gemini-minimal-v1.task.json",
+          "sha256": "cebfdb17b45c636fcd75b361823a6abb4046ede9c4048ca881af87d3f20bb2e4"
+        },
+        "terminal": {
+          "bytes": 1899,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1/pilot_terminal.json",
+          "sha256": "53f13f7eec8742daf4b88d057129a5be34cb9401c7ae827783ae67e53a539552"
+        }
+      },
+      "embedded_sources": {
+        "audit_water_supply.py": {
+          "bytes": 6148,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1_source/audit_water_supply.py",
+          "sha256": "1a36ec625580e5560e0bc2c0913f34a9436a965bb629ea13b763f90abaffc374"
+        },
+        "completion_protocol.py": {
+          "bytes": 15555,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1_source/completion_protocol.py",
+          "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+        },
+        "experiment_a_availability_v1.json": {
+          "bytes": 5625,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1_source/experiment_a_availability_v1.json",
+          "sha256": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943"
+        },
+        "experiment_a_manifest_v1.json": {
+          "bytes": 4441,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1_source/experiment_a_manifest_v1.json",
+          "sha256": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d"
+        },
+        "reasoning_preflight_v1.py": {
+          "bytes": 3530,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1_source/reasoning_preflight_v1.py",
+          "sha256": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb"
+        },
+        "round2_hosted.py": {
+          "bytes": 15052,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1_source/round2_hosted.py",
+          "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+        },
+        "water_supply_protocol.py": {
+          "bytes": 10742,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/gemini_minimal/chronos-r2-water4-pilot-gemini-minimal-v1/1/gemini-3.6-flash/2674725/round2_water4_pilot_gemini_minimal_v1_source/water_supply_protocol.py",
+          "sha256": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190"
+        }
+      },
+      "end_time": "2026-09-20T18:15:13.255222Z",
+      "evidence_sha256": "7538efa7125d4e598a28aec2bb91b063a75145331dc54676da1f04aec1d7e868",
+      "job_count": 2,
+      "known_cost_usd": 0.00904725,
+      "label": "gemini_minimal",
+      "model": "google/gemini-3.6-flash",
+      "output_folder": "round2_water4_pilot_gemini_minimal_v1",
+      "planned_calls": 10,
+      "py_run_id": "chronos-r2-water4-pilot-gemini-minimal-v1-Run #1",
+      "reasoning": "minimal",
+      "receipt_sha256": "63d71b48d26db1a8a9463df9afc23827627d2a0f541cadff8a5029b83c127962",
+      "role": "matched_non_off_primary",
+      "run_id": 2674725,
+      "start_time": "2026-09-20T18:15:00.877010Z",
+      "status": "passed_raw_revalidated",
+      "study_id": "chronos_round2_water4_pilot_gemini_minimal_v1",
+      "task": "chronos-r2-water4-pilot-gemini-minimal-v1",
+      "task_version": 1
+    },
+    {
+      "artifacts": {
+        "atif_metadata": {
+          "bytes": 5493,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/chronos-r2-water4-pilot-qwen-low-v1-run_id_Run_1_qwen_qwen3-235b-a22b-instruct-2507.atif.json",
+          "sha256": "11b3ed92c84d81a8b9491b0d43b321cabe840f76f7b6dc4c1af9c8671ae0ae2e"
+        },
+        "evidence": {
+          "bytes": 22401,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "c0f40a83849052a7d498a976322b0b456d45fbda5cf16d0d9fffaecf9cde512a"
+        },
+        "frozen_source": {
+          "bytes": 73503,
+          "path": "kaggle/round2_generated/water4_pilot_qwen_low_v1.py",
+          "sha256": "896afe913bf5e5ffce5f14c07219b9420750e27e75a9c3e38c3125dd1c359635"
+        },
+        "hosted_audit": {
+          "bytes": 83936,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1/audit.json",
+          "sha256": "100c73e4ce56f00babb6c30d23ffdffa85a58564e4c2be059153d7400f610de3"
+        },
+        "intended_manifest": {
+          "bytes": 2818,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1/intended_manifest.json",
+          "sha256": "278680f9f2cf0f22e20c0d34b2173340a7634ef5ed2565b62f97591d7de48b00"
+        },
+        "notebook": {
+          "bytes": 265275,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/__notebook__.ipynb",
+          "sha256": "d3328906485de23a6ec28d934983d5333c3a686b93dbfc5d7c8833bd8bf1a578"
+        },
+        "receipt": {
+          "bytes": 84258,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1/pilot_receipt.json",
+          "sha256": "9b1b5bc2562fc35dd00efc6ee62dc6364b060586b46cf8fd9af783d5d2edecd0"
+        },
+        "result_metadata": {
+          "bytes": 668,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/chronos-r2-water4-pilot-qwen-low-v1-run_id_Run_1_qwen_qwen3-235b-a22b-instruct-2507.result.json",
+          "sha256": "1450cf036b2f77e939d91743b2488ece5fd4163be378c0ebac1e9d9d4b3e1fb5"
+        },
+        "run_metadata": {
+          "bytes": 5101,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/chronos-r2-water4-pilot-qwen-low-v1-run_id_Run_1_qwen_qwen3-235b-a22b-instruct-2507.run.json",
+          "sha256": "088fbd54788645339ed32b33e608ea4355838d434a01c0d36f7f94fbac582839"
+        },
+        "task_metadata": {
+          "bytes": 4492,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/chronos-r2-water4-pilot-qwen-low-v1.task.json",
+          "sha256": "db0e840b8d2d4d79d0adde0d5f59f3370769da74ac35b2751b15e492845c0ebc"
+        },
+        "terminal": {
+          "bytes": 1906,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1/pilot_terminal.json",
+          "sha256": "0c890656e7530fa081cd42cce50b6dc662177881c8c39f4ed89ba3c2c8fbeb55"
+        }
+      },
+      "embedded_sources": {
+        "audit_water_supply.py": {
+          "bytes": 6148,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1_source/audit_water_supply.py",
+          "sha256": "1a36ec625580e5560e0bc2c0913f34a9436a965bb629ea13b763f90abaffc374"
+        },
+        "completion_protocol.py": {
+          "bytes": 15555,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1_source/completion_protocol.py",
+          "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+        },
+        "experiment_a_availability_v1.json": {
+          "bytes": 5625,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1_source/experiment_a_availability_v1.json",
+          "sha256": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943"
+        },
+        "experiment_a_manifest_v1.json": {
+          "bytes": 4441,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1_source/experiment_a_manifest_v1.json",
+          "sha256": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d"
+        },
+        "reasoning_preflight_v1.py": {
+          "bytes": 3530,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1_source/reasoning_preflight_v1.py",
+          "sha256": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb"
+        },
+        "round2_hosted.py": {
+          "bytes": 15052,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1_source/round2_hosted.py",
+          "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+        },
+        "water_supply_protocol.py": {
+          "bytes": 10742,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/qwen_low/chronos-r2-water4-pilot-qwen-low-v1/1/qwen3-235b-a22b-instruct-2507/2675684/round2_water4_pilot_qwen_low_v1_source/water_supply_protocol.py",
+          "sha256": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190"
+        }
+      },
+      "end_time": "2026-09-20T18:25:48.468637Z",
+      "evidence_sha256": "c0f40a83849052a7d498a976322b0b456d45fbda5cf16d0d9fffaecf9cde512a",
+      "job_count": 2,
+      "known_cost_usd": 0.0025269199999999998,
+      "label": "qwen_low",
+      "model": "qwen/qwen3-235b-a22b-instruct-2507",
+      "output_folder": "round2_water4_pilot_qwen_low_v1",
+      "planned_calls": 10,
+      "py_run_id": "chronos-r2-water4-pilot-qwen-low-v1-Run #1",
+      "reasoning": "low",
+      "receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+      "role": "matched_non_off_primary",
+      "run_id": 2675684,
+      "start_time": "2026-09-20T18:25:39.527976Z",
+      "status": "passed_raw_revalidated",
+      "study_id": "chronos_round2_water4_pilot_qwen_low_v1",
+      "task": "chronos-r2-water4-pilot-qwen-low-v1",
+      "task_version": 1
+    },
+    {
+      "artifacts": {
+        "atif_metadata": {
+          "bytes": 5509,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/chronos-r2-water4-pilot-claude-none-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.atif.json",
+          "sha256": "836b7a42eb021833eac3cc2b5b7ec89e809503e63d833d0042cd82e54e355e1a"
+        },
+        "evidence": {
+          "bytes": 24626,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "a9402f0ece398a6c5a2dd76019169048b08cccec4de15ea73a58a930cf5b1046"
+        },
+        "frozen_source": {
+          "bytes": 73532,
+          "path": "kaggle/round2_generated/water4_pilot_claude_none_v1.py",
+          "sha256": "5e04dfcdcde8c70f11e65d2ee435eac1c7f354242e86db91fdae2820ad74bbe5"
+        },
+        "hosted_audit": {
+          "bytes": 86640,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1/audit.json",
+          "sha256": "aeda0dc2464f6d35dbfe2ab1f4411f5fd6b04df3f0ce6649304955485bdb0d1c"
+        },
+        "intended_manifest": {
+          "bytes": 2834,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1/intended_manifest.json",
+          "sha256": "446bbfa42c3bc6efd9d4b4921ab7a5231ed0384c494d6ed84c0f79474954406a"
+        },
+        "notebook": {
+          "bytes": 272130,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/__notebook__.ipynb",
+          "sha256": "93317786242eb7d6c685d24b18b1686a0bfe74290dc81e2353f017569258bde5"
+        },
+        "receipt": {
+          "bytes": 86976,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1/pilot_receipt.json",
+          "sha256": "9f50f6e3a5806a7150de20722a799fcb21ff2734eca7f1f173b87b4d6e2b8c12"
+        },
+        "result_metadata": {
+          "bytes": 675,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/chronos-r2-water4-pilot-claude-none-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.result.json",
+          "sha256": "77fc9dd497bc6276f816328a55c83e93502bd0b2e46386aa811c688b4b0803f4"
+        },
+        "run_metadata": {
+          "bytes": 5114,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/chronos-r2-water4-pilot-claude-none-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.run.json",
+          "sha256": "5b01a35b3179e424fa1825cebdeb788e1d8a20a073418b2e095350e801c19f2f"
+        },
+        "task_metadata": {
+          "bytes": 4498,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/chronos-r2-water4-pilot-claude-none-v1.task.json",
+          "sha256": "9097ceb50eba5ef20c356b90d002884dfd5427c20363d0d94bff2b940936abc0"
+        },
+        "terminal": {
+          "bytes": 1922,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1/pilot_terminal.json",
+          "sha256": "9063963ebdf9f38c65942649f636a9ef3f50b42e3ecce32081c70f36fd6708a1"
+        }
+      },
+      "embedded_sources": {
+        "audit_water_supply.py": {
+          "bytes": 6148,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1_source/audit_water_supply.py",
+          "sha256": "1a36ec625580e5560e0bc2c0913f34a9436a965bb629ea13b763f90abaffc374"
+        },
+        "completion_protocol.py": {
+          "bytes": 15555,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1_source/completion_protocol.py",
+          "sha256": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821"
+        },
+        "experiment_a_availability_v1.json": {
+          "bytes": 5625,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1_source/experiment_a_availability_v1.json",
+          "sha256": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943"
+        },
+        "experiment_a_manifest_v1.json": {
+          "bytes": 4441,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1_source/experiment_a_manifest_v1.json",
+          "sha256": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d"
+        },
+        "reasoning_preflight_v1.py": {
+          "bytes": 3530,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1_source/reasoning_preflight_v1.py",
+          "sha256": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb"
+        },
+        "round2_hosted.py": {
+          "bytes": 15052,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1_source/round2_hosted.py",
+          "sha256": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+        },
+        "water_supply_protocol.py": {
+          "bytes": 10742,
+          "path": "kaggle/round2_runs_20260920/experiment_a_pilots/claude_none/chronos-r2-water4-pilot-claude-none-v1/1/claude-sonnet-4-6-default/2675872/round2_water4_pilot_claude_none_v1_source/water_supply_protocol.py",
+          "sha256": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190"
+        }
+      },
+      "end_time": "2026-09-20T18:29:03.503048Z",
+      "evidence_sha256": "a9402f0ece398a6c5a2dd76019169048b08cccec4de15ea73a58a930cf5b1046",
+      "job_count": 2,
+      "known_cost_usd": 0.049812,
+      "label": "claude_none",
+      "model": "anthropic/claude-sonnet-4-6@default",
+      "output_folder": "round2_water4_pilot_claude_none_v1",
+      "planned_calls": 10,
+      "py_run_id": "chronos-r2-water4-pilot-claude-none-v1-Run #1",
+      "reasoning": "none",
+      "receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+      "role": "reasoning_off_sensitivity",
+      "run_id": 2675872,
+      "start_time": "2026-09-20T18:28:20.598483Z",
+      "status": "passed_raw_revalidated",
+      "study_id": "chronos_round2_water4_pilot_claude_none_v1",
+      "task": "chronos-r2-water4-pilot-claude-none-v1",
+      "task_version": 1
+    }
+  ],
+  "schema": "chronos.experiment-a-pilot-collection.v1",
+  "status": "complete_raw_revalidated",
+  "task_count": 4
+}

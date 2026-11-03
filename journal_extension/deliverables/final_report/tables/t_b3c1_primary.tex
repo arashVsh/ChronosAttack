@@ -1,0 +1,20 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}llrrrrrrr@{}}
+\toprule
+Model & Scenario & Natural & Attack & $\Delta$ pp & 95\% CI & Shifts +/$-$ & exact $p$ & Holm $p$ \\
+\midrule
+Terra (low) & B3 release (B) & 17/30 (57\%) & 28/30 (93\%) & +37 & [+13, +56] & 13/2 & 0.007 & 0.03 \\
+Terra (low) & C1 microgrid (C) & 24/30 (80\%) & 27/30 (90\%) & +10 & [$-$9, +29] & 5/2 & 0.45 & 0.91 \\
+Gemini (minimal) & B3 release (B) & 28/30 (93\%) & 27/30 (90\%) & $-$3 & [$-$20, +13] & 2/3 & 1 & 1 \\
+Gemini (minimal) & C1 microgrid (C) & 3/30 (10\%) & 9/30 (30\%) & +20 & [$-$3, +40] & 9/3 & 0.15 & 0.44 \\
+Qwen (low) & B3 release (B) & 0/30 (0\%) & 30/30 (100\%) & +100 & [+84, +100] & 30/0 & $1.9\times10^{-9}$ & $1.9\times10^{-8}$ \\
+Qwen (low) & C1 microgrid (C) & 0/30 (0\%) & 21/30 (70\%) & +70 & [+49, +83] & 21/0 & $9.5\times10^{-7}$ & $7.6\times10^{-6}$ \\
+Claude (off) & B3 release (B) & 6/30 (20\%) & 27/30 (90\%) & +70 & [+45, +83] & 22/1 & $5.7\times10^{-6}$ & $4.0\times10^{-5}$ \\
+Claude (off) & C1 microgrid (C) & 4/30 (13\%) & 20/30 (67\%) & +53 & [+29, +70] & 17/1 & $1.4\times10^{-4}$ & $8.7\times10^{-4}$ \\
+Terra (off)\textsuperscript{s} & B3 release (B) & 5/30 (17\%) & 30/30 (100\%) & +83 & [+63, +93] & 25/0 & $6.0\times10^{-8}$ & $5.4\times10^{-7}$ \\
+Terra (off)\textsuperscript{s} & C1 microgrid (C) & 10/30 (33\%) & 26/30 (87\%) & +53 & [+27, +70] & 18/2 & $4.0\times10^{-4}$ & 0.002 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Stateful primary endpoint, 30 paired trials per cell, exact McNemar; Holm over all ten tests in the table. CI: Newcombe score interval for a paired difference. Shifts: pairs moving to / away from the target. \textsuperscript{s}Sensitivity cell (reasoning off). Claude and Terra (off): 5 September 2026; Terra (low), Gemini and Qwen: Experiment G, October 2026.\par}

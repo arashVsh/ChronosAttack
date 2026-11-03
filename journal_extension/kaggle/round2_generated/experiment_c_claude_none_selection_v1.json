@@ -1,0 +1,66 @@
+{
+  "amendment_sha256": "5ab050c777c309138b811c29f347f75816419d8811df5fc54189d533d7ceb6f5",
+  "condition_target_successes": [
+    8,
+    10,
+    9,
+    7,
+    1,
+    0,
+    10,
+    8,
+    10,
+    8,
+    6,
+    9,
+    8,
+    3,
+    10,
+    7,
+    6,
+    9,
+    0,
+    0,
+    5,
+    6,
+    8,
+    7
+  ],
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "objective": "target_C_choice_rate",
+  "reasoning": "none",
+  "role": "sensitivity",
+  "schema": "chronos.experiment-c-selection.v1",
+  "selected_condition_index": 1,
+  "selected_order": [
+    "equity_tool",
+    "heat_tool",
+    "cost_tool",
+    "survival_tool"
+  ],
+  "selection_manifest_sha256": "33e8bce622d29ba5048bacd0dd4a878975ee15458a1d284d408d0cd4fad63749",
+  "selection_repetitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "source_identity": "fb13c7540d9df213788f9ca5b0664f3a970f749321678054cb4ff32983db3619",
+  "source_log_sha256": "eb65e8fc1ce6af335521f285c22a413007f291fccebebacb39da8a11b8d0364f",
+  "source_logs": [
+    {
+      "bytes": 6446184,
+      "path": "kaggle/four_observation_results/claude_final_20260910/anthropic_claude-sonnet-4-6@default.jsonl",
+      "sha256": "eb65e8fc1ce6af335521f285c22a413007f291fccebebacb39da8a11b8d0364f"
+    }
+  ],
+  "source_study_id": "chronos_independent_tree4_20260909_v1",
+  "target_successes": 10,
+  "tie_break": "lowest_frozen_condition_index"
+}

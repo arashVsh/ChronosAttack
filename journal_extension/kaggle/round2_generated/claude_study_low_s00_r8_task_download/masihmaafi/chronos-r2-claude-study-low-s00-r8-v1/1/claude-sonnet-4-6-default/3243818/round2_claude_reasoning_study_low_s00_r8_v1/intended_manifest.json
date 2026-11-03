@@ -1,0 +1,1179 @@
+{
+  "accepted_preflight_receipt_sha256": "19b1483846ed09d5611157f194000124cf0a61ab20eba7537d20de64ba251f9e",
+  "arm": null,
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "effective_ceiling_usd": 2.6623333999999996,
+  "identity": "2c40c61c4fb4afcfec31f3f7c1d4e322d939e03f0db02ac531c6e73a2a8480a0",
+  "incremental_ceiling_usd": 2.0,
+  "job_count": 69,
+  "jobs": [
+    {
+      "calls": 1,
+      "condition": "8",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|8|6",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "equity_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "12",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|12|3",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "equity_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "17",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|17|4",
+      "mode": "permutation_stateful",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "9",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|9|4",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "13",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|13|7",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "equity_tool",
+        "cost_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "18",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|18|2",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|4",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|15",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 15,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|attack|7",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "simultaneous",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|control|simultaneous|8",
+      "mode": "control",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "19",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|19|3",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "17",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|17|10",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "0",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|0|2",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "7",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|7|3",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "equity_tool",
+        "cost_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "18",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|18|2",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "11",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|11|5",
+      "mode": "permutation_stateful",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "attack",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateless|attack|6",
+      "mode": "stateless",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "2",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|2|4",
+      "mode": "permutation_stateful",
+      "order": [
+        "equity_tool",
+        "survival_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "5",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|5|2",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "cost_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "20",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|20|10",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "equity_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "12",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|12|10",
+      "mode": "permutation_stateful",
+      "order": [
+        "survival_tool",
+        "equity_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "23",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|23|9",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "20",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|20|8",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "equity_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|0|6",
+      "mode": "budget",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "9",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|9|1",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "6",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|6|1",
+      "mode": "budget",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "19",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|19|10",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "5",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|5|12",
+      "mode": "budget",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 12,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "21",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|21|9",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|18",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 18,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "4",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|4|2",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "cost_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "5",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|5|1",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "cost_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "canonical",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|barrier|canonical|10",
+      "mode": "barrier",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|2",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "23",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|23|8",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|7",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "11",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|11|10",
+      "mode": "permutation_stateful",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "6",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|6|10",
+      "mode": "budget",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "1",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|1|7",
+      "mode": "permutation_stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "cost_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "11",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|11|4",
+      "mode": "permutation_stateful",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "3",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|3|10",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "survival_tool",
+        "cost_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "simultaneous",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|control|simultaneous|7",
+      "mode": "control",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "5",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|5|9",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "cost_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "5",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|5|9",
+      "mode": "permutation_stateful",
+      "order": [
+        "equity_tool",
+        "cost_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "18",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|18|3",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "16",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|16|8",
+      "mode": "permutation_stateful",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "equity_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "6",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|6|4",
+      "mode": "budget",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "6",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|6|13",
+      "mode": "budget",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 13,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "12",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|12|2",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "equity_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "17",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|17|1",
+      "mode": "permutation_stateful",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "23",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|23|4",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "22",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|22|2",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "equity_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "21",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|21|10",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "14",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|14|8",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "heat_tool",
+        "equity_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|attack|4",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "18",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|18|1",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "simultaneous",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|control|simultaneous|5",
+      "mode": "control",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "1",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|1|2",
+      "mode": "permutation_stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "cost_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "14",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|14|8",
+      "mode": "permutation_stateful",
+      "order": [
+        "survival_tool",
+        "heat_tool",
+        "equity_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "7",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|7|5",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "equity_tool",
+        "cost_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "18",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|18|8",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "4",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|4|3",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "cost_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "9",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|9|9",
+      "mode": "permutation_stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "2",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|2|8",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "survival_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "6",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|6|3",
+      "mode": "permutation_stateful",
+      "order": [
+        "heat_tool",
+        "equity_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "17",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|17|9",
+      "mode": "permutation_stateful",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "9",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|9|10",
+      "mode": "permutation_stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "22",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|22|6",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "equity_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "3",
+      "id": "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|3|4",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "survival_tool",
+        "cost_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    }
+  ],
+  "kind": "study",
+  "manifest_sha256": "ed510b61370e20cef4b9e5233592c74ac3205bdaa1ceecac10b0cb7042067d19",
+  "minimal_unsupported_receipt_sha256": "ab6f16f798151e766a5baf0f76fc4746b53e9abd60730c7be86ccae22f663d8f",
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "parent_ledger_sha256": "f6e8d2c6dab522785d465759bd4b532b7d056b51dbc8ba380cf29a9c66cfdf9d",
+  "planned_calls": 217,
+  "protocol_extension_sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 43,
+    "events": 255,
+    "failed_calls": 7,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.6623333999999997,
+    "max_attempt_by_job": {
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|barrier|canonical|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|0|6": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|5|12": 2,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|6|1": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|6|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|0|2": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|12|3": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|13|7": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|17|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|18|2": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|19|3": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|20|8": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|21|9": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|3|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|4|2": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|5|1": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|5|2": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|5|9": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|7|3": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|8|6": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|9|1": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|9|4": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|control|simultaneous|7": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|control|simultaneous|8": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|11|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|11|4": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|11|5": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|12|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|17|4": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|18|2": 3,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|19|10": 2,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|1|7": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|20|10": 3,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|23|8": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|23|9": 2,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|2|4": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|attack|7": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|15": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|18": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|2": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|4": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|7": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateless|attack|6": 1
+    },
+    "observed_invocations": 155
+  },
+  "seed_audit": {
+    "completed_jobs": 43,
+    "events": 255,
+    "failed_calls": 7,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.6623333999999997,
+    "max_attempt_by_job": {
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|barrier|canonical|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|0|6": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|5|12": 2,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|6|1": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|budget|6|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|0|2": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|12|3": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|13|7": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|17|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|18|2": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|19|3": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|20|8": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|21|9": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|3|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|4|2": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|5|1": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|5|2": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|5|9": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|7|3": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|8|6": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|9|1": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|consistency|9|4": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|control|simultaneous|7": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|control|simultaneous|8": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|11|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|11|4": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|11|5": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|12|10": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|17|4": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|18|2": 3,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|19|10": 2,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|1|7": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|20|10": 3,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|23|8": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|23|9": 2,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|permutation_stateful|2|4": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|attack|7": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|15": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|18": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|2": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|4": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|7": 1,
+      "chronos_round2_claude_reasoning_study_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateless|attack|6": 1
+    },
+    "observed_invocations": 155
+  },
+  "shard_count": 10,
+  "shard_index": 0,
+  "source_sha256": {
+    "audit_four_observation.py": "16aa34b225e2bfe041a8bd320e8b3a583014b266a85e2d4952cf3b23f47eb69c",
+    "audit_round2_defense.py": "fc573b2510fe883ec35a160c2241f336db74f48e9f6a70897ec3e90c4acab5b7",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "four_observation_defenses.py": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "round2_manifest_v1.json": "ed050bc39274cabd4f15545bf6078b36aeb0a40930458f12d11bc5e0cfeeb9b2"
+  },
+  "study_id": "chronos_round2_claude_reasoning_study_low_v1"
+}

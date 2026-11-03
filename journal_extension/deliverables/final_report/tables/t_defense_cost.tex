@@ -1,0 +1,25 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+Model & Arm & Coverage & Calls / decision & Latency (s) & Cost (cents) & TV from natural \\
+\midrule
+Terra (low) & Attack, undefended & 100\% & 5.3 & 10.8 & 1.48 & 0.03 \\
+Terra (low) & Randomised & 100\% & 5.5 & 10.6 & 1.54 & 0.03 \\
+Terra (low) & Invariant & 100\% & 5.0 & 8.0 & 0.76 & 0.03 \\
+Gemini (minimal) & Attack, undefended & 100\% & 5.0 & 13.7 & 0.85 & 0.60 \\
+Gemini (minimal) & Randomised & 100\% & 5.0 & 13.4 & 0.84 & 0.17 \\
+Gemini (minimal) & Invariant & 100\% & 5.0 & 12.6 & 0.55 & 0.30 \\
+Qwen (low) & Attack, undefended & 100\% & 5.0 & 3.9 & 0.12 & 1.00 \\
+Qwen (low) & Randomised & 100\% & 5.0 & 3.8 & 0.12 & 0.23 \\
+Qwen (low) & Invariant & 100\% & 5.0 & 3.7 & 0.08 & 0.00 \\
+Claude (off) & Attack, undefended & 100\% & 5.3 & 19.9 & 2.49 & 0.07 \\
+Claude (off) & Randomised & 100\% & 5.0 & 18.8 & 2.35 & 0.07 \\
+Claude (off) & Invariant & 100\% & 5.0 & 14.3 & 1.58 & 0.13 \\
+Terra (off)\textsuperscript{s} & Attack, undefended & 100\% & 5.0 & 10.7 & 1.65 & 0.03 \\
+Terra (off)\textsuperscript{s} & Randomised & 100\% & 5.0 & 10.4 & 1.64 & 0.00 \\
+Terra (off)\textsuperscript{s} & Invariant & 100\% & 5.0 & 10.0 & 1.33 & 0.00 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Practical cost of the tree defense suite, 30 decisions per arm. Calls include retries; latency is the mean model time per decision (retry waits excluded); TV: total-variation distance of the choice distribution from the undefended natural arm (0 = same choices as without attack). Each arm plans five calls per decision; the 24-order vote needs 24 joint calls per decision and the barrier one.\par}

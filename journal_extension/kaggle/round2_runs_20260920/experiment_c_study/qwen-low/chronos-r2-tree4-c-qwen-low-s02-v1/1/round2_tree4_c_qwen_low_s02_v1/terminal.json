@@ -1,0 +1,41 @@
+{
+  "audit": {
+    "complete": false,
+    "complete_trial_calls": 5,
+    "completed_jobs": 1,
+    "failed_calls": 1,
+    "known_cost_usd": 0.0013595999999999999,
+    "missing_jobs": [
+      "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|barrier|0|3",
+      "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|invariant|0|3",
+      "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|3",
+      "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|randomized|0|3",
+      "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|undefended_selected_order|0|3"
+    ],
+    "model": "qwen/qwen3-235b-a22b-instruct-2507",
+    "observed_invocations": 7,
+    "reasoning": "low",
+    "role": "primary",
+    "schema": "chronos.experiment-c-audit.v1",
+    "selection_manifest_sha256": "e8a935133f7db7414e1885b348c627ce87b6433a75b21f991daf5ac95ed28273",
+    "unknown_cost_calls": 1
+  },
+  "audit_error": null,
+  "contract_sha256": "86648c5b8a4af1836798669f9931bcbe0425c04846dda3942e5984a208760e50",
+  "raw_accounting": {
+    "accounting_complete": false,
+    "complete_calls": 6,
+    "completed_jobs": 1,
+    "events": 11,
+    "failed_calls": 1,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.0013595999999999999,
+    "observed_invocations": 7,
+    "started_attempts": 2,
+    "unknown_cost_calls": 1
+  },
+  "schema": "chronos.experiment-c-hosted-terminal.v1",
+  "status": "stopped",
+  "stopped_early": "RateLimitError(\"Error code: 429 - {'code': '', 'message': 'The model is currently experiencing heavy load. Try again later.', 'param': '', 'type': 'rate_limit_error'}\")",
+  "task": "chronos-r2-tree4-c-qwen-low-s02-v1"
+}

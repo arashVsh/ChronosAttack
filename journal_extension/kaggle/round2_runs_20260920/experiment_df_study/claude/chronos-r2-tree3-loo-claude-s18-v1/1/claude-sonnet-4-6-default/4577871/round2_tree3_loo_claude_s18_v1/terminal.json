@@ -1,0 +1,38 @@
+{
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "none",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "error": null,
+  "evidence_sha256": "0e1a5ca93bdcee02b2109723d3c378fddbbfba926ff3ea49b73420a859230d60",
+  "fixture_manifest_sha256": "b3292b6c53b0b3b04fd635c96c30f2569b902221f3c45f7f7c271aed29eca8c1",
+  "identity": "224becae986e81f89526f1d78c464aaf6e0b73f281050f58a0d8677bf4dcab03",
+  "job_ids": [
+    "chronos_round2_tree3_leave_one_out_claude_none_study_v1|study|anthropic/claude-sonnet-4-6@default|tree3_no_cost|stateful|1|6",
+    "chronos_round2_tree3_leave_one_out_claude_none_study_v1|study|anthropic/claude-sonnet-4-6@default|tree3_no_equity|stateful|4|6",
+    "chronos_round2_tree3_leave_one_out_claude_none_study_v1|study|anthropic/claude-sonnet-4-6@default|tree3_no_survival|stateful|0|3",
+    "chronos_round2_tree3_leave_one_out_claude_none_study_v1|study|anthropic/claude-sonnet-4-6@default|tree3_no_equity|stateful|5|3",
+    "chronos_round2_tree3_leave_one_out_claude_none_study_v1|study|anthropic/claude-sonnet-4-6@default|tree3_no_heat|stateful|0|8",
+    "chronos_round2_tree3_leave_one_out_claude_none_study_v1|study|anthropic/claude-sonnet-4-6@default|tree3_no_survival|stateful|5|10",
+    "chronos_round2_tree3_leave_one_out_claude_none_study_v1|study|anthropic/claude-sonnet-4-6@default|tree3_no_survival|stateful|0|6",
+    "chronos_round2_tree3_leave_one_out_claude_none_study_v1|study|anthropic/claude-sonnet-4-6@default|tree3_no_survival|stateful|5|3"
+  ],
+  "jobs_sha256": "7329671a97051931b3aca03b8744973412209ad9d7278ed90550f1a7f8908442",
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "parent_ledger_sha256": null,
+  "planned_calls": 32,
+  "reasoning": "none",
+  "role": "reasoning_off",
+  "schema": "chronos.experiment-df-terminal.v1",
+  "source_sha256": {
+    "audit_experiment_df.py": "260694fb97c5c765e0a93cbece73ece0ee8161a03fbd63f217552c0dd5475148",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_df_protocol.py": "d7fc06c8191a7491c5cf05cc1594f2d6fd2db76e870ab43c09e0a83a51c0eb7e",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_tree3_leave_one_out_claude_none_study_v1"
+}

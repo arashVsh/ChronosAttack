@@ -1,0 +1,401 @@
+{
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "effective_ceiling_usd": 0.67,
+  "identity": "21534df47da40c4661e753d37dd5885a60b7d2f713e4e1ed3bbe68d040f61f01",
+  "incremental_ceiling_usd": 0.67,
+  "job_count": 23,
+  "jobs": [
+    {
+      "calls": 5,
+      "condition": "5",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|permutation_stateful|5|2",
+      "mode": "permutation_stateful",
+      "order": [
+        "aquifer_tool",
+        "delivery_tool",
+        "cost_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "3",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|budget|3|14",
+      "mode": "budget",
+      "order": [
+        "aquifer_tool",
+        "delivery_tool",
+        "cost_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 14,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "1",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|permutation_stateful|1|5",
+      "mode": "permutation_stateful",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "delivery_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "23",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|permutation_stateful|23|8",
+      "mode": "permutation_stateful",
+      "order": [
+        "delivery_tool",
+        "cost_tool",
+        "yield_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "16",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|permutation_stateful|16|5",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "18",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|consistency|18|6",
+      "mode": "consistency",
+      "order": [
+        "delivery_tool",
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "3",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|consistency|3|9",
+      "mode": "consistency",
+      "order": [
+        "aquifer_tool",
+        "cost_tool",
+        "delivery_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "4",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|consistency|4|6",
+      "mode": "consistency",
+      "order": [
+        "aquifer_tool",
+        "delivery_tool",
+        "yield_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|budget|0|11",
+      "mode": "budget",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 11,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "21",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|permutation_stateful|21|5",
+      "mode": "permutation_stateful",
+      "order": [
+        "delivery_tool",
+        "yield_tool",
+        "cost_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|stateful|attack|26",
+      "mode": "stateful",
+      "order": [
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 26,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "17",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|consistency|17|5",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "delivery_tool",
+        "yield_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "canonical",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|barrier|canonical|15",
+      "mode": "barrier",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 15,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "3",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|budget|3|10",
+      "mode": "budget",
+      "order": [
+        "aquifer_tool",
+        "delivery_tool",
+        "cost_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "14",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|permutation_stateful|14|5",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "yield_tool",
+        "aquifer_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "6",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|consistency|6|7",
+      "mode": "consistency",
+      "order": [
+        "yield_tool",
+        "aquifer_tool",
+        "cost_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "10",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|permutation_stateful|10|8",
+      "mode": "permutation_stateful",
+      "order": [
+        "yield_tool",
+        "delivery_tool",
+        "aquifer_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "2",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|consistency|2|3",
+      "mode": "consistency",
+      "order": [
+        "aquifer_tool",
+        "cost_tool",
+        "yield_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|stateful|attack|25",
+      "mode": "stateful",
+      "order": [
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 25,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "12",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|consistency|12|7",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "aquifer_tool",
+        "yield_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "5",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|permutation_stateful|5|9",
+      "mode": "permutation_stateful",
+      "order": [
+        "aquifer_tool",
+        "delivery_tool",
+        "cost_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "9",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|consistency|9|2",
+      "mode": "consistency",
+      "order": [
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "22",
+      "id": "chronos_round2_water4_study_terra_low_v1|study|openai/gpt-5.6-terra|water4|consistency|22|10",
+      "mode": "consistency",
+      "order": [
+        "delivery_tool",
+        "cost_tool",
+        "aquifer_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "water4"
+    }
+  ],
+  "manifest_sha256": "699707df3edb1853784f3ec15b6c738ab3d6576c8e829b080abdf222a5831a4a",
+  "model": "openai/gpt-5.6-terra",
+  "parent_ledger_sha256": null,
+  "pilot_collection_manifest_sha256": "7a619d747094b83e7eff6a827ee898d412e5d54b0a16e27a77346f4682152766",
+  "pilot_evidence_sha256": "df75c7870eb421c445131a6e20710d7bd0ac7a5d146f3d26f1c96bb5b2bfc5af",
+  "pilot_receipt_sha256": "91e1361a475725b9d75113c986896d2beb8ddede33d2137d2524a092dfa1a3a0",
+  "planned_calls": 75,
+  "protocol_extension_sha256": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190",
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-full-shard-contract.v1",
+  "seed_audit": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "shard_count": 30,
+  "shard_index": 9,
+  "source_sha256": {
+    "audit_water_supply.py": "1a36ec625580e5560e0bc2c0913f34a9436a965bb629ea13b763f90abaffc374",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_a_availability_v1.json": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943",
+    "experiment_a_manifest_v1.json": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "water_supply_protocol.py": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190"
+  },
+  "study_id": "chronos_round2_water4_study_terra_low_v1",
+  "transport_wait_seconds": 7200
+}

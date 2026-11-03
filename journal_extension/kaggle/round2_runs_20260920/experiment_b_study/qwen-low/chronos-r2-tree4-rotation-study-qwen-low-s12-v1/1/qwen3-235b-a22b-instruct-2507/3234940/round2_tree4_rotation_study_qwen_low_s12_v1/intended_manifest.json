@@ -1,0 +1,130 @@
+{
+  "effective_ceiling_usd": 0.12,
+  "fixture_manifest_sha256": "358d2389d8abeb8eadc31fe810c6cf1a1d820f740635224f1402ef7cbe5979fc",
+  "identity": "8e705b279b479801b5c02033c4adb53ba929e039644776c5e1eaa5ff2db1fc66",
+  "incremental_ceiling_usd": 0.12,
+  "job_count": 6,
+  "jobs": [
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_tree4_label_rotation_qwen_low_study_v1|study|qwen/qwen3-235b-a22b-instruct-2507|tree4_rot0|stateful|attack|30",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 30,
+      "scenario": "tree4_rot0"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_tree4_label_rotation_qwen_low_study_v1|study|qwen/qwen3-235b-a22b-instruct-2507|tree4_rot2|stateful|attack|2",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4_rot2"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_tree4_label_rotation_qwen_low_study_v1|study|qwen/qwen3-235b-a22b-instruct-2507|tree4_rot2|stateful|attack|24",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 24,
+      "scenario": "tree4_rot2"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_tree4_label_rotation_qwen_low_study_v1|study|qwen/qwen3-235b-a22b-instruct-2507|tree4_rot1|stateful|natural|16",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 16,
+      "scenario": "tree4_rot1"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_tree4_label_rotation_qwen_low_study_v1|study|qwen/qwen3-235b-a22b-instruct-2507|tree4_rot1|stateful|attack|8",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4_rot1"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_tree4_label_rotation_qwen_low_study_v1|study|qwen/qwen3-235b-a22b-instruct-2507|tree4_rot0|stateful|attack|9",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4_rot0"
+    }
+  ],
+  "jobs_sha256": "363a4b890c8d4465ec0aa6a95dc4985c2a89ac53e70cd6ec23f4d55c242a2028",
+  "model": "qwen/qwen3-235b-a22b-instruct-2507",
+  "parent_ledger_sha256": null,
+  "phase": "study",
+  "pilot_receipt_sha256": "84a2221ef801fd7806e9c91a98dda582eaac08ad48c65021530a376c737ad499",
+  "planned_calls": 30,
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-b-hosted-cell.v1",
+  "sdk_max_retries": 0,
+  "shard_count": 30,
+  "shard_index": 12,
+  "source_sha256": {
+    "audit_experiment_b.py": "7453f0f14612007e9ef80a6c7c7dc042f6c8e5f175446f8ee0c7fffb6dc8c4ed",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_b_manifest_v1.json": "aea0abc3698fe959b72716b7d5f587b503f3439de82598b15aed8e782b61ea95",
+    "experiment_b_protocol.py": "9b3c38088a3cc3b762834feeb865aa3782c536e9ad2cfae5163feafa258827a5",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_tree4_label_rotation_qwen_low_study_v1"
+}

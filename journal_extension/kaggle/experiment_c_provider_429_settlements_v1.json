@@ -1,0 +1,113 @@
+{
+  "schema": "chronos.experiment-c-provider-429-settlements.v1",
+  "procedure": "specs/journal-extension-sep14/experiment-c-provider-429-procedure-2026-09-25.md",
+  "entries": [
+    {
+      "raw": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/1/round2_tree4_c_qwen_low_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+      "parent": null,
+      "pin": {
+        "line_index": 9,
+        "line_sha256": "844cc962acb7869864fd636700f0e3a14d712f43cf85f4292d520b9a39d67081",
+        "job_id": "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|undefended_selected_order|0|3",
+        "attempt": 1,
+        "step": 2
+      },
+      "proof": {
+        "kind": "legacy",
+        "module": "verify_experiment_c_qwen_s02_reconciliation_v1"
+      }
+    },
+    {
+      "raw": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s06-v1/1/round2_tree4_c_gemini_minimal_s06_v1/google_gemini-3.6-flash.jsonl",
+      "parent": null,
+      "pin": {
+        "line_index": 1,
+        "line_sha256": "3eb040116d27899e8a9e4391f3b91b278ff2abb83a76d13483db7776aed9783f",
+        "job_id": "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|undefended_natural|0|7",
+        "attempt": 1,
+        "step": 1
+      },
+      "proof": {
+        "kind": "legacy",
+        "module": "verify_experiment_c_gemini_s06_reconciliation_v1"
+      }
+    },
+    {
+      "raw": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s06-v1/2/round2_tree4_c_gemini_minimal_s06_v1/google_gemini-3.6-flash.jsonl",
+      "parent": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s06-v1/1/round2_tree4_c_gemini_minimal_s06_v1/google_gemini-3.6-flash.jsonl",
+      "pin": {
+        "line_index": 4,
+        "line_sha256": "73b02bd99aa8c265fd1f49dd63b6bf264b580fd1dc1c3600bde9cfb3158f6566",
+        "job_id": "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|undefended_natural|0|7",
+        "attempt": 2,
+        "step": 1
+      },
+      "proof": {
+        "kind": "legacy",
+        "module": "verify_experiment_c_gemini_s06_v2_reconciliation_v1"
+      }
+    },
+    {
+      "raw": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/2/round2_tree4_c_qwen_low_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+      "parent": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/1/round2_tree4_c_qwen_low_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+      "pin": {
+        "line_index": 33,
+        "line_sha256": "bb60728e70bb6c19c5543a1e437bf5a09095817053309c0d46b7bebe1c422cfd",
+        "job_id": "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|3",
+        "attempt": 1,
+        "step": 12
+      },
+      "proof": {
+        "kind": "continuity",
+        "windows": [
+          {
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_qwen_resume_v2_browser_observation_20260925_v1.json",
+            "after": "kaggle/round2_generated/experiment_c_quota_after_qwen_resume_v2_browser_observation_20260925_v1.json",
+            "raw": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/2/round2_tree4_c_qwen_low_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "parent": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/1/round2_tree4_c_qwen_low_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl"
+          },
+          {
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_claude_s20_browser_observation_20260925_v1.json",
+            "after": "kaggle/round2_generated/experiment_c_quota_after_claude_s20_browser_observation_20260925_v1.json",
+            "raw": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s20-v1/1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "parent": null
+          },
+          {
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_gemini_resume_v3_browser_observation_20260925_v1.json",
+            "after": "kaggle/round2_generated/experiment_c_quota_after_gemini_resume_v3_browser_observation_20260925_v1.json",
+            "raw": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s06-v1/3/round2_tree4_c_gemini_minimal_s06_v1/google_gemini-3.6-flash.jsonl",
+            "parent": "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s06-v1/2/round2_tree4_c_gemini_minimal_s06_v1/google_gemini-3.6-flash.jsonl"
+          }
+        ]
+      }
+    },
+    {
+      "raw": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/3/round2_tree4_c_qwen_low_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+      "parent": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/2/round2_tree4_c_qwen_low_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+      "pin": {
+        "line_index": 44,
+        "line_sha256": "daa80e9f04a2b1f488ec1f99d386d765806c13b01d2a86d4b22569ef6215fdc2",
+        "job_id": "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|3",
+        "attempt": 2,
+        "step": 9
+      },
+      "proof": {
+        "kind": "continuity",
+        "windows": [
+          {
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_qwen_resume_v3_browser_observation_20260925_v1.json",
+            "after": "kaggle/round2_generated/experiment_c_quota_after_qwen_resume_v3_browser_observation_20260925_v1.json",
+            "raw": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/3/round2_tree4_c_qwen_low_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "parent": "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/2/round2_tree4_c_qwen_low_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl"
+          },
+          {
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_claude_s21_browser_observation_20260925_v1.json",
+            "after": "kaggle/round2_generated/experiment_c_quota_after_claude_s21_browser_observation_20260925_v1.json",
+            "raw": "kaggle/round2_runs_20260920/experiment_c_study/claude-none/chronos-r2-tree4-c-claude-none-s21-v1/1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "parent": null
+          }
+        ]
+      }
+    }
+  ]
+}

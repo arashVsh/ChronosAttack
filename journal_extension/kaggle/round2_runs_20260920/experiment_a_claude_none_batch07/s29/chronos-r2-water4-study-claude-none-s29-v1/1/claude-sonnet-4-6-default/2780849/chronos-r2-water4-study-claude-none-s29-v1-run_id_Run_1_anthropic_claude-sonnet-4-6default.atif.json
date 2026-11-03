@@ -1,0 +1,38 @@
+{
+  "schema_version": "ATIF-v1.7",
+  "session_id": "chronos-r2-water4-study-claude-none-s29-v1-Run #1",
+  "trajectory_id": "chronos-r2-water4-study-claude-none-s29-v1-Run #1",
+  "agent": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_name": "anthropic/claude-sonnet-4-6@default"
+  },
+  "steps": [
+    {
+      "step_id": 1,
+      "source": "system",
+      "message": "[placeholder] No conversation recorded.",
+      "timestamp": "2026-09-22T15:21:57.972634Z"
+    }
+  ],
+  "notes": "Converted from kbench run.json for task 'chronos-r2-water4-study-claude-none-s29-v1'. No model turn was recorded, so total_steps is 0 and the first step below is a placeholder.",
+  "final_metrics": {
+    "total_steps": 0,
+    "extra": {
+      "kbench_result": {
+        "score": 1.0
+      }
+    }
+  },
+  "extra": {
+    "kbench": {
+      "task_version": {
+        "version_number": 1,
+        "name": "chronos-r2-water4-study-claude-none-s29-v1",
+        "description": ""
+      },
+      "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+      "end_time": "2026-09-22T15:26:53.533085Z"
+    }
+  }
+}

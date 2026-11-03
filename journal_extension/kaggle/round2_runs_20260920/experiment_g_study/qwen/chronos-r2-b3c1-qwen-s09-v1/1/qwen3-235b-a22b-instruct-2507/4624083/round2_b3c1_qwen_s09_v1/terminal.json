@@ -1,0 +1,46 @@
+{
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "error": null,
+  "evidence_sha256": "4012750eee05b10108ad5b2e3c4a73d52edf905b8e58245055cdf199ff4ddb26",
+  "fixture_manifest_sha256": "5f1c223fa26680aea2f846aee9af63fa97f355b4673cce1a42d431cf18623eb8",
+  "identity": "34a42c0ff5f31d8359f75349530f721f5d7c90fad8906a1c0f930cd29a1d2944",
+  "job_ids": [
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|b3|stateful|attack|9",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|c1|stateful|attack|11",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|c1|stateless|attack|4",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|c1|consistency|4|5",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|c1|stateful|natural|29",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|c1|stateless|natural|1",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|b3|consistency|7|3",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|c1|barrier|canonical|2",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|c1|budget|0|3",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|c1|budget|0|4",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|c1|consistency|6|0",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|b3|stateful|attack|30",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|b3|budget|0|6",
+    "chronos_round2_b3c1_qwen_low_study_v1|qwen/qwen3-235b-a22b-instruct-2507|b3|stateless|natural|4"
+  ],
+  "jobs_sha256": "7925988be7805a1754ac7ad57751aa1297812578991efc9cd61a05479a89464c",
+  "model": "qwen/qwen3-235b-a22b-instruct-2507",
+  "parent_ledger_sha256": null,
+  "planned_calls": 35,
+  "reasoning": "low",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-g-terminal.v1",
+  "source_sha256": {
+    "audit_experiment_g.py": "5bdb752413ceeb857e1872ec79dca1b3d246ed21ef7474b8432872686b8833b5",
+    "build_completion_notebook.py": "a3c8995068c1d9c444b415ae7a1f7a95e036c35b68d215377379f33f80e52936",
+    "chronos_microgrid_c1_pair.py": "98072af64f880fde3a8892eb71cd7215288f83a53fe56a6ff0fbad013d41e374",
+    "chronos_software_release_b3_confirmation_batch.py": "e46cbd67cc775b95132b562e7cc8e1ce373c5e35297200cfdd5bf99ee291534d",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_g_protocol.py": "4197d52027d956078d6d54f5ccba34dee7a2a9269bd0e44518a60a4a28eb6b7a",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_b3c1_qwen_low_study_v1"
+}

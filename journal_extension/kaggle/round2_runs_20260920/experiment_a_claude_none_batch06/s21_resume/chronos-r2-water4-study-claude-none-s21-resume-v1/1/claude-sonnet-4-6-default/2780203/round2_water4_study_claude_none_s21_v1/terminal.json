@@ -1,0 +1,52 @@
+{
+  "error": {
+    "code": null,
+    "message": "Missing explanation",
+    "param": null,
+    "status_code": null,
+    "type": "ValueError"
+  },
+  "evidence_sha256": "d5846d7fc300ced4d83df5290b176d71d7fe07e299885da5d99d5f9f720bfe47",
+  "identity": "e764ad83417908b1d8b1786b8b849d12d7156ca687014383aaf10b1a4daba10b",
+  "job_ids": [
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|3|1",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|12|5",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|16|4",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|4|4",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|23|7",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|budget|3|7",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|15|4",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|7|2",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|2|10",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|budget|4|5",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|17|2",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|18|2",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|10|1",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|stateful|attack|30",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|21|7",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|16|9",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|22|8",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|10|5",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|13|7",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|14|10",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|11|8",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|budget|3|2",
+    "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|23|9"
+  ],
+  "manifest_sha256": "e6cf2751910224bfd621f75600c95bebfbd70938efde99801965157a92b136f9",
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "parent_ledger_sha256": "dcbd13ee4fc6c610c5ad125f0b3b1765a914149f084a6fd6006ade90653b7bcd",
+  "pilot_collection_manifest_sha256": "7a619d747094b83e7eff6a827ee898d412e5d54b0a16e27a77346f4682152766",
+  "pilot_receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+  "planned_calls": 79,
+  "reasoning": "none",
+  "role": "reasoning_off_sensitivity",
+  "schema": "chronos.experiment-a-full-shard-terminal.v1",
+  "shard_count": 30,
+  "shard_index": 21,
+  "study_id": "chronos_round2_water4_study_claude_none_v1",
+  "transient_waits": {
+    "count": 0,
+    "seconds": 0
+  }
+}

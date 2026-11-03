@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "generated_offline": true,
+  "artifacts": [
+    {
+      "path": "terra_reasoning_preflight_minimal_v1.py",
+      "sha256": "9630a48242a649bfb395fbdcd1d8e4fe5333512e92269c5380576cefccc7b27b",
+      "bytes": 88131,
+      "model": "openai/gpt-5.6-terra",
+      "reasoning": "minimal",
+      "study_id": "chronos_round2_terra_reasoning_preflight_minimal_v1",
+      "task": "chronos-r2-terra-preflight-minimal-v1",
+      "output_folder": "round2_terra_reasoning_preflight_minimal_v1",
+      "execution": {
+        "launched": true,
+        "status": "minimal_unsupported_verified",
+        "task_version": 1,
+        "run_id": 2644337,
+        "kaggle_model_slug": "gpt-5.6-terra",
+        "completed_at": "2026-09-20T12:09:43.679135Z",
+        "compatibility_observation": "minimal_explicitly_unsupported",
+        "observed_invocations": 1,
+        "known_cost_usd": 0.0,
+        "unknown_cost_invocations": 1,
+        "cost_resolution": "kaggle_daily_quota_attestation",
+        "receipt_issued": true,
+        "receipt_sha256": "4e6e9f30bc1803e087ba434b0ce049723567530be10ade9c1569199138d01b2a",
+        "artifacts": {
+          "evidence": {
+            "path": "round2_runs_20260920/terra_minimal/chronos-r2-terra-preflight-minimal-v1/1/gpt-5.6-terra/2644337/round2_terra_reasoning_preflight_minimal_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "359d8e65fae8b8c3af2f3154338d52a0066d3342c3f74cfc932b575ff3d0a392"
+          },
+          "terminal": {
+            "path": "round2_runs_20260920/terra_minimal/chronos-r2-terra-preflight-minimal-v1/1/gpt-5.6-terra/2644337/round2_terra_reasoning_preflight_minimal_v1/reasoning_terminal.json",
+            "sha256": "c73be038dcb8ee843433cf15c3acbc7ff00ff5c46eae51358f24f156f728e933"
+          },
+          "intended_manifest": {
+            "path": "round2_runs_20260920/terra_minimal/chronos-r2-terra-preflight-minimal-v1/1/gpt-5.6-terra/2644337/round2_terra_reasoning_preflight_minimal_v1/intended_manifest.json",
+            "sha256": "dea0471179be33c9a29f4a4884e20c3dc8ed1f77c0b787449e472b691e27adf2"
+          },
+          "audit": {
+            "path": "round2_runs_20260920/terra_minimal/chronos-r2-terra-preflight-minimal-v1/1/gpt-5.6-terra/2644337/round2_terra_reasoning_preflight_minimal_v1/audit.json",
+            "sha256": "44a9f2e94e92fc0f6317acd99cec5b3789d7d2bf1507c7dba2e931523cb3c630"
+          },
+          "quota_attestation": {
+            "path": "round2_runs_20260920/terra_minimal/chronos-r2-terra-preflight-minimal-v1/1/gpt-5.6-terra/2644337/round2_terra_reasoning_preflight_minimal_v1/quota_attestation_1.json",
+            "sha256": "80591aa48c712e2367561650a1735451a862f2eeb241e00762cb5d452bf009f5"
+          },
+          "receipt": {
+            "path": "round2_runs_20260920/terra_minimal/chronos-r2-terra-preflight-minimal-v1/1/gpt-5.6-terra/2644337/round2_terra_reasoning_preflight_minimal_v1/reasoning_receipt.json",
+            "sha256": "004dd9e6c2ed4468112e8a9d20fb0914e939c338db0c539067cc94d9dee15faa"
+          }
+        }
+      }
+    },
+    {
+      "path": "terra_reasoning_preflight_low_v1.py",
+      "sha256": "0cce136f410a89d0c641b1a9203100a4243fcf4df5a91d6564b5ece01313c41f",
+      "bytes": 88157,
+      "model": "openai/gpt-5.6-terra",
+      "reasoning": "low",
+      "study_id": "chronos_round2_terra_reasoning_preflight_low_v1",
+      "task": "chronos-r2-terra-preflight-low-v1",
+      "output_folder": "round2_terra_reasoning_preflight_low_v1",
+      "predecessor_receipt_sha256": "4e6e9f30bc1803e087ba434b0ce049723567530be10ade9c1569199138d01b2a",
+      "execution": {
+        "launched": true,
+        "status": "passed",
+        "task_version": 1,
+        "run_id": 2646426,
+        "kaggle_model_slug": "gpt-5.6-terra",
+        "completed_at": "2026-09-20T12:29:04.785083Z",
+        "compatibility_observation": "low_supported",
+        "observed_invocations": 10,
+        "known_cost_usd": 0.030434000000000003,
+        "unknown_cost_invocations": 0,
+        "receipt_issued": true,
+        "receipt_sha256": "77d2b0eee32b20e66d2bd203c00a011d40184c482b0b2bf1d11aea436f5f7467",
+        "artifacts": {
+          "evidence": {
+            "path": "round2_runs_20260920/terra_low/chronos-r2-terra-preflight-low-v1/1/gpt-5.6-terra/2646426/round2_terra_reasoning_preflight_low_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "e0a5331b0fe3d15b5e0d1003f216bdfb70b3783ca8050847a0c21cdd99dd9f8c"
+          },
+          "terminal": {
+            "path": "round2_runs_20260920/terra_low/chronos-r2-terra-preflight-low-v1/1/gpt-5.6-terra/2646426/round2_terra_reasoning_preflight_low_v1/reasoning_terminal.json",
+            "sha256": "31c1ab53d9f3b504aace97de9496cf9a9b6b5f65f76a9b6a7e48b20c769ef446"
+          },
+          "intended_manifest": {
+            "path": "round2_runs_20260920/terra_low/chronos-r2-terra-preflight-low-v1/1/gpt-5.6-terra/2646426/round2_terra_reasoning_preflight_low_v1/intended_manifest.json",
+            "sha256": "ac1a7a17748900b04d5c429fea83534b9427572996c568695e59c06b8f0e2932"
+          },
+          "audit": {
+            "path": "round2_runs_20260920/terra_low/chronos-r2-terra-preflight-low-v1/1/gpt-5.6-terra/2646426/round2_terra_reasoning_preflight_low_v1/audit.json",
+            "sha256": "60a261548b4aa89a4b8d054e18f659f8c1c2efbb3bec488f446f3488437405c1"
+          },
+          "receipt": {
+            "path": "round2_runs_20260920/terra_low/chronos-r2-terra-preflight-low-v1/1/gpt-5.6-terra/2646426/round2_terra_reasoning_preflight_low_v1/reasoning_receipt.json",
+            "sha256": "b3479508d9e535d4bdc5644b1f8f6054958e546e28525298b10a3cfc2a5d82d3"
+          }
+        }
+      }
+    },
+    {
+      "path": "claude_reasoning_preflight_minimal_v1.py",
+      "sha256": "369572cd469636b4e7435ddeb39f31bb9d5cb6a67df5559335f7ac71888a8bed",
+      "bytes": 88197,
+      "model": "anthropic/claude-sonnet-4-6@default",
+      "reasoning": "minimal",
+      "study_id": "chronos_round2_claude_reasoning_preflight_minimal_v1",
+      "task": "chronos-r2-claude-preflight-minimal-v1",
+      "output_folder": "round2_claude_reasoning_preflight_minimal_v1",
+      "execution": {
+        "launched": true,
+        "status": "transient_error_stopped",
+        "task_version": 1,
+        "run_id": 2647262,
+        "kaggle_model_slug": "claude-sonnet-4-6-default",
+        "completed_at": "2026-09-20T12:34:04.709431Z",
+        "compatibility_observation": "unresolved_internal_server_error",
+        "observed_invocations": 1,
+        "raw_unknown_cost_invocations": 1,
+        "resolved_incremental_cost_usd": 0.0,
+        "prior_known_daily_quota_usd": 0.030434000000000003,
+        "observed_daily_quota_usd": 0.030433999999999628,
+        "receipt_issued": false,
+        "artifacts": {
+          "evidence": {
+            "path": "round2_runs_20260920/claude_minimal/chronos-r2-claude-preflight-minimal-v1/1/claude-sonnet-4-6-default/2647262/round2_claude_reasoning_preflight_minimal_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "8cb0b2cecd7cb0ba2b22b3f84fdd4dca6e11a3199b975405362431c48b10da1d"
+          },
+          "terminal": {
+            "path": "round2_runs_20260920/claude_minimal/chronos-r2-claude-preflight-minimal-v1/1/claude-sonnet-4-6-default/2647262/round2_claude_reasoning_preflight_minimal_v1/reasoning_terminal.json",
+            "sha256": "84fd465308adb45169b01d098a775fbae661ee2f4a1802d47a0554ff410d0ae9"
+          },
+          "intended_manifest": {
+            "path": "round2_runs_20260920/claude_minimal/chronos-r2-claude-preflight-minimal-v1/1/claude-sonnet-4-6-default/2647262/round2_claude_reasoning_preflight_minimal_v1/intended_manifest.json",
+            "sha256": "dcc166fea1788d40da8972c26ce87c0352481cb6a04769afa89d8b184aa6141f"
+          },
+          "audit": {
+            "path": "round2_runs_20260920/claude_minimal/chronos-r2-claude-preflight-minimal-v1/1/claude-sonnet-4-6-default/2647262/round2_claude_reasoning_preflight_minimal_v1/audit.json",
+            "sha256": "380db9b455723c63bbe7f6c498ff0db12cc23603eb4e2497a822108b98894026"
+          },
+          "quota_attestation": {
+            "path": "round2_runs_20260920/claude_minimal/chronos-r2-claude-preflight-minimal-v1/1/claude-sonnet-4-6-default/2647262/round2_claude_reasoning_preflight_minimal_v1/quota_attestation_1.json",
+            "sha256": "cbdd09dbac13e5c6ae1838c0531d0761784e8562b15a484f1a809d57f4d15aed"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "chronos-r2-tree4-rotation-study-claude-none-s21-v1",
+  "trial_name": "chronos-r2-tree4-rotation-study-claude-none-s21-v1-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "anthropic/claude-sonnet-4-6@default"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 1.0
+    }
+  },
+  "started_at": "2026-09-23T20:46:35.437980Z",
+  "finished_at": "2026-09-23T20:48:10.751312Z"
+}

@@ -1,0 +1,38 @@
+{
+  "availability_manifest_sha256": "9f4e975c7083ba39adba45dcb76034f526b99cfd32bba36a9aa5563e763355e4",
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "error": null,
+  "evidence_sha256": "c0f40a83849052a7d498a976322b0b456d45fbda5cf16d0d9fffaecf9cde512a",
+  "identity": "d95d8ce87da5d39765629b5bddc15763730bec9531e1e545871b8813481c0c20",
+  "job_ids": [
+    "chronos_round2_water4_pilot_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|stateful|natural|1",
+    "chronos_round2_water4_pilot_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|stateful|attack|1"
+  ],
+  "manifest_sha256": "9f709a2854537ce4a63a417424ed1abe62bd3724791b84b1b29aeb766b350fd6",
+  "model": "qwen/qwen3-235b-a22b-instruct-2507",
+  "planned_calls": 10,
+  "protocol_extension_sha256": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190",
+  "reasoning": "low",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-pilot-terminal.v1",
+  "source_sha256": {
+    "audit_water_supply.py": "1a36ec625580e5560e0bc2c0913f34a9436a965bb629ea13b763f90abaffc374",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_a_availability_v1.json": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943",
+    "experiment_a_manifest_v1.json": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "water_supply_protocol.py": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190"
+  },
+  "study_id": "chronos_round2_water4_pilot_qwen_low_v1",
+  "transient_waits": {
+    "count": 0,
+    "seconds": 0
+  }
+}

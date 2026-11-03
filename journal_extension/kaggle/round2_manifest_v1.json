@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+    "round_id": "chronos_journal_round2_20260920_v1",
+    "frozen_at": "2026-09-20",
+    "amendment": "specs/journal-extension-sep14/round2-amendment-2026-09-20.md",
+    "amendment_sha256": "5c3fc2b92fcd043efeba0c8e291e2b77e3985f9760df897e8157fcbb673b3ec3",
+  "historical_source_sha256": {
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "four_observation_defenses.py": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+        "audit_four_observation.py": "16aa34b225e2bfe041a8bd320e8b3a583014b266a85e2d4952cf3b23f47eb69c"
+    },
+    "historical_evidence_sha256": {
+        "kaggle/four_observation_results/terra_study_20260910/openai_gpt-5.6-terra.jsonl": "02c8f61b79f94e5a683e695090da2a93c47dd79d33eaa65e8ef632e959b5803c",
+        "kaggle/four_observation_results/claude_final_20260910/anthropic_claude-sonnet-4-6@default.jsonl": "eb65e8fc1ce6af335521f285c22a413007f291fccebebacb39da8a11b8d0364f",
+        "kaggle/journal_gemini_study_20260914/output/journal_gemini_study_minimal/google_gemini-3.6-flash.jsonl": "b6894e01a36f9b6baf94d886cb75fa0a2567635cbf3763022beb5c07adc86965",
+        "kaggle/qwen_study_sep16/chronos-qwen-study-sep16/1/qwen3-235b-a22b-instruct-2507/2219989/study_out/qwen_qwen3-235b-a22b-instruct-2507.jsonl": "3116014338a5a088c957897d3d314f4b8e9507b6f5696d88ce73b081c40b66a1",
+        "kaggle/defense_runs_20260914/terra_output/chronos-tree4-defenses-terra-sep14/1/gpt-5.6-terra/2013134/tree4_defenses/openai_gpt-5.6-terra.jsonl": "0cab1fa7d0665cfb46f477195121fb51a43d73af443b8ca356aca43317e6c236",
+        "kaggle/defense_runs_20260914/claude_all/chronos-def-claude-all-sep15/3/claude-sonnet-4-6-default/2114628/tree4_defenses/anthropic_claude-sonnet-4-6@default.jsonl": "7a549c3c0cbfd7561b231760706ef68302da005076d0f9bc081c32783883d4e6",
+        "kaggle/defense_runs_20260914/gemini_output/chronos-tree4-defenses-gemini-sep14/1/gemini-3.6-flash/2012321/tree4_defenses/google_gemini-3.6-flash.jsonl": "ecb01483feabc6976af6aa8e97f219fff6dcac4aa0fe150360f6c17f7f248b0a",
+        "kaggle/defense_runs_20260914/qwen_all/chronos-def-qwen-all-sep16/1/qwen3-235b-a22b-instruct-2507/2223081/tree4_defenses/qwen_qwen3-235b-a22b-instruct-2507.jsonl": "305620dd5f72f9fd1d555515516471a024a494432659d36494e24f5d0e151658",
+        "kaggle/completion_results/terra_saved.jsonl": "d9cbdd15dfae0837824a9af3695f6b7f24d2f778bd3cf4eafa21d668b43236fb",
+        "kaggle/completion_results/claude_v3_final_preserved.jsonl": "ab81a92a5979915f8239b81b172b4469b895ba5ee2f1309659ab77b09ba09eca",
+        "kaggle/completion_results/claude_v4_delta_verified.jsonl": "fd869cdb2f63c9e87933bb968a17ddd8b6c0d88f987a227e27700b7caac81a96",
+        "kaggle/b3_confirmation_results/batch_01.json": "d223905d98da1be36edfe2d5de8d361d34fbf3acbd3803530ca8f5c923beec39",
+        "kaggle/b3_confirmation_results/batch_02.json": "1662e7490e6e965cfcce32f4c41911e8d666def08c50854152841fc3bfc9b1ed",
+        "kaggle/b3_confirmation_results/batch_03.json": "741f194f72aa06752268b0e7bfa3682d6b24fcf78da90eaa09e34ee983b98cc3",
+        "kaggle/b3_confirmation_results/batch_04.json": "de98116adf2bbb831c5c9b2469491e31552b083d365a10ca6fda21b7ddafe21d",
+        "kaggle/b3_confirmation_results/batch_05.json": "aecc7b9a6958d74cd8ee5520856784e64c8808f6d3e899dcdf33cda3f953b495",
+        "kaggle/b3_confirmation_results/batch_06.json": "31256bf21761bde71aa45a4ca47a2f5855082bba22a95388a42e9abb88b1426f",
+        "kaggle/b3_claude_confirmation_results/batch_01.json": "712b69b330845a76a33d8f4d7badc7228381f903abcb4c261bfb7d7f02a3b49f"
+    },
+  "primary_matrix": [
+    {"model": "openai/gpt-5.6-terra", "reasoning": null, "resolution": ["minimal", "low"], "status": "preflight_required"},
+    {"model": "anthropic/claude-sonnet-4-6@default", "reasoning": null, "resolution": ["minimal", "low"], "status": "preflight_required"},
+    {"model": "google/gemini-3.6-flash", "reasoning": "minimal", "status": "complete"},
+    {"model": "qwen/qwen3-235b-a22b-instruct-2507", "reasoning": "low", "status": "complete"}
+  ],
+  "call_settings": {"temperature": 1, "max_completion_tokens": 256, "sdk_max_retries": 0},
+  "held_out_order": {
+    "source_mode": "permutation_stateful",
+    "seed": 20260920,
+    "selection_repetitions": [3, 4, 5, 7, 10],
+    "evaluation_repetitions": [1, 2, 6, 8, 9],
+    "objective": "target_choice_rate",
+    "tie_break": "lowest_permutation_condition_index",
+    "classification": "exploratory"
+  },
+  "regression": {
+    "outcome": "target_C_binary",
+    "formula": "model * categorical_order",
+    "estimator": "firth_logistic",
+    "uncertainty_unit": "complete_24_order_repetition_panel_within_model",
+    "seed": 20260920,
+    "classification": "exploratory"
+  },
+  "reasoning_alignment": {
+    "models": ["openai/gpt-5.6-terra", "anthropic/claude-sonnet-4-6@default"],
+    "preflight_calls_per_model": 10,
+    "preflight_jobs": ["stateful_natural_rep1", "stateful_attack_rep1"],
+    "preflight_attempts_per_job": 1,
+    "preflight_transport_wait_seconds": 0,
+    "receipt_schema": "chronos.reasoning-preflight-receipt.v1",
+    "full_cell_requires_raw_revalidated_pass_receipt": true,
+    "low_requires_minimal_unsupported_receipt": true,
+    "resume_contract": "newline_terminated_cumulative_raw_ledger_as_exact_parent_prefix",
+    "study_trials_per_model": 690,
+    "study_calls_per_model": 2310,
+    "defense_trials_per_model": 120,
+    "defense_calls_per_model": 600
+  },
+  "experiment_a": {"status": "fixture_freeze_required", "working_domain": "water_supply_resilience_investment", "models": 4, "trials_per_model": 690, "calls_per_model": 2310},
+  "experiment_b": {
+    "status": "specified",
+    "classification": "exploratory_descriptive",
+    "rotations": {
+      "0": {"A": "A", "B": "B", "C": "C"},
+      "1": {"A": "B", "B": "C", "C": "A"},
+      "2": {"A": "C", "B": "A", "C": "B"}
+    },
+    "semantic_target": "C",
+    "mode": "stateful",
+    "conditions": ["natural", "attack"],
+    "repetitions": 30,
+    "models": 4,
+    "total_trials": 720,
+    "total_planned_calls": 3600
+  },
+  "experiment_c": {
+    "status": "matched_matrix_required",
+    "classification": "post_hoc_stress_test",
+    "order_selection_repetitions": "all_10_matched_permutation_stateful",
+    "order_selection_objective": "target_choice_rate",
+    "order_selection_tie_break": "lowest_permutation_condition_index",
+    "repetitions": 30,
+    "arms": ["undefended_natural", "undefended_selected_order", "barrier", "order_consistency_24", "randomized", "invariant"],
+    "invariant_canonical": "alphabetical_tool_id",
+    "reverse_models": ["google/gemini-3.6-flash", "qwen/qwen3-235b-a22b-instruct-2507"],
+    "identical_summary_pairing": true,
+    "total_planned_calls": 5460
+  },
+  "budget": {"kaggle_daily_credit_usd_max": 10, "openrouter_in_main_matrix": false, "outcome_independent_stopping": true, "unknown_cost_stops": true},
+  "deferred": ["leave_one_out", "prompt_paraphrase", "controlled_three_vs_four_observations", "deepseek_v4_flash_supplement"]
+}

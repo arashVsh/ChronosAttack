@@ -1,0 +1,131 @@
+{
+  "schema": "chronos.attempt-extension-result.v1",
+  "result_manifest_sha256": "8fe6e9ef492033d385ceb98b1a4db71c76581d1629590db357711410596fd88f",
+  "frozen_at": "2026-09-20T19:07:54+03:30",
+  "status": "complete_strictly_verified",
+  "task": {
+    "owner": "masihmaafi",
+    "name": "chronos-r2-terra-study-low-s00-repair-v1",
+    "version": 1,
+    "url": "https://www.kaggle.com/benchmarks/tasks/masihmaafi/chronos-r2-terra-study-low-s00-repair-v1/1"
+  },
+  "run": {
+    "id": 2659315,
+    "number": 1,
+    "model": "openai/gpt-5.6-terra",
+    "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+    "started_at": "2026-09-20T15:28:30.632141Z",
+    "finished_at": "2026-09-20T15:32:45.610851Z"
+  },
+  "contract": {
+    "study_id": "chronos_round2_terra_reasoning_study_low_v1",
+    "reasoning": "low",
+    "shard_index": 0,
+    "shard_count": 10,
+    "job_count": 69,
+    "planned_calls": 217,
+    "authorized_job_id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|stateful|natural|7",
+    "completed_attempt": 4,
+    "parent_path": "kaggle/round2_runs_20260920/terra_study_s00/chronos-r2-terra-study-low-s00-v1/1/gpt-5.6-terra/2648723/round2_terra_reasoning_study_low_s00_v1/openai_gpt-5.6-terra.jsonl",
+    "parent_ledger_sha256": "b22e7bb7a5cf1e20cb5e106d81c4c8d1c4c01aefbe5b1c9d0a1f3992fa490a7b",
+    "parent_ledger_bytes": 301333,
+    "attempt_extension_manifest_sha256": "c36e2fcb567e1e2404d46daeb8f5bb9144d2d9143300c6afbc2b2a17455281a7"
+  },
+  "artifacts": {
+    "staged_source": {
+      "path": "kaggle/round2_generated/terra_attempt_extension_s00_v1.py",
+      "sha256": "b2e98fca0152d840ace26b7e6ceffa9dce6d4dca94a1a759bdfa47b0b457d4a8",
+      "bytes": 572242
+    },
+    "task": {
+      "path": "kaggle/round2_runs_20260920/terra_study_s00_repair/chronos-r2-terra-study-low-s00-repair-v1/1/gpt-5.6-terra/2659315/chronos-r2-terra-study-low-s00-repair-v1.task.json",
+      "sha256": "494d00f2f3154c3efcea045eebc7f54c912bbdd79a3aa57073d1e38380644064",
+      "bytes": 5511
+    },
+    "run": {
+      "path": "kaggle/round2_runs_20260920/terra_study_s00_repair/chronos-r2-terra-study-low-s00-repair-v1/1/gpt-5.6-terra/2659315/chronos-r2-terra-study-low-s00-repair-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+      "sha256": "d075f2838a57226ee441ea81a35e38bd09e7839b88add9f9820d43671d02943d",
+      "bytes": 6116
+    },
+    "result": {
+      "path": "kaggle/round2_runs_20260920/terra_study_s00_repair/chronos-r2-terra-study-low-s00-repair-v1/1/gpt-5.6-terra/2659315/chronos-r2-terra-study-low-s00-repair-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+      "sha256": "970267f67054bee5984e1ef03281805dc65eff22123c0866e7dd08d645d9bc17",
+      "bytes": 664
+    },
+    "atif": {
+      "path": "kaggle/round2_runs_20260920/terra_study_s00_repair/chronos-r2-terra-study-low-s00-repair-v1/1/gpt-5.6-terra/2659315/chronos-r2-terra-study-low-s00-repair-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+      "sha256": "c4cd119e7726b6b323c8c7adcd4fa991f5d4fccd620d38856b8df4825d01138e",
+      "bytes": 6513
+    },
+    "intended_manifest": {
+      "path": "kaggle/round2_runs_20260920/terra_study_s00_repair/chronos-r2-terra-study-low-s00-repair-v1/1/gpt-5.6-terra/2659315/round2_terra_reasoning_study_low_s00_repair_v1/intended_manifest.json",
+      "sha256": "26c7998bb1757ef4b45d357017a259f40af71d48591a32cc636ffed3827d63a9",
+      "bytes": 40159
+    },
+    "audit": {
+      "path": "kaggle/round2_runs_20260920/terra_study_s00_repair/chronos-r2-terra-study-low-s00-repair-v1/1/gpt-5.6-terra/2659315/round2_terra_reasoning_study_low_s00_repair_v1/audit.json",
+      "sha256": "43dd6d8932add90193a13281163048110dfb5b28c16a8da9e7a4fcd4e75e9b40",
+      "bytes": 84496
+    },
+    "evidence": {
+      "path": "kaggle/round2_runs_20260920/terra_study_s00_repair/chronos-r2-terra-study-low-s00-repair-v1/1/gpt-5.6-terra/2659315/round2_terra_reasoning_study_low_s00_repair_v1/openai_gpt-5.6-terra.jsonl",
+      "sha256": "a13efe935cc6ebee9d54428db338c13338f2b407bb02f4029e05daeea7c61567",
+      "bytes": 604726
+    }
+  },
+  "accounting": {
+    "full": {
+      "events": 391,
+      "started_attempts": 75,
+      "observed_invocations": 241,
+      "complete_calls": 235,
+      "failed_calls": 6,
+      "completed_jobs": 69,
+      "known_cost_usd": 0.6699120000000005,
+      "unknown_cost_calls": 0,
+      "invalid_json_lines": 0,
+      "accounting_complete": true
+    },
+    "new_suffix": {
+      "events": 194,
+      "started_attempts": 36,
+      "observed_invocations": 122,
+      "complete_calls": 120,
+      "failed_calls": 2,
+      "completed_jobs": 34,
+      "known_cost_usd": 0.331028,
+      "unknown_cost_calls": 0,
+      "invalid_json_lines": 0,
+      "accounting_complete": true
+    }
+  },
+  "quota": {
+    "currency": "USD",
+    "pre_run": {
+      "used": 0.3693179999999998,
+      "total_allowed": 10,
+      "queried_at": null,
+      "timestamp_recorded": false
+    },
+    "post_run": {
+      "used": 0.7003459999999997,
+      "total_allowed": 10,
+      "query_started_at": "2026-09-20T15:34:49.871381+00:00",
+      "query_finished_at": "2026-09-20T15:34:51.546762+00:00"
+    },
+    "observed_delta": 0.331028,
+    "matches_new_suffix_accounting": true
+  },
+  "hosted_audit_disposition": {
+    "reported_passed": false,
+    "audit_failed_present": false,
+    "allocation_exhausted": false,
+    "stopped_early": null,
+    "terminal_error": null,
+    "parent_prefix_preserved": true,
+    "false_component": "structural_audit.complete",
+    "full_study_missing_jobs_outside_shard": 621,
+    "scope_explanation": "The amended structural auditor reports completeness against all 690 study jobs, while this execution intentionally contains only shard 00's 69 jobs.",
+    "local_strict_disposition": "pass_complete_shard"
+  }
+}

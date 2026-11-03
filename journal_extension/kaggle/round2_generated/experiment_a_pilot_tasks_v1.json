@@ -1,0 +1,98 @@
+{
+  "aggregate_incremental_ceiling_usd": 1.0,
+  "availability_manifest_sha256": "9f4e975c7083ba39adba45dcb76034f526b99cfd32bba36a9aa5563e763355e4",
+  "daily_credit_limit_usd": 10.0,
+  "frozen_at": "2026-09-20T21:38:15+03:30",
+  "incremental_ceiling_per_task_usd": 0.25,
+  "job_count": 8,
+  "maximum_daily_exposure_usd": 9.555856,
+  "pilot_tasks_manifest_sha256": "aa3c062684af4e7e6b069a46798e7f5d4bb710da26a69605c252a0cd8111432b",
+  "planned_calls": 40,
+  "pre_launch_known_daily_cost_usd": 8.555856,
+  "remaining_daily_credit_usd": 1.444144,
+  "schema": "chronos.experiment-a-pilot-tasks.v1",
+  "status": "authorized_not_launched",
+  "task_count": 4,
+  "tasks": [
+    {
+      "identity": "bee665b2979ff8fd6d3be4f76dde44ef7f6d2625281943e65897545db042ac48",
+      "incremental_ceiling_usd": 0.25,
+      "job_count": 2,
+      "jobs_sha256": "a367e6d4d58835c7b03becefdf2569e4896b8e8e1a0ade9f22edec35435d2332",
+      "label": "terra_low",
+      "model": "openai/gpt-5.6-terra",
+      "output_folder": "round2_water4_pilot_terra_low_v1",
+      "planned_calls": 10,
+      "reasoning": "low",
+      "role": "matched_non_off_primary",
+      "source": {
+        "bytes": 73453,
+        "path": "kaggle/round2_generated/water4_pilot_terra_low_v1.py",
+        "sha256": "3817742578acac2b92c0ccfd7110f0044b19a7aad98e366fab9b8a6f7011bdee"
+      },
+      "source_status": "frozen_prelaunch",
+      "study_id": "chronos_round2_water4_pilot_terra_low_v1",
+      "task": "chronos-r2-water4-pilot-terra-low-v1"
+    },
+    {
+      "identity": "e7dfd5aaa551726e4cf7d0f5d32b96a6ab1f24342949873cc6dddbce7c6fe08f",
+      "incremental_ceiling_usd": 0.25,
+      "job_count": 2,
+      "jobs_sha256": "09bf96e4e1d466ec4f788306e37fe2ffc2639df6e01033917ee22db72f9eced9",
+      "label": "gemini_minimal",
+      "model": "google/gemini-3.6-flash",
+      "output_folder": "round2_water4_pilot_gemini_minimal_v1",
+      "planned_calls": 10,
+      "reasoning": "minimal",
+      "role": "matched_non_off_primary",
+      "source": {
+        "bytes": 73507,
+        "path": "kaggle/round2_generated/water4_pilot_gemini_minimal_v1.py",
+        "sha256": "019fb56a8bc8ac5933c168c81d5b7bca117c4255c78f50e70022df019b38c959"
+      },
+      "source_status": "frozen_prelaunch",
+      "study_id": "chronos_round2_water4_pilot_gemini_minimal_v1",
+      "task": "chronos-r2-water4-pilot-gemini-minimal-v1"
+    },
+    {
+      "identity": "d95d8ce87da5d39765629b5bddc15763730bec9531e1e545871b8813481c0c20",
+      "incremental_ceiling_usd": 0.25,
+      "job_count": 2,
+      "jobs_sha256": "9f709a2854537ce4a63a417424ed1abe62bd3724791b84b1b29aeb766b350fd6",
+      "label": "qwen_low",
+      "model": "qwen/qwen3-235b-a22b-instruct-2507",
+      "output_folder": "round2_water4_pilot_qwen_low_v1",
+      "planned_calls": 10,
+      "reasoning": "low",
+      "role": "matched_non_off_primary",
+      "source": {
+        "bytes": 73503,
+        "path": "kaggle/round2_generated/water4_pilot_qwen_low_v1.py",
+        "sha256": "896afe913bf5e5ffce5f14c07219b9420750e27e75a9c3e38c3125dd1c359635"
+      },
+      "source_status": "frozen_prelaunch",
+      "study_id": "chronos_round2_water4_pilot_qwen_low_v1",
+      "task": "chronos-r2-water4-pilot-qwen-low-v1"
+    },
+    {
+      "identity": "0c1735a3fbe5ca7eb3fd239d111dce1f8471751d2c1c14cdd33f0303f1ab1d51",
+      "incremental_ceiling_usd": 0.25,
+      "job_count": 2,
+      "jobs_sha256": "49011458f304900f900dff52745de1df189c026a8e91d7ac97b62480d0b35622",
+      "label": "claude_none",
+      "model": "anthropic/claude-sonnet-4-6@default",
+      "output_folder": "round2_water4_pilot_claude_none_v1",
+      "planned_calls": 10,
+      "reasoning": "none",
+      "role": "reasoning_off_sensitivity",
+      "source": {
+        "bytes": 73532,
+        "path": "kaggle/round2_generated/water4_pilot_claude_none_v1.py",
+        "sha256": "5e04dfcdcde8c70f11e65d2ee435eac1c7f354242e86db91fdae2820ad74bbe5"
+      },
+      "source_status": "frozen_prelaunch",
+      "study_id": "chronos_round2_water4_pilot_claude_none_v1",
+      "task": "chronos-r2-water4-pilot-claude-none-v1"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "aggregate_incremental_ceiling_usd": 2.8,
+  "defense_tasks_manifest_sha256": "8947d4a7aa2cc096a91de0baf47ed841e05248c98aff999709e54aa239909faa",
+  "frozen_at": "2026-09-20T20:35:15+03:30",
+  "incremental_ceiling_per_task_usd": 0.7,
+  "job_count": 120,
+  "model": "openai/gpt-5.6-terra",
+  "planned_calls": 600,
+  "pre_launch_collection_manifest_sha256": "99fb3f5d22d48bfcaa4d151702494c2e1ff78178c8b30011dbcb5fab37d4f253",
+  "pre_launch_known_daily_cost_usd": 6.968902,
+  "reasoning": "low",
+  "remaining_daily_credit_usd": 3.031098,
+  "schema": "chronos.round2.terra-defense-tasks.v1",
+  "study_id": "chronos_round2_terra_reasoning_defense_low_v1",
+  "task_count": 4,
+  "tasks": [
+    {
+      "arm": "undefended_natural",
+      "incremental_ceiling_usd": 0.7,
+      "job_count": 30,
+      "jobs_sha256": "5bfde7d5a8666f497bed90154d23fadbe55b0de724341c130afd0e55e64ab166",
+      "output_folder": "round2_terra_reasoning_defense_low_undefended_natural_v1",
+      "planned_calls": 150,
+      "source": {
+        "bytes": 96576,
+        "path": "kaggle/round2_generated/terra_defense_low_natural_v1.py",
+        "sha256": "dacb3de5e4f872abb113ac02c2adce36a0edef9f0cdd97fc87f55a73c200e8ad"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-terra-defense-low-natural-v1"
+    },
+    {
+      "arm": "undefended_attack",
+      "incremental_ceiling_usd": 0.7,
+      "job_count": 30,
+      "jobs_sha256": "cee3e2a5ae640f964c1abfe9c332ba4107dfb6421dce5664e274139ade6cfed5",
+      "output_folder": "round2_terra_reasoning_defense_low_undefended_attack_v1",
+      "planned_calls": 150,
+      "source": {
+        "bytes": 96513,
+        "path": "kaggle/round2_generated/terra_defense_low_attack_v1.py",
+        "sha256": "ab4068bbba5725460474e9b82938b37d77bd3d01ef78f1a5a32a28f84e9a5047"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-terra-defense-low-attack-v1"
+    },
+    {
+      "arm": "randomized",
+      "incremental_ceiling_usd": 0.7,
+      "job_count": 30,
+      "jobs_sha256": "7b50fb892cbe113f65d18de52df0ad7534ee8910af82d0d498620abbe1c09a8b",
+      "output_folder": "round2_terra_reasoning_defense_low_randomized_v1",
+      "planned_calls": 150,
+      "source": {
+        "bytes": 96083,
+        "path": "kaggle/round2_generated/terra_defense_low_randomized_v1.py",
+        "sha256": "c96cb48dda3c718b147be77cffaee96ff5abfbeebbad7707c2ff8bf5a7157292"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-terra-defense-low-randomized-v1"
+    },
+    {
+      "arm": "invariant",
+      "incremental_ceiling_usd": 0.7,
+      "job_count": 30,
+      "jobs_sha256": "0ffdf85767c165cb830af925e439aa0d8ac430d6f1a8208caabdf9f6f460b078",
+      "output_folder": "round2_terra_reasoning_defense_low_invariant_v1",
+      "planned_calls": 150,
+      "source": {
+        "bytes": 96020,
+        "path": "kaggle/round2_generated/terra_defense_low_invariant_v1.py",
+        "sha256": "6b0fcad6e3dc5848ab7447e64199c55c10b0ca9e064a2f578eb51b32801a9193"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-terra-defense-low-invariant-v1"
+    }
+  ]
+}

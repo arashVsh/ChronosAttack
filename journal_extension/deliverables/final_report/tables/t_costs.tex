@@ -1,0 +1,21 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}llrr@{}}
+\toprule
+Experiment & Scenario & Size & Known cost \\
+\midrule
+Round zero, Luna (Codex CLI) & paper scenarios & 320 trials & subscription, no per-call charge \\
+B3/C1, 5 September (Terra and Claude off) & B3, C1 & 2,100 calls & \$6.87 \\
+Tree study and defenses, September (four cells) & tree & 2,760 + 480 trials & \$28.15 \\
+Tree study and defenses, Terra (low) & tree & 690 + 120 trials & \$8.56 \\
+A, water supply & water & 2,760 trials & \$19.90 \\
+B, label rotation & tree & 720 trials & \$8.41 \\
+C, worst-case defenses & tree & 720 trials & \$11.01 \\
+D and F, leave one out & tree (3 tools) & 960 trials & \$7.62 \\
+E, paraphrase & tree & 720 trials & \$8.82 \\
+G, B3/C1 on Terra (low), Gemini, Qwen & B3, C1 & 1,260 trials & \$4.43 \\
+Total (Kaggle) & all & all & \$103.77 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Known Kaggle cost over every attempt, including failed and rerun attempts. A few calls refused by the provider carry no recorded price; they are settled from the Kaggle meter in the experiment notes.\par}

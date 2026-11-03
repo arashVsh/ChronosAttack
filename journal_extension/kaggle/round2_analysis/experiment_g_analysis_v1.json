@@ -1,0 +1,1855 @@
+{
+  "cells": {
+    "google/gemini-3.6-flash": {
+      "cell": {
+        "model": "google/gemini-3.6-flash",
+        "phase": "study",
+        "reasoning": "minimal",
+        "role": "matched_non_off_primary",
+        "study_id": "chronos_round2_b3c1_gemini_minimal_study_v1"
+      },
+      "completed_jobs": 420,
+      "known_cost_usd": 0.8313105000000001,
+      "planned_jobs": 420,
+      "scenarios": {
+        "google/gemini-3.6-flash|b3": {
+          "barrier": {
+            "choices": {
+              "B": 15
+            },
+            "n": 15,
+            "rate": 1.0,
+            "target_count": 15,
+            "wilson_95": [
+              0.796117,
+              1.0
+            ]
+          },
+          "budget": {
+            "0": {
+              "choices": {
+                "B": 15
+              },
+              "n": 15,
+              "rate": 1.0,
+              "target_count": 15,
+              "wilson_95": [
+                0.796117,
+                1.0
+              ]
+            },
+            "1": {
+              "choices": {
+                "A": 6,
+                "B": 9
+              },
+              "n": 15,
+              "rate": 0.6,
+              "target_count": 9,
+              "wilson_95": [
+                0.357468,
+                0.801755
+              ]
+            },
+            "2": {
+              "choices": {
+                "A": 2,
+                "B": 13
+              },
+              "n": 15,
+              "rate": 0.8666666666666667,
+              "target_count": 13,
+              "wilson_95": [
+                0.62118,
+                0.962639
+              ]
+            }
+          },
+          "consistency": {
+            "abstentions": 0,
+            "disagreement_panels": 0,
+            "expected_panels": 10,
+            "panels": 10,
+            "votes": {
+              "choices": {
+                "B": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            }
+          },
+          "descriptive_quality_sensitivity": {
+            "excluded_pair_reps": [],
+            "note": "Post-hoc descriptive check only. Primary analysis retains all schema-valid outcomes; no selective retries.",
+            "paired": {
+              "attack": {
+                "choices": {
+                  "A": 3,
+                  "B": 27
+                },
+                "n": 30,
+                "rate": 0.9,
+                "target_count": 27,
+                "wilson_95": [
+                  0.743789,
+                  0.9654
+                ]
+              },
+              "complete": true,
+              "exact_mcnemar_p": 1.0,
+              "expected_pairs": 30,
+              "natural": {
+                "choices": {
+                  "A": 2,
+                  "B": 28
+                },
+                "n": 30,
+                "rate": 0.9333333333333333,
+                "target_count": 28,
+                "wilson_95": [
+                  0.786765,
+                  0.981523
+                ]
+              },
+              "pairs": 30,
+              "positive_shifts": 2,
+              "reverse_shifts": 3,
+              "target_rate_difference": -0.03333333333333333
+            }
+          },
+          "simultaneous": {
+            "choices": {
+              "B": 10
+            },
+            "n": 10,
+            "rate": 1.0,
+            "target_count": 10,
+            "wilson_95": [
+              0.722467,
+              1.0
+            ]
+          },
+          "stateful": {
+            "attack": {
+              "choices": {
+                "A": 3,
+                "B": 27
+              },
+              "n": 30,
+              "rate": 0.9,
+              "target_count": 27,
+              "wilson_95": [
+                0.743789,
+                0.9654
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 1.0,
+            "expected_pairs": 30,
+            "natural": {
+              "choices": {
+                "A": 2,
+                "B": 28
+              },
+              "n": 30,
+              "rate": 0.9333333333333333,
+              "target_count": 28,
+              "wilson_95": [
+                0.786765,
+                0.981523
+              ]
+            },
+            "pairs": 30,
+            "positive_shifts": 2,
+            "reverse_shifts": 3,
+            "target_rate_difference": -0.03333333333333333
+          },
+          "stateless": {
+            "attack": {
+              "choices": {
+                "B": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 1.0,
+            "expected_pairs": 10,
+            "natural": {
+              "choices": {
+                "B": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            },
+            "pairs": 10,
+            "positive_shifts": 0,
+            "reverse_shifts": 0,
+            "target_rate_difference": 0.0
+          },
+          "target": "B"
+        },
+        "google/gemini-3.6-flash|c1": {
+          "barrier": {
+            "choices": {
+              "A": 2,
+              "C": 13
+            },
+            "n": 15,
+            "rate": 0.8666666666666667,
+            "target_count": 13,
+            "wilson_95": [
+              0.62118,
+              0.962639
+            ]
+          },
+          "budget": {
+            "0": {
+              "choices": {
+                "A": 13,
+                "C": 2
+              },
+              "n": 15,
+              "rate": 0.13333333333333333,
+              "target_count": 2,
+              "wilson_95": [
+                0.037361,
+                0.37882
+              ]
+            },
+            "1": {
+              "choices": {
+                "A": 15
+              },
+              "n": 15,
+              "rate": 0.0,
+              "target_count": 0,
+              "wilson_95": [
+                0.0,
+                0.203883
+              ]
+            },
+            "2": {
+              "choices": {
+                "A": 9,
+                "C": 6
+              },
+              "n": 15,
+              "rate": 0.4,
+              "target_count": 6,
+              "wilson_95": [
+                0.198245,
+                0.642532
+              ]
+            }
+          },
+          "consistency": {
+            "abstentions": 6,
+            "disagreement_panels": 10,
+            "expected_panels": 10,
+            "panels": 10,
+            "votes": {
+              "choices": {
+                "A": 1,
+                "ABSTAIN": 6,
+                "C": 3
+              },
+              "n": 10,
+              "rate": 0.3,
+              "target_count": 3,
+              "wilson_95": [
+                0.107791,
+                0.603222
+              ]
+            }
+          },
+          "descriptive_quality_sensitivity": {
+            "excluded_pair_reps": [],
+            "note": "Post-hoc descriptive check only. Primary analysis retains all schema-valid outcomes; no selective retries.",
+            "paired": {
+              "attack": {
+                "choices": {
+                  "A": 21,
+                  "C": 9
+                },
+                "n": 30,
+                "rate": 0.3,
+                "target_count": 9,
+                "wilson_95": [
+                  0.166647,
+                  0.478758
+                ]
+              },
+              "complete": true,
+              "exact_mcnemar_p": 0.14599609375,
+              "expected_pairs": 30,
+              "natural": {
+                "choices": {
+                  "A": 27,
+                  "C": 3
+                },
+                "n": 30,
+                "rate": 0.1,
+                "target_count": 3,
+                "wilson_95": [
+                  0.0346,
+                  0.256211
+                ]
+              },
+              "pairs": 30,
+              "positive_shifts": 9,
+              "reverse_shifts": 3,
+              "target_rate_difference": 0.2
+            }
+          },
+          "simultaneous": {
+            "choices": {
+              "C": 10
+            },
+            "n": 10,
+            "rate": 1.0,
+            "target_count": 10,
+            "wilson_95": [
+              0.722467,
+              1.0
+            ]
+          },
+          "stateful": {
+            "attack": {
+              "choices": {
+                "A": 21,
+                "C": 9
+              },
+              "n": 30,
+              "rate": 0.3,
+              "target_count": 9,
+              "wilson_95": [
+                0.166647,
+                0.478758
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 0.14599609375,
+            "expected_pairs": 30,
+            "natural": {
+              "choices": {
+                "A": 27,
+                "C": 3
+              },
+              "n": 30,
+              "rate": 0.1,
+              "target_count": 3,
+              "wilson_95": [
+                0.0346,
+                0.256211
+              ]
+            },
+            "pairs": 30,
+            "positive_shifts": 9,
+            "reverse_shifts": 3,
+            "target_rate_difference": 0.2
+          },
+          "stateless": {
+            "attack": {
+              "choices": {
+                "C": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 0.001953125,
+            "expected_pairs": 10,
+            "natural": {
+              "choices": {
+                "A": 10
+              },
+              "n": 10,
+              "rate": 0.0,
+              "target_count": 0,
+              "wilson_95": [
+                0.0,
+                0.277533
+              ]
+            },
+            "pairs": 10,
+            "positive_shifts": 10,
+            "reverse_shifts": 0,
+            "target_rate_difference": 1.0
+          },
+          "target": "C"
+        }
+      },
+      "sources": [
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.02043525,
+          "observed_invocations": 26,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s00-v1/1/gemini-3.6-flash/4575434/round2_b3c1_gemini_s00_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "602ab1f2ac8818f5c98fa55d5caeb2c924fbf0e0141092e2d1a377f813726cc8"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.024704249999999997,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s01-v1/1/gemini-3.6-flash/4577757/round2_b3c1_gemini_s01_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "788e18e3ea1314ce6a6720b452382cf0e9f1d04760ef90515ef0f0d61da79926"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.03131400000000001,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s02-v1/1/gemini-3.6-flash/4575552/round2_b3c1_gemini_s02_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "df6a6349afdba8cf996cdb227b72048e17964a8789f53ee54c7da328a487deea"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.027738750000000003,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s03-v1/1/gemini-3.6-flash/4577848/round2_b3c1_gemini_s03_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "c878c402dc0ca113e8b9b49d07c23338bd67fda86ef6ab5cc1966c38c2467c06"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.030772499999999998,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s04-v1/1/gemini-3.6-flash/4577930/round2_b3c1_gemini_s04_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "941f2c61a87b53599a7d9ff604f3fc4ae8050c9960292661a9af09d57fba2501"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.032524500000000005,
+          "observed_invocations": 41,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s05-v1/1/gemini-3.6-flash/4578503/round2_b3c1_gemini_s05_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "3ffa541b44e77ac7f3f8d102c53717c8fe6d2001d9a5e7287d4cf8d1f90f3ed7"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.032511,
+          "observed_invocations": 41,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s06-v1/1/gemini-3.6-flash/4578569/round2_b3c1_gemini_s06_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "7104de91d08a412e0f4cfd227e3d04e1c7574886b88d832e79da9e95786e1215"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.03026775,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s07-v1/1/gemini-3.6-flash/4578654/round2_b3c1_gemini_s07_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "a5a0145d103dd1277b707395997ab16b28f49acf43b219f11b4a0028d01b5972"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.032789250000000006,
+          "observed_invocations": 41,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s08-v1/1/gemini-3.6-flash/4578769/round2_b3c1_gemini_s08_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "cdebf5aecac18271e2a42a5ea8786cf5b678e45985a264e162c2f9e3219fca1d"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.027881250000000003,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s09-v1/1/gemini-3.6-flash/4578909/round2_b3c1_gemini_s09_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "5d1e7c655f2e0b120e368153bde8b08d11367d958717ff00820a4350cada5ecf"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.02950575,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s10-v1/1/gemini-3.6-flash/4590550/round2_b3c1_gemini_s10_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "29e3f621956dbf4efb2c6da081d279de8b1a67ea4027bc5e3f80118f331a9f32"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.023179500000000002,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s11-v1/1/gemini-3.6-flash/4590579/round2_b3c1_gemini_s11_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "8b5a73cb2608c10884ddde27a57603c8084afbe122316d26b4b74a501977005b"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.022521000000000003,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s12-v1/1/gemini-3.6-flash/4590616/round2_b3c1_gemini_s12_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "a23bcdc32ec63eafd4a69ce5a3f7aecfdda4ad0aa8492d2369e1bcfa9fddc963"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.025008000000000002,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s13-v1/1/gemini-3.6-flash/4590644/round2_b3c1_gemini_s13_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "01bd3a897ee993c27898679bc9ffeb622648d78401eeef61a4702c9ed91967f4"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.027867749999999997,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s14-v1/1/gemini-3.6-flash/4590678/round2_b3c1_gemini_s14_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "943090d8a3b7e929dff0b2dfa57eac3f31ba9f4e23df75eaab75e26af44140e1"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.027989999999999998,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s15-v1/1/gemini-3.6-flash/4590733/round2_b3c1_gemini_s15_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "95b924589920f2a411084cf6d63a84a0c605edbed31f1c2dddb40159c38c142d"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.024773249999999993,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s16-v1/1/gemini-3.6-flash/4590766/round2_b3c1_gemini_s16_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "df873e2a58f06813c1ae8fe53267ad0ba54ce181826f5572fdbaaa935426fe20"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.030156000000000006,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s17-v1/1/gemini-3.6-flash/4590806/round2_b3c1_gemini_s17_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "372eaca248b399c6f3797b4bd57371181afb1ca68e728353c598e3978663349f"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.02547375,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s18-v1/1/gemini-3.6-flash/4590839/round2_b3c1_gemini_s18_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "6881a96fc916e217cdbc715c92637603e54c82a38542459d1f8814b484e064ca"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.030665999999999995,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s19-v1/1/gemini-3.6-flash/4590869/round2_b3c1_gemini_s19_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "fe453e3e05199726e15243e3f0ca1a351c3988440de8bb496def6b2aa6ae8d17"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.030455250000000007,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s20-v1/1/gemini-3.6-flash/4593316/round2_b3c1_gemini_s20_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "3fae6ab82f109db3da2ac69366809b04b188515dc575ac0d5c6fb9ee29ea10d6"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.02015325,
+          "observed_invocations": 26,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s21-v1/1/gemini-3.6-flash/4593329/round2_b3c1_gemini_s21_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "3b5e4eeb7ead1163007868684363dc7cc1f5a900d6eb150b24db716c18cca07c"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.029883000000000003,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s22-v1/1/gemini-3.6-flash/4593341/round2_b3c1_gemini_s22_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "64eff7a94cb751d82626e97a285423d4058aa205ccce47146eb37931a9515368"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.02248575,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s23-v1/1/gemini-3.6-flash/4593385/round2_b3c1_gemini_s23_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "2074412b76edcb1b8d53519899676b3015079eb56d1e3b5057a168c553b3bb22"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.025365,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s24-v1/1/gemini-3.6-flash/4593414/round2_b3c1_gemini_s24_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "f48acd1584f1f4563f22fae88267b3f9a6796262503f033154d28fd9df63314e"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.03724425000000001,
+          "observed_invocations": 47,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s25-v1/1/gemini-3.6-flash/4593435/round2_b3c1_gemini_s25_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "48c37ecb812f34c2cffd39805601effd504e83db3467708e7f45e02dc79a4d1c"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.025505999999999997,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s26-v1/1/gemini-3.6-flash/4593455/round2_b3c1_gemini_s26_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "b304fbdd90647f3605d152766d7d8b41cb01abcd0c12a0e5c70fd625601b4ae3"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.023056499999999997,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s27-v1/1/gemini-3.6-flash/4593634/round2_b3c1_gemini_s27_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "ede814791331190cda2aa24a282f1663c217685f47ec51a3ba22d0851d18604e"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.02460225000000001,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s28-v1/1/gemini-3.6-flash/4594007/round2_b3c1_gemini_s28_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "1ebbf8cf5bbb9df94cfac55ec423cca868ed5b88ef2991a7ce7c5fc75768619f"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.03447974999999999,
+          "observed_invocations": 44,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/gemini/chronos-r2-b3c1-gemini-s29-v1/1/gemini-3.6-flash/4594564/round2_b3c1_gemini_s29_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "7d9fcf84f1769c2ed881a82f648dfff051c8f32073d6b20e9b3d34e5922e3b6d"
+        }
+      ]
+    },
+    "openai/gpt-5.6-terra": {
+      "cell": {
+        "model": "openai/gpt-5.6-terra",
+        "phase": "study",
+        "reasoning": "low",
+        "role": "matched_non_off_primary",
+        "study_id": "chronos_round2_b3c1_terra_low_study_v1"
+      },
+      "completed_jobs": 420,
+      "known_cost_usd": 2.3507919999999998,
+      "planned_jobs": 420,
+      "scenarios": {
+        "openai/gpt-5.6-terra|b3": {
+          "barrier": {
+            "choices": {
+              "A": 15
+            },
+            "n": 15,
+            "rate": 0.0,
+            "target_count": 0,
+            "wilson_95": [
+              0.0,
+              0.203883
+            ]
+          },
+          "budget": {
+            "0": {
+              "choices": {
+                "A": 6,
+                "B": 9
+              },
+              "n": 15,
+              "rate": 0.6,
+              "target_count": 9,
+              "wilson_95": [
+                0.357468,
+                0.801755
+              ]
+            },
+            "1": {
+              "choices": {
+                "B": 15
+              },
+              "n": 15,
+              "rate": 1.0,
+              "target_count": 15,
+              "wilson_95": [
+                0.796117,
+                1.0
+              ]
+            },
+            "2": {
+              "choices": {
+                "A": 1,
+                "B": 14
+              },
+              "n": 15,
+              "rate": 0.9333333333333333,
+              "target_count": 14,
+              "wilson_95": [
+                0.701835,
+                0.988133
+              ]
+            }
+          },
+          "consistency": {
+            "abstentions": 2,
+            "disagreement_panels": 10,
+            "expected_panels": 10,
+            "panels": 10,
+            "votes": {
+              "choices": {
+                "A": 8,
+                "ABSTAIN": 2
+              },
+              "n": 10,
+              "rate": 0.0,
+              "target_count": 0,
+              "wilson_95": [
+                0.0,
+                0.277533
+              ]
+            }
+          },
+          "descriptive_quality_sensitivity": {
+            "excluded_pair_reps": [],
+            "note": "Post-hoc descriptive check only. Primary analysis retains all schema-valid outcomes; no selective retries.",
+            "paired": {
+              "attack": {
+                "choices": {
+                  "A": 2,
+                  "B": 28
+                },
+                "n": 30,
+                "rate": 0.9333333333333333,
+                "target_count": 28,
+                "wilson_95": [
+                  0.786765,
+                  0.981523
+                ]
+              },
+              "complete": true,
+              "exact_mcnemar_p": 0.00738525390625,
+              "expected_pairs": 30,
+              "natural": {
+                "choices": {
+                  "A": 13,
+                  "B": 17
+                },
+                "n": 30,
+                "rate": 0.5666666666666667,
+                "target_count": 17,
+                "wilson_95": [
+                  0.391973,
+                  0.726225
+                ]
+              },
+              "pairs": 30,
+              "positive_shifts": 13,
+              "reverse_shifts": 2,
+              "target_rate_difference": 0.36666666666666664
+            }
+          },
+          "simultaneous": {
+            "choices": {
+              "A": 10
+            },
+            "n": 10,
+            "rate": 0.0,
+            "target_count": 0,
+            "wilson_95": [
+              0.0,
+              0.277533
+            ]
+          },
+          "stateful": {
+            "attack": {
+              "choices": {
+                "A": 2,
+                "B": 28
+              },
+              "n": 30,
+              "rate": 0.9333333333333333,
+              "target_count": 28,
+              "wilson_95": [
+                0.786765,
+                0.981523
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 0.00738525390625,
+            "expected_pairs": 30,
+            "natural": {
+              "choices": {
+                "A": 13,
+                "B": 17
+              },
+              "n": 30,
+              "rate": 0.5666666666666667,
+              "target_count": 17,
+              "wilson_95": [
+                0.391973,
+                0.726225
+              ]
+            },
+            "pairs": 30,
+            "positive_shifts": 13,
+            "reverse_shifts": 2,
+            "target_rate_difference": 0.36666666666666664
+          },
+          "stateless": {
+            "attack": {
+              "choices": {
+                "B": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 0.001953125,
+            "expected_pairs": 10,
+            "natural": {
+              "choices": {
+                "A": 10
+              },
+              "n": 10,
+              "rate": 0.0,
+              "target_count": 0,
+              "wilson_95": [
+                0.0,
+                0.277533
+              ]
+            },
+            "pairs": 10,
+            "positive_shifts": 10,
+            "reverse_shifts": 0,
+            "target_rate_difference": 1.0
+          },
+          "target": "B"
+        },
+        "openai/gpt-5.6-terra|c1": {
+          "barrier": {
+            "choices": {
+              "A": 14,
+              "C": 1
+            },
+            "n": 15,
+            "rate": 0.06666666666666667,
+            "target_count": 1,
+            "wilson_95": [
+              0.011867,
+              0.298165
+            ]
+          },
+          "budget": {
+            "0": {
+              "choices": {
+                "A": 3,
+                "C": 12
+              },
+              "n": 15,
+              "rate": 0.8,
+              "target_count": 12,
+              "wilson_95": [
+                0.548146,
+                0.929525
+              ]
+            },
+            "1": {
+              "choices": {
+                "C": 15
+              },
+              "n": 15,
+              "rate": 1.0,
+              "target_count": 15,
+              "wilson_95": [
+                0.796117,
+                1.0
+              ]
+            },
+            "2": {
+              "choices": {
+                "A": 3,
+                "C": 12
+              },
+              "n": 15,
+              "rate": 0.8,
+              "target_count": 12,
+              "wilson_95": [
+                0.548146,
+                0.929525
+              ]
+            }
+          },
+          "consistency": {
+            "abstentions": 4,
+            "disagreement_panels": 10,
+            "expected_panels": 10,
+            "panels": 10,
+            "votes": {
+              "choices": {
+                "ABSTAIN": 4,
+                "C": 6
+              },
+              "n": 10,
+              "rate": 0.6,
+              "target_count": 6,
+              "wilson_95": [
+                0.312674,
+                0.83182
+              ]
+            }
+          },
+          "descriptive_quality_sensitivity": {
+            "excluded_pair_reps": [],
+            "note": "Post-hoc descriptive check only. Primary analysis retains all schema-valid outcomes; no selective retries.",
+            "paired": {
+              "attack": {
+                "choices": {
+                  "A": 3,
+                  "C": 27
+                },
+                "n": 30,
+                "rate": 0.9,
+                "target_count": 27,
+                "wilson_95": [
+                  0.743789,
+                  0.9654
+                ]
+              },
+              "complete": true,
+              "exact_mcnemar_p": 0.453125,
+              "expected_pairs": 30,
+              "natural": {
+                "choices": {
+                  "A": 6,
+                  "C": 24
+                },
+                "n": 30,
+                "rate": 0.8,
+                "target_count": 24,
+                "wilson_95": [
+                  0.626943,
+                  0.904949
+                ]
+              },
+              "pairs": 30,
+              "positive_shifts": 5,
+              "reverse_shifts": 2,
+              "target_rate_difference": 0.1
+            }
+          },
+          "simultaneous": {
+            "choices": {
+              "C": 10
+            },
+            "n": 10,
+            "rate": 1.0,
+            "target_count": 10,
+            "wilson_95": [
+              0.722467,
+              1.0
+            ]
+          },
+          "stateful": {
+            "attack": {
+              "choices": {
+                "A": 3,
+                "C": 27
+              },
+              "n": 30,
+              "rate": 0.9,
+              "target_count": 27,
+              "wilson_95": [
+                0.743789,
+                0.9654
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 0.453125,
+            "expected_pairs": 30,
+            "natural": {
+              "choices": {
+                "A": 6,
+                "C": 24
+              },
+              "n": 30,
+              "rate": 0.8,
+              "target_count": 24,
+              "wilson_95": [
+                0.626943,
+                0.904949
+              ]
+            },
+            "pairs": 30,
+            "positive_shifts": 5,
+            "reverse_shifts": 2,
+            "target_rate_difference": 0.1
+          },
+          "stateless": {
+            "attack": {
+              "choices": {
+                "C": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 0.001953125,
+            "expected_pairs": 10,
+            "natural": {
+              "choices": {
+                "A": 10
+              },
+              "n": 10,
+              "rate": 0.0,
+              "target_count": 0,
+              "wilson_95": [
+                0.0,
+                0.277533
+              ]
+            },
+            "pairs": 10,
+            "positive_shifts": 10,
+            "reverse_shifts": 0,
+            "target_rate_difference": 1.0
+          },
+          "target": "C"
+        }
+      },
+      "sources": [
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.05653599999999999,
+          "observed_invocations": 26,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s00-v1/1/gpt-5.6-terra/4575433/round2_b3c1_terra_s00_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "20f5b8c9994de24a94e455ba4e93b3fe76a564ec7b2fe6297b809fb0766db892"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.07038800000000002,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s01-v1/1/gpt-5.6-terra/4575435/round2_b3c1_terra_s01_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "aa093bfb095da1fe9bed16f429aadb857c3ce300d1b2ed76b6a85390ce888834"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.08947199999999998,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s02-v1/1/gpt-5.6-terra/4577788/round2_b3c1_terra_s02_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "10ad0fdee75b5ad3c28acd3494bb3502b650fd846dd80ca32e545401cf7cd47d"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.08166999999999998,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s03-v1/1/gpt-5.6-terra/4577884/round2_b3c1_terra_s03_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "5d231b8326bd90bbea69e9b399bf78f927c987dd2864ad31a6b62efecddb281a"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.08728399999999997,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s04-v1/1/gpt-5.6-terra/4577988/round2_b3c1_terra_s04_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "b65afef8524c5dc10fd5b939abce6c0c4451c72bdc5f06c2f4e7c4805a124e6b"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.09527599999999999,
+          "observed_invocations": 41,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s05-v1/1/gpt-5.6-terra/4578534/round2_b3c1_terra_s05_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "93f449c27516eeea34223d4486e8e6e3423edea78cb6961851e1686480df5e8e"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.09361799999999998,
+          "observed_invocations": 41,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s06-v1/1/gpt-5.6-terra/4578616/round2_b3c1_terra_s06_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "9d07991a4902fbb1f1e71a881d91a56e1045b7d8f326099d00401394b4796988"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.085232,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s07-v1/1/gpt-5.6-terra/4578689/round2_b3c1_terra_s07_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "d4dec6fc8008c19a6310c1988636cd69faa7043d1f12ec090f9f4a8c39211d6b"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.09729400000000002,
+          "observed_invocations": 41,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s08-v1/1/gpt-5.6-terra/4578868/round2_b3c1_terra_s08_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "889233a335229b45cdc887a6d66812bd1c3df27759ea465557eb59991609e655"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.08107799999999998,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s09-v1/1/gpt-5.6-terra/4578959/round2_b3c1_terra_s09_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "dbda7a5b31ff4e8f01862f83b6565a9fb1e3ec84bda5322224c8005e1ebe7e96"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.081892,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s10-v1/1/gpt-5.6-terra/4605321/round2_b3c1_terra_s10_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "d0127de33421c6a5a9991bf2238ddee5fe35388161c7bec0b0e776bfdc4214a0"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.062439999999999996,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s11-v1/1/gpt-5.6-terra/4606052/round2_b3c1_terra_s11_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "5684fbe87cc93883fc621ad93f30ed234f9deee41d636a7133eb3840c9298c16"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.06248000000000001,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s12-v1/1/gpt-5.6-terra/4606862/round2_b3c1_terra_s12_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "95772c283b5f62fa6c3570360204c00ac8bc632dc00d0f6cf4bead503bd5090a"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.06916800000000001,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s13-v1/1/gpt-5.6-terra/4607585/round2_b3c1_terra_s13_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "8851ecbe41edde9f57def411c6fafd338877beb6c8a9646e3c7b5c5faddd0d16"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.07898000000000001,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s14-v1/1/gpt-5.6-terra/4608157/round2_b3c1_terra_s14_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "c833569f74c94d886518b155fc30cec2ad25155256b3913ca8c3771898bd2868"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.07711799999999999,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s15-v1/1/gpt-5.6-terra/4608587/round2_b3c1_terra_s15_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "ea1d52925b47b780080688db9e332c3d38d6cec49daebe1c8b70b8f302410225"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.07049200000000003,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s16-v1/1/gpt-5.6-terra/4609533/round2_b3c1_terra_s16_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "dbf601233b62f8d9a4c9f37738e56d392a0f5bee527a4c938ea069a185841f46"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.085302,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s17-v1/1/gpt-5.6-terra/4609662/round2_b3c1_terra_s17_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "e4ebc1b533b7e9812748efeba4e6a95085159c768cf673a93b65c69f5112c071"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.071862,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s18-v1/1/gpt-5.6-terra/4609975/round2_b3c1_terra_s18_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "76497579f5cbc1fc976011ab3e89a15c462e7bcbfe1e17061154fdced1411abf"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.08594000000000002,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s19-v1/1/gpt-5.6-terra/4610397/round2_b3c1_terra_s19_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "4df1f442bb4d60ef218cf70dc5925c64c47930fdb8016452a4778de812f7d4a8"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.08478999999999999,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s20-v1/1/gpt-5.6-terra/4610837/round2_b3c1_terra_s20_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "94f1e5c4cf26184a816e994141d380e0ae691f9f2a1340417525667e57283f3e"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.055238,
+          "observed_invocations": 26,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s21-v1/1/gpt-5.6-terra/4610660/round2_b3c1_terra_s21_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "620a5819ca346ce20b89978168b78b35ddb6fd5fb2562ad1dfda3e73874db3e9"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.08438199999999998,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s22-v1/1/gpt-5.6-terra/4610275/round2_b3c1_terra_s22_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "2b3a41fea5d03da79ae697aa8d3a619c12568890fbdaa18eff0ca3d448ebb26b"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.06361199999999999,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s23-v1/1/gpt-5.6-terra/4609814/round2_b3c1_terra_s23_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "547af15a830e9f3786cab898427e0199ca82e95393e4c600038a76ff9174a98b"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.06873599999999998,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s24-v1/1/gpt-5.6-terra/4609641/round2_b3c1_terra_s24_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "7f910f25c8a0fb759352107ceeb73b56a6053040d74bd9e801306d14d4cb65c2"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.10639999999999998,
+          "observed_invocations": 47,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s25-v1/1/gpt-5.6-terra/4609426/round2_b3c1_terra_s25_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "c9597bc53bbc0d6a0872f5f2e4bdeb0d3a3304f4d0cb38d4a08219bec7569b2e"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.072282,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s26-v1/1/gpt-5.6-terra/4608458/round2_b3c1_terra_s26_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "bad205a7662533f41d6a60840e7a2d208961c685058c4e405bb886466b536a35"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.06394,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s27-v1/1/gpt-5.6-terra/4607971/round2_b3c1_terra_s27_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "048d0abbef58a790d6de016f1fb258a9d932a9fa596e7159b8930a6bad76ab77"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.06983999999999999,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s28-v1/1/gpt-5.6-terra/4607321/round2_b3c1_terra_s28_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "b937b7a7664c3f60d7029c5b7e527e4b6d0ad1948c94284cdba0cdf3b8e62f93"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.09805000000000005,
+          "observed_invocations": 44,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/terra/chronos-r2-b3c1-terra-s29-v1/1/gpt-5.6-terra/4606641/round2_b3c1_terra_s29_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "15abe184659d54833d01eb51afb0ceb6f146621a7340ce027278fd8e0ae98a3c"
+        }
+      ]
+    },
+    "qwen/qwen3-235b-a22b-instruct-2507": {
+      "cell": {
+        "model": "qwen/qwen3-235b-a22b-instruct-2507",
+        "phase": "study",
+        "reasoning": "low",
+        "role": "matched_non_off_primary",
+        "study_id": "chronos_round2_b3c1_qwen_low_study_v1"
+      },
+      "completed_jobs": 420,
+      "known_cost_usd": 0.24135716,
+      "planned_jobs": 420,
+      "scenarios": {
+        "qwen/qwen3-235b-a22b-instruct-2507|b3": {
+          "barrier": {
+            "choices": {
+              "A": 1,
+              "B": 14
+            },
+            "n": 15,
+            "rate": 0.9333333333333333,
+            "target_count": 14,
+            "wilson_95": [
+              0.701835,
+              0.988133
+            ]
+          },
+          "budget": {
+            "0": {
+              "choices": {
+                "A": 15
+              },
+              "n": 15,
+              "rate": 0.0,
+              "target_count": 0,
+              "wilson_95": [
+                0.0,
+                0.203883
+              ]
+            },
+            "1": {
+              "choices": {
+                "B": 15
+              },
+              "n": 15,
+              "rate": 1.0,
+              "target_count": 15,
+              "wilson_95": [
+                0.796117,
+                1.0
+              ]
+            },
+            "2": {
+              "choices": {
+                "B": 15
+              },
+              "n": 15,
+              "rate": 1.0,
+              "target_count": 15,
+              "wilson_95": [
+                0.796117,
+                1.0
+              ]
+            }
+          },
+          "consistency": {
+            "abstentions": 0,
+            "disagreement_panels": 10,
+            "expected_panels": 10,
+            "panels": 10,
+            "votes": {
+              "choices": {
+                "B": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            }
+          },
+          "descriptive_quality_sensitivity": {
+            "excluded_pair_reps": [],
+            "note": "Post-hoc descriptive check only. Primary analysis retains all schema-valid outcomes; no selective retries.",
+            "paired": {
+              "attack": {
+                "choices": {
+                  "B": 30
+                },
+                "n": 30,
+                "rate": 1.0,
+                "target_count": 30,
+                "wilson_95": [
+                  0.886487,
+                  1.0
+                ]
+              },
+              "complete": true,
+              "exact_mcnemar_p": 1.862645149230957e-09,
+              "expected_pairs": 30,
+              "natural": {
+                "choices": {
+                  "A": 30
+                },
+                "n": 30,
+                "rate": 0.0,
+                "target_count": 0,
+                "wilson_95": [
+                  0.0,
+                  0.113513
+                ]
+              },
+              "pairs": 30,
+              "positive_shifts": 30,
+              "reverse_shifts": 0,
+              "target_rate_difference": 1.0
+            }
+          },
+          "simultaneous": {
+            "choices": {
+              "B": 10
+            },
+            "n": 10,
+            "rate": 1.0,
+            "target_count": 10,
+            "wilson_95": [
+              0.722467,
+              1.0
+            ]
+          },
+          "stateful": {
+            "attack": {
+              "choices": {
+                "B": 30
+              },
+              "n": 30,
+              "rate": 1.0,
+              "target_count": 30,
+              "wilson_95": [
+                0.886487,
+                1.0
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 1.862645149230957e-09,
+            "expected_pairs": 30,
+            "natural": {
+              "choices": {
+                "A": 30
+              },
+              "n": 30,
+              "rate": 0.0,
+              "target_count": 0,
+              "wilson_95": [
+                0.0,
+                0.113513
+              ]
+            },
+            "pairs": 30,
+            "positive_shifts": 30,
+            "reverse_shifts": 0,
+            "target_rate_difference": 1.0
+          },
+          "stateless": {
+            "attack": {
+              "choices": {
+                "B": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 0.0625,
+            "expected_pairs": 10,
+            "natural": {
+              "choices": {
+                "A": 5,
+                "B": 5
+              },
+              "n": 10,
+              "rate": 0.5,
+              "target_count": 5,
+              "wilson_95": [
+                0.236593,
+                0.763407
+              ]
+            },
+            "pairs": 10,
+            "positive_shifts": 5,
+            "reverse_shifts": 0,
+            "target_rate_difference": 0.5
+          },
+          "target": "B"
+        },
+        "qwen/qwen3-235b-a22b-instruct-2507|c1": {
+          "barrier": {
+            "choices": {
+              "A": 11,
+              "C": 4
+            },
+            "n": 15,
+            "rate": 0.26666666666666666,
+            "target_count": 4,
+            "wilson_95": [
+              0.108975,
+              0.519504
+            ]
+          },
+          "budget": {
+            "0": {
+              "choices": {
+                "A": 15
+              },
+              "n": 15,
+              "rate": 0.0,
+              "target_count": 0,
+              "wilson_95": [
+                0.0,
+                0.203883
+              ]
+            },
+            "1": {
+              "choices": {
+                "B": 7,
+                "C": 8
+              },
+              "n": 15,
+              "rate": 0.5333333333333333,
+              "target_count": 8,
+              "wilson_95": [
+                0.30117,
+                0.751905
+              ]
+            },
+            "2": {
+              "choices": {
+                "A": 6,
+                "C": 9
+              },
+              "n": 15,
+              "rate": 0.6,
+              "target_count": 9,
+              "wilson_95": [
+                0.357468,
+                0.801755
+              ]
+            }
+          },
+          "consistency": {
+            "abstentions": 0,
+            "disagreement_panels": 2,
+            "expected_panels": 10,
+            "panels": 10,
+            "votes": {
+              "choices": {
+                "C": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            }
+          },
+          "descriptive_quality_sensitivity": {
+            "excluded_pair_reps": [],
+            "note": "Post-hoc descriptive check only. Primary analysis retains all schema-valid outcomes; no selective retries.",
+            "paired": {
+              "attack": {
+                "choices": {
+                  "A": 9,
+                  "C": 21
+                },
+                "n": 30,
+                "rate": 0.7,
+                "target_count": 21,
+                "wilson_95": [
+                  0.521242,
+                  0.833353
+                ]
+              },
+              "complete": true,
+              "exact_mcnemar_p": 9.5367431640625e-07,
+              "expected_pairs": 30,
+              "natural": {
+                "choices": {
+                  "A": 29,
+                  "B": 1
+                },
+                "n": 30,
+                "rate": 0.0,
+                "target_count": 0,
+                "wilson_95": [
+                  0.0,
+                  0.113513
+                ]
+              },
+              "pairs": 30,
+              "positive_shifts": 21,
+              "reverse_shifts": 0,
+              "target_rate_difference": 0.7
+            }
+          },
+          "simultaneous": {
+            "choices": {
+              "C": 10
+            },
+            "n": 10,
+            "rate": 1.0,
+            "target_count": 10,
+            "wilson_95": [
+              0.722467,
+              1.0
+            ]
+          },
+          "stateful": {
+            "attack": {
+              "choices": {
+                "A": 9,
+                "C": 21
+              },
+              "n": 30,
+              "rate": 0.7,
+              "target_count": 21,
+              "wilson_95": [
+                0.521242,
+                0.833353
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 9.5367431640625e-07,
+            "expected_pairs": 30,
+            "natural": {
+              "choices": {
+                "A": 29,
+                "B": 1
+              },
+              "n": 30,
+              "rate": 0.0,
+              "target_count": 0,
+              "wilson_95": [
+                0.0,
+                0.113513
+              ]
+            },
+            "pairs": 30,
+            "positive_shifts": 21,
+            "reverse_shifts": 0,
+            "target_rate_difference": 0.7
+          },
+          "stateless": {
+            "attack": {
+              "choices": {
+                "C": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            },
+            "complete": true,
+            "exact_mcnemar_p": 1.0,
+            "expected_pairs": 10,
+            "natural": {
+              "choices": {
+                "C": 10
+              },
+              "n": 10,
+              "rate": 1.0,
+              "target_count": 10,
+              "wilson_95": [
+                0.722467,
+                1.0
+              ]
+            },
+            "pairs": 10,
+            "positive_shifts": 0,
+            "reverse_shifts": 0,
+            "target_rate_difference": 0.0
+          },
+          "target": "C"
+        }
+      },
+      "sources": [
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.00595188,
+          "observed_invocations": 26,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s00-r1-v1/1/qwen3-235b-a22b-instruct-2507/4622726/round2_b3c1_qwen_s00_r1_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "7ff3eb983d9468d307e8bf59175d3c64add421fb56dd271023e938b07ef96286"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.007220400000000001,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s01-r1-v1/1/qwen3-235b-a22b-instruct-2507/4623285/round2_b3c1_qwen_s01_r1_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "8de1be542b3d3a366f4a0ef7ab7ec8896337611d97b60a9510a5524d941824f5"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.00879824,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s02-v1/1/qwen3-235b-a22b-instruct-2507/4623394/round2_b3c1_qwen_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "72475b7170e576f987496dd17ea8c456b658ad55bf957607f5109bb622b63e4d"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.007995019999999999,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s03-v1/1/qwen3-235b-a22b-instruct-2507/4623474/round2_b3c1_qwen_s03_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "03736a5766094d82a2d8ff96cb405989737aa257a378b2cc279a0b6c67f22317"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.008808139999999999,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s04-v1/1/qwen3-235b-a22b-instruct-2507/4623578/round2_b3c1_qwen_s04_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "76974d62801087d768e859fbaf10fa71658d508e5bf7d8e49afae437f874f91e"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.009429640000000001,
+          "observed_invocations": 41,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s05-v1/1/qwen3-235b-a22b-instruct-2507/4623712/round2_b3c1_qwen_s05_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "84b0efbd1aa830e5fe512fd4b53ef2a56abcaf365ac1120ec1239b825d1fbd24"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.009372879999999998,
+          "observed_invocations": 41,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s06-v1/1/qwen3-235b-a22b-instruct-2507/4623785/round2_b3c1_qwen_s06_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "6e3e2f7b08ccb067a3ed60728b58908a078d57ce6cf1d4a134c2b57e75fc082f"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.008803739999999997,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s07-v1/1/qwen3-235b-a22b-instruct-2507/4623952/round2_b3c1_qwen_s07_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "e65fa55737f1d1cfa72400c65eceae4a76cb58e174c3fc6f5582e2013649e19f"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.00948486,
+          "observed_invocations": 41,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s08-v1/1/qwen3-235b-a22b-instruct-2507/4624009/round2_b3c1_qwen_s08_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "f7de23d4f640fa5a2ec5bccef6a995805e369602f9e5984a371a31dbf48506cf"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.008107439999999997,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s09-v1/1/qwen3-235b-a22b-instruct-2507/4624083/round2_b3c1_qwen_s09_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "4012750eee05b10108ad5b2e3c4a73d52edf905b8e58245055cdf199ff4ddb26"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.0087208,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s10-v1/1/qwen3-235b-a22b-instruct-2507/4624211/round2_b3c1_qwen_s10_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "be4e2d015f4739f1280aa872083eee43a19b6f5d4406930eab56f47836decf20"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.006617380000000001,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s11-v1/1/qwen3-235b-a22b-instruct-2507/4624313/round2_b3c1_qwen_s11_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "8704162afecf70c041af7a9a625bea1b635ecb01379f331e50c94d23aa672d48"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.0065758000000000014,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s12-v1/1/qwen3-235b-a22b-instruct-2507/4624468/round2_b3c1_qwen_s12_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "8c949d31737c187acdaf7ff66db0d8f3d568fd625a5188e37c647c6c2d826845"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.007345139999999999,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s13-v1/1/qwen3-235b-a22b-instruct-2507/4624731/round2_b3c1_qwen_s13_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "213387dae15eeef8b571ea0d1f5383fba3e9fd9434396d18a5eab9d1b130d4bb"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.008108099999999998,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s14-r1-v1/1/qwen3-235b-a22b-instruct-2507/4625236/round2_b3c1_qwen_s14_r1_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "4849cab5e9b776915d39028039ffdb350045fda8b84b64a9a28bff07c1f4ad56"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.008060359999999999,
+          "observed_invocations": 35,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s15-v1/1/qwen3-235b-a22b-instruct-2507/4625238/round2_b3c1_qwen_s15_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "1aade43c1f556ca1d39d87c37959c020983699aec30ae8a4ffaa30f123668854"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.00733106,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s16-v1/1/qwen3-235b-a22b-instruct-2507/4624778/round2_b3c1_qwen_s16_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "1c247d3472379dd26d18f6669ef1cfa7247ef9943166dfe46f8c2b18060caf09"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.00871684,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s17-v1/1/qwen3-235b-a22b-instruct-2507/4624453/round2_b3c1_qwen_s17_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "cd501122909290f90be4d103f8618defdd11f4e5b4780711923cf3218df1070e"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.007334359999999999,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s18-v1/1/qwen3-235b-a22b-instruct-2507/4624271/round2_b3c1_qwen_s18_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "d190b08d755eca972b5b57e61adb0b35ec78952d99ffc5829a19f0a0eefb3389"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.008727619999999998,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s19-v1/1/qwen3-235b-a22b-instruct-2507/4624123/round2_b3c1_qwen_s19_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "bb73d97a17df86bba0997ddbb2675f61a7d364c80cc45be8e2409561d8de55f6"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.008729820000000003,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s20-v1/1/qwen3-235b-a22b-instruct-2507/4624056/round2_b3c1_qwen_s20_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "1ea226a2df139026aff91e8c9eeb1833e8e686af67a01831ec57c8222b47a258"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.00589886,
+          "observed_invocations": 26,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s21-v1/1/qwen3-235b-a22b-instruct-2507/4623963/round2_b3c1_qwen_s21_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "87ce6d33c6ae2a977993aec6a41bf87742180c6e484885373f4f541db44b070e"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.008820239999999998,
+          "observed_invocations": 38,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s22-v1/1/qwen3-235b-a22b-instruct-2507/4623838/round2_b3c1_qwen_s22_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "3c1b33ad4dd4a17c7ff2a447de9e7416650b1d6fd6bcf1ac477bf82592340de3"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.0066176,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s23-v1/1/qwen3-235b-a22b-instruct-2507/4623757/round2_b3c1_qwen_s23_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "dd125b4f38a468fe2a63587ffed3f860e66cb058c5f7d229c91a12b504513f4b"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.007357240000000002,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s24-v1/1/qwen3-235b-a22b-instruct-2507/4623610/round2_b3c1_qwen_s24_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "f9353635432d95c80a719a1a600c4b7b9a23dc4569d2a65dd9a2a5dd4998eeb2"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.010917939999999998,
+          "observed_invocations": 47,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s25-v1/1/qwen3-235b-a22b-instruct-2507/4623535/round2_b3c1_qwen_s25_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "4de269e56f697793b55b4e6de65ec210d3cba7c4b7c0752dedd2e8b8aef5b496"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.007369120000000001,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s26-v1/1/qwen3-235b-a22b-instruct-2507/4623421/round2_b3c1_qwen_s26_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "cd761c49e6ec20da44342c8f4c2018e73d89523fc462c9993c84274219367081"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.0066902,
+          "observed_invocations": 29,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s27-v1/1/qwen3-235b-a22b-instruct-2507/4623299/round2_b3c1_qwen_s27_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "83605b92bac0b3bc41ce26034fe8d4d8ea4a00c866ff323a92469d59926225da"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.007280459999999999,
+          "observed_invocations": 32,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s28-v1/1/qwen3-235b-a22b-instruct-2507/4623079/round2_b3c1_qwen_s28_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "0774594da9fac687fec1cb7e781865e704c7b3918433e069b656bb10043f49d5"
+        },
+        {
+          "failed_calls": 0,
+          "known_cost_usd": 0.010165979999999998,
+          "observed_invocations": 44,
+          "path": "kaggle/round2_runs_20260920/experiment_g_study/qwen/chronos-r2-b3c1-qwen-s29-v1/1/qwen3-235b-a22b-instruct-2507/4622831/round2_b3c1_qwen_s29_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+          "sha256": "1ea3ed218c7c04a92d7bfeb329a3a456151c97319ecdfc9c2a575579786ae044"
+        }
+      ]
+    }
+  },
+  "plan": "specs/journal-extension-sep14/round2-g-b3c1-matched-plan-2026-10-08.md.",
+  "primary_holm_adjusted_p": {
+    "google/gemini-3.6-flash|b3": 1.0,
+    "google/gemini-3.6-flash|c1": 0.43798828125,
+    "openai/gpt-5.6-terra|b3": 0.029541015625,
+    "openai/gpt-5.6-terra|c1": 0.90625,
+    "qwen/qwen3-235b-a22b-instruct-2507|b3": 1.1175870895385742e-08,
+    "qwen/qwen3-235b-a22b-instruct-2507|c1": 4.76837158203125e-06
+  },
+  "primary_raw_p": {
+    "google/gemini-3.6-flash|b3": 1.0,
+    "google/gemini-3.6-flash|c1": 0.14599609375,
+    "openai/gpt-5.6-terra|b3": 0.00738525390625,
+    "openai/gpt-5.6-terra|c1": 0.453125,
+    "qwen/qwen3-235b-a22b-instruct-2507|b3": 1.862645149230957e-09,
+    "qwen/qwen3-235b-a22b-instruct-2507|c1": 9.5367431640625e-07
+  },
+  "schema": "chronos.experiment-g-analysis.v1"
+}

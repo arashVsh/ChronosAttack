@@ -1,0 +1,82 @@
+{
+  "attestation_sha256": "92ecac6f5570093882089d6070dfdca8b5afb6d98703f5d537cba6f4bf079ff5",
+  "captured_at_utc": "2026-09-21T17:13:19.322714+00:00",
+  "conclusion": "two_original_versions_created_without_source_kernels_or_runs; frozen_contracts_relaunched_with_only_task_slugs_rewritten",
+  "repairs": [
+    {
+      "model_run_observed": false,
+      "original_task": "chronos-r2-water4-study-gemini-minimal-s18-v1",
+      "repair_source": {
+        "bytes": 192079,
+        "derived_from_sha256": "ba975c8b240af6375c508c8241c30813a697e593688651c4f94de38863e3d543",
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s18_repair_v1.py",
+        "sha256": "3df89124f03ae978e83a5c1b2790ac7b226011582ba36e2a8a85d34aae29ee3c",
+        "transformation": "replace the sole kbench task decorator slug chronos-r2-water4-study-gemini-minimal-s18-v1 with chronos-r2-water4-study-gemini-minimal-s18-repair-v1; reverse substitution reproduces derived_from_sha256"
+      },
+      "repair_task": "chronos-r2-water4-study-gemini-minimal-s18-repair-v1",
+      "same_slug_repush_attempt": {
+        "error": "Task 'masihmaafi/chronos-r2-water4-study-gemini-minimal-s18-v1' exists but has no source kernel.",
+        "run_created": false
+      },
+      "scientific_changes": [],
+      "shard_index": 18,
+      "task_version_before_repair": {
+        "createTime": "2026-09-21T16:20:06.873Z",
+        "creationErrorMessage": null,
+        "creationState": "BENCHMARK_TASK_VERSION_CREATION_STATE_UNSPECIFIED",
+        "error": null,
+        "isBackingNotebookPublished": null,
+        "isPublic": false,
+        "options": null,
+        "runs": [],
+        "slug": {
+          "ownerSlug": "masihmaafi",
+          "taskSlug": "chronos-r2-water4-study-gemini-minimal-s18-v1",
+          "versionNumber": 1
+        },
+        "source": "BENCHMARK_TASK_VERSION_SOURCE_UNSPECIFIED",
+        "sourceKernelId": null,
+        "url": "/benchmarks/tasks/masihmaafi/chronos-r2-water4-study-gemini-minimal-s18-v1/1"
+      },
+      "unaccounted_quota_usd": 0.0
+    },
+    {
+      "model_run_observed": false,
+      "original_task": "chronos-r2-water4-study-gemini-minimal-s20-v1",
+      "repair_source": {
+        "bytes": 191989,
+        "derived_from_sha256": "d6eb200c54bc0152f471e699312814e3d9e900281f99c7c839c4a73313c5ccbb",
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s20_repair_v1.py",
+        "sha256": "544273ce2d6b676ab489473da792876e1ac0031c0a6542a821adfa3bc7e4249a",
+        "transformation": "replace the sole kbench task decorator slug chronos-r2-water4-study-gemini-minimal-s20-v1 with chronos-r2-water4-study-gemini-minimal-s20-repair-v1; reverse substitution reproduces derived_from_sha256"
+      },
+      "repair_task": "chronos-r2-water4-study-gemini-minimal-s20-repair-v1",
+      "same_slug_repush_attempt": {
+        "error": "Task 'masihmaafi/chronos-r2-water4-study-gemini-minimal-s20-v1' exists but has no source kernel.",
+        "run_created": false
+      },
+      "scientific_changes": [],
+      "shard_index": 20,
+      "task_version_before_repair": {
+        "createTime": "2026-09-21T16:20:54.953Z",
+        "creationErrorMessage": null,
+        "creationState": "BENCHMARK_TASK_VERSION_CREATION_STATE_UNSPECIFIED",
+        "error": null,
+        "isBackingNotebookPublished": null,
+        "isPublic": false,
+        "options": null,
+        "runs": [],
+        "slug": {
+          "ownerSlug": "masihmaafi",
+          "taskSlug": "chronos-r2-water4-study-gemini-minimal-s20-v1",
+          "versionNumber": 1
+        },
+        "source": "BENCHMARK_TASK_VERSION_SOURCE_UNSPECIFIED",
+        "sourceKernelId": null,
+        "url": "/benchmarks/tasks/masihmaafi/chronos-r2-water4-study-gemini-minimal-s20-v1/1"
+      },
+      "unaccounted_quota_usd": 0.0
+    }
+  ],
+  "schema": "chronos.kaggle-task-version-repair-batch-attestation.v1"
+}

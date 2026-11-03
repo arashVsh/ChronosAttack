@@ -1,0 +1,36 @@
+{
+  "audit": null,
+  "audit_error": "ValueError('another unknown-cost call remains')",
+  "contract_sha256": "a53bfbcdf72a43d1479c2a8707702e4fae981c1ad06aced119670ef6c6c11b93",
+  "cost_reconciliation": {
+    "collection_sha256": "fa1314c70615297a41ade5032bcc0f8bf0957ba7cc54470073599d0cd6773add",
+    "failed_event_line_sha256": "3eb040116d27899e8a9e4391f3b91b278ff2abb83a76d13483db7776aed9783f",
+    "failure_timestamp_utc": "2026-09-24T14:25:49.414494+00:00",
+    "finding": "account_level_zero_increment_for_one_429",
+    "last_observation_utc": "2026-09-24T14:56:26.478600+00:00",
+    "observation_sha256": [
+      "c515cedc440faf36884add668c361cd477a36c1333859474b59b3e5c0313e37f",
+      "be74f58fe8fd63601e7d4a6dbafde276a508b09c4c6abc1a67202b6901475278",
+      "5381c31819f1051a77a1784e002d778137b4a80cfa30dcbd4f9f76429be6389a"
+    ],
+    "raw_null_cost_calls": 1,
+    "raw_sha256": "c9c9115e3d36a23f3a10e03af182b961273d29cd6160d4751b7774d280f72154",
+    "schema": "chronos.experiment-c-gemini-s06-quota-reconciliation.v1"
+  },
+  "raw_accounting": {
+    "accounting_complete": false,
+    "complete_calls": 0,
+    "completed_jobs": 0,
+    "events": 6,
+    "failed_calls": 2,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.0,
+    "observed_invocations": 2,
+    "started_attempts": 2,
+    "unknown_cost_calls": 2
+  },
+  "schema": "chronos.experiment-c-hosted-terminal.v1",
+  "status": "stopped",
+  "stopped_early": "RateLimitError(\"Error code: 429 - {'code': '', 'message': 'The model is currently experiencing heavy load. Try again later.', 'param': '', 'type': 'rate_limit_error'}\")",
+  "task": "chronos-r2-tree4-c-gemini-minimal-s06-v1"
+}

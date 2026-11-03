@@ -1,0 +1,21 @@
+{
+  "audit": null,
+  "audit_error": "ValueError('24-order decisions/vote inputs changed')",
+  "contract_sha256": "1a5658f45b146832b0efbbc4b60a246eb3816c4fc60a7568dc6483a64c55cc2b",
+  "raw_accounting": {
+    "accounting_complete": true,
+    "complete_calls": 46,
+    "completed_jobs": 6,
+    "events": 58,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.010543940000000002,
+    "observed_invocations": 46,
+    "started_attempts": 6,
+    "unknown_cost_calls": 0
+  },
+  "schema": "chronos.experiment-c-hosted-terminal.v1",
+  "status": "stopped",
+  "stopped_early": null,
+  "task": "chronos-r2-tree4-c-qwen-low-s07-v1"
+}

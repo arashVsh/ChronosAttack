@@ -1,0 +1,15 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+Model & Selected order & Held-out natural & Held-out selected & $\Delta$ pp & Gains/losses & exact $p$ \\
+\midrule
+Terra (low) & HESC & 0\% & 20\% & +20 & 1/0 & 1 \\
+Gemini (minimal) & HESC & 20\% & 80\% & +60 & 3/0 & 0.25 \\
+Qwen (low) & HSCE & 0\% & 100\% & +100 & 5/0 & 0.062 \\
+Claude (off) & EHSC & 60\% & 60\% & +0 & 0/0 & 1 \\
+Terra (off)\textsuperscript{s} & HCSE & 0\% & 20\% & +20 & 1/0 & 1 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Split-half order selection (seed 20260920): the order with the highest target rate on five panel repetitions, evaluated on the other five (E equity, H heat, S survival, C cost; natural EHSC). Descriptive.\par}

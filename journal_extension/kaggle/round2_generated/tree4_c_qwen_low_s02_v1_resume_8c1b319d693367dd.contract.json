@@ -1,0 +1,199 @@
+{
+  "amendment_sha256": "5ab050c777c309138b811c29f347f75816419d8811df5fc54189d533d7ceb6f5",
+  "builder_sha256": "fa346fe912c8f720323c256f59268d0b4cfac90e4d61020ca8e4a3840d119e3a",
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "ceiling_usd": 0.5,
+  "contract_sha256": "4af189d5fef89cd1db08d645bd5af6e2be1a7e887af175e450f0b408accc708a",
+  "cost_reconciliation": {
+    "failed_event_line_sha256": [
+      "844cc962acb7869864fd636700f0e3a14d712f43cf85f4292d520b9a39d67081",
+      "bb60728e70bb6c19c5543a1e437bf5a09095817053309c0d46b7bebe1c422cfd"
+    ],
+    "pins": [
+      {
+        "attempt": 1,
+        "job_id": "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|undefended_selected_order|0|3",
+        "line_index": 9,
+        "line_sha256": "844cc962acb7869864fd636700f0e3a14d712f43cf85f4292d520b9a39d67081",
+        "step": 2
+      },
+      {
+        "attempt": 1,
+        "job_id": "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|3",
+        "line_index": 33,
+        "line_sha256": "bb60728e70bb6c19c5543a1e437bf5a09095817053309c0d46b7bebe1c422cfd",
+        "step": 12
+      }
+    ],
+    "proofs": [
+      {
+        "claude_known_cost_usd": "0.195744",
+        "claude_raw_sha256": "2e6e3a0fc3aadb281290183caf759245fb3759872a56f13bcbcce6ac0d299d06",
+        "collection_sha256": "41f8b703946d3ea4246575417c7b3bbbbdbca080adeb7201e0d242b081b33cd6",
+        "finding": "account_level_zero_increment_for_one_429",
+        "kind": "legacy",
+        "last_observation_utc": "2026-09-24T08:39:23.660000+00:00",
+        "module": "verify_experiment_c_qwen_s02_reconciliation_v1",
+        "observation_sha256": [
+          "4e868f3542c030cc376a76db41cf67c2191e11c85ace9d501a87e81e9308a8e3",
+          "ec450592e138c97aef6e706290d8cd3d07c6d97e5f542ee6fd6798de25bd45d6",
+          "04a75d07ab7d218376ea2bc0a1ab6ca2688bcd6c5f6ce8bb74311677e4a802b3",
+          "5aa688b7681d9236c8f3e1b4f31cc0d96cf15c37090f125364501f252e9e62da"
+        ],
+        "qwen_failed_event_line_sha256": "844cc962acb7869864fd636700f0e3a14d712f43cf85f4292d520b9a39d67081",
+        "qwen_failure_timestamp_utc": "2026-09-24T07:58:12.177658+00:00",
+        "qwen_known_cost_usd": "0.00135960",
+        "qwen_raw_sha256": "cd6e6cc30cc8497a55d3768438cd54d2faa95d5a036137e837bfa4f746745499",
+        "raw_null_cost_calls": 1,
+        "schema": "chronos.experiment-c-qwen-s02-quota-reconciliation.v1"
+      },
+      {
+        "failed_parent_sha256": "cd6e6cc30cc8497a55d3768438cd54d2faa95d5a036137e837bfa4f746745499",
+        "failed_raw_sha256": "8c1b319d693367dd0e2563c1142e320a89ef7feacbaa1fe59971d7a445de5bf7",
+        "failure_timestamp_utc": "2026-09-25T15:33:58.651841+00:00",
+        "finding": "account_level_zero_increment_for_pinned_429",
+        "kind": "continuity",
+        "last_reading_utc": "2026-09-25T16:51:41.655000+00:00",
+        "pin": {
+          "attempt": 1,
+          "job_id": "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|3",
+          "line_index": 33,
+          "line_sha256": "bb60728e70bb6c19c5543a1e437bf5a09095817053309c0d46b7bebe1c422cfd",
+          "step": 12
+        },
+        "schema": "chronos.experiment-c-provider-429-settlement.v1",
+        "windows": [
+          {
+            "after": "kaggle/round2_generated/experiment_c_quota_after_qwen_resume_v2_browser_observation_20260925_v1.json",
+            "after_sha256": "3834bd684fe8357444cde86fefe6411cd257d834d11bf5c690505b3c99963c46",
+            "monthly_after": "87.01431164",
+            "monthly_before": "87.01021304",
+            "novel_known_cost_usd": "0.00409860",
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_qwen_resume_v2_browser_observation_20260925_v1.json",
+            "prebuild_sha256": "5350caf80f2abe2bbd1282708f4d5eafe00cd5a09ff95f3a85b2d0c71089d48d",
+            "raw_sha256": "8c1b319d693367dd0e2563c1142e320a89ef7feacbaa1fe59971d7a445de5bf7"
+          },
+          {
+            "after": "kaggle/round2_generated/experiment_c_quota_after_claude_s20_browser_observation_20260925_v1.json",
+            "after_sha256": "d652f8873f169375ee1d186fd2a366f3cb3f08d8fdee44da6d89d092cde7c90a",
+            "monthly_after": "87.19987454",
+            "monthly_before": "87.01431164",
+            "novel_known_cost_usd": "0.1855629",
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_claude_s20_browser_observation_20260925_v1.json",
+            "prebuild_sha256": "ec82e3c6cac2db3a1e154695023799c4f64ff04beb03e3e47d8fe816bd88cb5d",
+            "raw_sha256": "164d4ad8c6b29861adbab9f5297c385cc7c30e40399d025c63729550fff9172a"
+          },
+          {
+            "after": "kaggle/round2_generated/experiment_c_quota_after_gemini_resume_v3_browser_observation_20260925_v1.json",
+            "after_sha256": "53718169572f70fab9e2ce6e5c918a1a1233dcd6bf48a85d2a7d914142a18abc",
+            "monthly_after": "87.23645504",
+            "monthly_before": "87.19987454",
+            "novel_known_cost_usd": "0.03658050",
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_gemini_resume_v3_browser_observation_20260925_v1.json",
+            "prebuild_sha256": "2b123b646de91fc87cff4a37faa14a11aa41f2b3e5532bb623a815d7f578c1cc",
+            "raw_sha256": "d02866aab13304e44847a8594c9d59c766ac8dc701239b02c7868520d68099e9"
+          }
+        ]
+      }
+    ],
+    "raw_null_cost_calls": 2,
+    "raw_sha256": "8c1b319d693367dd0e2563c1142e320a89ef7feacbaa1fe59971d7a445de5bf7",
+    "schema": "chronos.experiment-c-provider-429-reconciliation.v1"
+  },
+  "expected_job_ids": [
+    "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|undefended_natural|0|3",
+    "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|undefended_selected_order|0|3",
+    "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|barrier|0|3",
+    "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|3",
+    "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|randomized|0|3",
+    "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|invariant|0|3"
+  ],
+  "identity": "09860fe881af922d8b7a6f7a7dccce25c504b1435bf291f50de75cbb86f480cd",
+  "job_count": 6,
+  "jobs_manifest_sha256": "dda654bdbacd33fc18dca9dd23df90108f3562b9fdd76e5fea2a64ef39af9cd5",
+  "model": "qwen/qwen3-235b-a22b-instruct-2507",
+  "parent_ledger_sha256": "8c1b319d693367dd0e2563c1142e320a89ef7feacbaa1fe59971d7a445de5bf7",
+  "planned_calls": 46,
+  "quota_attestation": {
+    "attestation_sha256": "6964f5892f2ff7927f13a564aa097134c9272c5c338a4fd1cfe4dff6d86d5957",
+    "endpoint": "/api/i/models.ModelProxyService/GetModelProxyQuotas",
+    "queried_at_end_utc": "2026-09-25T17:25:52.788000+00:00",
+    "queried_at_start_utc": "2026-09-25T17:25:51.319000+00:00",
+    "response": {
+      "daily_quota_used_usd": 0.2221434000000002,
+      "total_daily_quota_allowed_usd": 10.0
+    },
+    "response_raw": "{\"quotaBalances\":[{\"quotaUsed\":0.2221434000000002,\"totalQuotaAllowed\":10,\"refillPeriod\":\"DAILY\",\"refillTime\":\"2026-09-26T15:53:36.765996300Z\"},{\"quotaUsed\":87.23645504,\"totalQuotaAllowed\":100,\"refillPeriod\":\"MONTHLY\",\"refillTime\":\"2026-10-04T06:27:06.443Z\"}]}",
+    "run_context": {
+      "evidence_sha256": "d02866aab13304e44847a8594c9d59c766ac8dc701239b02c7868520d68099e9",
+      "last_evidence_event_utc": "2026-09-25T16:47:08.456748+00:00",
+      "model": null,
+      "reasoning": null,
+      "study_id": null,
+      "task": "chronos-r2-tree4-c-gemini-minimal-s06-v1",
+      "terminal_sha256": "f125e397ff7b310ad5d3a7e7aed8842f8004108bfb1ea7d2079b74da302f5ec1"
+    },
+    "schema": "chronos.kaggle-browser-quota-attestation.v1",
+    "transport": "signed-in Kaggle browser CDP Network.getResponseBody"
+  },
+  "quota_capture_source_sha256": "e83a0062c851db5096b6a213283123e2230e950b10f99774b908bc52f70e7625",
+  "quota_gate": {
+    "allowed_usd": 10.0,
+    "attestation_sha256": "6964f5892f2ff7927f13a564aa097134c9272c5c338a4fd1cfe4dff6d86d5957",
+    "remaining_usd": 9.7778566,
+    "used_usd": 0.2221434000000002
+  },
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 3,
+    "events": 35,
+    "failed_calls": 2,
+    "incomplete_jobs": [
+      "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|3"
+    ],
+    "known_cost_usd": 0.005458200000000001,
+    "max_attempt_by_job": {
+      "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|barrier|0|3": 1,
+      "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|3": 1,
+      "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|undefended_natural|0|3": 1,
+      "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|undefended_selected_order|0|3": 2
+    },
+    "observed_invocations": 25
+  },
+  "role": "primary",
+  "schema": "chronos.experiment-c-shard-contract.v1",
+  "selection_manifest_sha256": "e8a935133f7db7414e1885b348c627ce87b6433a75b21f991daf5ac95ed28273",
+  "sequence_gate": {
+    "experiment_a_analysis_sha256": "7fc08152f276215aa959274089a0f56c73ea55d76a0fbbdbf5554c29fe0a947c",
+    "experiment_a_file_sha256": "89cbeb468a8372309d8fdd1d1cfde03697667bcc9fdf3870e6be5326106bab57",
+    "experiment_a_verifier_sha256": "535db28cf0893136c47878befd036a252526c67bc183456f35a35d76240b8730",
+    "experiment_b_analysis_sha256": "05975363060f0b4080bb349303008d194f45f95cd333047a8a6b5b4dfb895dcb",
+    "experiment_b_file_sha256": "6202272bb97af8033b7bdf21339dd6c4ef350f10a7ba8435cc31ecd3f1a6d487",
+    "experiment_b_verifier_sha256": "58308850e50201ea48181f6901b6d34bac7d451e5cfdde8d78d643936fb7046c"
+  },
+  "shard_count": 30,
+  "shard_index": 2,
+  "source_audit_gate": {
+    "complete_trial_calls": 2310,
+    "completed_jobs": 690,
+    "kind": "historical_tree_study",
+    "unknown_historical_cost_calls": 0
+  },
+  "source_log_sha256": "3116014338a5a088c957897d3d314f4b8e9507b6f5696d88ce73b081c40b66a1",
+  "source_sha256": {
+    "audit_experiment_c_v1.py": "1c4c575efe430cc0a434b9bb458a24222a237be14abe1c64a5fc4b95ca7a2d8c",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_c_protocol_v1.py": "f3402e723f4d421d5efcc6413e6214fa1e58f50752bdb0b54c2e7a147a9abc58",
+    "experiment_c_selection_v1.py": "920152511d8f99aee026e477a8c39f488445cad2e8ea5f3fc608aea9ebb36456",
+    "four_observation_defenses.py": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_tree4_experiment_c_v1"
+}

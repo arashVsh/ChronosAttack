@@ -1,0 +1,506 @@
+{
+  "accepted_preflight_receipt_sha256": "77d2b0eee32b20e66d2bd203c00a011d40184c482b0b2bf1d11aea436f5f7467",
+  "arm": "undefended_attack",
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "effective_ceiling_usd": 0.7,
+  "identity": "a2e85da65abd170962cb35c8d3e9676b4e4f533b1659550db92bc7abc254cf06",
+  "incremental_ceiling_usd": 0.7,
+  "job_count": 30,
+  "jobs": [
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|1",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|2",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|3",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|4",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|5",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 5,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|6",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 6,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|7",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|8",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|9",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|10",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|11",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 11,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|12",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 12,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|13",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 13,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|14",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 14,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|15",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 15,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|16",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 16,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|17",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 17,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|18",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 18,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|19",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 19,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|20",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 20,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|21",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 21,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|22",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 22,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|23",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 23,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|24",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 24,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|25",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 25,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|26",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 26,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|27",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 27,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|28",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 28,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|29",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 29,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_defense_low_v1|defense|openai/gpt-5.6-terra|tree4|undefended_attack|0|30",
+      "mode": "undefended_attack",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "defense",
+      "rep": 30,
+      "scenario": "tree4"
+    }
+  ],
+  "kind": "defense",
+  "manifest_sha256": "cee3e2a5ae640f964c1abfe9c332ba4107dfb6421dce5664e274139ade6cfed5",
+  "minimal_unsupported_receipt_sha256": "4e6e9f30bc1803e087ba434b0ce049723567530be10ade9c1569199138d01b2a",
+  "model": "openai/gpt-5.6-terra",
+  "parent_ledger_sha256": null,
+  "planned_calls": 150,
+  "protocol_extension_sha256": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "seed_audit": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "shard_count": 1,
+  "shard_index": 0,
+  "source_sha256": {
+    "audit_four_observation.py": "16aa34b225e2bfe041a8bd320e8b3a583014b266a85e2d4952cf3b23f47eb69c",
+    "audit_round2_defense.py": "fc573b2510fe883ec35a160c2241f336db74f48e9f6a70897ec3e90c4acab5b7",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "four_observation_defenses.py": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "round2_manifest_v1.json": "ed050bc39274cabd4f15545bf6078b36aeb0a40930458f12d11bc5e0cfeeb9b2"
+  },
+  "study_id": "chronos_round2_terra_reasoning_defense_low_v1"
+}

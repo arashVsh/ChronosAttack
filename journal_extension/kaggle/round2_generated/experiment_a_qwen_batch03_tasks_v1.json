@@ -1,0 +1,126 @@
+{
+  "aggregate_incremental_ceiling_usd": 0.8,
+  "batch": "qwen_batch03_shards_21_25",
+  "batch_manifest_sha256": "e89fd0a4d1178c3400f7e67bc6b210998736d0ae46169370cff58d899d970d85",
+  "batch_shards": [
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "daily_limit_usd": 10.0,
+  "frozen_at": "2026-09-20T23:45:58+03:30",
+  "incremental_ceiling_per_task_usd": 0.16,
+  "job_count": 115,
+  "launch_policy": "all_five_may_run_concurrently_within_sealed_exposure",
+  "maximum_daily_exposure_usd": 9.85006047,
+  "model": "qwen/qwen3-235b-a22b-instruct-2507",
+  "planned_calls": 391,
+  "pre_launch_known_daily_cost_usd": 9.05006047,
+  "previous_collection_manifest_sha256": "900d71b04c9f67039c6a2a964d3a8cc0852ec8143f4de7ea4edde282479d9cbe",
+  "reasoning": "low",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-full-batch-tasks.v1",
+  "shard_count_total": 30,
+  "status": "authorized_not_launched",
+  "study_id": "chronos_round2_water4_study_qwen_low_v1",
+  "task_count": 5,
+  "tasks": [
+    {
+      "effective_ceiling_usd": 0.16,
+      "identity": "5c26630a2c5211b39a220d47d9da3096d59c5ecec897088779609ada2f8a3e47",
+      "incremental_ceiling_usd": 0.16,
+      "job_count": 23,
+      "jobs_sha256": "15935068099bc1b87b0756b03173810674bed097ed986ff3f3273ccfb6028d57",
+      "output_folder": "round2_water4_study_qwen_low_s21_v1",
+      "pilot_receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+      "planned_calls": 79,
+      "shard_count": 30,
+      "shard_index": 21,
+      "source": {
+        "bytes": 195683,
+        "path": "kaggle/round2_generated/water4_study_qwen_low_s21_v1.py",
+        "sha256": "9e54b08dbbf39b7a29e30614f9404bad4f4be47a76ca9f92cdbf15e2dbc1a8c3"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-qwen-low-s21-v1"
+    },
+    {
+      "effective_ceiling_usd": 0.16,
+      "identity": "5c26630a2c5211b39a220d47d9da3096d59c5ecec897088779609ada2f8a3e47",
+      "incremental_ceiling_usd": 0.16,
+      "job_count": 23,
+      "jobs_sha256": "908e691b788e27b77f8f380a9cabcb29e7c5805996017adda681826dd933119a",
+      "output_folder": "round2_water4_study_qwen_low_s22_v1",
+      "pilot_receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+      "planned_calls": 79,
+      "shard_count": 30,
+      "shard_index": 22,
+      "source": {
+        "bytes": 195683,
+        "path": "kaggle/round2_generated/water4_study_qwen_low_s22_v1.py",
+        "sha256": "2b2c65c2acdea648ca564b7e700de458ec3b44c27e865e3a0fa4bdda533d8521"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-qwen-low-s22-v1"
+    },
+    {
+      "effective_ceiling_usd": 0.16,
+      "identity": "5c26630a2c5211b39a220d47d9da3096d59c5ecec897088779609ada2f8a3e47",
+      "incremental_ceiling_usd": 0.16,
+      "job_count": 23,
+      "jobs_sha256": "163324cb8a9079e4e48d4dcdab00091fe0f67b285e6a907e30f48b5cfc796939",
+      "output_folder": "round2_water4_study_qwen_low_s23_v1",
+      "pilot_receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+      "planned_calls": 75,
+      "shard_count": 30,
+      "shard_index": 23,
+      "source": {
+        "bytes": 195643,
+        "path": "kaggle/round2_generated/water4_study_qwen_low_s23_v1.py",
+        "sha256": "938e277edb28ce31abd7cbf93744a3104fcc6db9ce6099d154a9b30ce64cfc71"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-qwen-low-s23-v1"
+    },
+    {
+      "effective_ceiling_usd": 0.16,
+      "identity": "5c26630a2c5211b39a220d47d9da3096d59c5ecec897088779609ada2f8a3e47",
+      "incremental_ceiling_usd": 0.16,
+      "job_count": 23,
+      "jobs_sha256": "07734beb1ef5a1c3907a5f22096b7f2c24f6ea25450e22bc8fab807adc90a27a",
+      "output_folder": "round2_water4_study_qwen_low_s24_v1",
+      "pilot_receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+      "planned_calls": 79,
+      "shard_count": 30,
+      "shard_index": 24,
+      "source": {
+        "bytes": 195601,
+        "path": "kaggle/round2_generated/water4_study_qwen_low_s24_v1.py",
+        "sha256": "dd9ef524c3ed2855eeb2e765564aa5462447e7ff552417b675fc4e125b160c34"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-qwen-low-s24-v1"
+    },
+    {
+      "effective_ceiling_usd": 0.16,
+      "identity": "5c26630a2c5211b39a220d47d9da3096d59c5ecec897088779609ada2f8a3e47",
+      "incremental_ceiling_usd": 0.16,
+      "job_count": 23,
+      "jobs_sha256": "a94f9444691fdc58b7bec1dd22e16eb104a82bd1d6cd20624639f2a37a4fddb1",
+      "output_folder": "round2_water4_study_qwen_low_s25_v1",
+      "pilot_receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+      "planned_calls": 79,
+      "shard_count": 30,
+      "shard_index": 25,
+      "source": {
+        "bytes": 195661,
+        "path": "kaggle/round2_generated/water4_study_qwen_low_s25_v1.py",
+        "sha256": "35e93d8e710ef300bb694cebe723e2a31ff31c86ea12ba2faab4344e78d80945"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-qwen-low-s25-v1"
+    }
+  ]
+}

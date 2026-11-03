@@ -1,0 +1,23 @@
+{
+  "completed_jobs": 2,
+  "evidence_sha256": "45010a7401891db4d7332dbe1a162b0a63253dc377b3d900e31a6238d03f616c",
+  "failed_calls": 0,
+  "fixture_manifest_sha256": "358d2389d8abeb8eadc31fe810c6cf1a1d820f740635224f1402ef7cbe5979fc",
+  "identity": "db43e2739c4965f629f77a48bc92276a32769e676bf02d2e4e653e88d233126a",
+  "intended_manifest_sha256": "e9b4f1656aa490899fbdb543220206f83a2d3a987277f64e0acd2de1fa84988d",
+  "jobs_sha256": "8589eb751f3ef180501f234d8d8f194c579353b804912a21f1a27b7bef41742d",
+  "known_cost_usd": 0.00244112,
+  "model": "qwen/qwen3-235b-a22b-instruct-2507",
+  "observed_invocations": 10,
+  "outcomes_examined_for_authorization": false,
+  "passed": true,
+  "phase": "pilot",
+  "pilot_excluded_from_study": true,
+  "reasoning": "low",
+  "receipt_sha256": "84a2221ef801fd7806e9c91a98dda582eaac08ad48c65021530a376c737ad499",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-b-pilot-receipt.v1",
+  "study_id": "chronos_round2_tree4_label_rotation_qwen_low_pilot_v1",
+  "terminal_sha256": "4b83801eae87fbaed1936e94ccf6d988ae68255ef1376492fc5c1d6edc1e1498",
+  "unknown_cost_calls": 0
+}

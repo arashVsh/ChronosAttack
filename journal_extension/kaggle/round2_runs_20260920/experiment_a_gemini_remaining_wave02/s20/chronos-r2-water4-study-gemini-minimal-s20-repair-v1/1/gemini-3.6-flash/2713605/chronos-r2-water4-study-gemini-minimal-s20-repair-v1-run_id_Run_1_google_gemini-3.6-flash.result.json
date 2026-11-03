@@ -1,0 +1,28 @@
+{
+  "task_name": "chronos-r2-water4-study-gemini-minimal-s20-repair-v1",
+  "trial_name": "chronos-r2-water4-study-gemini-minimal-s20-repair-v1-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "google/gemini-3.6-flash"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 1.0
+    }
+  },
+  "started_at": "2026-09-21T16:44:38.844574Z",
+  "finished_at": "2026-09-21T16:46:08.050429Z"
+}

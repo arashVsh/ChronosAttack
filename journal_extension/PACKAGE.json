@@ -1,0 +1,11 @@
+{
+  "c_collection": "kaggle/round2_generated/experiment_c_collection_qwen_s29_provider429_snapshot_v1.json",
+  "c_report": "kaggle/round2_analysis/experiment_c_collection_report_qwen_s29_provider429_snapshot_v1.json",
+  "current_verification": "python3 verify_current.py",
+  "historical_archive_sha256": "a1b7a22ccf86aa7101547abb4951f15e303d04c3223dea89063b3966bc0a3251",
+  "numpy": "2.2.6",
+  "python": "3.13.5",
+  "scipy": "1.16.2",
+  "scope": "current-manuscript-companion-2026-10-25",
+  "status": "final"
+}

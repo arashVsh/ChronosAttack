@@ -1,0 +1,28 @@
+{
+  "task_name": "chronos-r2-b3c1-gemini-s15-v1",
+  "trial_name": "chronos-r2-b3c1-gemini-s15-v1-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "google/gemini-3.6-flash"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 1.0
+    }
+  },
+  "started_at": "2026-10-09T03:26:55.599925Z",
+  "finished_at": "2026-10-09T03:27:50.048098Z"
+}

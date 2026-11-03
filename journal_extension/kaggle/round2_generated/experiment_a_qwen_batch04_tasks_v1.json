@@ -1,0 +1,106 @@
+{
+  "aggregate_incremental_ceiling_usd": 0.64,
+  "batch": "qwen_batch04_shards_26_29",
+  "batch_manifest_sha256": "991995b1509941a855f77eef4f83b4b220720df1496024de557ae32858379498",
+  "batch_shards": [
+    26,
+    27,
+    28,
+    29
+  ],
+  "daily_limit_usd": 10.0,
+  "frozen_at": "2026-09-20T23:59:00+03:30",
+  "incremental_ceiling_per_task_usd": 0.16,
+  "job_count": 92,
+  "launch_policy": "all_four_may_run_concurrently_within_sealed_exposure",
+  "maximum_daily_exposure_usd": 9.78817585,
+  "model": "qwen/qwen3-235b-a22b-instruct-2507",
+  "planned_calls": 308,
+  "pre_launch_known_daily_cost_usd": 9.14817585,
+  "previous_collection_manifest_sha256": "817df9cbefb6d0b238f88890f913f1ac09669872faea85914ef01785f671344b",
+  "reasoning": "low",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-full-batch-tasks.v1",
+  "shard_count_total": 30,
+  "status": "authorized_not_launched",
+  "study_id": "chronos_round2_water4_study_qwen_low_v1",
+  "task_count": 4,
+  "tasks": [
+    {
+      "effective_ceiling_usd": 0.16,
+      "identity": "5c26630a2c5211b39a220d47d9da3096d59c5ecec897088779609ada2f8a3e47",
+      "incremental_ceiling_usd": 0.16,
+      "job_count": 23,
+      "jobs_sha256": "720047da69112d9be1b5496e8e5d1701c9fc930869447244c8cfe58c1f5757af",
+      "output_folder": "round2_water4_study_qwen_low_s26_v1",
+      "pilot_receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+      "planned_calls": 71,
+      "shard_count": 30,
+      "shard_index": 26,
+      "source": {
+        "bytes": 195627,
+        "path": "kaggle/round2_generated/water4_study_qwen_low_s26_v1.py",
+        "sha256": "a38f2bb02e97bf5057f09b6e5211cec341ff2889145c34d7a5e3371039d26682"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-qwen-low-s26-v1"
+    },
+    {
+      "effective_ceiling_usd": 0.16,
+      "identity": "5c26630a2c5211b39a220d47d9da3096d59c5ecec897088779609ada2f8a3e47",
+      "incremental_ceiling_usd": 0.16,
+      "job_count": 23,
+      "jobs_sha256": "0d7749ae25aebf7ecb1c1ce73a9cf1764f98e3d68ff9515299a71b6365020c05",
+      "output_folder": "round2_water4_study_qwen_low_s27_v1",
+      "pilot_receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+      "planned_calls": 79,
+      "shard_count": 30,
+      "shard_index": 27,
+      "source": {
+        "bytes": 195651,
+        "path": "kaggle/round2_generated/water4_study_qwen_low_s27_v1.py",
+        "sha256": "2ee82d5ff57acacc7628e3b89f2c9e35d899195f4613bbc3050db4d7ac3081f6"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-qwen-low-s27-v1"
+    },
+    {
+      "effective_ceiling_usd": 0.16,
+      "identity": "5c26630a2c5211b39a220d47d9da3096d59c5ecec897088779609ada2f8a3e47",
+      "incremental_ceiling_usd": 0.16,
+      "job_count": 23,
+      "jobs_sha256": "4683eee13e6547c764d3f7e7156e6e0350ad4b20e6875d89c08401eb1edade37",
+      "output_folder": "round2_water4_study_qwen_low_s28_v1",
+      "pilot_receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+      "planned_calls": 75,
+      "shard_count": 30,
+      "shard_index": 28,
+      "source": {
+        "bytes": 195587,
+        "path": "kaggle/round2_generated/water4_study_qwen_low_s28_v1.py",
+        "sha256": "d09793f4d43e1bc97d4609375a2619c370230f3c7134a117af9b0ae7ef74d03e"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-qwen-low-s28-v1"
+    },
+    {
+      "effective_ceiling_usd": 0.16,
+      "identity": "5c26630a2c5211b39a220d47d9da3096d59c5ecec897088779609ada2f8a3e47",
+      "incremental_ceiling_usd": 0.16,
+      "job_count": 23,
+      "jobs_sha256": "b83f5360cc3052c90904fd5e23a07dcdb43a6e24ec9dc9f937538f67b5550673",
+      "output_folder": "round2_water4_study_qwen_low_s29_v1",
+      "pilot_receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+      "planned_calls": 83,
+      "shard_count": 30,
+      "shard_index": 29,
+      "source": {
+        "bytes": 195717,
+        "path": "kaggle/round2_generated/water4_study_qwen_low_s29_v1.py",
+        "sha256": "3b0595a6e4a9306aeebbd1a8c7a801136c264e7f95c464f25790c1c91ce0cafa"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-qwen-low-s29-v1"
+    }
+  ]
+}

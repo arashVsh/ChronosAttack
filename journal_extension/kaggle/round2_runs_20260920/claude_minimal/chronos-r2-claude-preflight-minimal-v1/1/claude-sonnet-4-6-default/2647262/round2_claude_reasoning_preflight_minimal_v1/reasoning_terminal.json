@@ -1,0 +1,44 @@
+{
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "minimal",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "error": {
+    "code": "",
+    "message": "Error code: 500 - {'code': '', 'message': 'An internal server error occurred.', 'param': '', 'type': 'server_error'}",
+    "param": "",
+    "status_code": 500,
+    "type": "InternalServerError"
+  },
+  "evidence_sha256": "8cb0b2cecd7cb0ba2b22b3f84fdd4dca6e11a3199b975405362431c48b10da1d",
+  "identity": "9ba557746b6cd2da7d998495adc84486e57bd70f17b66f5aa73f6bb87aeda2c8",
+  "job_ids": [
+    "chronos_round2_claude_reasoning_preflight_minimal_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|1",
+    "chronos_round2_claude_reasoning_preflight_minimal_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|attack|1"
+  ],
+  "manifest_sha256": "bc186167a5be0a746a08f03f86fb38ed3b80d2a5ef8ee9300ad5f9dc7c2ce3a0",
+  "minimal_unsupported_receipt_sha256": null,
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "planned_calls": 10,
+  "protocol_extension_sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+  "reasoning": "minimal",
+  "schema": "chronos.reasoning-terminal.v1",
+  "source_sha256": {
+    "audit_four_observation.py": "16aa34b225e2bfe041a8bd320e8b3a583014b266a85e2d4952cf3b23f47eb69c",
+    "audit_round2_defense.py": "fc573b2510fe883ec35a160c2241f336db74f48e9f6a70897ec3e90c4acab5b7",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "four_observation_defenses.py": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "round2_manifest_v1.json": "ed050bc39274cabd4f15545bf6078b36aeb0a40930458f12d11bc5e0cfeeb9b2"
+  },
+  "study_id": "chronos_round2_claude_reasoning_preflight_minimal_v1",
+  "transient_waits": {
+    "count": 0,
+    "seconds": 0
+  }
+}

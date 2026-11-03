@@ -1,0 +1,358 @@
+{
+  "batch": "terra_batch03_shards_16_19",
+  "collection_manifest_sha256": "f241b754d17d48fa42d03290de00bea07b598c2703e3741f9e5f989b01fcb18f",
+  "frozen_at": "2026-09-22T17:15:37.741761+00:00",
+  "job_count": 92,
+  "model": "openai/gpt-5.6-terra",
+  "planned_calls": 320,
+  "post_batch_quota_attestation": {
+    "bytes": 900,
+    "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/quota_after_terra_batch03_20260922_v1.json",
+    "sha256": "3e4d658d06f0219a130ba269070c893b427394c3e5d22e3d82d089342e0848fc"
+  },
+  "post_batch_quota_attestation_sha256": "49e988cf5482dcc623d8c0e7e5d4774199dc8bef9e3a91d3e33727e62ce0b34f",
+  "prelaunch_manifest": {
+    "bytes": 5119,
+    "path": "kaggle/round2_generated/experiment_a_terra_batch03_tasks_v1.json",
+    "sha256": "126955dbb4a21946f22c90d12b06dbe41accc9d0d3d5ff3729af6c69dbaaf608"
+  },
+  "previous_collection_manifest_sha256": "d366ac89554fb8a8e3ebee3fc0067fc68091dd85280cee61113f7893dde06de7",
+  "reasoning": "low",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-terra-batch03-collection.v1",
+  "shard_count": 4,
+  "shards": [
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 87,
+        "completed_jobs": 23,
+        "events": 133,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.238534,
+        "observed_invocations": 87,
+        "planned_calls": 87,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6878,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s16/chronos-r2-water4-study-terra-low-s16-v1/1/gpt-5.6-terra/2786331/chronos-r2-water4-study-terra-low-s16-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+          "sha256": "1dfce792f44c62f67f6ef3d2b42aee358b0c526afb4391b2e65b5b1c10ea439e"
+        },
+        "audit": {
+          "bytes": 75167,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s16/chronos-r2-water4-study-terra-low-s16-v1/1/gpt-5.6-terra/2786331/round2_water4_study_terra_low_s16_v1/audit.json",
+          "sha256": "014cc61cf2d3fa4ca601e264d89c0c3ab1c50bbba9c0e161cd8650e50aebd4fa"
+        },
+        "evidence": {
+          "bytes": 215426,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s16/chronos-r2-water4-study-terra-low-s16-v1/1/gpt-5.6-terra/2786331/round2_water4_study_terra_low_s16_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "949add2d8141643841d17e7dc02821a3d8617b42f7f11aee1ee523cfca8b5fe0"
+        },
+        "intended_manifest": {
+          "bytes": 10999,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s16/chronos-r2-water4-study-terra-low-s16-v1/1/gpt-5.6-terra/2786331/round2_water4_study_terra_low_s16_v1/intended_manifest.json",
+          "sha256": "bae96a51aa2fa58f4833f745e4e5b2aed605ddb87a787a114fc64bfde48b80eb"
+        },
+        "notebook": {
+          "bytes": 599908,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s16/chronos-r2-water4-study-terra-low-s16-v1/1/gpt-5.6-terra/2786331/__notebook__.ipynb",
+          "sha256": "03cc59e31de26d1f9964d47fe95bd07fea4e19f635d2d5f88fccc2d767c86c98"
+        },
+        "result": {
+          "bytes": 664,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s16/chronos-r2-water4-study-terra-low-s16-v1/1/gpt-5.6-terra/2786331/chronos-r2-water4-study-terra-low-s16-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+          "sha256": "b54892b0556ce860905e446ed4f4990db0880df0807b7e0e84233d4f2ed7fb51"
+        },
+        "run": {
+          "bytes": 6481,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s16/chronos-r2-water4-study-terra-low-s16-v1/1/gpt-5.6-terra/2786331/chronos-r2-water4-study-terra-low-s16-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+          "sha256": "e784b62874820f448835a00258ee5512405ed0315059fe5a0d9520ba692b388d"
+        },
+        "task": {
+          "bytes": 5876,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s16/chronos-r2-water4-study-terra-low-s16-v1/1/gpt-5.6-terra/2786331/chronos-r2-water4-study-terra-low-s16-v1.task.json",
+          "sha256": "5e3b08355b7371168beaa8620003b6cef37642c37eceb9cd4ea66c2b07d69561"
+        },
+        "terminal": {
+          "bytes": 3222,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s16/chronos-r2-water4-study-terra-low-s16-v1/1/gpt-5.6-terra/2786331/round2_water4_study_terra_low_s16_v1/terminal.json",
+          "sha256": "c053b746abba3c9cdbcfc060489542d291b5a41c1e6c1628ea16f8207c0230d5"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-22T17:12:18.032710Z",
+      "hosted_audit_passed": true,
+      "model": "openai/gpt-5.6-terra",
+      "run_id": 2786331,
+      "shard_index": 16,
+      "source": {
+        "bytes": 186323,
+        "path": "kaggle/round2_generated/water4_study_terra_low_s16_v1.py",
+        "sha256": "ef0de2063eea05d30ce93c6dc33bb386735a785ee37aaadf0db35e1c05aa2379"
+      },
+      "started_at": "2026-09-22T17:08:35.553060Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-terra-low-s16-v1",
+      "task_version": 1
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 91,
+        "completed_jobs": 23,
+        "events": 137,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.25085,
+        "observed_invocations": 91,
+        "planned_calls": 91,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6878,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s17/chronos-r2-water4-study-terra-low-s17-v1/1/gpt-5.6-terra/2786332/chronos-r2-water4-study-terra-low-s17-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+          "sha256": "239ff9de5e0d0a29cc9d8f81b68bc6382eb16f86b97bdb28896f25c21160a8a2"
+        },
+        "audit": {
+          "bytes": 75167,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s17/chronos-r2-water4-study-terra-low-s17-v1/1/gpt-5.6-terra/2786332/round2_water4_study_terra_low_s17_v1/audit.json",
+          "sha256": "2c4d7d462a4e95a3b94cc918482bbf35b26b05d976176ffe1ed5db6bc198bd80"
+        },
+        "evidence": {
+          "bytes": 222955,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s17/chronos-r2-water4-study-terra-low-s17-v1/1/gpt-5.6-terra/2786332/round2_water4_study_terra_low_s17_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "c1d89a39fd3b28a391645b6e9b85dbc013eff475de364b0d59839a2e5e6557a6"
+        },
+        "intended_manifest": {
+          "bytes": 10969,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s17/chronos-r2-water4-study-terra-low-s17-v1/1/gpt-5.6-terra/2786332/round2_water4_study_terra_low_s17_v1/intended_manifest.json",
+          "sha256": "90333d2637571c0f23c5693fd146c3c576d267741912a16af755405e1d4d00cc"
+        },
+        "notebook": {
+          "bytes": 608162,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s17/chronos-r2-water4-study-terra-low-s17-v1/1/gpt-5.6-terra/2786332/__notebook__.ipynb",
+          "sha256": "75c9b1e154cfaeb83dd88d614faca0a62722210c954e3b4e76f38687b1d626cf"
+        },
+        "result": {
+          "bytes": 664,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s17/chronos-r2-water4-study-terra-low-s17-v1/1/gpt-5.6-terra/2786332/chronos-r2-water4-study-terra-low-s17-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+          "sha256": "f36e40905752edda92712e213ef082f2fd81d7cdd28f1f572b66c5b8ede7ebc9"
+        },
+        "run": {
+          "bytes": 6481,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s17/chronos-r2-water4-study-terra-low-s17-v1/1/gpt-5.6-terra/2786332/chronos-r2-water4-study-terra-low-s17-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+          "sha256": "9624dcbe0ffadfa2f31ad45cd3b51c575ac56243daeb7c193faef56fd54c9344"
+        },
+        "task": {
+          "bytes": 5876,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s17/chronos-r2-water4-study-terra-low-s17-v1/1/gpt-5.6-terra/2786332/chronos-r2-water4-study-terra-low-s17-v1.task.json",
+          "sha256": "ca20ab23f0d7c68cfa6ca00d67347f1bea561992cc5a25a9f6b3c2362a12e263"
+        },
+        "terminal": {
+          "bytes": 3207,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s17/chronos-r2-water4-study-terra-low-s17-v1/1/gpt-5.6-terra/2786332/round2_water4_study_terra_low_s17_v1/terminal.json",
+          "sha256": "d30b40cf26bea19c2a27f58ce2daa85c6bc0bd27bb5b2bcfc9be5b91633dc17f"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-22T17:12:18.360166Z",
+      "hosted_audit_passed": true,
+      "model": "openai/gpt-5.6-terra",
+      "run_id": 2786332,
+      "shard_index": 17,
+      "source": {
+        "bytes": 186293,
+        "path": "kaggle/round2_generated/water4_study_terra_low_s17_v1.py",
+        "sha256": "526cff181a5c17dd52f19f59361ea3f6824e2df40565a91875232b3dfa08cced"
+      },
+      "started_at": "2026-09-22T17:08:35.117076Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-terra-low-s17-v1",
+      "task_version": 1
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 71,
+        "completed_jobs": 23,
+        "events": 117,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.196668,
+        "observed_invocations": 71,
+        "planned_calls": 71,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6878,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s18/chronos-r2-water4-study-terra-low-s18-v1/1/gpt-5.6-terra/2786323/chronos-r2-water4-study-terra-low-s18-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+          "sha256": "a0ebfedc3faac60543fc981f01f485341c28e1f01ffa329961e3d47cc6748942"
+        },
+        "audit": {
+          "bytes": 75167,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s18/chronos-r2-water4-study-terra-low-s18-v1/1/gpt-5.6-terra/2786323/round2_water4_study_terra_low_s18_v1/audit.json",
+          "sha256": "99a6d2b4b2208372e3a9a4665f9a6faab7410498b42d903a7ee7a5c0a244a011"
+        },
+        "evidence": {
+          "bytes": 185936,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s18/chronos-r2-water4-study-terra-low-s18-v1/1/gpt-5.6-terra/2786323/round2_water4_study_terra_low_s18_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "635147a6e817697df2c7031006d668020918a355c180640fa7353955d91c4259"
+        },
+        "intended_manifest": {
+          "bytes": 10983,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s18/chronos-r2-water4-study-terra-low-s18-v1/1/gpt-5.6-terra/2786323/round2_water4_study_terra_low_s18_v1/intended_manifest.json",
+          "sha256": "0e1df2ac369e13e419e9a52d8e059f3de6987b18efa655fbb0473f9a6ff8b704"
+        },
+        "notebook": {
+          "bytes": 567417,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s18/chronos-r2-water4-study-terra-low-s18-v1/1/gpt-5.6-terra/2786323/__notebook__.ipynb",
+          "sha256": "dbba3cae6ca0e9eaa49184895c95e566e902ac38ef3caacdfc6510b82719d9ab"
+        },
+        "result": {
+          "bytes": 664,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s18/chronos-r2-water4-study-terra-low-s18-v1/1/gpt-5.6-terra/2786323/chronos-r2-water4-study-terra-low-s18-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+          "sha256": "9f5d414fd74830b8679ba96528865faacfff3f23f435168470927a6d7e0f16d1"
+        },
+        "run": {
+          "bytes": 6481,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s18/chronos-r2-water4-study-terra-low-s18-v1/1/gpt-5.6-terra/2786323/chronos-r2-water4-study-terra-low-s18-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+          "sha256": "da8218259852f8ec3737b396ad46c65a27493fdc1cbfb19f978fc9a212ba89ad"
+        },
+        "task": {
+          "bytes": 5876,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s18/chronos-r2-water4-study-terra-low-s18-v1/1/gpt-5.6-terra/2786323/chronos-r2-water4-study-terra-low-s18-v1.task.json",
+          "sha256": "8f82709d7b39956ee1fc04c2b071734cf950396767bf647f86d50e990377feae"
+        },
+        "terminal": {
+          "bytes": 3214,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s18/chronos-r2-water4-study-terra-low-s18-v1/1/gpt-5.6-terra/2786323/round2_water4_study_terra_low_s18_v1/terminal.json",
+          "sha256": "e84aa6a2969a9ab405b7eb2b7e88ed37393a02fe913d7e18fbdd21664d2da93e"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-22T17:11:50.987136Z",
+      "hosted_audit_passed": true,
+      "model": "openai/gpt-5.6-terra",
+      "run_id": 2786323,
+      "shard_index": 18,
+      "source": {
+        "bytes": 186307,
+        "path": "kaggle/round2_generated/water4_study_terra_low_s18_v1.py",
+        "sha256": "a68b44d0b1d72e11eacc2cfbf93bbbf165e6cbe9189763543c30f5b1a1057171"
+      },
+      "started_at": "2026-09-22T17:08:42.512545Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-terra-low-s18-v1",
+      "task_version": 1
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 71,
+        "completed_jobs": 23,
+        "events": 117,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.196374,
+        "observed_invocations": 71,
+        "planned_calls": 71,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6878,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s19/chronos-r2-water4-study-terra-low-s19-v1/1/gpt-5.6-terra/2786322/chronos-r2-water4-study-terra-low-s19-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+          "sha256": "733981d2ff0b875121af5f6f9074c652207504c4bbed1c3ec6b65f73fb5a95e2"
+        },
+        "audit": {
+          "bytes": 75167,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s19/chronos-r2-water4-study-terra-low-s19-v1/1/gpt-5.6-terra/2786322/round2_water4_study_terra_low_s19_v1/audit.json",
+          "sha256": "ab87e5b098b263b049b5298fbdffd29b5dbfed1a8b1c53cbc062eb05b0e6584d"
+        },
+        "evidence": {
+          "bytes": 186241,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s19/chronos-r2-water4-study-terra-low-s19-v1/1/gpt-5.6-terra/2786322/round2_water4_study_terra_low_s19_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "0545d6e54b0d4f583dc70a56cc4ad334ae0c8ca7e398c91c9e28ce00b38a920f"
+        },
+        "intended_manifest": {
+          "bytes": 10973,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s19/chronos-r2-water4-study-terra-low-s19-v1/1/gpt-5.6-terra/2786322/round2_water4_study_terra_low_s19_v1/intended_manifest.json",
+          "sha256": "dbd41f98b2baf12b51832a25c5e007bd0157aeb29c982e52042a8ac9af762071"
+        },
+        "notebook": {
+          "bytes": 567699,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s19/chronos-r2-water4-study-terra-low-s19-v1/1/gpt-5.6-terra/2786322/__notebook__.ipynb",
+          "sha256": "e405d6951e33761a2899292ac30c8b35406ba82158cc7176df368c6ec7df8ffe"
+        },
+        "result": {
+          "bytes": 664,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s19/chronos-r2-water4-study-terra-low-s19-v1/1/gpt-5.6-terra/2786322/chronos-r2-water4-study-terra-low-s19-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+          "sha256": "d41507469d413e3c28b1119953a61fe8c414b214a0ab50c6d697d701bf054c91"
+        },
+        "run": {
+          "bytes": 6481,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s19/chronos-r2-water4-study-terra-low-s19-v1/1/gpt-5.6-terra/2786322/chronos-r2-water4-study-terra-low-s19-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+          "sha256": "cb45a40deb111c830c4179a8e1642c65e0860ce103b99fca0e33825852f983e8"
+        },
+        "task": {
+          "bytes": 5876,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s19/chronos-r2-water4-study-terra-low-s19-v1/1/gpt-5.6-terra/2786322/chronos-r2-water4-study-terra-low-s19-v1.task.json",
+          "sha256": "85f218a7e5e2aed20d33e024629391365fcc41bcc609a7f99cf34148a3480a76"
+        },
+        "terminal": {
+          "bytes": 3209,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch03/s19/chronos-r2-water4-study-terra-low-s19-v1/1/gpt-5.6-terra/2786322/round2_water4_study_terra_low_s19_v1/terminal.json",
+          "sha256": "2688548f2a7504781380158866ac0735ac52473fe5822ce8d0b6d9c0983a254f"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-22T17:11:28.181850Z",
+      "hosted_audit_passed": true,
+      "model": "openai/gpt-5.6-terra",
+      "run_id": 2786322,
+      "shard_index": 19,
+      "source": {
+        "bytes": 186297,
+        "path": "kaggle/round2_generated/water4_study_terra_low_s19_v1.py",
+        "sha256": "5843a4796285185a44427854e06bcffae118bc3a974c0208dc67b3df0a2339a5"
+      },
+      "started_at": "2026-09-22T17:08:37.581928Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-terra-low-s19-v1",
+      "task_version": 1
+    }
+  ],
+  "study_id": "chronos_round2_water4_study_terra_low_v1",
+  "totals": {
+    "batch_known_cost_usd": 0.882426,
+    "complete_calls": 320,
+    "completed_jobs": 92,
+    "events": 504,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "observed_invocations": 320,
+    "official_delta_minus_batch_known_usd": 0.0,
+    "official_quota_delta_usd": 0.882426,
+    "planned_calls": 320,
+    "post_batch_official_daily_quota_used_usd": 8.0059591,
+    "post_batch_raw_known_daily_cost_usd": 8.0059591,
+    "post_official_minus_raw_known_usd": 0.0,
+    "pre_batch_official_daily_quota_used_usd": 7.1235331,
+    "pre_batch_raw_known_daily_cost_usd": 7.1235331,
+    "started_attempts": 92,
+    "unknown_cost_calls": 0
+  }
+}

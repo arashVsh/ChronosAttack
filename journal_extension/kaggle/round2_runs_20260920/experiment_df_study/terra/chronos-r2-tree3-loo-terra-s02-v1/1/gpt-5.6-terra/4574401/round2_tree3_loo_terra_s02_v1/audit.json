@@ -1,0 +1,71 @@
+{
+  "audit_failed": "ValueError('resume ledger has an incomplete job at the attempt limit')",
+  "contract": {
+    "ceiling_usd": 0.6,
+    "fixture_manifest_sha256": "b3292b6c53b0b3b04fd635c96c30f2569b902221f3c45f7f7c271aed29eca8c1",
+    "identity": "01cd2e2245fc2f95dbdfaeed58bce4cfe317292636a67ad14b9d8e988263092a",
+    "job_count": 8,
+    "jobs_sha256": "0f56ebf9c4045d2a42e6456c8acc3b322ec43734a4e6ad7e290b6aeb0d9468ea",
+    "model": "openai/gpt-5.6-terra",
+    "parent_ledger_sha256": null,
+    "phase": "study",
+    "planned_calls": 32,
+    "reasoning": "low",
+    "resume_ledger": {
+      "completed_jobs": 0,
+      "events": 0,
+      "failed_calls": 0,
+      "incomplete_jobs": [],
+      "known_cost_usd": 0.0,
+      "max_attempt_by_job": {},
+      "observed_invocations": 0
+    },
+    "role": "matched_non_off_primary",
+    "schema": "chronos.experiment-df-hosted-cell.v1",
+    "sdk_max_retries": 0,
+    "shard_count": 30,
+    "shard_index": 2,
+    "source_sha256": {
+      "audit_experiment_df.py": "260694fb97c5c765e0a93cbece73ece0ee8161a03fbd63f217552c0dd5475148",
+      "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+      "experiment_df_protocol.py": "d7fc06c8191a7491c5cf05cc1594f2d6fd2db76e870ab43c09e0a83a51c0eb7e",
+      "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+      "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+    },
+    "study_id": "chronos_round2_tree3_leave_one_out_terra_low_study_v1",
+    "transport_policy": {
+      "initial_delay_seconds": 20,
+      "max_delay_seconds": 300,
+      "max_wait_seconds_per_call": 7200,
+      "procedure": "specs/journal-extension-sep14/round2-df-leave-one-out-plan-2026-10-08.md",
+      "schema": "chronos.experiment-df-transport-wait.v1",
+      "sdk_max_retries": 0,
+      "wait_on": [
+        "RateLimitError",
+        "APITimeoutError"
+      ]
+    }
+  },
+  "evidence_sha256": "6c7b2a21f660cdddfc3a1600463dc29551429475698fd007528b9e1903431e31",
+  "parent_prefix_preserved": true,
+  "parse_failures": [],
+  "passed": false,
+  "raw_accounting": {
+    "accounting_complete": true,
+    "complete_calls": 6,
+    "completed_jobs": 0,
+    "events": 15,
+    "failed_calls": 3,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.026249999999999996,
+    "observed_invocations": 9,
+    "started_attempts": 3,
+    "unknown_cost_calls": 0
+  },
+  "schema": "chronos.experiment-df-hosted-audit.v1",
+  "terminal_error": {
+    "message": "Could not parse response content as the length limit was reached - CompletionUsage(completion_tokens=256, prompt_tokens=855, total_tokens=1111, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=197, rejected_prediction_tokens=None, text_tokens=None), prompt_tokens_details=None, cost={'input_tokens_cost_nanodollars': 1710000, 'output_tokens_cost_nanodollars': 3072000}, total_backend_latency_ms=3957)",
+    "status_code": null,
+    "type": "LengthFinishReasonError"
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "note": "Runs whose source differs from the frozen C builder (provider-429 resumes and/or transport-wait policy); keyed by exact run folder.",
+  "runs": {
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s06-v1/3": {
+      "kind": "provider_429_generic_v1",
+      "list_runs_path": "kaggle/round2_generated/experiment_c_gemini_s06_v3_browser_list_runs_raw_20260925_v1.json",
+      "list_runs_sha256": "052aa06d6fbc7b90fc47dc3c20cd017a0b90f2ddd32168db279e2b22be1793be",
+      "platform_run_id": 3197816,
+      "platform_version_id": 806571,
+      "version": 3
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s07-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3225977,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s08-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3226361,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s09-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3227599,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s10-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3228215,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s11-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3228819,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s12-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3230479,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s13-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3231415,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s14-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3232340,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s15-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3233411,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s16-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3233563,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s17-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3234059,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s18-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3234832,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s19-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3235566,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s20-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3235971,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s21-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3236482,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s22-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3236734,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s23-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3237930,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s24-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3238782,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s25-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3239057,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s26-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3240314,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s27-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3240546,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s28-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3240702,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/gemini-minimal/chronos-r2-tree4-c-gemini-minimal-s29-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3240804,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/2": {
+      "kind": "qwen_s02_repair_v1",
+      "list_runs_path": "kaggle/round2_generated/experiment_c_qwen_s02_v2_browser_list_runs_raw_20260925_v1.json",
+      "list_runs_sha256": "fb7ac3c6f63983064716812887b1f7bbc4d0d4412ba29cdb054a4a70b6f4830c",
+      "platform_run_id": 3196496,
+      "platform_version_id": 805863,
+      "version": 2
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/3": {
+      "kind": "provider_429_generic_v1",
+      "list_runs_path": "kaggle/round2_generated/experiment_c_qwen_s02_v3_browser_list_runs_raw_20260925_v1.json",
+      "list_runs_sha256": "f127ae0e24a9d82d41550e3717c3552294b5a4158650543c10889106216f1c6b",
+      "platform_run_id": 3201975,
+      "platform_version_id": 808108,
+      "version": 3
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s02-v1/4": {
+      "kind": "provider_429_generic_v1",
+      "list_runs_path": "kaggle/round2_generated/experiment_c_qwen_s02_v4_browser_list_runs_raw_20260925_v1.json",
+      "list_runs_sha256": "78b923c3440720b376f9f58c31639a24d3b85f542dfd0066a368b2976fe961f7",
+      "platform_run_id": 3225777,
+      "platform_version_id": 810198,
+      "version": 4
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s03-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3226037,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s04-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3226834,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s05-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3227890,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s06-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3228436,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s07-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3229204,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s08-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3230619,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s09-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3231844,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s10-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3232967,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s11-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3233504,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s12-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3233789,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s13-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3234483,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s14-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3235209,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s15-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3235867,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s16-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3236285,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s17-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3236630,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s18-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3236886,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s19-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3238553,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s20-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3238933,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s21-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3239543,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s22-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3240466,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s23-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3240629,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s24-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3240752,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s25-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3240891,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s26-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3240995,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s27-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3241121,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s28-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3241248,
+      "version": 1
+    },
+    "kaggle/round2_runs_20260920/experiment_c_study/qwen-low/chronos-r2-tree4-c-qwen-low-s29-v1/1": {
+      "kind": "provider_429_generic_v1",
+      "platform_run_id": 3241323,
+      "version": 1
+    }
+  },
+  "schema": "chronos.experiment-c-registered-variant-runs.v1"
+}

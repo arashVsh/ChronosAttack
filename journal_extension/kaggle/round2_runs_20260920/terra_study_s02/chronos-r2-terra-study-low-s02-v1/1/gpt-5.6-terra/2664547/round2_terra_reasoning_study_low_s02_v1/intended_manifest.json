@@ -1,0 +1,1091 @@
+{
+  "accepted_preflight_receipt_sha256": "77d2b0eee32b20e66d2bd203c00a011d40184c482b0b2bf1d11aea436f5f7467",
+  "arm": null,
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "effective_ceiling_usd": 0.95,
+  "identity": "9f64ef1f65e1e6c1ae7baf36ca94ec47c992bf5bd6f89ddf767efe367c6f861b",
+  "incremental_ceiling_usd": 0.95,
+  "job_count": 69,
+  "jobs": [
+    {
+      "calls": 5,
+      "condition": "18",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|18|9",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "13",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|13|6",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "equity_tool",
+        "cost_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|stateful|attack|10",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "4",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|4|7",
+      "mode": "permutation_stateful",
+      "order": [
+        "equity_tool",
+        "cost_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "12",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|12|7",
+      "mode": "permutation_stateful",
+      "order": [
+        "survival_tool",
+        "equity_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "20",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|20|7",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "equity_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|stateful|natural|24",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 24,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "22",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|22|8",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "equity_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "4",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|4|2",
+      "mode": "budget",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "3",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|3|3",
+      "mode": "budget",
+      "order": [
+        "equity_tool",
+        "cost_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "19",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|19|5",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "2",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|2|9",
+      "mode": "budget",
+      "order": [
+        "equity_tool",
+        "survival_tool",
+        "cost_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "16",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|16|5",
+      "mode": "permutation_stateful",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "equity_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "canonical",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|barrier|canonical|14",
+      "mode": "barrier",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 14,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|0|14",
+      "mode": "budget",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 14,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|stateful|attack|3",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "4",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|4|1",
+      "mode": "budget",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "18",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|18|5",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|0|10",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "0",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|0|7",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "21",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|21|3",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "19",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|19|10",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "2",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|2|6",
+      "mode": "permutation_stateful",
+      "order": [
+        "equity_tool",
+        "survival_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "14",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|14|6",
+      "mode": "permutation_stateful",
+      "order": [
+        "survival_tool",
+        "heat_tool",
+        "equity_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "20",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|20|3",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "equity_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "2",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|2|7",
+      "mode": "budget",
+      "order": [
+        "equity_tool",
+        "survival_tool",
+        "cost_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "6",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|6|3",
+      "mode": "budget",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "6",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|6|12",
+      "mode": "budget",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 12,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "5",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|5|1",
+      "mode": "budget",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "5",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|5|8",
+      "mode": "budget",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "6",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|6|8",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "equity_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "11",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|11|4",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|stateful|attack|20",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 20,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "2",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|2|8",
+      "mode": "permutation_stateful",
+      "order": [
+        "equity_tool",
+        "survival_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "14",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|14|7",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "heat_tool",
+        "equity_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "10",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|10|10",
+      "mode": "permutation_stateful",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "equity_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "canonical",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|barrier|canonical|2",
+      "mode": "barrier",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "22",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|22|7",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "equity_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "14",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|14|2",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "heat_tool",
+        "equity_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "11",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|11|7",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "21",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|21|7",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "canonical",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|barrier|canonical|4",
+      "mode": "barrier",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "11",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|11|3",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|stateful|attack|24",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 24,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "17",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|17|5",
+      "mode": "permutation_stateful",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "20",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|20|3",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "equity_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "1",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|1|3",
+      "mode": "permutation_stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "cost_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "natural",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|stateless|natural|9",
+      "mode": "stateless",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|stateful|attack|11",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 11,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "5",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|5|3",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "cost_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "canonical",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|barrier|canonical|7",
+      "mode": "barrier",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "23",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|23|10",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "3",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|3|1",
+      "mode": "permutation_stateful",
+      "order": [
+        "equity_tool",
+        "survival_tool",
+        "cost_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "9",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|9|1",
+      "mode": "permutation_stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "4",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|4|14",
+      "mode": "budget",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 14,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "5",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|5|2",
+      "mode": "budget",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "1",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|1|14",
+      "mode": "budget",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "cost_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 14,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "16",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|16|7",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "equity_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "21",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|21|5",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "5",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|5|2",
+      "mode": "permutation_stateful",
+      "order": [
+        "equity_tool",
+        "cost_tool",
+        "survival_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "12",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|12|7",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "equity_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "18",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|permutation_stateful|18|7",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "equity_tool",
+        "heat_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "6",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|6|5",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "equity_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|stateful|attack|29",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 29,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "5",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|budget|5|4",
+      "mode": "budget",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "10",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|10|7",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "equity_tool",
+        "survival_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "3",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|3|9",
+      "mode": "consistency",
+      "order": [
+        "equity_tool",
+        "survival_tool",
+        "cost_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "16",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|16|2",
+      "mode": "consistency",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "equity_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 1,
+      "condition": "8",
+      "id": "chronos_round2_terra_reasoning_study_low_v1|study|openai/gpt-5.6-terra|tree4|consistency|8|7",
+      "mode": "consistency",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "equity_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "tree4"
+    }
+  ],
+  "kind": "study",
+  "manifest_sha256": "111cb94a7baa1af7ce81fb7c940858083d0082d4cfb0793c8304c454115b0b87",
+  "minimal_unsupported_receipt_sha256": "4e6e9f30bc1803e087ba434b0ce049723567530be10ade9c1569199138d01b2a",
+  "model": "openai/gpt-5.6-terra",
+  "parent_ledger_sha256": null,
+  "planned_calls": 229,
+  "protocol_extension_sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "seed_audit": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "shard_count": 10,
+  "shard_index": 2,
+  "source_sha256": {
+    "audit_four_observation.py": "16aa34b225e2bfe041a8bd320e8b3a583014b266a85e2d4952cf3b23f47eb69c",
+    "audit_round2_defense.py": "fc573b2510fe883ec35a160c2241f336db74f48e9f6a70897ec3e90c4acab5b7",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "four_observation_defenses.py": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "round2_manifest_v1.json": "ed050bc39274cabd4f15545bf6078b36aeb0a40930458f12d11bc5e0cfeeb9b2"
+  },
+  "study_id": "chronos_round2_terra_reasoning_study_low_v1"
+}

@@ -1,0 +1,15 @@
+{
+  "ceiling_usd": 0.5,
+  "contract_sha256": "e1d7324c956326f47de433f86b24a93a4d87d253148c8ae8beb6ce8943995bff",
+  "experiment_b_analysis_sha256": "05975363060f0b4080bb349303008d194f45f95cd333047a8a6b5b4dfb895dcb",
+  "fresh_quota_attestation_sha256": "e727a9fcc522e1d77a5e9010994dd3b1cf7e9f32029175ccd8e385ea4c7e8d18",
+  "launch_authorized": true,
+  "parent_ledger_sha256": null,
+  "receipt_sha256": "e94055f5a20c8a1f3d6b50e33ee3768e0546b9f65fef639b38e7951377c7e86d",
+  "schema": "chronos.experiment-c-prelaunch-receipt.v1",
+  "selection_manifest_sha256": "33e8bce622d29ba5048bacd0dd4a878975ee15458a1d284d408d0cd4fad63749",
+  "source_path": "kaggle/round2_generated/tree4_c_claude_none_s15_v1.py",
+  "source_sha256": "2a26c5dfc7a79a8ad61e5b72161998f2dc4b15096eb18c5502c176a7d91a1bcd",
+  "staged_manifest_sha256": "9039d659777cb14ffe2a72123a17ab68e974d7d90a04e9e89d51886b2446dde8",
+  "task_name": "chronos-r2-tree4-c-claude-none-s15-v1"
+}

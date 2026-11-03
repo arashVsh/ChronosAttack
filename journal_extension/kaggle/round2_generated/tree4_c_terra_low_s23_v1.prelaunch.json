@@ -1,0 +1,15 @@
+{
+  "ceiling_usd": 0.5,
+  "contract_sha256": "09346982f186f852e4a3584a821f4210677a3cc4e0578c5b3771b3dc86285b8b",
+  "experiment_b_analysis_sha256": "05975363060f0b4080bb349303008d194f45f95cd333047a8a6b5b4dfb895dcb",
+  "fresh_quota_attestation_sha256": "43183a191e42fcc92c05a75f0161ef0ffde9dd2e3ffa261bc8697f80e78845e1",
+  "launch_authorized": true,
+  "parent_ledger_sha256": null,
+  "receipt_sha256": "c7a72cb9dafdee29e40a90bc15d55bd6345a84573020c6e5e7bd87d905072b99",
+  "schema": "chronos.experiment-c-prelaunch-receipt.v1",
+  "selection_manifest_sha256": "a462db231f9b42463e2f96e5bd93f1d950e9a1be65a8ffa1523da82447b3ec38",
+  "source_path": "kaggle/round2_generated/tree4_c_terra_low_s23_v1.py",
+  "source_sha256": "8db80a378c2a91b7495ab0a9fa1754947ac4e960adfbe4286b13a11fe42ab825",
+  "staged_manifest_sha256": "9039d659777cb14ffe2a72123a17ab68e974d7d90a04e9e89d51886b2446dde8",
+  "task_name": "chronos-r2-tree4-c-terra-low-s23-v1"
+}

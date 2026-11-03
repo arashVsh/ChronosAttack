@@ -1,0 +1,87 @@
+{
+  "accepted_preflight_receipt_sha256": "19b1483846ed09d5611157f194000124cf0a61ab20eba7537d20de64ba251f9e",
+  "allocation_exhausted": false,
+  "arm": null,
+  "audit_failed": "ValueError('Missing explanation')",
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "effective_ceiling_usd": 2.0,
+  "evidence_sha256": "f04a16cfd1c70bfa9b1997a0e9956fc3909838c8df72540ec7bcaf40fda8914f",
+  "identity": "2c40c61c4fb4afcfec31f3f7c1d4e322d939e03f0db02ac531c6e73a2a8480a0",
+  "incremental_ceiling_usd": 2.0,
+  "job_count": 69,
+  "kind": "study",
+  "manifest_sha256": "ed510b61370e20cef4b9e5233592c74ac3205bdaa1ceecac10b0cb7042067d19",
+  "minimal_unsupported_receipt_sha256": "ab6f16f798151e766a5baf0f76fc4746b53e9abd60730c7be86ccae22f663d8f",
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "new_suffix_accounting": {
+    "accounting_complete": true,
+    "complete_calls": 22,
+    "completed_jobs": 8,
+    "events": 40,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.09021150000000001,
+    "observed_invocations": 22,
+    "started_attempts": 9,
+    "unknown_cost_calls": 0
+  },
+  "parent_ledger_sha256": null,
+  "parent_prefix_preserved": true,
+  "parse_failures": [],
+  "passed": false,
+  "planned_calls": 217,
+  "protocol_extension_sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+  "raw_accounting": {
+    "accounting_complete": true,
+    "complete_calls": 22,
+    "completed_jobs": 8,
+    "events": 40,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.09021150000000001,
+    "observed_invocations": 22,
+    "started_attempts": 9,
+    "unknown_cost_calls": 0
+  },
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "shard_count": 10,
+  "shard_index": 0,
+  "source_sha256": {
+    "audit_four_observation.py": "16aa34b225e2bfe041a8bd320e8b3a583014b266a85e2d4952cf3b23f47eb69c",
+    "audit_round2_defense.py": "fc573b2510fe883ec35a160c2241f336db74f48e9f6a70897ec3e90c4acab5b7",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "four_observation_defenses.py": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "round2_manifest_v1.json": "ed050bc39274cabd4f15545bf6078b36aeb0a40930458f12d11bc5e0cfeeb9b2"
+  },
+  "stopped_early": "ValueError('Missing explanation')",
+  "study_id": "chronos_round2_claude_reasoning_study_low_v1",
+  "terminal_error": {
+    "code": null,
+    "message": "Missing explanation",
+    "param": null,
+    "status_code": null,
+    "type": "ValueError"
+  },
+  "transient_waits": {
+    "count": 0,
+    "seconds": 0
+  }
+}

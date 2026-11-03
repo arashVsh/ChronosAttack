@@ -1,0 +1,21 @@
+{
+  "attestation_sha256": "9336763b74510781aa3cf6d8056505aab76828e0522e2087eee29fffd28b1f91",
+  "endpoint": "/api/v1/benchmarks/tasks/quota",
+  "queried_at_end_utc": "2026-09-20T17:49:12.053375+00:00",
+  "queried_at_start_utc": "2026-09-20T17:49:09.638899+00:00",
+  "response": {
+    "daily_quota_used_usd": 8.555856,
+    "total_daily_quota_allowed_usd": 10.0
+  },
+  "run_context": {
+    "evidence_sha256": "d2316f8f14a6e010b3693ab196361bbdced9af9f1b74a3df5480673755ee2a20",
+    "last_evidence_event_utc": "2026-09-20T17:43:07.155067+00:00",
+    "model": "anthropic/claude-sonnet-4-6@default",
+    "reasoning": "minimal",
+    "run_id": 2671436,
+    "study_id": "chronos_round2_claude_reasoning_preflight_minimal_retry_v1",
+    "task": "chronos-r2-claude-preflight-minimal-retry-v1",
+    "terminal_sha256": "0ccbb834b4291b103e514963e465e6217dce75318ba161988b4b90793b4af169"
+  },
+  "schema": "chronos.kaggle-benchmark-quota-attestation.v1"
+}

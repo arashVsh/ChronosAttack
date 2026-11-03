@@ -1,0 +1,670 @@
+{
+  "batch": "gemini_remaining_wave02_shards_13_20",
+  "collection_manifest_sha256": "46f21eecf379548ab21914741b811b8913f6848744c8a6dc4c1c55183c490a9e",
+  "frozen_at": "2026-09-21T16:52:28.955834+00:00",
+  "job_count": 184,
+  "model": "google/gemini-3.6-flash",
+  "planned_calls": 624,
+  "post_wave_quota_attestation": {
+    "bytes": 933,
+    "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/quota_after_gemini_remaining_wave02_20260921_v1.json",
+    "sha256": "482741d0c77825b827150e6dd3df9a14e87f2e51b500eeef74e95c3091f2372a"
+  },
+  "post_wave_quota_attestation_sha256": "97c9e948cbd0c4b90f9c8eccc590934bc01715a4700ca1d0a9a94a62f2c19c34",
+  "prelaunch_manifest": {
+    "bytes": 23696,
+    "path": "kaggle/round2_generated/experiment_a_gemini_remaining_tasks_v1.json",
+    "sha256": "7f588180c7be31de0ecccbb5f7726ef4251dfcc07b4dad8179b1b034a51de0d1"
+  },
+  "previous_collection_manifest_sha256": "bbbf3eac24feba86235ec3c4a2da374764569bc161c4737a0a8077ff9b0e0ec6",
+  "reasoning": "minimal",
+  "repair_attestation": {
+    "bytes": 3878,
+    "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s18_s20_version1_no_run_attestation_v1.json",
+    "sha256": "0255db47be8429261f3ffe9e6bb8f9d082d0f66a818b1088e837014d193d521c"
+  },
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-gemini-remaining-wave02-collection.v1",
+  "shard_count": 8,
+  "shards": [
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 83,
+        "completed_jobs": 23,
+        "events": 129,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.073266,
+        "observed_invocations": 83,
+        "planned_calls": 83,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6906,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s13/chronos-r2-water4-study-gemini-minimal-s13-v1/1/gemini-3.6-flash/2713178/chronos-r2-water4-study-gemini-minimal-s13-v1-run_id_Run_1_google_gemini-3.6-flash.atif.json",
+          "sha256": "ca992ad3b9bc3b163ceecd6793a099c553225873cc8d8972858a61fe708a72b3"
+        },
+        "audit": {
+          "bytes": 80706,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s13/chronos-r2-water4-study-gemini-minimal-s13-v1/1/gemini-3.6-flash/2713178/round2_water4_study_gemini_minimal_s13_v1/audit.json",
+          "sha256": "44a368e91f5e6bd7c751b0d80913a0eb65f31dbb798ee11e3b1d59ef14f6fc76"
+        },
+        "evidence": {
+          "bytes": 207878,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s13/chronos-r2-water4-study-gemini-minimal-s13-v1/1/gemini-3.6-flash/2713178/round2_water4_study_gemini_minimal_s13_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "557b5f6fce23617381e3479bf697c25b8057d5994963524bedcea8186b310aeb"
+        },
+        "intended_manifest": {
+          "bytes": 11117,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s13/chronos-r2-water4-study-gemini-minimal-s13-v1/1/gemini-3.6-flash/2713178/round2_water4_study_gemini_minimal_s13_v1/intended_manifest.json",
+          "sha256": "672206f61378b7196f63334f4550196fb421f0bd50b540d2166fb6586f144365"
+        },
+        "notebook": {
+          "bytes": 602868,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s13/chronos-r2-water4-study-gemini-minimal-s13-v1/1/gemini-3.6-flash/2713178/__notebook__.ipynb",
+          "sha256": "dd49a824039f436139313690c1587775f154e28a2dfb50aab3b211b4e7ba23e9"
+        },
+        "result": {
+          "bytes": 677,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s13/chronos-r2-water4-study-gemini-minimal-s13-v1/1/gemini-3.6-flash/2713178/chronos-r2-water4-study-gemini-minimal-s13-v1-run_id_Run_1_google_gemini-3.6-flash.result.json",
+          "sha256": "e861eb33febac85387fa3cd967be73b07203d31c38a8657c8bc14a4594e942d6"
+        },
+        "run": {
+          "bytes": 6504,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s13/chronos-r2-water4-study-gemini-minimal-s13-v1/1/gemini-3.6-flash/2713178/chronos-r2-water4-study-gemini-minimal-s13-v1-run_id_Run_1_google_gemini-3.6-flash.run.json",
+          "sha256": "c26824973228384672d0565c0f013bdf9413e4a24b6b911906d1e984347dd6e6"
+        },
+        "task": {
+          "bytes": 5886,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s13/chronos-r2-water4-study-gemini-minimal-s13-v1/1/gemini-3.6-flash/2713178/chronos-r2-water4-study-gemini-minimal-s13-v1.task.json",
+          "sha256": "31bcbb06ecc1c60bad4a956f5e0da1fdee5c31b59afd1b42ca56f640e779812e"
+        },
+        "terminal": {
+          "bytes": 3377,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s13/chronos-r2-water4-study-gemini-minimal-s13-v1/1/gemini-3.6-flash/2713178/round2_water4_study_gemini_minimal_s13_v1/terminal.json",
+          "sha256": "1ebc3d9a8d963adb6d123ef223d0306b68bbdb9da414db7eec2e92fb222d2dfc"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-21T16:20:06.021805Z",
+      "hosted_audit_passed": true,
+      "model": "google/gemini-3.6-flash",
+      "run_id": 2713178,
+      "shard_index": 13,
+      "source": {
+        "bytes": 192006,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s13_v1.py",
+        "sha256": "9e2b53b78a317f114c0d05c91982b31274f3db724fba12d1c2c196713c615da6"
+      },
+      "started_at": "2026-09-21T16:17:58.445778Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-gemini-minimal-s13-v1",
+      "task_version": 1
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 75,
+        "completed_jobs": 23,
+        "events": 121,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.06737775,
+        "observed_invocations": 75,
+        "planned_calls": 75,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6906,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s14/chronos-r2-water4-study-gemini-minimal-s14-v1/1/gemini-3.6-flash/2713200/chronos-r2-water4-study-gemini-minimal-s14-v1-run_id_Run_1_google_gemini-3.6-flash.atif.json",
+          "sha256": "63fedd0d3231dfe60f4e5a66e43e7f557c320fa681af555e4e4921dee9851b81"
+        },
+        "audit": {
+          "bytes": 80706,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s14/chronos-r2-water4-study-gemini-minimal-s14-v1/1/gemini-3.6-flash/2713200/round2_water4_study_gemini_minimal_s14_v1/audit.json",
+          "sha256": "9903c71421dabf2a2f2ab36c10393e34e7a4598b75698397e76b9ea8d97f4259"
+        },
+        "evidence": {
+          "bytes": 194505,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s14/chronos-r2-water4-study-gemini-minimal-s14-v1/1/gemini-3.6-flash/2713200/round2_water4_study_gemini_minimal_s14_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "27526074279ddcb8b123a5ae188d6327e5f8b54ff2feb181f27722f273f70767"
+        },
+        "intended_manifest": {
+          "bytes": 11181,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s14/chronos-r2-water4-study-gemini-minimal-s14-v1/1/gemini-3.6-flash/2713200/round2_water4_study_gemini_minimal_s14_v1/intended_manifest.json",
+          "sha256": "2f65e96799b217f33d59a854988634f76a11eb5b5605a1cc0413e65895ec28bc"
+        },
+        "notebook": {
+          "bytes": 588063,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s14/chronos-r2-water4-study-gemini-minimal-s14-v1/1/gemini-3.6-flash/2713200/__notebook__.ipynb",
+          "sha256": "6cd44e04463dc5e08439ef234586a59e4659211d559e5e7b95299581fe691315"
+        },
+        "result": {
+          "bytes": 677,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s14/chronos-r2-water4-study-gemini-minimal-s14-v1/1/gemini-3.6-flash/2713200/chronos-r2-water4-study-gemini-minimal-s14-v1-run_id_Run_1_google_gemini-3.6-flash.result.json",
+          "sha256": "4919a2e80416bec53ed1edf09c7e4836308ebe6a1d1b7e8ee7d48a198c8654f7"
+        },
+        "run": {
+          "bytes": 6504,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s14/chronos-r2-water4-study-gemini-minimal-s14-v1/1/gemini-3.6-flash/2713200/chronos-r2-water4-study-gemini-minimal-s14-v1-run_id_Run_1_google_gemini-3.6-flash.run.json",
+          "sha256": "53a09dd3c432dc31d3e070b70f7ad253bce6612f1ffebf74172c6fc577172e58"
+        },
+        "task": {
+          "bytes": 5886,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s14/chronos-r2-water4-study-gemini-minimal-s14-v1/1/gemini-3.6-flash/2713200/chronos-r2-water4-study-gemini-minimal-s14-v1.task.json",
+          "sha256": "68dd328e71d39e6bae48c6fbd083827dbf9f20120b13ffcafa6987ce095a19ca"
+        },
+        "terminal": {
+          "bytes": 3409,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s14/chronos-r2-water4-study-gemini-minimal-s14-v1/1/gemini-3.6-flash/2713200/round2_water4_study_gemini_minimal_s14_v1/terminal.json",
+          "sha256": "510f281199d40c1470367513b2a4d8cc3e19dc60d9537a585f378a942d8a4a73"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-21T16:21:06.581583Z",
+      "hosted_audit_passed": true,
+      "model": "google/gemini-3.6-flash",
+      "run_id": 2713200,
+      "shard_index": 14,
+      "source": {
+        "bytes": 192070,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s14_v1.py",
+        "sha256": "081e7be7ab6fd9e431164906dd2b35532182a3ca9189b47cc9881f33a1b8f408"
+      },
+      "started_at": "2026-09-21T16:19:13.840202Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-gemini-minimal-s14-v1",
+      "task_version": 1
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 79,
+        "completed_jobs": 23,
+        "events": 125,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.071442,
+        "observed_invocations": 79,
+        "planned_calls": 79,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6906,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s15/chronos-r2-water4-study-gemini-minimal-s15-v1/1/gemini-3.6-flash/2713208/chronos-r2-water4-study-gemini-minimal-s15-v1-run_id_Run_1_google_gemini-3.6-flash.atif.json",
+          "sha256": "601e9a602f383492407f368b3439f5a2798c26c292630f5d7fac51f4a583d6b9"
+        },
+        "audit": {
+          "bytes": 80706,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s15/chronos-r2-water4-study-gemini-minimal-s15-v1/1/gemini-3.6-flash/2713208/round2_water4_study_gemini_minimal_s15_v1/audit.json",
+          "sha256": "a5780a75a13f11461270527bd76bffd26ab0afec97885cebe7f3f3f18773b219"
+        },
+        "evidence": {
+          "bytes": 202309,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s15/chronos-r2-water4-study-gemini-minimal-s15-v1/1/gemini-3.6-flash/2713208/round2_water4_study_gemini_minimal_s15_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "04d7bc2d45ca1ca478334147eefb275c870dbdd67a7f09f4ef16aac367a22bdb"
+        },
+        "intended_manifest": {
+          "bytes": 11223,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s15/chronos-r2-water4-study-gemini-minimal-s15-v1/1/gemini-3.6-flash/2713208/round2_water4_study_gemini_minimal_s15_v1/intended_manifest.json",
+          "sha256": "0c4306721394864796948f34dbc66106bf53d0aa99700646e7e1ec16d084e5cc"
+        },
+        "notebook": {
+          "bytes": 596655,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s15/chronos-r2-water4-study-gemini-minimal-s15-v1/1/gemini-3.6-flash/2713208/__notebook__.ipynb",
+          "sha256": "386002bffd27b0fd23cfdeaa09c2cd50d2c716bb158d57dbd6916dd324e542d7"
+        },
+        "result": {
+          "bytes": 677,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s15/chronos-r2-water4-study-gemini-minimal-s15-v1/1/gemini-3.6-flash/2713208/chronos-r2-water4-study-gemini-minimal-s15-v1-run_id_Run_1_google_gemini-3.6-flash.result.json",
+          "sha256": "27c91fdb7fcbdefc811cf4787a75166b95f8d350e6f3df05194a1749cd2a6ffe"
+        },
+        "run": {
+          "bytes": 6504,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s15/chronos-r2-water4-study-gemini-minimal-s15-v1/1/gemini-3.6-flash/2713208/chronos-r2-water4-study-gemini-minimal-s15-v1-run_id_Run_1_google_gemini-3.6-flash.run.json",
+          "sha256": "449bc20c0952edf582d188058cbf68dadfa26d983f818e170c3f788fcd4cb3c3"
+        },
+        "task": {
+          "bytes": 5886,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s15/chronos-r2-water4-study-gemini-minimal-s15-v1/1/gemini-3.6-flash/2713208/chronos-r2-water4-study-gemini-minimal-s15-v1.task.json",
+          "sha256": "d0a43b92caa11fb17222c83cbfd4a1adb80b3cba893e442cb913d0b52fa4b825"
+        },
+        "terminal": {
+          "bytes": 3430,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s15/chronos-r2-water4-study-gemini-minimal-s15-v1/1/gemini-3.6-flash/2713208/round2_water4_study_gemini_minimal_s15_v1/terminal.json",
+          "sha256": "dc7f8a20d8124d2e2543dc20aded35bdafae9d36591ca4d429b123d4f362dc52"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-21T16:21:30.834806Z",
+      "hosted_audit_passed": true,
+      "model": "google/gemini-3.6-flash",
+      "run_id": 2713208,
+      "shard_index": 15,
+      "source": {
+        "bytes": 192112,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s15_v1.py",
+        "sha256": "b71d5fe8ec9c5c97182745b6d5a89a855f7546fdf836f7fbc8e2f44e0efc2ffa"
+      },
+      "started_at": "2026-09-21T16:19:22.836729Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-gemini-minimal-s15-v1",
+      "task_version": 1
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 87,
+        "completed_jobs": 23,
+        "events": 133,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.07695375,
+        "observed_invocations": 87,
+        "planned_calls": 87,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6906,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s16/chronos-r2-water4-study-gemini-minimal-s16-v1/1/gemini-3.6-flash/2713204/chronos-r2-water4-study-gemini-minimal-s16-v1-run_id_Run_1_google_gemini-3.6-flash.atif.json",
+          "sha256": "e1822c9d9b3fe0007856eee6c7f742c361b97e265a065cc39abb87fc7bd6c570"
+        },
+        "audit": {
+          "bytes": 80706,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s16/chronos-r2-water4-study-gemini-minimal-s16-v1/1/gemini-3.6-flash/2713204/round2_water4_study_gemini_minimal_s16_v1/audit.json",
+          "sha256": "b53b2a6b7f24aa2be15d525fe432dcbc77870647ccbe4da3ee77ec4d68d6ad2f"
+        },
+        "evidence": {
+          "bytes": 213962,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s16/chronos-r2-water4-study-gemini-minimal-s16-v1/1/gemini-3.6-flash/2713204/round2_water4_study_gemini_minimal_s16_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "8a82b50e6c5370ea7ef12b54ef7910396945c74aa554cbdf1e349b16cdd36327"
+        },
+        "intended_manifest": {
+          "bytes": 11199,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s16/chronos-r2-water4-study-gemini-minimal-s16-v1/1/gemini-3.6-flash/2713204/round2_water4_study_gemini_minimal_s16_v1/intended_manifest.json",
+          "sha256": "ff671ffa55db63ed086175188319b6385b74e7934776f19091c568ee6f3e64df"
+        },
+        "notebook": {
+          "bytes": 609781,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s16/chronos-r2-water4-study-gemini-minimal-s16-v1/1/gemini-3.6-flash/2713204/__notebook__.ipynb",
+          "sha256": "cc6d1c80dc245ee0e662707c0f16efd0b7594ace313696a781979c4e812c7c18"
+        },
+        "result": {
+          "bytes": 677,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s16/chronos-r2-water4-study-gemini-minimal-s16-v1/1/gemini-3.6-flash/2713204/chronos-r2-water4-study-gemini-minimal-s16-v1-run_id_Run_1_google_gemini-3.6-flash.result.json",
+          "sha256": "c0eb99fa0dd5f8364863d6d333c1a49f3cf52e0443f4b59fdf8d57b43481e845"
+        },
+        "run": {
+          "bytes": 6504,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s16/chronos-r2-water4-study-gemini-minimal-s16-v1/1/gemini-3.6-flash/2713204/chronos-r2-water4-study-gemini-minimal-s16-v1-run_id_Run_1_google_gemini-3.6-flash.run.json",
+          "sha256": "786a776b7422a4980fbb15831709206f8bdac72092ff8cf5f89f64dc52257c24"
+        },
+        "task": {
+          "bytes": 5886,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s16/chronos-r2-water4-study-gemini-minimal-s16-v1/1/gemini-3.6-flash/2713204/chronos-r2-water4-study-gemini-minimal-s16-v1.task.json",
+          "sha256": "eb52ef305c6928e612cf656708be9adad3971ca9c6ea2f7400c0364f969c6687"
+        },
+        "terminal": {
+          "bytes": 3418,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s16/chronos-r2-water4-study-gemini-minimal-s16-v1/1/gemini-3.6-flash/2713204/round2_water4_study_gemini_minimal_s16_v1/terminal.json",
+          "sha256": "d2004e0b6fc998dda5e3cd6ebc45e147a09406487fe3f10bba7c409a45bdce52"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-21T16:21:35.142499Z",
+      "hosted_audit_passed": true,
+      "model": "google/gemini-3.6-flash",
+      "run_id": 2713204,
+      "shard_index": 16,
+      "source": {
+        "bytes": 192088,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s16_v1.py",
+        "sha256": "0184166caabbf84270957d447d1aa55a89d3933b616c11f9502717287c39dd0c"
+      },
+      "started_at": "2026-09-21T16:19:21.516387Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-gemini-minimal-s16-v1",
+      "task_version": 1
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 91,
+        "completed_jobs": 23,
+        "events": 137,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.08237625,
+        "observed_invocations": 91,
+        "planned_calls": 91,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6906,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s17/chronos-r2-water4-study-gemini-minimal-s17-v1/1/gemini-3.6-flash/2713217/chronos-r2-water4-study-gemini-minimal-s17-v1-run_id_Run_1_google_gemini-3.6-flash.atif.json",
+          "sha256": "27335cbbe74f87597a554e92ea8bd9dbe32514ac7603ac4d271bc64ac069bcab"
+        },
+        "audit": {
+          "bytes": 80706,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s17/chronos-r2-water4-study-gemini-minimal-s17-v1/1/gemini-3.6-flash/2713217/round2_water4_study_gemini_minimal_s17_v1/audit.json",
+          "sha256": "e93fd4690ba6dbeead7dfcc86b21efd4fd11e2c9cfab4e271bb3ea35c77e817d"
+        },
+        "evidence": {
+          "bytes": 223241,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s17/chronos-r2-water4-study-gemini-minimal-s17-v1/1/gemini-3.6-flash/2713217/round2_water4_study_gemini_minimal_s17_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "c6f8b0269cc5f4d7454649a05e07d00a5c3ca6189b881c503cc1b1feed1b4e4e"
+        },
+        "intended_manifest": {
+          "bytes": 11169,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s17/chronos-r2-water4-study-gemini-minimal-s17-v1/1/gemini-3.6-flash/2713217/round2_water4_study_gemini_minimal_s17_v1/intended_manifest.json",
+          "sha256": "94b3e2abbfa4e3edaca30567e4199cf545598d2f76b7000c8ff1a563c0ab8689"
+        },
+        "notebook": {
+          "bytes": 619779,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s17/chronos-r2-water4-study-gemini-minimal-s17-v1/1/gemini-3.6-flash/2713217/__notebook__.ipynb",
+          "sha256": "5e177a465331ba768c8683eae8425180211c91b04022cd09f6b4fec5a84c16bb"
+        },
+        "result": {
+          "bytes": 677,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s17/chronos-r2-water4-study-gemini-minimal-s17-v1/1/gemini-3.6-flash/2713217/chronos-r2-water4-study-gemini-minimal-s17-v1-run_id_Run_1_google_gemini-3.6-flash.result.json",
+          "sha256": "39318f73266060dfbd600e63f7d5bf7ce5478d1f4d5385d60c4e2e04cb7f5c40"
+        },
+        "run": {
+          "bytes": 6504,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s17/chronos-r2-water4-study-gemini-minimal-s17-v1/1/gemini-3.6-flash/2713217/chronos-r2-water4-study-gemini-minimal-s17-v1-run_id_Run_1_google_gemini-3.6-flash.run.json",
+          "sha256": "b8d949aef0584a06832d1cb3a62d715f4da9efa67d1e4164ac1bd6fd7c686d30"
+        },
+        "task": {
+          "bytes": 5886,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s17/chronos-r2-water4-study-gemini-minimal-s17-v1/1/gemini-3.6-flash/2713217/chronos-r2-water4-study-gemini-minimal-s17-v1.task.json",
+          "sha256": "ef3023d6e09cc44a7dadb0c159fd1f4d5a80497f19c6cfc251df201045864256"
+        },
+        "terminal": {
+          "bytes": 3403,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s17/chronos-r2-water4-study-gemini-minimal-s17-v1/1/gemini-3.6-flash/2713217/round2_water4_study_gemini_minimal_s17_v1/terminal.json",
+          "sha256": "f8b5d4ec9d25d8f3e4a20e7cf749936aef35e881b64a371731193bcab684812b"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-21T16:22:04.656748Z",
+      "hosted_audit_passed": true,
+      "model": "google/gemini-3.6-flash",
+      "run_id": 2713217,
+      "shard_index": 17,
+      "source": {
+        "bytes": 192058,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s17_v1.py",
+        "sha256": "f45f53216a994a9944173ba211953d6b0e2ed6bb8b4a15e60e5e220722cbe7cf"
+      },
+      "started_at": "2026-09-21T16:19:45.855765Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-gemini-minimal-s17-v1",
+      "task_version": 1
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 71,
+        "completed_jobs": 23,
+        "events": 117,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.06359325,
+        "observed_invocations": 71,
+        "planned_calls": 71,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6941,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s18/chronos-r2-water4-study-gemini-minimal-s18-repair-v1/1/gemini-3.6-flash/2713606/chronos-r2-water4-study-gemini-minimal-s18-repair-v1-run_id_Run_1_google_gemini-3.6-flash.atif.json",
+          "sha256": "873ba509999e1a040add81d0b8b2f1129e76c3b7ba4a8d125a3a5d44a64dade8"
+        },
+        "audit": {
+          "bytes": 80706,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s18/chronos-r2-water4-study-gemini-minimal-s18-repair-v1/1/gemini-3.6-flash/2713606/round2_water4_study_gemini_minimal_s18_v1/audit.json",
+          "sha256": "ac438edb4e25292c0758704aa2129f0770dbc8e42b8a1fefa7c4944aab61891a"
+        },
+        "evidence": {
+          "bytes": 187149,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s18/chronos-r2-water4-study-gemini-minimal-s18-repair-v1/1/gemini-3.6-flash/2713606/round2_water4_study_gemini_minimal_s18_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "b9f51d66a14302b594c699d57f8d96e5368f91228bd07123c16a22c7306533be"
+        },
+        "intended_manifest": {
+          "bytes": 11183,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s18/chronos-r2-water4-study-gemini-minimal-s18-repair-v1/1/gemini-3.6-flash/2713606/round2_water4_study_gemini_minimal_s18_v1/intended_manifest.json",
+          "sha256": "232753dac2dd32d72415fc76edacf9bd442f24ecb18f37db6be6fabc0f330aed"
+        },
+        "notebook": {
+          "bytes": 579998,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s18/chronos-r2-water4-study-gemini-minimal-s18-repair-v1/1/gemini-3.6-flash/2713606/__notebook__.ipynb",
+          "sha256": "73ceeec2600d455a382e46e1adf81930ebe6fc8ccabe89194ba77f7920fbecb1"
+        },
+        "result": {
+          "bytes": 691,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s18/chronos-r2-water4-study-gemini-minimal-s18-repair-v1/1/gemini-3.6-flash/2713606/chronos-r2-water4-study-gemini-minimal-s18-repair-v1-run_id_Run_1_google_gemini-3.6-flash.result.json",
+          "sha256": "e19ad32473dc8bec52ac8a91377c57fc46acdb8863396e74f68a9aee62314e49"
+        },
+        "run": {
+          "bytes": 6532,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s18/chronos-r2-water4-study-gemini-minimal-s18-repair-v1/1/gemini-3.6-flash/2713606/chronos-r2-water4-study-gemini-minimal-s18-repair-v1-run_id_Run_1_google_gemini-3.6-flash.run.json",
+          "sha256": "fe6273fab3730e800e0dac3d21cf80a0c05dc3a85bce18a3b05c44279c4afc6a"
+        },
+        "task": {
+          "bytes": 5900,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s18/chronos-r2-water4-study-gemini-minimal-s18-repair-v1/1/gemini-3.6-flash/2713606/chronos-r2-water4-study-gemini-minimal-s18-repair-v1.task.json",
+          "sha256": "92809592c0e89625bf3a929994ce39b3c0700c645536faceb56a7bfdc7b7b93c"
+        },
+        "terminal": {
+          "bytes": 3410,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s18/chronos-r2-water4-study-gemini-minimal-s18-repair-v1/1/gemini-3.6-flash/2713606/round2_water4_study_gemini_minimal_s18_v1/terminal.json",
+          "sha256": "96ee3bbeedfa38352aecd7273e331be4581069ede9e03e42b3163fdc572c235b"
+        }
+      },
+      "execution_kind": "task_slug_repair",
+      "finished_at": "2026-09-21T16:46:08.273888Z",
+      "hosted_audit_passed": true,
+      "model": "google/gemini-3.6-flash",
+      "run_id": 2713606,
+      "shard_index": 18,
+      "source": {
+        "bytes": 192079,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s18_repair_v1.py",
+        "sha256": "3df89124f03ae978e83a5c1b2790ac7b226011582ba36e2a8a85d34aae29ee3c"
+      },
+      "started_at": "2026-09-21T16:44:18.783241Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-gemini-minimal-s18-repair-v1",
+      "task_version": 1
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 71,
+        "completed_jobs": 23,
+        "events": 117,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.06255375,
+        "observed_invocations": 71,
+        "planned_calls": 71,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6906,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s19/chronos-r2-water4-study-gemini-minimal-s19-v1/1/gemini-3.6-flash/2713232/chronos-r2-water4-study-gemini-minimal-s19-v1-run_id_Run_1_google_gemini-3.6-flash.atif.json",
+          "sha256": "3f62cb7fadd039db806408eac4c16689e91903bdf03164bfda6f69a1ff49b81c"
+        },
+        "audit": {
+          "bytes": 80661,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s19/chronos-r2-water4-study-gemini-minimal-s19-v1/1/gemini-3.6-flash/2713232/round2_water4_study_gemini_minimal_s19_v1/audit.json",
+          "sha256": "6b0919e87495ef3d40772d22c1e00bc91e98ceefe613c10771b681faeea0e354"
+        },
+        "evidence": {
+          "bytes": 186489,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s19/chronos-r2-water4-study-gemini-minimal-s19-v1/1/gemini-3.6-flash/2713232/round2_water4_study_gemini_minimal_s19_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "16b02ff16cca616619d236766ae33a16b2d2a1c19f23aa32499a699b7f6bc78f"
+        },
+        "intended_manifest": {
+          "bytes": 11173,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s19/chronos-r2-water4-study-gemini-minimal-s19-v1/1/gemini-3.6-flash/2713232/round2_water4_study_gemini_minimal_s19_v1/intended_manifest.json",
+          "sha256": "6d88871eb64c1e403d67ab9bc53bdb5d5731a588261462f4efdd00698a6d6b5a"
+        },
+        "notebook": {
+          "bytes": 579231,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s19/chronos-r2-water4-study-gemini-minimal-s19-v1/1/gemini-3.6-flash/2713232/__notebook__.ipynb",
+          "sha256": "64f7d101d094c0de8058628244f091f5e63feac16d64b9868b5d9e8f7d5c89c0"
+        },
+        "result": {
+          "bytes": 677,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s19/chronos-r2-water4-study-gemini-minimal-s19-v1/1/gemini-3.6-flash/2713232/chronos-r2-water4-study-gemini-minimal-s19-v1-run_id_Run_1_google_gemini-3.6-flash.result.json",
+          "sha256": "6249234536acfd20798dc70cffb87cf6242e0896aae9ec18843b86b102ec0004"
+        },
+        "run": {
+          "bytes": 6504,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s19/chronos-r2-water4-study-gemini-minimal-s19-v1/1/gemini-3.6-flash/2713232/chronos-r2-water4-study-gemini-minimal-s19-v1-run_id_Run_1_google_gemini-3.6-flash.run.json",
+          "sha256": "2e97569422f9a43e7ffa49279df957ab65898ee902baedab95540682beb6a0dd"
+        },
+        "task": {
+          "bytes": 5886,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s19/chronos-r2-water4-study-gemini-minimal-s19-v1/1/gemini-3.6-flash/2713232/chronos-r2-water4-study-gemini-minimal-s19-v1.task.json",
+          "sha256": "30c1cfadf6b9e9595837b53f9eaffb4a9d656a802b3ab1afc44ce5ec13774d43"
+        },
+        "terminal": {
+          "bytes": 3405,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s19/chronos-r2-water4-study-gemini-minimal-s19-v1/1/gemini-3.6-flash/2713232/round2_water4_study_gemini_minimal_s19_v1/terminal.json",
+          "sha256": "20e4e6c4c375b8d5a78afac706768da034b196cfad81e2a06f76c1ff9ed4c22d"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-21T16:22:53.769450Z",
+      "hosted_audit_passed": true,
+      "model": "google/gemini-3.6-flash",
+      "run_id": 2713232,
+      "shard_index": 19,
+      "source": {
+        "bytes": 192062,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s19_v1.py",
+        "sha256": "b1b4f5489b910ef01367dd790014365dbfd5ebd4ec1e4d75bd9f06624a7284d9"
+      },
+      "started_at": "2026-09-21T16:21:00.107298Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-gemini-minimal-s19-v1",
+      "task_version": 1
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 67,
+        "completed_jobs": 23,
+        "events": 113,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.05968125,
+        "observed_invocations": 67,
+        "planned_calls": 67,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6941,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s20/chronos-r2-water4-study-gemini-minimal-s20-repair-v1/1/gemini-3.6-flash/2713605/chronos-r2-water4-study-gemini-minimal-s20-repair-v1-run_id_Run_1_google_gemini-3.6-flash.atif.json",
+          "sha256": "0522248eaaab6c09edd855477503312c1b6acc61a473a75b4de9b0e3951e272f"
+        },
+        "audit": {
+          "bytes": 80706,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s20/chronos-r2-water4-study-gemini-minimal-s20-repair-v1/1/gemini-3.6-flash/2713605/round2_water4_study_gemini_minimal_s20_v1/audit.json",
+          "sha256": "752448acabc97900ebdfa8cfdf58f9a74179d6648013992a06f558b86bccd687"
+        },
+        "evidence": {
+          "bytes": 179821,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s20/chronos-r2-water4-study-gemini-minimal-s20-repair-v1/1/gemini-3.6-flash/2713605/round2_water4_study_gemini_minimal_s20_v1/google_gemini-3.6-flash.jsonl",
+          "sha256": "b5aae88976645b87a82501160cf1223443846fb105d3cd9a24a3d00048d03c10"
+        },
+        "intended_manifest": {
+          "bytes": 11093,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s20/chronos-r2-water4-study-gemini-minimal-s20-repair-v1/1/gemini-3.6-flash/2713605/round2_water4_study_gemini_minimal_s20_v1/intended_manifest.json",
+          "sha256": "466ec215568c25a6f65cdd5960f86a8251a2d836feb03056177a2f6e03d75f6a"
+        },
+        "notebook": {
+          "bytes": 571828,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s20/chronos-r2-water4-study-gemini-minimal-s20-repair-v1/1/gemini-3.6-flash/2713605/__notebook__.ipynb",
+          "sha256": "d660790c2428532d1cc785c5ddbc4c57a78c00f020549025cd4ea5bc38c6e41b"
+        },
+        "result": {
+          "bytes": 691,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s20/chronos-r2-water4-study-gemini-minimal-s20-repair-v1/1/gemini-3.6-flash/2713605/chronos-r2-water4-study-gemini-minimal-s20-repair-v1-run_id_Run_1_google_gemini-3.6-flash.result.json",
+          "sha256": "73a6f25184e7c11f7fc6a806f08a2e63aca73c206e34000351ef79a17c0dfcdd"
+        },
+        "run": {
+          "bytes": 6532,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s20/chronos-r2-water4-study-gemini-minimal-s20-repair-v1/1/gemini-3.6-flash/2713605/chronos-r2-water4-study-gemini-minimal-s20-repair-v1-run_id_Run_1_google_gemini-3.6-flash.run.json",
+          "sha256": "88c3d997f0f51c51b14777612db3a71619123d3663d607144f93a6e563bc2884"
+        },
+        "task": {
+          "bytes": 5900,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s20/chronos-r2-water4-study-gemini-minimal-s20-repair-v1/1/gemini-3.6-flash/2713605/chronos-r2-water4-study-gemini-minimal-s20-repair-v1.task.json",
+          "sha256": "2845f3a1dd378a487f5de2096fe7adf3f97682faa2c35e5d9d069b47cde487d9"
+        },
+        "terminal": {
+          "bytes": 3365,
+          "path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave02/s20/chronos-r2-water4-study-gemini-minimal-s20-repair-v1/1/gemini-3.6-flash/2713605/round2_water4_study_gemini_minimal_s20_v1/terminal.json",
+          "sha256": "f2ea6bbab5165ed85ce7c0a13f3b24ba7975f17193c67f1157615155955ef337"
+        }
+      },
+      "execution_kind": "task_slug_repair",
+      "finished_at": "2026-09-21T16:46:08.050429Z",
+      "hosted_audit_passed": true,
+      "model": "google/gemini-3.6-flash",
+      "run_id": 2713605,
+      "shard_index": 20,
+      "source": {
+        "bytes": 191989,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s20_repair_v1.py",
+        "sha256": "544273ce2d6b676ab489473da792876e1ac0031c0a6542a821adfa3bc7e4249a"
+      },
+      "started_at": "2026-09-21T16:44:38.844574Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-gemini-minimal-s20-repair-v1",
+      "task_version": 1
+    }
+  ],
+  "study_id": "chronos_round2_water4_study_gemini_minimal_v1",
+  "totals": {
+    "batch_known_cost_usd": 0.557244,
+    "complete_calls": 624,
+    "completed_jobs": 184,
+    "events": 992,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "observed_invocations": 624,
+    "planned_calls": 624,
+    "post_batch_known_daily_cost_usd": 1.10377575,
+    "pre_batch_known_daily_cost_usd": 0.54653175,
+    "started_attempts": 184,
+    "unknown_cost_calls": 0
+  }
+}

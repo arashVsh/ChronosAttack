@@ -1,0 +1,232 @@
+{
+  "ceiling_usd": 0.6,
+  "fixture_manifest_sha256": "5f1c223fa26680aea2f846aee9af63fa97f355b4673cce1a42d431cf18623eb8",
+  "identity": "7fa3ddb4f7b50f2ecd115b2b6d7b3457054689befa7417ba49cde23f145426e6",
+  "job_count": 14,
+  "jobs": [
+    {
+      "calls": 4,
+      "condition": "attack",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|stateful|attack|9",
+      "mode": "stateful",
+      "order": [
+        "reliability_tool",
+        "cost_tool",
+        "security_tool"
+      ],
+      "rep": 9,
+      "scenario": "b3"
+    },
+    {
+      "calls": 4,
+      "condition": "attack",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|stateful|attack|11",
+      "mode": "stateful",
+      "order": [
+        "resilience_tool",
+        "cost_tool",
+        "safety_risk_tool"
+      ],
+      "rep": 11,
+      "scenario": "c1"
+    },
+    {
+      "calls": 1,
+      "condition": "attack",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|stateless|attack|4",
+      "mode": "stateless",
+      "order": [
+        "resilience_tool",
+        "cost_tool",
+        "safety_risk_tool"
+      ],
+      "rep": 4,
+      "scenario": "c1"
+    },
+    {
+      "calls": 1,
+      "condition": "5",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|consistency|4|5",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "resilience_tool",
+        "safety_risk_tool"
+      ],
+      "rep": 4,
+      "scenario": "c1"
+    },
+    {
+      "calls": 4,
+      "condition": "natural",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|stateful|natural|29",
+      "mode": "stateful",
+      "order": [
+        "safety_risk_tool",
+        "resilience_tool",
+        "cost_tool"
+      ],
+      "rep": 29,
+      "scenario": "c1"
+    },
+    {
+      "calls": 1,
+      "condition": "natural",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|stateless|natural|1",
+      "mode": "stateless",
+      "order": [
+        "safety_risk_tool",
+        "resilience_tool",
+        "cost_tool"
+      ],
+      "rep": 1,
+      "scenario": "c1"
+    },
+    {
+      "calls": 1,
+      "condition": "3",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|consistency|7|3",
+      "mode": "consistency",
+      "order": [
+        "reliability_tool",
+        "cost_tool",
+        "security_tool"
+      ],
+      "rep": 7,
+      "scenario": "b3"
+    },
+    {
+      "calls": 1,
+      "condition": "canonical",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|barrier|canonical|2",
+      "mode": "barrier",
+      "order": [
+        "safety_risk_tool",
+        "resilience_tool",
+        "cost_tool"
+      ],
+      "rep": 2,
+      "scenario": "c1"
+    },
+    {
+      "calls": 4,
+      "condition": "0",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|budget|0|3",
+      "mode": "budget",
+      "order": [
+        "safety_risk_tool",
+        "resilience_tool",
+        "cost_tool"
+      ],
+      "rep": 3,
+      "scenario": "c1"
+    },
+    {
+      "calls": 4,
+      "condition": "0",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|budget|0|4",
+      "mode": "budget",
+      "order": [
+        "safety_risk_tool",
+        "resilience_tool",
+        "cost_tool"
+      ],
+      "rep": 4,
+      "scenario": "c1"
+    },
+    {
+      "calls": 1,
+      "condition": "0",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|consistency|6|0",
+      "mode": "consistency",
+      "order": [
+        "safety_risk_tool",
+        "resilience_tool",
+        "cost_tool"
+      ],
+      "rep": 6,
+      "scenario": "c1"
+    },
+    {
+      "calls": 4,
+      "condition": "attack",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|stateful|attack|30",
+      "mode": "stateful",
+      "order": [
+        "reliability_tool",
+        "cost_tool",
+        "security_tool"
+      ],
+      "rep": 30,
+      "scenario": "b3"
+    },
+    {
+      "calls": 4,
+      "condition": "0",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|budget|0|6",
+      "mode": "budget",
+      "order": [
+        "security_tool",
+        "reliability_tool",
+        "cost_tool"
+      ],
+      "rep": 6,
+      "scenario": "b3"
+    },
+    {
+      "calls": 1,
+      "condition": "natural",
+      "id": "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|stateless|natural|4",
+      "mode": "stateless",
+      "order": [
+        "security_tool",
+        "reliability_tool",
+        "cost_tool"
+      ],
+      "rep": 4,
+      "scenario": "b3"
+    }
+  ],
+  "jobs_sha256": "79a06f7b1e3038f880e5ad3e31d0b817809cbaaa8220cdbaecd28d9c5a8b2d19",
+  "model": "google/gemini-3.6-flash",
+  "parent_ledger_sha256": null,
+  "phase": "study",
+  "planned_calls": 35,
+  "reasoning": "minimal",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-g-hosted-cell.v1",
+  "sdk_max_retries": 0,
+  "shard_count": 30,
+  "shard_index": 9,
+  "source_sha256": {
+    "audit_experiment_g.py": "5bdb752413ceeb857e1872ec79dca1b3d246ed21ef7474b8432872686b8833b5",
+    "build_completion_notebook.py": "a3c8995068c1d9c444b415ae7a1f7a95e036c35b68d215377379f33f80e52936",
+    "chronos_microgrid_c1_pair.py": "98072af64f880fde3a8892eb71cd7215288f83a53fe56a6ff0fbad013d41e374",
+    "chronos_software_release_b3_confirmation_batch.py": "e46cbd67cc775b95132b562e7cc8e1ce373c5e35297200cfdd5bf99ee291534d",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_g_protocol.py": "4197d52027d956078d6d54f5ccba34dee7a2a9269bd0e44518a60a4a28eb6b7a",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_b3c1_gemini_minimal_study_v1",
+  "transport_policy": {
+    "initial_delay_seconds": 20,
+    "max_delay_seconds": 300,
+    "max_wait_seconds_per_call": 7200,
+    "procedure": "specs/journal-extension-sep14/round2-g-b3c1-matched-plan-2026-10-08.md",
+    "schema": "chronos.experiment-g-transport-wait.v1",
+    "sdk_max_retries": 0,
+    "wait_on": [
+      "RateLimitError",
+      "APITimeoutError"
+    ]
+  }
+}

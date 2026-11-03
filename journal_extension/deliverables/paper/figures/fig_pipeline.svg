@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 355" font-family="Liberation Serif, Times New Roman, DejaVu Serif, serif" font-size="15.5">
+<defs>
+  <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto">
+    <path d="M0,1 L10,5 L0,9 z" fill="#333"/>
+  </marker>
+</defs>
+<rect width="580" height="355" fill="white"/>
+<text x="12" y="24" font-weight="bold" font-size="16" fill="#111">(a) Undefended stateful agent: completion order reaches the decision</text>
+<g font-size="15">
+  <rect x="12" y="40" width="76" height="34" rx="5" fill="#eff8ef" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="50" y="61" text-anchor="middle"><tspan font-style="italic">o</tspan><tspan dy="4" font-size="11.5"><tspan font-style="italic">π</tspan>(1)</tspan></text>
+  <rect x="152" y="40" width="76" height="34" rx="5" fill="#eff8ef" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="190" y="61" text-anchor="middle"><tspan font-style="italic">o</tspan><tspan dy="4" font-size="11.5"><tspan font-style="italic">π</tspan>(2)</tspan></text>
+  <rect x="292" y="40" width="76" height="34" rx="5" fill="#eff8ef" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="330" y="61" text-anchor="middle"><tspan font-style="italic">o</tspan><tspan dy="4" font-size="11.5"><tspan font-style="italic">π</tspan>(<tspan font-style="italic">n</tspan>)</tspan></text>
+
+  <g fill="#eef4fb" stroke="#2b5797" stroke-width="1.5">
+    <rect x="12" y="104" width="76" height="34" rx="5"/>
+    <rect x="152" y="104" width="76" height="34" rx="5"/>
+    <rect x="292" y="104" width="76" height="34" rx="5"/>
+  </g>
+  <text x="50" y="125" text-anchor="middle"><tspan font-style="italic">h</tspan><tspan dy="4" font-size="11.5">1</tspan></text>
+  <text x="190" y="125" text-anchor="middle"><tspan font-style="italic">h</tspan><tspan dy="4" font-size="11.5">2</tspan></text>
+  <text x="260" y="125" text-anchor="middle">…</text>
+  <text x="330" y="125" text-anchor="middle"><tspan font-style="italic">h</tspan><tspan dy="4" font-size="11.5" font-style="italic">n</tspan></text>
+
+  <rect x="435" y="104" width="125" height="34" rx="5" fill="#fdf0ef" stroke="#b71c1c" stroke-width="1.5"/>
+  <text x="497.5" y="126" text-anchor="middle">decision <tspan font-style="italic">y</tspan></text>
+</g>
+<g stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#a)">
+  <path d="M50 74 L50 101"/><path d="M190 74 L190 101"/><path d="M330 74 L330 101"/>
+  <path d="M88 121 L149 121"/><path d="M228 121 L246 121"/><path d="M274 121 L289 121"/><path d="M368 121 L432 121"/>
+</g>
+<text x="12" y="160" font-size="14" fill="#444">provisional choice in <tspan font-style="italic">h</tspan><tspan dy="3" font-size="10.5" font-style="italic">k</tspan><tspan dy="-3" dx="3">is carried forward from turn to turn</tspan></text>
+
+<line x1="12" y1="178" x2="568" y2="178" stroke="#ccc" stroke-width="1"/>
+
+<text x="12" y="204" font-weight="bold" font-size="16" fill="#111">(b) Order-invariant synthesis: completion order is removed</text>
+<g font-size="15">
+  <rect x="12" y="220" width="76" height="34" rx="5" fill="#eff8ef" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="50" y="241" text-anchor="middle"><tspan font-style="italic">o</tspan><tspan dy="4" font-size="11.5"><tspan font-style="italic">π</tspan>(1)</tspan></text>
+  <rect x="12" y="264" width="76" height="34" rx="5" fill="#eff8ef" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="50" y="285" text-anchor="middle"><tspan font-style="italic">o</tspan><tspan dy="4" font-size="11.5"><tspan font-style="italic">π</tspan>(2)</tspan></text>
+  <rect x="12" y="308" width="76" height="34" rx="5" fill="#eff8ef" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="50" y="329" text-anchor="middle"><tspan font-style="italic">o</tspan><tspan dy="4" font-size="11.5"><tspan font-style="italic">π</tspan>(<tspan font-style="italic">n</tspan>)</tspan></text>
+
+  <g fill="#eef4fb" stroke="#2b5797" stroke-width="1.5">
+    <rect x="128" y="220" width="136" height="34" rx="5"/>
+    <rect x="128" y="264" width="136" height="34" rx="5"/>
+    <rect x="128" y="308" width="136" height="34" rx="5"/>
+  </g>
+  <text x="196" y="242" text-anchor="middle">summary <tspan font-style="italic">s</tspan>(<tspan font-style="italic">o</tspan><tspan dy="4" font-size="11"><tspan font-style="italic">π</tspan>(1)</tspan><tspan dy="-4" dx="1">)</tspan></text>
+  <text x="196" y="286" text-anchor="middle">summary <tspan font-style="italic">s</tspan>(<tspan font-style="italic">o</tspan><tspan dy="4" font-size="11"><tspan font-style="italic">π</tspan>(2)</tspan><tspan dy="-4" dx="1">)</tspan></text>
+  <text x="196" y="330" text-anchor="middle">summary <tspan font-style="italic">s</tspan>(<tspan font-style="italic">o</tspan><tspan dy="4" font-size="11"><tspan font-style="italic">π</tspan>(<tspan font-style="italic">n</tspan>)</tspan><tspan dy="-4" dx="1">)</tspan></text>
+
+  <rect x="302" y="246" width="110" height="70" rx="5" fill="#fff8e1" stroke="#d9822b" stroke-width="1.5"/>
+  <text x="357" y="276" text-anchor="middle">canonical</text>
+  <text x="357" y="298" text-anchor="middle">order <tspan font-style="italic">π</tspan><tspan dy="4" font-size="11" font-style="italic">c</tspan></text>
+
+  <rect x="448" y="264" width="112" height="34" rx="5" fill="#eff8ef" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="504" y="286" text-anchor="middle">decision <tspan font-style="italic">y</tspan></text>
+</g>
+<g stroke="#333" stroke-width="1.5" fill="none" marker-end="url(#a)">
+  <path d="M88 237 L125 237"/><path d="M88 281 L125 281"/><path d="M88 325 L125 325"/>
+  <path d="M264 237 L299 262"/><path d="M264 281 L299 281"/><path d="M264 325 L299 300"/>
+  <path d="M412 281 L445 281"/>
+</g>
+</svg>
+

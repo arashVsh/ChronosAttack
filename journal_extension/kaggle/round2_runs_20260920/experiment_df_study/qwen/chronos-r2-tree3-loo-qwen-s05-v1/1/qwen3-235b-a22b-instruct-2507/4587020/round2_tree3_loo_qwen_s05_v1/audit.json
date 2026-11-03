@@ -1,0 +1,71 @@
+{
+  "audit_failed": "ValueError('resume ledger contains unknown or invalid call cost')",
+  "contract": {
+    "ceiling_usd": 0.6,
+    "fixture_manifest_sha256": "b3292b6c53b0b3b04fd635c96c30f2569b902221f3c45f7f7c271aed29eca8c1",
+    "identity": "6c244366657423a577ddf70d3e29dc5984e79b1a9812debb3d591b6b509ee22d",
+    "job_count": 8,
+    "jobs_sha256": "4cd91f9b716bc5e54cedf653a4c867fc3b6d093a0d0066ad445524f5c405d44a",
+    "model": "qwen/qwen3-235b-a22b-instruct-2507",
+    "parent_ledger_sha256": null,
+    "phase": "study",
+    "planned_calls": 32,
+    "reasoning": "low",
+    "resume_ledger": {
+      "completed_jobs": 0,
+      "events": 0,
+      "failed_calls": 0,
+      "incomplete_jobs": [],
+      "known_cost_usd": 0.0,
+      "max_attempt_by_job": {},
+      "observed_invocations": 0
+    },
+    "role": "matched_non_off_primary",
+    "schema": "chronos.experiment-df-hosted-cell.v1",
+    "sdk_max_retries": 0,
+    "shard_count": 30,
+    "shard_index": 5,
+    "source_sha256": {
+      "audit_experiment_df.py": "260694fb97c5c765e0a93cbece73ece0ee8161a03fbd63f217552c0dd5475148",
+      "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+      "experiment_df_protocol.py": "d7fc06c8191a7491c5cf05cc1594f2d6fd2db76e870ab43c09e0a83a51c0eb7e",
+      "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+      "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+    },
+    "study_id": "chronos_round2_tree3_leave_one_out_qwen_low_study_v1",
+    "transport_policy": {
+      "initial_delay_seconds": 20,
+      "max_delay_seconds": 300,
+      "max_wait_seconds_per_call": 7200,
+      "procedure": "specs/journal-extension-sep14/round2-df-leave-one-out-plan-2026-10-08.md",
+      "schema": "chronos.experiment-df-transport-wait.v1",
+      "sdk_max_retries": 0,
+      "wait_on": [
+        "RateLimitError",
+        "APITimeoutError"
+      ]
+    }
+  },
+  "evidence_sha256": "7e0ded25f9207efb4d437dd4a8484976e524974131344d10b09dc82fd55f58f9",
+  "parent_prefix_preserved": true,
+  "parse_failures": [],
+  "passed": false,
+  "raw_accounting": {
+    "accounting_complete": false,
+    "complete_calls": 1,
+    "completed_jobs": 0,
+    "events": 4,
+    "failed_calls": 1,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.00014212,
+    "observed_invocations": 2,
+    "started_attempts": 1,
+    "unknown_cost_calls": 1
+  },
+  "schema": "chronos.experiment-df-hosted-audit.v1",
+  "terminal_error": {
+    "message": "Request timed out.",
+    "status_code": null,
+    "type": "APITimeoutError"
+  }
+}

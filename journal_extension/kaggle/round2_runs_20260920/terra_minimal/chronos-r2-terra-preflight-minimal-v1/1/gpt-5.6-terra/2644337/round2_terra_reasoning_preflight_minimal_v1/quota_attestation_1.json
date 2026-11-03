@@ -1,0 +1,21 @@
+{
+  "attestation_sha256": "77c1e33e12a3a9ddbb2e5888c387b05e3240faeb9bf84a9aef8524142caa1929",
+  "endpoint": "/api/v1/benchmarks/tasks/quota",
+  "queried_at_end_utc": "2026-09-20T12:21:05.730250+00:00",
+  "queried_at_start_utc": "2026-09-20T12:21:04.443167+00:00",
+  "response": {
+    "daily_quota_used_usd": 0.0,
+    "total_daily_quota_allowed_usd": 10.0
+  },
+  "run_context": {
+    "evidence_sha256": "359d8e65fae8b8c3af2f3154338d52a0066d3342c3f74cfc932b575ff3d0a392",
+    "last_evidence_event_utc": "2026-09-20T12:09:43.674966+00:00",
+    "model": "openai/gpt-5.6-terra",
+    "reasoning": "minimal",
+    "run_id": 2644337,
+    "study_id": "chronos_round2_terra_reasoning_preflight_minimal_v1",
+    "task": "chronos-r2-terra-preflight-minimal-v1",
+    "terminal_sha256": "c73be038dcb8ee843433cf15c3acbc7ff00ff5c46eae51358f24f156f728e933"
+  },
+  "schema": "chronos.kaggle-benchmark-quota-attestation.v1"
+}
