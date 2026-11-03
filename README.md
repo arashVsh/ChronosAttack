@@ -1,5 +1,7 @@
 # ChronosAttack: Adversarial Tool Scheduling Attacks on LLM Agents
 
+> **Journal version:** the code, prompts, raw model outputs and offline verifier for the extended journal manuscript are in [`journal_extension/`](journal_extension/README.md).
+
 ChronosAttack studies whether an attacker can change the decision of a tool-using large language model (LLM) agent **without changing the contents of any tool response**.
 
 Instead of modifying, injecting, deleting, or fabricating tool outputs, ChronosAttack changes only **when authentic tool responses are delivered**. Small non-negative delays can change the order in which the same evidence reaches the agent, which can change the agent's final decision.
