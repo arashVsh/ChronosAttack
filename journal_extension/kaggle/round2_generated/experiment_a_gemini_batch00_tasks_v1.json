@@ -1,0 +1,72 @@
+{
+  "aggregate_incremental_ceiling_usd": 0.56,
+  "batch": "gemini_batch00_shards_00_01",
+  "batch_manifest_sha256": "c622fb0bd6f3b7457a04eeedda3d803026ce580c3da62f90117462f6ed8bc22b",
+  "batch_shards": [
+    0,
+    1
+  ],
+  "daily_limit_usd": 10.0,
+  "frozen_at": "2026-09-21T00:39:29+03:30",
+  "incremental_ceiling_per_task_usd": 0.28,
+  "job_count": 46,
+  "launch_policy": "exactly_two_shards_may_run_within_sealed_exposure",
+  "maximum_daily_exposure_usd": 9.99496675,
+  "model": "google/gemini-3.6-flash",
+  "planned_calls": 134,
+  "pre_launch_known_daily_cost_usd": 9.43496675,
+  "previous_collection_manifest_sha256": "e567da1a7219222b6d6107ef9e73dc574185c2f3c712a2749869ea2e342d2391",
+  "quota_attestation": {
+    "bytes": 901,
+    "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch00/quota_after_terra_batch00_20260921_v1.json",
+    "sha256": "d8ec9a7cc0fa778e54fefd32ab2665c4cc6f4381fa19b39586fb14409ba8240e"
+  },
+  "quota_attestation_sha256": "f1137f84623cafde0dea91ce5bfc3e36dea9ff3aa9037b58e2718fdad673013b",
+  "reasoning": "minimal",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-full-batch-tasks.v1",
+  "shard_count_total": 30,
+  "status": "authorized_not_launched",
+  "study_id": "chronos_round2_water4_study_gemini_minimal_v1",
+  "task_count": 2,
+  "tasks": [
+    {
+      "effective_ceiling_usd": 0.28,
+      "identity": "a58053e9d68f712f6a47e3f954935b4f37a02cafb8b6926ef643e8d77b2c7c19",
+      "incremental_ceiling_usd": 0.28,
+      "job_count": 23,
+      "jobs_sha256": "d56c35d3963b9c634516f46dc45775eabedd4b2c43893d14948a73a473cfee32",
+      "output_folder": "round2_water4_study_gemini_minimal_s00_v1",
+      "pilot_receipt_sha256": "63d71b48d26db1a8a9463df9afc23827627d2a0f541cadff8a5029b83c127962",
+      "planned_calls": 75,
+      "shard_count": 30,
+      "shard_index": 0,
+      "source": {
+        "bytes": 192025,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s00_v1.py",
+        "sha256": "01afb65735bd9f8beb4b9eb8a42fe29283caf98622d96bed46ff880ceed5c496"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-gemini-minimal-s00-v1"
+    },
+    {
+      "effective_ceiling_usd": 0.28,
+      "identity": "a58053e9d68f712f6a47e3f954935b4f37a02cafb8b6926ef643e8d77b2c7c19",
+      "incremental_ceiling_usd": 0.28,
+      "job_count": 23,
+      "jobs_sha256": "238be50edd331ed9909898f1cd8a4fa092eeafaf7e6c550c56ee9e51fe5e06fd",
+      "output_folder": "round2_water4_study_gemini_minimal_s01_v1",
+      "pilot_receipt_sha256": "63d71b48d26db1a8a9463df9afc23827627d2a0f541cadff8a5029b83c127962",
+      "planned_calls": 59,
+      "shard_count": 30,
+      "shard_index": 1,
+      "source": {
+        "bytes": 191991,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s01_v1.py",
+        "sha256": "83b03fdc26bcca83c53179c8251b0c1361be9f7881aa87e437f4886af9d7b107"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-gemini-minimal-s01-v1"
+    }
+  ]
+}

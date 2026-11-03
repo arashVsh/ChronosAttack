@@ -1,0 +1,28 @@
+{
+  "task_name": "chronos-r2-tree3-loo-qwen-s29-r2-v1",
+  "trial_name": "chronos-r2-tree3-loo-qwen-s29-r2-v1-Run #1",
+  "trial_uri": "kbench://not-a-harbor-trial",
+  "task_id": {
+    "path": "kbench://not-a-harbor-task"
+  },
+  "task_checksum": "unknown (kbench)",
+  "config": {
+    "task": {
+      "path": "kbench://not-a-harbor-task"
+    }
+  },
+  "agent_info": {
+    "name": "kaggle-benchmarks",
+    "version": "0.6.1",
+    "model_info": {
+      "name": "qwen/qwen3-235b-a22b-instruct-2507"
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "score": 1.0
+    }
+  },
+  "started_at": "2026-10-09T15:16:57.081888Z",
+  "finished_at": "2026-10-09T19:55:28.723910Z"
+}

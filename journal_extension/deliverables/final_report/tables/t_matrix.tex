@@ -1,0 +1,18 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}llp{7.2cm}rr@{}}
+\toprule
+Block & Scenario & Arms per model & Trials per model & Models complete \\
+\midrule
+B3/C1 matrix & B3, C1 & 30 + 10 pairs, 10 simultaneous, 15 $\times$ 3 inversion levels, 15 barrier, 10 six-order panels & 420 & 4/4 \\
+Tree study & tree & 30 + 10 pairs, 10 simultaneous, 15 $\times$ 7 inversion distances, 15 barrier, 10 $\times$ 24 orders stateful and joint & 690 & 4/4 \\
+Tree defense suite & tree & natural, attack, randomised, invariant; 30 each & 120 & 4/4 \\
+A, water supply & water & same as the tree study & 690 & 4/4 \\
+B, label rotation & tree & 3 labellings $\times$ 30 pairs & 180 & 4/4 \\
+C, worst-case defenses & tree & natural, worst order, randomised, barrier, invariant, 24-order vote; 30 each & 180 & 4/4 \\
+D and F, leave one out & tree, 3 tools & 4 variants $\times$ 6 orders $\times$ 10 & 240 & 4/4 \\
+E, paraphrase & tree & 3 wordings $\times$ 30 pairs & 180 & 4/4 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Balanced matrix: every block ran with the same arms and repetitions on Terra (low), Gemini (minimal), Qwen (low) and Claude (off); completeness is checked by each block's auditor against its frozen manifest. Terra (off) adds B3/C1, the tree study and its defenses as a sensitivity cell. Claude with reasoning on was exempted (cost).\par}

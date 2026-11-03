@@ -1,0 +1,86 @@
+{
+  "accepted_preflight_receipt_sha256": null,
+  "arm": null,
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "effective_ceiling_usd": 0.25,
+  "identity": "b571b740a031b5af5daeb4c833c5204c9446da222a8094c67f5a74096dcc1c02",
+  "incremental_ceiling_usd": 0.25,
+  "job_count": 2,
+  "jobs": [
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_claude_reasoning_preflight_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|natural|1",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "survival_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_claude_reasoning_preflight_low_v1|study|anthropic/claude-sonnet-4-6@default|tree4|stateful|attack|1",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "survival_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "tree4"
+    }
+  ],
+  "kind": "preflight",
+  "manifest_sha256": "c3a2150323ff885a3f2fbc24e2ad8615a2d5379eee9ad062215c08a561291552",
+  "minimal_unsupported_receipt_sha256": "ab6f16f798151e766a5baf0f76fc4746b53e9abd60730c7be86ccae22f663d8f",
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "parent_ledger_sha256": null,
+  "planned_calls": 10,
+  "protocol_extension_sha256": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "seed_audit": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "shard_count": 1,
+  "shard_index": 0,
+  "source_sha256": {
+    "audit_four_observation.py": "16aa34b225e2bfe041a8bd320e8b3a583014b266a85e2d4952cf3b23f47eb69c",
+    "audit_round2_defense.py": "fc573b2510fe883ec35a160c2241f336db74f48e9f6a70897ec3e90c4acab5b7",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "four_observation_defenses.py": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "round2_manifest_v1.json": "ed050bc39274cabd4f15545bf6078b36aeb0a40930458f12d11bc5e0cfeeb9b2"
+  },
+  "study_id": "chronos_round2_claude_reasoning_preflight_low_v1"
+}

@@ -1,0 +1,107 @@
+{
+  "amendment_sha256": "5ab050c777c309138b811c29f347f75816419d8811df5fc54189d533d7ceb6f5",
+  "builder_sha256": "fa346fe912c8f720323c256f59268d0b4cfac90e4d61020ca8e4a3840d119e3a",
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "minimal",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "ceiling_usd": 0.5,
+  "contract_sha256": "02e5fb4c91fe2fafdb14836b04adfcbb14e86137e2b508e9493936c2d181fff5",
+  "expected_job_ids": [
+    "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|undefended_natural|0|12",
+    "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|undefended_selected_order|0|12",
+    "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|barrier|0|12",
+    "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|order_consistency_24|0|12",
+    "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|randomized|0|12",
+    "chronos_round2_tree4_experiment_c_v1|defense|google/gemini-3.6-flash|tree4|invariant|0|12"
+  ],
+  "identity": "72cd46e7da2ce835d8a42cae45b609bf9f2189dea33e41249449602dd51c3098",
+  "job_count": 6,
+  "jobs_manifest_sha256": "1398a0a705cc3aa3131a6ad6fb971a0682236a97209cdb7573140b495af744eb",
+  "model": "google/gemini-3.6-flash",
+  "parent_ledger_sha256": null,
+  "planned_calls": 46,
+  "quota_attestation": {
+    "attestation_sha256": "e72a033974d730f1c990f86e3fa7337fc0620b5cbb755c8991fb9137eb2d9fff",
+    "endpoint": "/api/i/models.ModelProxyService/GetModelProxyQuotas",
+    "queried_at_end_utc": "2026-09-26T02:06:12.799000+00:00",
+    "queried_at_start_utc": "2026-09-26T02:06:12.505000+00:00",
+    "response": {
+      "daily_quota_used_usd": 1.76909341,
+      "total_daily_quota_allowed_usd": 10.0
+    },
+    "response_raw": "{\"quotaBalances\":[{\"quotaUsed\":1.76909341,\"totalQuotaAllowed\":10,\"refillPeriod\":\"DAILY\",\"refillTime\":\"2026-09-26T15:53:36.766421800Z\"},{\"quotaUsed\":88.78340505,\"totalQuotaAllowed\":100,\"refillPeriod\":\"MONTHLY\",\"refillTime\":\"2026-10-04T06:27:06.442423800Z\"}]}",
+    "run_context": {
+      "evidence_sha256": "001f1f347006ce2d41471cf6605e2a6a77dad0555b06b1f6c95de72a9fbf17df",
+      "last_evidence_event_utc": "2026-09-26T02:02:28.663346+00:00",
+      "model": null,
+      "reasoning": null,
+      "study_id": null,
+      "task": "chronos-r2-tree4-c-claude-none-s27-v1",
+      "terminal_sha256": "a8f1406b76882a4a143a5877aa18e69b841b7790ec7ef8d398e337a834727f09"
+    },
+    "schema": "chronos.kaggle-browser-quota-attestation.v1",
+    "transport": "signed-in Kaggle browser CDP Network.getResponseBody"
+  },
+  "quota_capture_source_sha256": "e83a0062c851db5096b6a213283123e2230e950b10f99774b908bc52f70e7625",
+  "quota_gate": {
+    "allowed_usd": 10.0,
+    "attestation_sha256": "e72a033974d730f1c990f86e3fa7337fc0620b5cbb755c8991fb9137eb2d9fff",
+    "remaining_usd": 8.23090659,
+    "used_usd": 1.76909341
+  },
+  "reasoning": "minimal",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "primary",
+  "schema": "chronos.experiment-c-shard-contract.v1",
+  "selection_manifest_sha256": "5ed905fabcf299fad407babb9f4e90e9a141ffe8aed004a14bd4488110e6e5bf",
+  "sequence_gate": {
+    "experiment_a_analysis_sha256": "7fc08152f276215aa959274089a0f56c73ea55d76a0fbbdbf5554c29fe0a947c",
+    "experiment_a_file_sha256": "89cbeb468a8372309d8fdd1d1cfde03697667bcc9fdf3870e6be5326106bab57",
+    "experiment_a_verifier_sha256": "535db28cf0893136c47878befd036a252526c67bc183456f35a35d76240b8730",
+    "experiment_b_analysis_sha256": "05975363060f0b4080bb349303008d194f45f95cd333047a8a6b5b4dfb895dcb",
+    "experiment_b_file_sha256": "6202272bb97af8033b7bdf21339dd6c4ef350f10a7ba8435cc31ecd3f1a6d487",
+    "experiment_b_verifier_sha256": "58308850e50201ea48181f6901b6d34bac7d451e5cfdde8d78d643936fb7046c"
+  },
+  "shard_count": 30,
+  "shard_index": 11,
+  "source_audit_gate": {
+    "complete_trial_calls": 2310,
+    "completed_jobs": 690,
+    "kind": "historical_tree_study",
+    "unknown_historical_cost_calls": 0
+  },
+  "source_log_sha256": "b6894e01a36f9b6baf94d886cb75fa0a2567635cbf3763022beb5c07adc86965",
+  "source_sha256": {
+    "audit_experiment_c_v1.py": "1c4c575efe430cc0a434b9bb458a24222a237be14abe1c64a5fc4b95ca7a2d8c",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_c_protocol_v1.py": "f3402e723f4d421d5efcc6413e6214fa1e58f50752bdb0b54c2e7a147a9abc58",
+    "experiment_c_selection_v1.py": "920152511d8f99aee026e477a8c39f488445cad2e8ea5f3fc608aea9ebb36456",
+    "four_observation_defenses.py": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_tree4_experiment_c_v1",
+  "transport_policy": {
+    "initial_delay_seconds": 20,
+    "max_delay_seconds": 300,
+    "max_wait_seconds_per_call": 1800,
+    "procedure": "specs/journal-extension-sep14/experiment-c-transport-wait-amendment-2026-09-25.md",
+    "schema": "chronos.experiment-c-transport-wait.v1",
+    "sdk_max_retries": 0,
+    "wait_on": [
+      "RateLimitError"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "classification": "exploratory_descriptive",
+  "manifest_sha256": "5f1c223fa26680aea2f846aee9af63fa97f355b4673cce1a42d431cf18623eb8",
+  "plan": "specs/journal-extension-sep14/round2-g-b3c1-matched-plan-2026-10-08.md",
+  "plan_sha256": "de026dae7c34f0facde639bb5c0680307bcb7e9b01687d7024fafd389e3293f9",
+  "schema": "chronos.experiment-g-b3c1-matched.v1",
+  "source_sha256": {
+    "kaggle/audit_experiment_g.py": "5bdb752413ceeb857e1872ec79dca1b3d246ed21ef7474b8432872686b8833b5",
+    "kaggle/build_completion_notebook.py": "a3c8995068c1d9c444b415ae7a1f7a95e036c35b68d215377379f33f80e52936",
+    "kaggle/chronos_microgrid_c1_pair.py": "98072af64f880fde3a8892eb71cd7215288f83a53fe56a6ff0fbad013d41e374",
+    "kaggle/chronos_software_release_b3_confirmation_batch.py": "e46cbd67cc775b95132b562e7cc8e1ce373c5e35297200cfdd5bf99ee291534d",
+    "kaggle/completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "kaggle/experiment_g_protocol.py": "4197d52027d956078d6d54f5ccba34dee7a2a9269bd0e44518a60a4a28eb6b7a",
+    "kaggle/round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "status": "frozen_no_calls"
+}

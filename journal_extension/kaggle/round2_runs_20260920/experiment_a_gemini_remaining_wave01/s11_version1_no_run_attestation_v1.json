@@ -1,0 +1,123 @@
+{
+  "accounted_completed_shards": [
+    {
+      "completed_jobs": 23,
+      "evidence_path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave01/s05/chronos-r2-water4-study-gemini-minimal-s05-v1/1/gemini-3.6-flash/2699609/round2_water4_study_gemini_minimal_s05_v1/google_gemini-3.6-flash.jsonl",
+      "evidence_sha256": "1a051f7d78ba4e82b62817ce8b46d0e9a299da87ba45089c4ddf37509adf9128",
+      "failed_calls": 0,
+      "known_cost_usd": 0.062994,
+      "observed_invocations": 71,
+      "run_id": 2699609,
+      "shard_index": 5
+    },
+    {
+      "completed_jobs": 23,
+      "evidence_path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave01/s06/chronos-r2-water4-study-gemini-minimal-s06-v1/1/gemini-3.6-flash/2699717/round2_water4_study_gemini_minimal_s06_v1/google_gemini-3.6-flash.jsonl",
+      "evidence_sha256": "ffd25edaaa8bc2fb6b4d4867e99dd8d4b0457cbd603fad477194a5cf4e79a4ae",
+      "failed_calls": 0,
+      "known_cost_usd": 0.06248925,
+      "observed_invocations": 71,
+      "run_id": 2699717,
+      "shard_index": 6
+    },
+    {
+      "completed_jobs": 23,
+      "evidence_path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave01/s07/chronos-r2-water4-study-gemini-minimal-s07-v1/1/gemini-3.6-flash/2699744/round2_water4_study_gemini_minimal_s07_v1/google_gemini-3.6-flash.jsonl",
+      "evidence_sha256": "9de8729abf2dc76165e1696618272242271af13c55f2abd3c46d23debb5562df",
+      "failed_calls": 0,
+      "known_cost_usd": 0.06089325,
+      "observed_invocations": 67,
+      "run_id": 2699744,
+      "shard_index": 7
+    },
+    {
+      "completed_jobs": 23,
+      "evidence_path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave01/s08/chronos-r2-water4-study-gemini-minimal-s08-v1/1/gemini-3.6-flash/2699835/round2_water4_study_gemini_minimal_s08_v1/google_gemini-3.6-flash.jsonl",
+      "evidence_sha256": "626034fc1deed9c369d0d83d2efce8b93889635bb240c3c5aa2c23a803b79fe3",
+      "failed_calls": 0,
+      "known_cost_usd": 0.08735325,
+      "observed_invocations": 99,
+      "run_id": 2699835,
+      "shard_index": 8
+    },
+    {
+      "completed_jobs": 23,
+      "evidence_path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave01/s09/chronos-r2-water4-study-gemini-minimal-s09-v1/1/gemini-3.6-flash/2699834/round2_water4_study_gemini_minimal_s09_v1/google_gemini-3.6-flash.jsonl",
+      "evidence_sha256": "0457b141e0332c8b40527a46f2e61979bed1bab9a998f3d183d7235a0fb374e7",
+      "failed_calls": 0,
+      "known_cost_usd": 0.06663525,
+      "observed_invocations": 75,
+      "run_id": 2699834,
+      "shard_index": 9
+    },
+    {
+      "completed_jobs": 23,
+      "evidence_path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave01/s10/chronos-r2-water4-study-gemini-minimal-s10-v1/1/gemini-3.6-flash/2699833/round2_water4_study_gemini_minimal_s10_v1/google_gemini-3.6-flash.jsonl",
+      "evidence_sha256": "55e13c3db14c6c4203d5e51ae14409a066a4203ac1a9ea133431b520206601e4",
+      "failed_calls": 0,
+      "known_cost_usd": 0.06246075,
+      "observed_invocations": 71,
+      "run_id": 2699833,
+      "shard_index": 10
+    },
+    {
+      "completed_jobs": 23,
+      "evidence_path": "kaggle/round2_runs_20260920/experiment_a_gemini_remaining_wave01/s12/chronos-r2-water4-study-gemini-minimal-s12-v1/1/gemini-3.6-flash/2700036/round2_water4_study_gemini_minimal_s12_v1/google_gemini-3.6-flash.jsonl",
+      "evidence_sha256": "c6afe2befb09d5283784ef4088b5cb7f989e8fd32831da2dc8ebbb442a6d08cb",
+      "failed_calls": 0,
+      "known_cost_usd": 0.073737,
+      "observed_invocations": 83,
+      "run_id": 2700036,
+      "shard_index": 12
+    }
+  ],
+  "accounted_total_known_cost_usd": 0.47656275,
+  "attestation_sha256": "5ba03d988cad30d3738799ffda3dcbacb423bd089c9aa5b674499ca2c9a0352a",
+  "captured_at_utc": "2026-09-21T15:04:03.361746613Z",
+  "conclusion": "version_1_created_no_run_zero_cost; original_slug_unrepairable_without_source_kernel; push_frozen_contract_with_only_task_slug_rewritten_as_repair_task",
+  "official_quota_query": {
+    "queried_at_end_utc": "2026-09-21T14:15:41.381047+00:00",
+    "queried_at_start_utc": "2026-09-21T14:15:28.450869+00:00",
+    "response": {
+      "dailyQuotaUsed": 0.47656274999999937,
+      "totalDailyQuotaAllowed": 10
+    }
+  },
+  "prelaunch_manifest": {
+    "batch_manifest_sha256": "d982c7cb1242383cf5eb54c525ea1b2fa6b66fd50f15e2ab28e9d008a3a53211",
+    "bytes": 23696,
+    "path": "kaggle/round2_generated/experiment_a_gemini_remaining_tasks_v1.json",
+    "sha256": "7f588180c7be31de0ecccbb5f7726ef4251dfcc07b4dad8179b1b034a51de0d1"
+  },
+  "repair_source": {
+    "bytes": 192049,
+    "derived_from_sha256": "fa564ba2bc8d3ce20cfd2e68dadaa612ff487cbe5e3f15f7651d14478d473cdd",
+    "path": "kaggle/round2_generated/water4_study_gemini_minimal_s11_repair_v1.py",
+    "sha256": "22b513ecd26c0f1e1e0c4f7fe51d02986ace2e22e2b75295e9e8f145f3934448",
+    "transformation": "replace the sole kbench task decorator slug chronos-r2-water4-study-gemini-minimal-s11-v1 with chronos-r2-water4-study-gemini-minimal-s11-repair-v1; reverse substitution reproduces derived_from_sha256"
+  },
+  "repair_task": "chronos-r2-water4-study-gemini-minimal-s11-repair-v1",
+  "same_slug_repush_attempt": {
+    "attempted_at_utc": "2026-09-21T15:10:31.755760179Z",
+    "error": "Task 'masihmaafi/chronos-r2-water4-study-gemini-minimal-s11-v1' exists but has no source kernel.",
+    "run_created": false
+  },
+  "schema": "chronos.kaggle-task-version-repair-attestation.v1",
+  "task_version_before_repair": {
+    "createTime": "2026-09-21T13:36:23.210Z",
+    "creationErrorMessage": null,
+    "creationState": "BENCHMARK_TASK_VERSION_CREATION_STATE_UNSPECIFIED",
+    "error": null,
+    "isPublic": false,
+    "runs": [],
+    "slug": {
+      "ownerSlug": "masihmaafi",
+      "taskSlug": "chronos-r2-water4-study-gemini-minimal-s11-v1",
+      "versionNumber": 1
+    },
+    "source": "BENCHMARK_TASK_VERSION_SOURCE_UNSPECIFIED",
+    "sourceKernelId": null,
+    "url": "/benchmarks/tasks/masihmaafi/chronos-r2-water4-study-gemini-minimal-s11-v1/1"
+  },
+  "unaccounted_quota_usd": 0.0
+}

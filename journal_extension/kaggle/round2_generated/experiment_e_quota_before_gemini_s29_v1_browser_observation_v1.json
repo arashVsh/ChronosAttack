@@ -1,0 +1,8 @@
+{
+  "schema": "chronos.kaggle-browser-quota-observation.v2",
+  "endpoint": "/api/i/models.ModelProxyService/GetModelProxyQuotas",
+  "transport": "signed-in Kaggle browser page fetch via CDP Runtime.evaluate",
+  "queried_at_start_utc": "2026-10-04T08:59:16.945Z",
+  "queried_at_end_utc": "2026-10-04T08:59:17.253Z",
+  "response_raw": "{\"quotaBalances\":[{\"quotaUsed\":0.7463084999999996,\"totalQuotaAllowed\":10,\"refillPeriod\":\"DAILY\",\"refillTime\":\"2026-10-05T07:57:05.112988500Z\"},{\"quotaUsed\":0.7463084999999978,\"totalQuotaAllowed\":100,\"refillPeriod\":\"MONTHLY\",\"refillTime\":\"2026-11-03T07:57:05.112990800Z\"}]}"
+}

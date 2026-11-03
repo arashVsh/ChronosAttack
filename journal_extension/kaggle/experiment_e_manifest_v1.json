@@ -1,0 +1,15 @@
+{
+  "classification": "exploratory_descriptive",
+  "manifest_sha256": "e21ef13b66dbfdcc7cf14a7294e973c52a2409a138201f925a55d32557351a33",
+  "plan": "specs/journal-extension-sep14/round2-e-paraphrase-plan-2026-10-04.md",
+  "plan_sha256": "009c151066294042071678696ad5cc27353dad3ad2815212df7776650149981b",
+  "schema": "chronos.experiment-e-paraphrase.v1",
+  "source_sha256": {
+    "kaggle/audit_experiment_e.py": "ea08e687d355a91820a3d50802215be8ebf44373cbf83baff393c7974d9e2f94",
+    "kaggle/completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "kaggle/experiment_e_protocol.py": "5534df299d93abeeda5810c35b2d93e93dd2e3d86595ae44f6efb6244fe7cd55",
+    "kaggle/four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "kaggle/round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "status": "frozen_no_calls"
+}

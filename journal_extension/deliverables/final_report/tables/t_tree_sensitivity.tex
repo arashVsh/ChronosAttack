@@ -1,0 +1,15 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Model & Choice entropy & Within-order entropy & Order info & Within-order disagr. & Between-order disagr. \\
+\midrule
+Terra (low) & 0.35 & 0.21 & 0.15 & 0.10 & 0.13 \\
+Gemini (minimal) & 0.67 & 0.18 & 0.49 & 0.09 & 0.30 \\
+Qwen (low) & 1.03 & 0.13 & 0.90 & 0.07 & 0.52 \\
+Claude (off) & 0.94 & 0.54 & 0.40 & 0.27 & 0.47 \\
+Terra (off)\textsuperscript{s} & 0.21 & 0.13 & 0.09 & 0.06 & 0.06 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Ten complete 24-order stateful panels per model (240 trials). Entropy in bits of the final choice overall and, on average, within one order; order information is their difference. Disagreement: chance that two answers differ, for two repetitions of the same order (within) or two orders in the same repetition (between). Between-order disagreement above within-order disagreement means order, not sampling noise, drives the variation.\par}

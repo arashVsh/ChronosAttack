@@ -1,0 +1,15 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Model & Natural & Attack & $\Delta$ pp & 95\% CI & exact $p$ & Holm $p$ & Stateless $\Delta$ (Holm) & Order info, bits ($p$) \\
+\midrule
+Terra (low) & 1/30 (3\%) & 1/30 (3\%) & +0 & [$-$14, +14] & 1 & 1 & +0 (1) & 0.15 (0.001) \\
+Gemini (minimal) & 14/30 (47\%) & 28/30 (93\%) & +47 & [+24, +64] & $5.2\times10^{-4}$ & 0.005 & $-$40 (0.88) & 0.49 (0.001) \\
+Qwen (low) & 0/30 (0\%) & 30/30 (100\%) & +100 & [+84, +100] & $1.9\times10^{-9}$ & $1.9\times10^{-8}$ & +100 (0.016) & 0.90 (0.001) \\
+Claude (off) & 28/30 (93\%) & 23/30 (77\%) & $-$17 & [$-$35, +2] & 0.12 & 0.88 & +0 (1) & 0.40 (0.001) \\
+Terra (off)\textsuperscript{s} & 0/30 (0\%) & 2/30 (7\%) & +7 & [$-$6, +21] & 0.5 & 1 & +0 (1) & 0.09 (0.026) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Tree scenario, target C. Stateful: 30 pairs; stateless: 10 pairs; exact paired tests, Holm over the ten tests. CI: Newcombe score interval for the paired stateful difference. Order information: mutual information between arrival order and final choice over ten complete 24-order stateful panels, with a panel-preserving permutation $p$ (999 shuffles). \textsuperscript{s}Sensitivity cell.\par}

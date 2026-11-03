@@ -1,0 +1,172 @@
+{
+  "aggregate_incremental_ceiling_usd": 7.63,
+  "batch": "claude_none_batch00_shards_00_06",
+  "batch_manifest_sha256": "0342e3716f41867df5a46716b5a49bd6d3929d7b38cd7778a48ea1114f38ef81",
+  "batch_shards": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "daily_limit_usd": 10.0,
+  "frozen_at": "2026-09-21T19:08:59.002937+00:00",
+  "incremental_ceiling_per_task_usd": 1.09,
+  "job_count": 161,
+  "launch_policy": "exactly_shards_00_06_may_run; no_later_claude_shard_may_launch_before_batch00_is_sealed_and_fresh_quota_is_attested",
+  "maximum_daily_exposure_usd": 9.352805499999999,
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "planned_calls": 513,
+  "pre_launch_known_daily_cost_usd": 1.7228054999999998,
+  "previous_collection_manifest_sha256": "e9c2d74befa29be1e853fd8adced945c8843f98eb4b95281a088630f06eb00ab",
+  "quota_attestation": {
+    "bytes": 933,
+    "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch00/quota_before_claude_none_batch00_20260921_v1.json",
+    "sha256": "86519337792c0738951fb29432dd8405a71ff47bbcdc4063cc6d97d0c3f8a090"
+  },
+  "quota_attestation_sha256": "b33b68d45818ffcf852e5b1a216020b0cb12e4145df889d192b443c1ff21e0c6",
+  "reasoning": "none",
+  "role": "reasoning_off_sensitivity",
+  "schema": "chronos.experiment-a-full-batch-tasks.v1",
+  "shard_count_total": 30,
+  "status": "authorized_not_launched",
+  "study_id": "chronos_round2_water4_study_claude_none_v1",
+  "task_count": 7,
+  "tasks": [
+    {
+      "effective_ceiling_usd": 1.09,
+      "identity": "e764ad83417908b1d8b1786b8b849d12d7156ca687014383aaf10b1a4daba10b",
+      "incremental_ceiling_usd": 1.09,
+      "job_count": 23,
+      "jobs_sha256": "c7458e2a45617779f67a0f161dfa9bdadad4b11f4367993c87a98c7ea64f900a",
+      "output_folder": "round2_water4_study_claude_none_s00_v1",
+      "pilot_receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+      "planned_calls": 75,
+      "shard_count": 30,
+      "shard_index": 0,
+      "source": {
+        "bytes": 198463,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s00_v1.py",
+        "sha256": "9264d91b5f960dc2be56b271f554262ea087ff230530a83263e4534ac9a1b11c"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-claude-none-s00-v1"
+    },
+    {
+      "effective_ceiling_usd": 1.09,
+      "identity": "e764ad83417908b1d8b1786b8b849d12d7156ca687014383aaf10b1a4daba10b",
+      "incremental_ceiling_usd": 1.09,
+      "job_count": 23,
+      "jobs_sha256": "e04679716bb92e8e9f7fefd428f73d491124e231518e72d0145e9cdf9156f971",
+      "output_folder": "round2_water4_study_claude_none_s01_v1",
+      "pilot_receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+      "planned_calls": 59,
+      "shard_count": 30,
+      "shard_index": 1,
+      "source": {
+        "bytes": 198429,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s01_v1.py",
+        "sha256": "a865578403f8ef57941e41f30d7b3a00a6f149ccd867b4ca9bc80ac2fe812e4e"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-claude-none-s01-v1"
+    },
+    {
+      "effective_ceiling_usd": 1.09,
+      "identity": "e764ad83417908b1d8b1786b8b849d12d7156ca687014383aaf10b1a4daba10b",
+      "incremental_ceiling_usd": 1.09,
+      "job_count": 23,
+      "jobs_sha256": "365dbe9d199c3d24d51d76a3521d3b3f351e3f9e8bbfbc9d85051531deccf361",
+      "output_folder": "round2_water4_study_claude_none_s02_v1",
+      "pilot_receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+      "planned_calls": 79,
+      "shard_count": 30,
+      "shard_index": 2,
+      "source": {
+        "bytes": 198433,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s02_v1.py",
+        "sha256": "209af908bcb54658bf011ca202b72b0e6cef8128810642f2cb527bac444fe1cb"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-claude-none-s02-v1"
+    },
+    {
+      "effective_ceiling_usd": 1.09,
+      "identity": "e764ad83417908b1d8b1786b8b849d12d7156ca687014383aaf10b1a4daba10b",
+      "incremental_ceiling_usd": 1.09,
+      "job_count": 23,
+      "jobs_sha256": "c767c02f67a6bd555f0c0e8901906beb015da7c10f01b3039c6e748578f7e049",
+      "output_folder": "round2_water4_study_claude_none_s03_v1",
+      "pilot_receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+      "planned_calls": 71,
+      "shard_count": 30,
+      "shard_index": 3,
+      "source": {
+        "bytes": 198487,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s03_v1.py",
+        "sha256": "50a114b2693fa2f4e35446c63718de3eb40996598b6a9a3dbb9f96b69b69ba5c"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-claude-none-s03-v1"
+    },
+    {
+      "effective_ceiling_usd": 1.09,
+      "identity": "e764ad83417908b1d8b1786b8b849d12d7156ca687014383aaf10b1a4daba10b",
+      "incremental_ceiling_usd": 1.09,
+      "job_count": 23,
+      "jobs_sha256": "ef3c7bb282d70b3df3cbf0c3bff88ff34566f46c2008ca97af974868fa828a50",
+      "output_folder": "round2_water4_study_claude_none_s04_v1",
+      "pilot_receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+      "planned_calls": 87,
+      "shard_count": 30,
+      "shard_index": 4,
+      "source": {
+        "bytes": 198517,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s04_v1.py",
+        "sha256": "a0799ec59a211cc9a050094647330ddb85a81718904aa2e7c60d20df5c2c9303"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-claude-none-s04-v1"
+    },
+    {
+      "effective_ceiling_usd": 1.09,
+      "identity": "e764ad83417908b1d8b1786b8b849d12d7156ca687014383aaf10b1a4daba10b",
+      "incremental_ceiling_usd": 1.09,
+      "job_count": 23,
+      "jobs_sha256": "72ec29f66dab537a7818956123506f35118e20fa2498d6fef0323c7c629ef945",
+      "output_folder": "round2_water4_study_claude_none_s05_v1",
+      "pilot_receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+      "planned_calls": 71,
+      "shard_count": 30,
+      "shard_index": 5,
+      "source": {
+        "bytes": 198479,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s05_v1.py",
+        "sha256": "6b0880badbbf6cf65882924d598dad9e480cc0b6a3636fdf6aceecb800924a10"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-claude-none-s05-v1"
+    },
+    {
+      "effective_ceiling_usd": 1.09,
+      "identity": "e764ad83417908b1d8b1786b8b849d12d7156ca687014383aaf10b1a4daba10b",
+      "incremental_ceiling_usd": 1.09,
+      "job_count": 23,
+      "jobs_sha256": "cd558c6cae8df2cd8c9a4b63d35c15521cdc14a0b2ff8dfffef635ef0524d79b",
+      "output_folder": "round2_water4_study_claude_none_s06_v1",
+      "pilot_receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+      "planned_calls": 71,
+      "shard_count": 30,
+      "shard_index": 6,
+      "source": {
+        "bytes": 198483,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s06_v1.py",
+        "sha256": "151af7b6b622cc27ce9dbd63756425eeb5d4c2c479c37899a7b1c67047cc05a6"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-claude-none-s06-v1"
+    }
+  ]
+}

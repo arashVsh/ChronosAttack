@@ -1,0 +1,88 @@
+{
+  "allocation_exhausted": false,
+  "audit_failed": "ValueError('Missing explanation')",
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "none",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "effective_ceiling_usd": 1.09,
+  "evidence_sha256": "2aa83fb2eb39697c2bdec6d0655932af156aa63d3eb8218dfe89c97df3266f00",
+  "identity": "e764ad83417908b1d8b1786b8b849d12d7156ca687014383aaf10b1a4daba10b",
+  "incremental_ceiling_usd": 1.09,
+  "job_count": 23,
+  "manifest_sha256": "e6cf2751910224bfd621f75600c95bebfbd70938efde99801965157a92b136f9",
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "new_suffix_accounting": {
+    "accounting_complete": true,
+    "complete_calls": 10,
+    "completed_jobs": 2,
+    "events": 16,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.045582899999999996,
+    "observed_invocations": 10,
+    "started_attempts": 3,
+    "unknown_cost_calls": 0
+  },
+  "parent_ledger_sha256": null,
+  "parent_prefix_preserved": true,
+  "parse_failures": [],
+  "passed": false,
+  "pilot_collection_manifest_sha256": "7a619d747094b83e7eff6a827ee898d412e5d54b0a16e27a77346f4682152766",
+  "pilot_evidence_sha256": "a9402f0ece398a6c5a2dd76019169048b08cccec4de15ea73a58a930cf5b1046",
+  "pilot_receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+  "planned_calls": 79,
+  "protocol_extension_sha256": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190",
+  "raw_accounting": {
+    "accounting_complete": true,
+    "complete_calls": 10,
+    "completed_jobs": 2,
+    "events": 16,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.045582899999999996,
+    "observed_invocations": 10,
+    "started_attempts": 3,
+    "unknown_cost_calls": 0
+  },
+  "reasoning": "none",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "reasoning_off_sensitivity",
+  "schema": "chronos.experiment-a-full-shard-contract.v1",
+  "shard_count": 30,
+  "shard_index": 21,
+  "source_sha256": {
+    "audit_water_supply.py": "1a36ec625580e5560e0bc2c0913f34a9436a965bb629ea13b763f90abaffc374",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_a_availability_v1.json": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943",
+    "experiment_a_manifest_v1.json": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "water_supply_protocol.py": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190"
+  },
+  "stopped_early": "ValueError('Missing explanation')",
+  "study_id": "chronos_round2_water4_study_claude_none_v1",
+  "suffix_parse_failures": [],
+  "terminal_error": {
+    "code": null,
+    "message": "Missing explanation",
+    "param": null,
+    "status_code": null,
+    "type": "ValueError"
+  },
+  "transient_waits": {
+    "count": 0,
+    "seconds": 0
+  },
+  "transport_wait_seconds": 7200
+}

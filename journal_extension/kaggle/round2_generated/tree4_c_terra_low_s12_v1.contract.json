@@ -1,0 +1,95 @@
+{
+  "amendment_sha256": "5ab050c777c309138b811c29f347f75816419d8811df5fc54189d533d7ceb6f5",
+  "builder_sha256": "fa346fe912c8f720323c256f59268d0b4cfac90e4d61020ca8e4a3840d119e3a",
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "ceiling_usd": 0.5,
+  "contract_sha256": "ae3649426ad271a77ceac32c91f48d0292a2a159f92db18c24b4ddafae297356",
+  "expected_job_ids": [
+    "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|undefended_natural|0|13",
+    "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|undefended_selected_order|0|13",
+    "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|barrier|0|13",
+    "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|order_consistency_24|0|13",
+    "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|randomized|0|13",
+    "chronos_round2_tree4_experiment_c_v1|defense|openai/gpt-5.6-terra|tree4|invariant|0|13"
+  ],
+  "identity": "e64bcb5018bc6d77d527486525356827c8a29f9723ebb7d220d1b2e524efd874",
+  "job_count": 6,
+  "jobs_manifest_sha256": "4a0052d7322758bd6d11cc09dc6980630f5da480ee90b84b5eea76ccae2d5a7a",
+  "model": "openai/gpt-5.6-terra",
+  "parent_ledger_sha256": null,
+  "planned_calls": 45,
+  "quota_attestation": {
+    "attestation_sha256": "1ca8487ad410cef9f5e45939ee7491ae2eba689ab36119d827a7fe23bd8576ff",
+    "endpoint": "/api/v1/benchmarks/tasks/quota",
+    "queried_at_end_utc": "2026-09-24T18:10:58.001423+00:00",
+    "queried_at_start_utc": "2026-09-24T18:10:56.183193+00:00",
+    "response": {
+      "daily_quota_used_usd": 0.8305900000000008,
+      "total_daily_quota_allowed_usd": 10.0
+    },
+    "run_context": {
+      "evidence_sha256": "3b1d70ced8c003f2baf9a0533b593125e61e1f2c60bf16a49ea20791c2f5a26f",
+      "last_evidence_event_utc": "2026-09-24T17:54:31.369882+00:00",
+      "model": null,
+      "reasoning": null,
+      "run_id": 2951369,
+      "study_id": null,
+      "task": "chronos-r2-tree4-c-terra-low-s11-v1",
+      "terminal_sha256": "b3bfdc491e27e8b7b2f9b8a61699eafd0246375acb4e9f906dd905a2a5695f58"
+    },
+    "schema": "chronos.kaggle-benchmark-quota-attestation.v1"
+  },
+  "quota_capture_source_sha256": "e83a0062c851db5096b6a213283123e2230e950b10f99774b908bc52f70e7625",
+  "quota_gate": {
+    "allowed_usd": 10.0,
+    "attestation_sha256": "1ca8487ad410cef9f5e45939ee7491ae2eba689ab36119d827a7fe23bd8576ff",
+    "remaining_usd": 9.16941,
+    "used_usd": 0.8305900000000008
+  },
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "primary",
+  "schema": "chronos.experiment-c-shard-contract.v1",
+  "selection_manifest_sha256": "a462db231f9b42463e2f96e5bd93f1d950e9a1be65a8ffa1523da82447b3ec38",
+  "sequence_gate": {
+    "experiment_a_analysis_sha256": "7fc08152f276215aa959274089a0f56c73ea55d76a0fbbdbf5554c29fe0a947c",
+    "experiment_a_file_sha256": "89cbeb468a8372309d8fdd1d1cfde03697667bcc9fdf3870e6be5326106bab57",
+    "experiment_a_verifier_sha256": "535db28cf0893136c47878befd036a252526c67bc183456f35a35d76240b8730",
+    "experiment_b_analysis_sha256": "05975363060f0b4080bb349303008d194f45f95cd333047a8a6b5b4dfb895dcb",
+    "experiment_b_file_sha256": "6202272bb97af8033b7bdf21339dd6c4ef350f10a7ba8435cc31ecd3f1a6d487",
+    "experiment_b_verifier_sha256": "58308850e50201ea48181f6901b6d34bac7d451e5cfdde8d78d643936fb7046c"
+  },
+  "shard_count": 30,
+  "shard_index": 12,
+  "source_audit_gate": {
+    "collection_manifest_sha256": "99fb3f5d22d48bfcaa4d151702494c2e1ff78178c8b30011dbcb5fab37d4f253",
+    "complete_trial_calls": 2310,
+    "completed_jobs": 690,
+    "kind": "terra_low_collection"
+  },
+  "source_log_sha256": "23d7b890f17181906a56cd1475f77546cd9e52ffaf7dd6e5b845acc1a734ced0",
+  "source_sha256": {
+    "audit_experiment_c_v1.py": "1c4c575efe430cc0a434b9bb458a24222a237be14abe1c64a5fc4b95ca7a2d8c",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_c_protocol_v1.py": "f3402e723f4d421d5efcc6413e6214fa1e58f50752bdb0b54c2e7a147a9abc58",
+    "experiment_c_selection_v1.py": "920152511d8f99aee026e477a8c39f488445cad2e8ea5f3fc608aea9ebb36456",
+    "four_observation_defenses.py": "d1cb2bbd4314b91311f86b6255e0acbcf7e093d4febec350b43021712d98747f",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_tree4_experiment_c_v1"
+}

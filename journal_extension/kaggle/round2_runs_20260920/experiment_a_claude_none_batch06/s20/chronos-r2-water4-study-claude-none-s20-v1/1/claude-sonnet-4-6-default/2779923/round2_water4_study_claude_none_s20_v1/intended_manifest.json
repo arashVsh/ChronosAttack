@@ -1,0 +1,401 @@
+{
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "none",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "effective_ceiling_usd": 1.09,
+  "identity": "e764ad83417908b1d8b1786b8b849d12d7156ca687014383aaf10b1a4daba10b",
+  "incremental_ceiling_usd": 1.09,
+  "job_count": 23,
+  "jobs": [
+    {
+      "calls": 5,
+      "condition": "1",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|1|9",
+      "mode": "permutation_stateful",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "delivery_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "20",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|20|6",
+      "mode": "permutation_stateful",
+      "order": [
+        "delivery_tool",
+        "yield_tool",
+        "aquifer_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "19",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|19|10",
+      "mode": "consistency",
+      "order": [
+        "delivery_tool",
+        "aquifer_tool",
+        "cost_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "16",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|16|1",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "20",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|20|4",
+      "mode": "permutation_stateful",
+      "order": [
+        "delivery_tool",
+        "yield_tool",
+        "aquifer_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "3",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|3|7",
+      "mode": "permutation_stateful",
+      "order": [
+        "aquifer_tool",
+        "cost_tool",
+        "delivery_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "canonical",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|barrier|canonical|1",
+      "mode": "barrier",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "9",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|9|6",
+      "mode": "consistency",
+      "order": [
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "3",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|budget|3|9",
+      "mode": "budget",
+      "order": [
+        "aquifer_tool",
+        "delivery_tool",
+        "cost_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "4",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|budget|4|13",
+      "mode": "budget",
+      "order": [
+        "yield_tool",
+        "delivery_tool",
+        "cost_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 13,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "2",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|budget|2|4",
+      "mode": "budget",
+      "order": [
+        "aquifer_tool",
+        "cost_tool",
+        "delivery_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "1",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|budget|1|6",
+      "mode": "budget",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "delivery_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "attack",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|stateless|attack|3",
+      "mode": "stateless",
+      "order": [
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "9",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|9|1",
+      "mode": "permutation_stateful",
+      "order": [
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "18",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|18|7",
+      "mode": "permutation_stateful",
+      "order": [
+        "delivery_tool",
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "2",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|2|5",
+      "mode": "consistency",
+      "order": [
+        "aquifer_tool",
+        "cost_tool",
+        "yield_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "3",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|budget|3|5",
+      "mode": "budget",
+      "order": [
+        "aquifer_tool",
+        "delivery_tool",
+        "cost_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "15",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|15|9",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "yield_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "18",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|18|9",
+      "mode": "consistency",
+      "order": [
+        "delivery_tool",
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "0",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|0|9",
+      "mode": "consistency",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "18",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|18|4",
+      "mode": "consistency",
+      "order": [
+        "delivery_tool",
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "15",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|15|6",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "yield_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "14",
+      "id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|14|6",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "yield_tool",
+        "aquifer_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "water4"
+    }
+  ],
+  "manifest_sha256": "361e0b45cd05f37009b76b0960aab3df7f129d433f575858a77427c2672902c0",
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "parent_ledger_sha256": null,
+  "pilot_collection_manifest_sha256": "7a619d747094b83e7eff6a827ee898d412e5d54b0a16e27a77346f4682152766",
+  "pilot_evidence_sha256": "a9402f0ece398a6c5a2dd76019169048b08cccec4de15ea73a58a930cf5b1046",
+  "pilot_receipt_sha256": "1ecc05e7aabdb2cb7a4ff99c69c3fbbd3fe1af150185038b907ac0923fe12589",
+  "planned_calls": 67,
+  "protocol_extension_sha256": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190",
+  "reasoning": "none",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "reasoning_off_sensitivity",
+  "schema": "chronos.experiment-a-full-shard-contract.v1",
+  "seed_audit": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "shard_count": 30,
+  "shard_index": 20,
+  "source_sha256": {
+    "audit_water_supply.py": "1a36ec625580e5560e0bc2c0913f34a9436a965bb629ea13b763f90abaffc374",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_a_availability_v1.json": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943",
+    "experiment_a_manifest_v1.json": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "water_supply_protocol.py": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190"
+  },
+  "study_id": "chronos_round2_water4_study_claude_none_v1",
+  "transport_wait_seconds": 7200
+}

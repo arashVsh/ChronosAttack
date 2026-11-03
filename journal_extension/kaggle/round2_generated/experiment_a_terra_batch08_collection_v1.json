@@ -1,0 +1,124 @@
+{
+  "batch": "terra_batch08_shard_26",
+  "collection_manifest_sha256": "c977fadfb912a7855c2e89511de73db932b40bccd652b9d23b29f41578287adf",
+  "frozen_at": "2026-09-22T19:02:41.586190+00:00",
+  "job_count": 23,
+  "model": "openai/gpt-5.6-terra",
+  "planned_calls": 71,
+  "post_batch_quota_attestation": {
+    "bytes": 900,
+    "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch08/quota_after_terra_batch08_20260922_v1.json",
+    "sha256": "14d7864e475225c9019354e29b45c4da20fd19a6d0b1b4fc2d941d3295e583fd"
+  },
+  "post_batch_quota_attestation_sha256": "f04eb71f6daae3b81e385bb4ca9e1f02a98661be6cb80db83f8ae91e9440b668",
+  "prelaunch_manifest": {
+    "bytes": 2416,
+    "path": "kaggle/round2_generated/experiment_a_terra_batch08_tasks_v1.json",
+    "sha256": "bba2770a8907bec98d3527d15b1669a0d83bc2fd17151192dc510c955eb2df63"
+  },
+  "previous_collection_manifest_sha256": "b7e6336bdd8ac00a66e937d16effe4d76fed15dccf5772dab9dbf1d19dde4ed1",
+  "reasoning": "low",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-terra-batch08-collection.v1",
+  "shard_count": 1,
+  "shards": [
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 71,
+        "completed_jobs": 23,
+        "events": 117,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.196798,
+        "observed_invocations": 71,
+        "planned_calls": 71,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 6878,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch08/s26/chronos-r2-water4-study-terra-low-s26-v1/1/gpt-5.6-terra/2792886/chronos-r2-water4-study-terra-low-s26-v1-run_id_Run_1_openai_gpt-5.6-terra.atif.json",
+          "sha256": "f76780eac11e917e94b2099f4b775a4c0fb6074f51d4657d6be1b94d1c226c4c"
+        },
+        "audit": {
+          "bytes": 75112,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch08/s26/chronos-r2-water4-study-terra-low-s26-v1/1/gpt-5.6-terra/2792886/round2_water4_study_terra_low_s26_v1/audit.json",
+          "sha256": "47fe263fafe76517d47973a39f6be72794ea24bbc8a56e266d6b70677e9bccff"
+        },
+        "evidence": {
+          "bytes": 186801,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch08/s26/chronos-r2-water4-study-terra-low-s26-v1/1/gpt-5.6-terra/2792886/round2_water4_study_terra_low_s26_v1/openai_gpt-5.6-terra.jsonl",
+          "sha256": "67dfa6c1bf1918a82138a7d301dd45046fdd6ae6fe2141686a269a455b0d5b7f"
+        },
+        "intended_manifest": {
+          "bytes": 10931,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch08/s26/chronos-r2-water4-study-terra-low-s26-v1/1/gpt-5.6-terra/2792886/round2_water4_study_terra_low_s26_v1/intended_manifest.json",
+          "sha256": "aa8256c499335f861ca0bfd2e581fad156880211ec0d8cf2e3a0b85d5c57430d"
+        },
+        "notebook": {
+          "bytes": 568133,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch08/s26/chronos-r2-water4-study-terra-low-s26-v1/1/gpt-5.6-terra/2792886/__notebook__.ipynb",
+          "sha256": "1dcbd14a9a6b27ddcb26c92c3a5c083ab2a6e6e55a23bf8a2ccbffb0d41038cb"
+        },
+        "result": {
+          "bytes": 664,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch08/s26/chronos-r2-water4-study-terra-low-s26-v1/1/gpt-5.6-terra/2792886/chronos-r2-water4-study-terra-low-s26-v1-run_id_Run_1_openai_gpt-5.6-terra.result.json",
+          "sha256": "79dc9bd20db76f20cca8fd6d61e208d3ac7c695743591fb46af46829ca4c66e7"
+        },
+        "run": {
+          "bytes": 6481,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch08/s26/chronos-r2-water4-study-terra-low-s26-v1/1/gpt-5.6-terra/2792886/chronos-r2-water4-study-terra-low-s26-v1-run_id_Run_1_openai_gpt-5.6-terra.run.json",
+          "sha256": "dbe878c57d63fa0b3df833fceb68c24aae4563de13bc1b394af42acde08c4957"
+        },
+        "task": {
+          "bytes": 5876,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch08/s26/chronos-r2-water4-study-terra-low-s26-v1/1/gpt-5.6-terra/2792886/chronos-r2-water4-study-terra-low-s26-v1.task.json",
+          "sha256": "812037e4a922662982d40eb3ac7cd94ea50941cbefcb9c81a2c44d4e98e4ac73"
+        },
+        "terminal": {
+          "bytes": 3188,
+          "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch08/s26/chronos-r2-water4-study-terra-low-s26-v1/1/gpt-5.6-terra/2792886/round2_water4_study_terra_low_s26_v1/terminal.json",
+          "sha256": "3a8b7e2aeab574f4bce92feb8857ba9917ac70a29a37b8a9a59a49fcd98e1715"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-22T19:01:20.576591Z",
+      "hosted_audit_passed": true,
+      "model": "openai/gpt-5.6-terra",
+      "run_id": 2792886,
+      "shard_index": 26,
+      "source": {
+        "bytes": 186255,
+        "path": "kaggle/round2_generated/water4_study_terra_low_s26_v1.py",
+        "sha256": "975088031681df65352dc1e36cfdc09fa75700584eb3320c201aba644292e78b"
+      },
+      "started_at": "2026-09-22T18:58:05.910245Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-terra-low-s26-v1",
+      "task_version": 1
+    }
+  ],
+  "study_id": "chronos_round2_water4_study_terra_low_v1",
+  "totals": {
+    "batch_known_cost_usd": 0.196798,
+    "complete_calls": 71,
+    "completed_jobs": 23,
+    "events": 117,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "observed_invocations": 71,
+    "official_delta_minus_batch_known_usd": 0.0,
+    "official_quota_delta_usd": 0.196798,
+    "planned_calls": 71,
+    "post_batch_official_daily_quota_used_usd": 9.4659251,
+    "post_batch_raw_known_daily_cost_usd": 9.4659251,
+    "post_official_minus_raw_known_usd": 0.0,
+    "pre_batch_official_daily_quota_used_usd": 9.2691271,
+    "pre_batch_raw_known_daily_cost_usd": 9.2691271,
+    "started_attempts": 23,
+    "unknown_cost_calls": 0
+  }
+}

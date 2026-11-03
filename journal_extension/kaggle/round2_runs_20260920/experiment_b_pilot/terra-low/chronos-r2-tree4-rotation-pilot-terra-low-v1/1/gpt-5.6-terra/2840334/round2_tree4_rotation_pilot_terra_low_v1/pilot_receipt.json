@@ -1,0 +1,23 @@
+{
+  "completed_jobs": 2,
+  "evidence_sha256": "17c933fdb60de48fa031afba67e814c2ea92e441172cb797d17bfa670e5d18d5",
+  "failed_calls": 0,
+  "fixture_manifest_sha256": "358d2389d8abeb8eadc31fe810c6cf1a1d820f740635224f1402ef7cbe5979fc",
+  "identity": "b9c0d7abef1cb8100a3d943db7f4af2af48a2543c51d510db9eb31f04c842005",
+  "intended_manifest_sha256": "5e36cdafb6cf88b5b938ece3117c09253db147b91b099146ba2fe780bb9e8dd3",
+  "jobs_sha256": "7ad3e5c4492c7cf1be27fc3383f6d77c38d5079929a01fc5597650bd0505b2ad",
+  "known_cost_usd": 0.030024000000000006,
+  "model": "openai/gpt-5.6-terra",
+  "observed_invocations": 10,
+  "outcomes_examined_for_authorization": false,
+  "passed": true,
+  "phase": "pilot",
+  "pilot_excluded_from_study": true,
+  "reasoning": "low",
+  "receipt_sha256": "9c004a112cce460a35e70896766b5173a3c7465c55ea12853379a68f47f13d12",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-b-pilot-receipt.v1",
+  "study_id": "chronos_round2_tree4_label_rotation_terra_low_pilot_v1",
+  "terminal_sha256": "d99d2ede575329df6084775a03114ea0dc6adbe0c6312bee903eafdedd26c195",
+  "unknown_cost_calls": 0
+}

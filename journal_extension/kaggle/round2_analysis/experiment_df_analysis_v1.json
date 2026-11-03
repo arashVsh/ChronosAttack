@@ -1,0 +1,3426 @@
+{
+  "classification": "exploratory_descriptive",
+  "models": {
+    "anthropic/claude-sonnet-4-6@default": {
+      "cell": {
+        "model": "anthropic/claude-sonnet-4-6@default",
+        "phase": "study",
+        "reasoning": "none",
+        "role": "reasoning_off",
+        "study_id": "chronos_round2_tree3_leave_one_out_claude_none_study_v1"
+      },
+      "four_observations": {
+        "attack_order_target_rate": 0.8,
+        "choice_counts": {
+          "B": 85,
+          "C": 155
+        },
+        "max_order": {
+          "order": [
+            "equity_tool",
+            "heat_tool",
+            "cost_tool",
+            "survival_tool"
+          ],
+          "target_rate": 1.0
+        },
+        "min_order": {
+          "order": [
+            "equity_tool",
+            "cost_tool",
+            "survival_tool",
+            "heat_tool"
+          ],
+          "target_rate": 0.0
+        },
+        "natural_order_target_rate": 0.8,
+        "order_information": {
+          "bits": 0.3992493677751078,
+          "excess_bits": 0.3227472033845227,
+          "null_mean_bits": 0.07650216439058509,
+          "orders": 24,
+          "p_raw": 0.001,
+          "panels": 10
+        },
+        "orders_with_any_target": 21,
+        "panels": 10,
+        "provenance": {
+          "ledger": {
+            "bytes": 6446184,
+            "events": 3825,
+            "path": "kaggle/four_observation_results/claude_final_20260910/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "eb65e8fc1ce6af335521f285c22a413007f291fccebebacb39da8a11b8d0364f"
+          },
+          "reasoning": "none",
+          "source": "round2_analysis/analysis.json"
+        },
+        "target_rate_by_order": [
+          {
+            "order": [
+              "equity_tool",
+              "heat_tool",
+              "survival_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.8
+          },
+          {
+            "order": [
+              "equity_tool",
+              "heat_tool",
+              "cost_tool",
+              "survival_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "survival_tool",
+              "heat_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.9
+          },
+          {
+            "order": [
+              "equity_tool",
+              "survival_tool",
+              "cost_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.7
+          },
+          {
+            "order": [
+              "equity_tool",
+              "cost_tool",
+              "heat_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.1
+          },
+          {
+            "order": [
+              "equity_tool",
+              "cost_tool",
+              "survival_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "equity_tool",
+              "survival_tool",
+              "cost_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "equity_tool",
+              "cost_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.8
+          },
+          {
+            "order": [
+              "heat_tool",
+              "survival_tool",
+              "equity_tool",
+              "cost_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "survival_tool",
+              "cost_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.8
+          },
+          {
+            "order": [
+              "heat_tool",
+              "cost_tool",
+              "equity_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.6
+          },
+          {
+            "order": [
+              "heat_tool",
+              "cost_tool",
+              "survival_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.9
+          },
+          {
+            "order": [
+              "survival_tool",
+              "equity_tool",
+              "heat_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.8
+          },
+          {
+            "order": [
+              "survival_tool",
+              "equity_tool",
+              "cost_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.3
+          },
+          {
+            "order": [
+              "survival_tool",
+              "heat_tool",
+              "equity_tool",
+              "cost_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "heat_tool",
+              "cost_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.7
+          },
+          {
+            "order": [
+              "survival_tool",
+              "cost_tool",
+              "equity_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.6
+          },
+          {
+            "order": [
+              "survival_tool",
+              "cost_tool",
+              "heat_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.9
+          },
+          {
+            "order": [
+              "cost_tool",
+              "equity_tool",
+              "heat_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "equity_tool",
+              "survival_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "heat_tool",
+              "equity_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.5
+          },
+          {
+            "order": [
+              "cost_tool",
+              "heat_tool",
+              "survival_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.6
+          },
+          {
+            "order": [
+              "cost_tool",
+              "survival_tool",
+              "equity_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.8
+          },
+          {
+            "order": [
+              "cost_tool",
+              "survival_tool",
+              "heat_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.7
+          }
+        ],
+        "target_rate_overall": 0.6458333333333334,
+        "target_rate_range": 1.0
+      },
+      "three_observations": {
+        "completed_jobs": 240,
+        "known_cost_usd": 4.289826,
+        "planned_jobs": 240,
+        "sources": [
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.13920300000000002,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s00-v1/1/claude-sonnet-4-6-default/4575152/round2_tree3_loo_claude_s00_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "a033c49cb04752a7fd7b9c763add94e513ac0c4a92e778e209bc5bf817dfc91c"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.14054399999999997,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s01-v1/1/claude-sonnet-4-6-default/4574640/round2_tree3_loo_claude_s01_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "47fdc0eb95b4f6fec1c87d70ea89686e7d20b8ad9ea629642d42fa884d992d09"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.14155500000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s02-v1/1/claude-sonnet-4-6-default/4574656/round2_tree3_loo_claude_s02_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "4f166616daae5b4d7d5d53a746f4c306a60e31b7a3d22b493b7a07383b8ed88e"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.137574,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s03-v1/1/claude-sonnet-4-6-default/4575381/round2_tree3_loo_claude_s03_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "e65c6db63e1abffcbe9339248143c9cbe1e682b26b681000ebc51b0b99aea2bd"
+          },
+          {
+            "failed_calls": 1,
+            "known_cost_usd": 0.15640500000000002,
+            "observed_invocations": 35,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s04-v1/1/claude-sonnet-4-6-default/4575580/round2_tree3_loo_claude_s04_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "2c828dc7625ebdda6562ca21c550582f9bd40ccea2099bcae8823c9eaad53842"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.139338,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s05-v1/1/claude-sonnet-4-6-default/4574979/round2_tree3_loo_claude_s05_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "0a8199e9207cf1719ae7a9198366013113ed01ff2519ff1c7c463a249ef09ff2"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.13905299999999998,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s06-v1/1/claude-sonnet-4-6-default/4575581/round2_tree3_loo_claude_s06_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "f4df575617ffa1f96d8b49df0b836fbf460a42ff9c7c83954372e09289d1da71"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.13932299999999997,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s07-v1/1/claude-sonnet-4-6-default/4577635/round2_tree3_loo_claude_s07_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "a5d690c46cdb7349f0a5a6bd16d62da0a556e419a8ab5c73dfff18c7401d698f"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.13863599999999998,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s08-v1/1/claude-sonnet-4-6-default/4575299/round2_tree3_loo_claude_s08_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "d56f53508e16b15f4cb13bd660eff512c4994c1d92d2e89a3bfd9af7c7e3a533"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.13783199999999998,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s09-v1/1/claude-sonnet-4-6-default/4577582/round2_tree3_loo_claude_s09_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "fbfa5abd83f281717b1396d47acab36b267e8bac0a07191f7c39114802775314"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.142497,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s10-v1/1/claude-sonnet-4-6-default/4577723/round2_tree3_loo_claude_s10_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "9f4ce846a54f1d1780377f170667c6dd83254da26de233bc0dc42ddceb379382"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.142065,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s11-v1/1/claude-sonnet-4-6-default/4575510/round2_tree3_loo_claude_s11_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "9a2bdc6c0c07a88ea6a88aca1bbdfc8f6393d1b1e6142b4be0b693099d2bcb7a"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.139131,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s12-v1/1/claude-sonnet-4-6-default/4577694/round2_tree3_loo_claude_s12_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "36ba4d81a074b26cbd568a6fe9d36dc30b38c306f49a5bb1cfa49b8a17f35b2b"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.14135399999999998,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s13-v1/1/claude-sonnet-4-6-default/4577779/round2_tree3_loo_claude_s13_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "e18f30439e7108423a7df3bb1c014a1d295cfbad70ce83d46cb27062b3e469f2"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.13665599999999997,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s14-v1/1/claude-sonnet-4-6-default/4577645/round2_tree3_loo_claude_s14_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "e1420c0fa1a52166334444839a4db75110260c0755b973f3abc5042f758aac1e"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.140961,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s15-v1/1/claude-sonnet-4-6-default/4577768/round2_tree3_loo_claude_s15_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "6d2674b53bbcf8d21c28d1866f5f5f64f8c8c970b411c438102a1fb6eb19dbaa"
+          },
+          {
+            "failed_calls": 1,
+            "known_cost_usd": 0.15958799999999995,
+            "observed_invocations": 36,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s16-v1/1/claude-sonnet-4-6-default/4577896/round2_tree3_loo_claude_s16_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "2d42990e656c08e8127e628b3c8037802a88d40a264eb0d76f1a558353a2b81c"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.138309,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s17-v1/1/claude-sonnet-4-6-default/4577742/round2_tree3_loo_claude_s17_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "5859edb483df9419887e6d59d865a58936b733cccf22a3e00f7aadd33277f7a1"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.14550899999999997,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s18-v1/1/claude-sonnet-4-6-default/4577871/round2_tree3_loo_claude_s18_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "0e1a5ca93bdcee02b2109723d3c378fddbbfba926ff3ea49b73420a859230d60"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.14067899999999997,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s19-v1/1/claude-sonnet-4-6-default/4577989/round2_tree3_loo_claude_s19_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "e9e142453e843ee98f1834719611c1caabd4dd8af656b7f304a18f8bada4b31e"
+          },
+          {
+            "failed_calls": 1,
+            "known_cost_usd": 0.15120600000000003,
+            "observed_invocations": 35,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s20-v1/1/claude-sonnet-4-6-default/4577821/round2_tree3_loo_claude_s20_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "ace70a2700fc01b2929eccb23ff4b5e6fd4d0ab74335d37ab6d495e746b429ad"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.141708,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s21-v1/1/claude-sonnet-4-6-default/4577945/round2_tree3_loo_claude_s21_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "81703bcd615689b97f82fb1ec57ae607b906da67d05826425fa5239612c68d64"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.144393,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s22-v1/1/claude-sonnet-4-6-default/4578525/round2_tree3_loo_claude_s22_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "a9952a80d37e4d91d5f441ecdf1de4685348da899412c80eaded2e5f97543452"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.13804499999999997,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s23-v1/1/claude-sonnet-4-6-default/4577910/round2_tree3_loo_claude_s23_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "d1ac98b34afed43ca99bda05154d0e275896fcdfbef27275998ebfee271fb971"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.140202,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s24-v1/1/claude-sonnet-4-6-default/4578517/round2_tree3_loo_claude_s24_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "833bcad9e3f3a633e3dcccc5e7d0fdd9e21b6927d4c48d95ca4b91adde56e1ca"
+          },
+          {
+            "failed_calls": 1,
+            "known_cost_usd": 0.16664400000000001,
+            "observed_invocations": 36,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s25-v1/1/claude-sonnet-4-6-default/4578617/round2_tree3_loo_claude_s25_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "cf490f1a09f3a0c74c0a01a18928f2269e51240a1ebe27877d99cdd1ab751b05"
+          },
+          {
+            "failed_calls": 2,
+            "known_cost_usd": 0.15731400000000004,
+            "observed_invocations": 36,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s26-v1/1/claude-sonnet-4-6-default/4578025/round2_tree3_loo_claude_s26_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "31a3b4dedc410e66afa33263929a57614c2790a83283da7c756e6abd4c696f48"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.13651500000000003,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s27-v1/1/claude-sonnet-4-6-default/4578605/round2_tree3_loo_claude_s27_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "8c2b335380324be52cd1edbeb829a64958390209065f0fdf457d4124c0eb40ed"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.138228,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s28-v1/1/claude-sonnet-4-6-default/4578690/round2_tree3_loo_claude_s28_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "cfa271c10a9726d41b5cc0466d6f63e3a3c031f9da54e269a5bb4fa278ebc3e5"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.13935900000000004,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/claude/chronos-r2-tree3-loo-claude-s29-v1/1/claude-sonnet-4-6-default/4578553/round2_tree3_loo_claude_s29_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+            "sha256": "fc1ca1abf3b12909a5148358d2fb7fbcb1f4ff536885fd00564444375865c7c8"
+          }
+        ],
+        "variants": {
+          "tree3_no_cost": {
+            "attack_order_target_rate": 1.0,
+            "choice_counts": {
+              "C": 60
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "equity_tool",
+                "heat_tool",
+                "survival_tool"
+              ],
+              "target_rate": 1.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "heat_tool",
+                "survival_tool"
+              ],
+              "target_rate": 1.0
+            },
+            "natural_order_target_rate": 1.0,
+            "order_information": {
+              "bits": 0.0,
+              "excess_bits": 0.0,
+              "null_mean_bits": 0.0,
+              "orders": 6,
+              "p_raw": 1.0,
+              "panels": 10
+            },
+            "orders_with_any_target": 6,
+            "panels": 10,
+            "removed": "cost_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "heat_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "survival_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "equity_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "survival_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "equity_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "heat_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              }
+            ],
+            "target_rate_overall": 1.0,
+            "target_rate_range": 0.0
+          },
+          "tree3_no_equity": {
+            "attack_order_target_rate": 0.3,
+            "choice_counts": {
+              "B": 57,
+              "C": 3
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "heat_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.3
+            },
+            "min_order": {
+              "order": [
+                "heat_tool",
+                "cost_tool",
+                "survival_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.3,
+            "order_information": {
+              "bits": 0.13951514057750747,
+              "excess_bits": 0.06980444171780484,
+              "null_mean_bits": 0.06971069885970263,
+              "orders": 6,
+              "p_raw": 0.029,
+              "panels": 10
+            },
+            "orders_with_any_target": 1,
+            "panels": 10,
+            "removed": "equity_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "heat_tool",
+                  "survival_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.3
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "cost_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "heat_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "cost_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "heat_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "survival_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              }
+            ],
+            "target_rate_overall": 0.049999999999999996,
+            "target_rate_range": 0.3
+          },
+          "tree3_no_heat": {
+            "attack_order_target_rate": 0.1,
+            "choice_counts": {
+              "B": 44,
+              "C": 16
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "survival_tool",
+                "equity_tool",
+                "cost_tool"
+              ],
+              "target_rate": 1.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "cost_tool",
+                "survival_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.5,
+            "order_information": {
+              "bits": 0.5918081430096204,
+              "excess_bits": 0.517001432342078,
+              "null_mean_bits": 0.07480671066754245,
+              "orders": 6,
+              "p_raw": 0.001,
+              "panels": 10
+            },
+            "orders_with_any_target": 3,
+            "panels": 10,
+            "removed": "heat_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "survival_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.5
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "cost_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "equity_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "cost_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.1
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "equity_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "survival_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.0
+              }
+            ],
+            "target_rate_overall": 0.26666666666666666,
+            "target_rate_range": 1.0
+          },
+          "tree3_no_survival": {
+            "attack_order_target_rate": 0.6,
+            "choice_counts": {
+              "B": 11,
+              "C": 49
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "equity_tool",
+                "heat_tool",
+                "cost_tool"
+              ],
+              "target_rate": 1.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "cost_tool",
+                "heat_tool"
+              ],
+              "target_rate": 0.4
+            },
+            "natural_order_target_rate": 1.0,
+            "order_information": {
+              "bits": 0.28549896241449085,
+              "excess_bits": 0.21309947783213504,
+              "null_mean_bits": 0.07239948458235582,
+              "orders": 6,
+              "p_raw": 0.001,
+              "panels": 10
+            },
+            "orders_with_any_target": 6,
+            "panels": 10,
+            "removed": "survival_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "heat_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "cost_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.4
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "equity_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "cost_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.6
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "equity_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.9
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "heat_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              }
+            ],
+            "target_rate_overall": 0.8166666666666668,
+            "target_rate_range": 0.6
+          }
+        }
+      }
+    },
+    "google/gemini-3.6-flash": {
+      "cell": {
+        "model": "google/gemini-3.6-flash",
+        "phase": "study",
+        "reasoning": "minimal",
+        "role": "matched_non_off_primary",
+        "study_id": "chronos_round2_tree3_leave_one_out_gemini_minimal_study_v1"
+      },
+      "four_observations": {
+        "attack_order_target_rate": 0.9,
+        "choice_counts": {
+          "B": 198,
+          "C": 42
+        },
+        "max_order": {
+          "order": [
+            "heat_tool",
+            "survival_tool",
+            "equity_tool",
+            "cost_tool"
+          ],
+          "target_rate": 1.0
+        },
+        "min_order": {
+          "order": [
+            "equity_tool",
+            "heat_tool",
+            "cost_tool",
+            "survival_tool"
+          ],
+          "target_rate": 0.0
+        },
+        "natural_order_target_rate": 0.3,
+        "order_information": {
+          "bits": 0.4873286572354796,
+          "excess_bits": 0.4048130577640817,
+          "null_mean_bits": 0.08251559947139785,
+          "orders": 24,
+          "p_raw": 0.001,
+          "panels": 10
+        },
+        "orders_with_any_target": 8,
+        "panels": 10,
+        "provenance": {
+          "ledger": {
+            "bytes": 5803944,
+            "events": 3690,
+            "path": "kaggle/journal_gemini_study_20260914/output/journal_gemini_study_minimal/google_gemini-3.6-flash.jsonl",
+            "sha256": "b6894e01a36f9b6baf94d886cb75fa0a2567635cbf3763022beb5c07adc86965"
+          },
+          "reasoning": "minimal",
+          "source": "round2_analysis/analysis.json"
+        },
+        "target_rate_by_order": [
+          {
+            "order": [
+              "equity_tool",
+              "heat_tool",
+              "survival_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.3
+          },
+          {
+            "order": [
+              "equity_tool",
+              "heat_tool",
+              "cost_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "survival_tool",
+              "heat_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "survival_tool",
+              "cost_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.1
+          },
+          {
+            "order": [
+              "equity_tool",
+              "cost_tool",
+              "heat_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "cost_tool",
+              "survival_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "equity_tool",
+              "survival_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.9
+          },
+          {
+            "order": [
+              "heat_tool",
+              "equity_tool",
+              "cost_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.7
+          },
+          {
+            "order": [
+              "heat_tool",
+              "survival_tool",
+              "equity_tool",
+              "cost_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "survival_tool",
+              "cost_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.9
+          },
+          {
+            "order": [
+              "heat_tool",
+              "cost_tool",
+              "equity_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "cost_tool",
+              "survival_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "equity_tool",
+              "heat_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "equity_tool",
+              "cost_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.2
+          },
+          {
+            "order": [
+              "survival_tool",
+              "heat_tool",
+              "equity_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "heat_tool",
+              "cost_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "cost_tool",
+              "equity_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "cost_tool",
+              "heat_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "equity_tool",
+              "heat_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "equity_tool",
+              "survival_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.1
+          },
+          {
+            "order": [
+              "cost_tool",
+              "heat_tool",
+              "equity_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "heat_tool",
+              "survival_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "survival_tool",
+              "equity_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "survival_tool",
+              "heat_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.0
+          }
+        ],
+        "target_rate_overall": 0.17500000000000002,
+        "target_rate_range": 1.0
+      },
+      "three_observations": {
+        "completed_jobs": 240,
+        "known_cost_usd": 0.7090575,
+        "planned_jobs": 240,
+        "sources": [
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02333175,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s00-v1/1/gemini-3.6-flash/4574445/round2_tree3_loo_gemini_s00_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "238c42e7dff7202ca74faad9c51a586d35a0a829c0f9f254510d60a9bdbdc934"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023495999999999996,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s01-v1/1/gemini-3.6-flash/4574455/round2_tree3_loo_gemini_s01_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "3ce6bf3c704fb841974e05434240f311fda035c12fbc705920881ed8d040ea8c"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02447925,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s02-v1/1/gemini-3.6-flash/4574469/round2_tree3_loo_gemini_s02_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "832ba9595d1ad24c09b51ec8f900a361ca021109a9d089f5643c3547baa24ba3"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023434500000000004,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s03-v1/1/gemini-3.6-flash/4574582/round2_tree3_loo_gemini_s03_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "e28160ab81e42fe055d62a8e49c5a273d8f890f522d1e0a10e970d2abb6fc24a"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02420775,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s04-v1/1/gemini-3.6-flash/4574572/round2_tree3_loo_gemini_s04_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "cc3559a2c369ecaaf7f8df450c29d92aef8eac8ee9287fb00d2ee6db1335b440"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.024207,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s05-v1/1/gemini-3.6-flash/4574601/round2_tree3_loo_gemini_s05_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "44429dfffb14985ac65258fbab65d0463b20b7a7e8caa287e6294b9e7dc5a307"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02322825,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s06-v1/1/gemini-3.6-flash/4575511/round2_tree3_loo_gemini_s06_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "1b987fc76445f2d1a9ed3c3f3fc0c696e6b6f7bea13a6802375b933617532cc8"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.0238275,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s07-v1/1/gemini-3.6-flash/4575551/round2_tree3_loo_gemini_s07_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "7491e91434b22ceccb923a669b5f3e172c9d1461243fca7a536c496227a64e07"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02351249999999999,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s08-v1/1/gemini-3.6-flash/4575553/round2_tree3_loo_gemini_s08_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "876ce4b68d6c535fda932d2c71a031afa0e73b8b27b8592bd0328f1ba3de4992"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023864999999999997,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s09-v1/1/gemini-3.6-flash/4577661/round2_tree3_loo_gemini_s09_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "e9d1668619553b055a7ccf2e4fe36c61d2fb65cdbe13a408b77262dcd7dfbabc"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023454000000000003,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s10-v1/1/gemini-3.6-flash/4577749/round2_tree3_loo_gemini_s10_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "9e177dfa05d849c22024beb7907b8516cb54c7a996b75fe18ed4027f9d116a35"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02369625,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s11-v1/1/gemini-3.6-flash/4577824/round2_tree3_loo_gemini_s11_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "1db84f98a8cdb3d76a7db2f76e02f3eff856ce16bcbe8975c8a5f09e79808c46"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023355750000000005,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s12-v1/1/gemini-3.6-flash/4577919/round2_tree3_loo_gemini_s12_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "9af8324f08c8da8b9c9c3961b605328310256ed7e8403b43765078d05581beff"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023136749999999994,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s13-v1/1/gemini-3.6-flash/4578029/round2_tree3_loo_gemini_s13_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "6b1828b9f607a5fd017ba11dc5a2e40342da711e2607da2012b1776fb7b592d6"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023451,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s14-v1/1/gemini-3.6-flash/4578559/round2_tree3_loo_gemini_s14_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "58bea67d881b2254b19800e96e393bda16aa82e9f2c8d89637a17616268130ce"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.024087000000000004,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s15-v1/1/gemini-3.6-flash/4578646/round2_tree3_loo_gemini_s15_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "d2c57baf48b794886276c030f572a0288d58a4ba43845db6a0c5323132db7d5d"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023471999999999993,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s16-v1/1/gemini-3.6-flash/4578754/round2_tree3_loo_gemini_s16_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "44e965bda1f75e8b10d9e32f7f0a0a6a9fd31acd20d233cfbe583dae9e8453a0"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02391525,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s17-v1/1/gemini-3.6-flash/4578908/round2_tree3_loo_gemini_s17_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "05e1ba3712c2e7b9bed4aaa9d54e92ab729dc93452d136db48c9dbccf8f734ea"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02366175000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s18-v1/1/gemini-3.6-flash/4578993/round2_tree3_loo_gemini_s18_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "bc9889605dbd9aa16cf4afd3fc10e4f92d19ae5598ad7f016d049b160edb0dc0"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023090999999999997,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s19-v1/1/gemini-3.6-flash/4579081/round2_tree3_loo_gemini_s19_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "da03250eb6948f5899a212b4086910d6ebf5b0ba6be1e2322bba8ef9cd6d68a0"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02324775,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s20-v1/1/gemini-3.6-flash/4579257/round2_tree3_loo_gemini_s20_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "94deb1c555a7ab02f13f7dadc381cde43b89eabbc8507578983fc50ab01d8491"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023680499999999997,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s21-v1/1/gemini-3.6-flash/4579606/round2_tree3_loo_gemini_s21_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "b52bd7ff78d559c7b3403c6fe2eac36dd2ce40e6301a89dc00d83cfbd5302372"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02417175,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s22-v1/1/gemini-3.6-flash/4580047/round2_tree3_loo_gemini_s22_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "45f0e1d0e3c6c106249a4bd22386c3f869d3486b48246f7a304bad89dc909a78"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023707499999999992,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s23-v1/1/gemini-3.6-flash/4580756/round2_tree3_loo_gemini_s23_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "124e2f3d7df31680dc205a14e7d1f03f041ec7d292dc1d384bcf14303adc40d6"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023649,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s24-v1/1/gemini-3.6-flash/4590541/round2_tree3_loo_gemini_s24_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "32f3c2998c84810191f5a0ced9174e34874bd28c632e6708457ce9ac95f3c286"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.022926750000000003,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s25-v1/1/gemini-3.6-flash/4590574/round2_tree3_loo_gemini_s25_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "387d865a3319fa08fce1032e07b6134410eb4bc6220990cb362fc889fd46f83d"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02362875,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s26-v1/1/gemini-3.6-flash/4590599/round2_tree3_loo_gemini_s26_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "7058e5c383cc675e6a6cb3730639cd48da9db7f1549a91a0a43f80a57e7f2c1b"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023648999999999993,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s27-v1/1/gemini-3.6-flash/4580467/round2_tree3_loo_gemini_s27_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "a1aab820eda7d93329beca7d9b289f2ba19de95c96a22e55554d0127ff0996af"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.023670000000000004,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s28-v1/1/gemini-3.6-flash/4579829/round2_tree3_loo_gemini_s28_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "b687515864bb3f6fcbf24fdefd86857fb96aaff6a1bed5e9a1bd6cca554178a8"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.02381625,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/gemini/chronos-r2-tree3-loo-gemini-s29-v1/1/gemini-3.6-flash/4578971/round2_tree3_loo_gemini_s29_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "808936ef5a4aa3f107211a88f7cec45383bd45edeca96c7506d44daa5264865a"
+          }
+        ],
+        "variants": {
+          "tree3_no_cost": {
+            "attack_order_target_rate": 1.0,
+            "choice_counts": {
+              "C": 60
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "equity_tool",
+                "heat_tool",
+                "survival_tool"
+              ],
+              "target_rate": 1.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "heat_tool",
+                "survival_tool"
+              ],
+              "target_rate": 1.0
+            },
+            "natural_order_target_rate": 1.0,
+            "order_information": {
+              "bits": 0.0,
+              "excess_bits": 0.0,
+              "null_mean_bits": 0.0,
+              "orders": 6,
+              "p_raw": 1.0,
+              "panels": 10
+            },
+            "orders_with_any_target": 6,
+            "panels": 10,
+            "removed": "cost_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "heat_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "survival_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "equity_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "survival_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "equity_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "heat_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              }
+            ],
+            "target_rate_overall": 1.0,
+            "target_rate_range": 0.0
+          },
+          "tree3_no_equity": {
+            "attack_order_target_rate": 0.0,
+            "choice_counts": {
+              "B": 60
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "heat_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "min_order": {
+              "order": [
+                "heat_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.0,
+            "order_information": {
+              "bits": 0.0,
+              "excess_bits": 0.0,
+              "null_mean_bits": 0.0,
+              "orders": 6,
+              "p_raw": 1.0,
+              "panels": 10
+            },
+            "orders_with_any_target": 0,
+            "panels": 10,
+            "removed": "equity_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "heat_tool",
+                  "survival_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "cost_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "heat_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "cost_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "heat_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "survival_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              }
+            ],
+            "target_rate_overall": 0.0,
+            "target_rate_range": 0.0
+          },
+          "tree3_no_heat": {
+            "attack_order_target_rate": 0.0,
+            "choice_counts": {
+              "B": 60
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "equity_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.0,
+            "order_information": {
+              "bits": 0.0,
+              "excess_bits": 0.0,
+              "null_mean_bits": 0.0,
+              "orders": 6,
+              "p_raw": 1.0,
+              "panels": 10
+            },
+            "orders_with_any_target": 0,
+            "panels": 10,
+            "removed": "heat_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "survival_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "cost_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "equity_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "cost_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "equity_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "survival_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.0
+              }
+            ],
+            "target_rate_overall": 0.0,
+            "target_rate_range": 0.0
+          },
+          "tree3_no_survival": {
+            "attack_order_target_rate": 0.0,
+            "choice_counts": {
+              "A": 3,
+              "B": 49,
+              "C": 8
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "equity_tool",
+                "cost_tool",
+                "heat_tool"
+              ],
+              "target_rate": 0.3
+            },
+            "min_order": {
+              "order": [
+                "heat_tool",
+                "cost_tool",
+                "equity_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.1,
+            "order_information": {
+              "bits": 0.20285076028921756,
+              "excess_bits": 0.0647347496222247,
+              "null_mean_bits": 0.13811601066699286,
+              "orders": 6,
+              "p_raw": 0.073,
+              "panels": 10
+            },
+            "orders_with_any_target": 5,
+            "panels": 10,
+            "removed": "survival_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "heat_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.1
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "cost_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.3
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "equity_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.2
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "cost_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "equity_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.1
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "heat_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.1
+              }
+            ],
+            "target_rate_overall": 0.13333333333333333,
+            "target_rate_range": 0.3
+          }
+        }
+      }
+    },
+    "openai/gpt-5.6-terra": {
+      "cell": {
+        "model": "openai/gpt-5.6-terra",
+        "phase": "study",
+        "reasoning": "low",
+        "role": "matched_non_off_primary",
+        "study_id": "chronos_round2_tree3_leave_one_out_terra_low_study_v1"
+      },
+      "four_observations": {
+        "attack_order_target_rate": 0.1,
+        "choice_counts": {
+          "B": 224,
+          "C": 16
+        },
+        "max_order": {
+          "order": [
+            "heat_tool",
+            "survival_tool",
+            "equity_tool",
+            "cost_tool"
+          ],
+          "target_rate": 0.4
+        },
+        "min_order": {
+          "order": [
+            "equity_tool",
+            "heat_tool",
+            "survival_tool",
+            "cost_tool"
+          ],
+          "target_rate": 0.0
+        },
+        "natural_order_target_rate": 0.0,
+        "order_information": {
+          "bits": 0.14702154486328653,
+          "excess_bits": 0.06835988928553402,
+          "null_mean_bits": 0.07866165557775251,
+          "orders": 24,
+          "p_raw": 0.001,
+          "panels": 10
+        },
+        "orders_with_any_target": 7,
+        "panels": 10,
+        "provenance": {
+          "ledgers": [
+            {
+              "path": "kaggle/round2_runs_20260920/terra_study_s00_repair/chronos-r2-terra-study-low-s00-repair-v1/1/gpt-5.6-terra/2659315/round2_terra_reasoning_study_low_s00_repair_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "a13efe935cc6ebee9d54428db338c13338f2b407bb02f4029e05daeea7c61567"
+            },
+            {
+              "path": "kaggle/round2_runs_20260920/terra_study_s01/chronos-r2-terra-study-low-s01-v1/1/gpt-5.6-terra/2664491/round2_terra_reasoning_study_low_s01_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "414477fc370eeadb7b0e43ed45348ff965e43215ce36ce9e06bbc3350ea8fd98"
+            },
+            {
+              "path": "kaggle/round2_runs_20260920/terra_study_s02/chronos-r2-terra-study-low-s02-v1/1/gpt-5.6-terra/2664547/round2_terra_reasoning_study_low_s02_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "e356558d3daec0b9c40840930fa1227cf0a7dd38a28b1552b0633eb8d9111ff2"
+            },
+            {
+              "path": "kaggle/round2_runs_20260920/terra_study_s03/chronos-r2-terra-study-low-s03-v1/1/gpt-5.6-terra/2664548/round2_terra_reasoning_study_low_s03_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "f068049d6cc7db735f0eb4ef09094548cda23df627cfd9a6e056599fcf1cfd64"
+            },
+            {
+              "path": "kaggle/round2_runs_20260920/terra_study_s04/chronos-r2-terra-study-low-s04-v1/1/gpt-5.6-terra/2664816/round2_terra_reasoning_study_low_s04_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "715dac9d363fd5cf31eca838bec0d5bdf6bd8c4c4270f6140a954bfb2502c62e"
+            },
+            {
+              "path": "kaggle/round2_runs_20260920/terra_study_s05/chronos-r2-terra-study-low-s05-v1/1/gpt-5.6-terra/2664856/round2_terra_reasoning_study_low_s05_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "657b9e6983ae9a92155d64d1ca6147d66ed2c9f5f26501230d3c4a3e3d05f749"
+            },
+            {
+              "path": "kaggle/round2_runs_20260920/terra_study_s06_relaunch/chronos-r2-terra-study-low-s06-relaunch-v1/1/gpt-5.6-terra/2666584/round2_terra_reasoning_study_low_s06_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "729726bb12d23ced515671b11f83795ba0ad7b078104f7d2e7f380d1085c5a00"
+            },
+            {
+              "path": "kaggle/round2_runs_20260920/terra_study_s07_relaunch/chronos-r2-terra-study-low-s07-relaunch-v1/1/gpt-5.6-terra/2666770/round2_terra_reasoning_study_low_s07_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "de2b5dfae5302714cd86e9bb6d26d6320cd7dd508dc92bd350f86431dd3097f9"
+            },
+            {
+              "path": "kaggle/round2_runs_20260920/terra_study_s08_relaunch/chronos-r2-terra-study-low-s08-relaunch-v1/1/gpt-5.6-terra/2666662/round2_terra_reasoning_study_low_s08_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "d749125ee64bebe4dde00e7f1584c8a7fdd2699b28f1910a5dfcbaedfecf1257"
+            },
+            {
+              "path": "kaggle/round2_runs_20260920/terra_study_s09_relaunch/chronos-r2-terra-study-low-s09-relaunch-v1/1/gpt-5.6-terra/2666740/round2_terra_reasoning_study_low_s09_v1/openai_gpt-5.6-terra.jsonl",
+              "sha256": "792d881e49f02cba4150b61c4d776e5de5b8b00371f434b9944cb6b4a090c465"
+            }
+          ],
+          "source": "terra_study_collection_v1.json (Terra-low, 2026-09-20)"
+        },
+        "target_rate_by_order": [
+          {
+            "order": [
+              "equity_tool",
+              "heat_tool",
+              "survival_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "heat_tool",
+              "cost_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "survival_tool",
+              "heat_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "survival_tool",
+              "cost_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "cost_tool",
+              "heat_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "cost_tool",
+              "survival_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "equity_tool",
+              "survival_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.3
+          },
+          {
+            "order": [
+              "heat_tool",
+              "equity_tool",
+              "cost_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.1
+          },
+          {
+            "order": [
+              "heat_tool",
+              "survival_tool",
+              "equity_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.4
+          },
+          {
+            "order": [
+              "heat_tool",
+              "survival_tool",
+              "cost_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.1
+          },
+          {
+            "order": [
+              "heat_tool",
+              "cost_tool",
+              "equity_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "cost_tool",
+              "survival_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.1
+          },
+          {
+            "order": [
+              "survival_tool",
+              "equity_tool",
+              "heat_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "equity_tool",
+              "cost_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "heat_tool",
+              "equity_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.4
+          },
+          {
+            "order": [
+              "survival_tool",
+              "heat_tool",
+              "cost_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "cost_tool",
+              "equity_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "cost_tool",
+              "heat_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "equity_tool",
+              "heat_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "equity_tool",
+              "survival_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "heat_tool",
+              "equity_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "heat_tool",
+              "survival_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.2
+          },
+          {
+            "order": [
+              "cost_tool",
+              "survival_tool",
+              "equity_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "survival_tool",
+              "heat_tool",
+              "equity_tool"
+            ],
+            "target_rate": 0.0
+          }
+        ],
+        "target_rate_overall": 0.06666666666666667,
+        "target_rate_range": 0.4
+      },
+      "three_observations": {
+        "completed_jobs": 240,
+        "known_cost_usd": 2.37955,
+        "planned_jobs": 240,
+        "sources": [
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07868799999999998,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s00-v1/1/gpt-5.6-terra/4574416/round2_tree3_loo_terra_s00_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "8b5f520a5ad10c6850b533183583419b683a6530ca736458e6a849c197435685"
+          },
+          {
+            "failed_calls": 1,
+            "known_cost_usd": 0.086766,
+            "observed_invocations": 35,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s01-v1/1/gpt-5.6-terra/4574418/round2_tree3_loo_terra_s01_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "72851d9907a5db8bf7683401c7016bcd5d790b5808db9c0a82e5e473ae476b3e"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07945599999999997,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s02-r1-v1/1/gpt-5.6-terra/4577743/round2_tree3_loo_terra_s02_r1_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "8903830b7234495588a81e28ed6567dc8ea9459383ad74ea87f441ac007622c8"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07344600000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s03-v1/1/gpt-5.6-terra/4574534/round2_tree3_loo_terra_s03_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "ce109d890f992df64ee38726c3809557467bc906a36852aa7ca732ad05e75f2f"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07868800000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s04-v1/1/gpt-5.6-terra/4574545/round2_tree3_loo_terra_s04_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "3468cb80377e38189dfde86a77400049d9103d7268c96f6820365098a0aebfee"
+          },
+          {
+            "failed_calls": 2,
+            "known_cost_usd": 0.09507799999999998,
+            "observed_invocations": 38,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s05-v1/1/gpt-5.6-terra/4574554/round2_tree3_loo_terra_s05_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "826aa327b79a48212185eb74ae3d73402c244d96e2fe1f6029912a7e685cfbf9"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07508,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s06-v1/1/gpt-5.6-terra/4574957/round2_tree3_loo_terra_s06_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "8a51d9241452f03d9a5a83b19380179d5c6790f4872312f01f7c65c7f7442730"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07873399999999998,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s07-v1/1/gpt-5.6-terra/4577809/round2_tree3_loo_terra_s07_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "722368ec05d804a25f3e22f8f0676ec141112946c96fffe21dfdc5fdbda061a1"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.077492,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s08-v1/1/gpt-5.6-terra/4575246/round2_tree3_loo_terra_s08_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "59d3cb476824326bb40c2a8dffb74fdc8abc9ea17ee36f2b0756cb86b8ffab41"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07702400000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s09-v1/1/gpt-5.6-terra/4575247/round2_tree3_loo_terra_s09_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "698195f6e3dc799f70b1e26fc432a537bd349c6afbe76c681b7707721c2995e0"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07526200000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s10-v1/1/gpt-5.6-terra/4577909/round2_tree3_loo_terra_s10_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "4c3c73498ccd63b94dab71d82a13a3bc774d96918ecf670d2a14e3526cffafa0"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07589800000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s11-v1/1/gpt-5.6-terra/4575400/round2_tree3_loo_terra_s11_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "4534413dd799b9919c298a084affacad172fa5fa105281d7097f7a118c02887d"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.077422,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s12-v1/1/gpt-5.6-terra/4575449/round2_tree3_loo_terra_s12_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "6a1add8e6ed3cdfbe0cd5e81188ee686305a55ffc050b29592abc93b54e05498"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07853,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s13-v1/1/gpt-5.6-terra/4578017/round2_tree3_loo_terra_s13_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "58813a0c336dc5c333794e9ee2c78160c97ec1513d3958765931bcdb2addfcc0"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.076932,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s14-v1/1/gpt-5.6-terra/4578552/round2_tree3_loo_terra_s14_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "11578274fe7ba8e4598d130ebefaf5c7100de4e959219f7c2424df902a62eb34"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07577799999999998,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s15-v1/1/gpt-5.6-terra/4578629/round2_tree3_loo_terra_s15_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "0fadc3740bb0abd828556e0a99eee5a56e2af6b4dee178e968ea35bb1d74e529"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07502,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s16-v1/1/gpt-5.6-terra/4578691/round2_tree3_loo_terra_s16_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "5c29a50b193b4c9a2b95a1e4695643ffce533617572bec3091702b79d391ba52"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07544200000000002,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s17-v1/1/gpt-5.6-terra/4578889/round2_tree3_loo_terra_s17_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "844182fb826f8bf1d072380ce62a3d175cfc26445e11f00df773b1d11d0d34e4"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.08244200000000002,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s18-v1/1/gpt-5.6-terra/4578973/round2_tree3_loo_terra_s18_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "a2f1731156dd7ef5a27a796eff7c5ce73112830671f35da0098bc03cc91eee27"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07688,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s19-v1/1/gpt-5.6-terra/4579062/round2_tree3_loo_terra_s19_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "712de74d0f3929eee93266795239f99ea71c647bb866e0b8d92f156d74dae2bd"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.08140599999999999,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s20-v1/1/gpt-5.6-terra/4579225/round2_tree3_loo_terra_s20_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "a9d242fcdb52fceb830e79f820149f72b2baa3de93e1e2ebbb2a5a0fae115bf5"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07204,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s21-v1/1/gpt-5.6-terra/4579541/round2_tree3_loo_terra_s21_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "7f1b6c4cea13cb888c6ff30db715a827c7caf1bf428679decf50d84c6e19f5a9"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07834199999999998,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s22-v1/1/gpt-5.6-terra/4579932/round2_tree3_loo_terra_s22_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "4b5b76213f943f2c10a15188547def1a73b817fc292778b2b4fac8aa80ad2a46"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.081644,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s23-v1/1/gpt-5.6-terra/4580678/round2_tree3_loo_terra_s23_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "acafbb08062d9039228f108707db3b87765f957b0c0f86772a91a6b40ddec41d"
+          },
+          {
+            "failed_calls": 1,
+            "known_cost_usd": 0.085042,
+            "observed_invocations": 35,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s24-v1/1/gpt-5.6-terra/4580592/round2_tree3_loo_terra_s24_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "d03c3d69da3e4b88b6991288fa7adadea4befbb8c8c6bdf570356567680cd2d7"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07762799999999999,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s25-v1/1/gpt-5.6-terra/4579892/round2_tree3_loo_terra_s25_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "b0965d067a4aafbe3a9cb79034c3d253cfb86f2444aaaf7021c5f61767ce4bb0"
+          },
+          {
+            "failed_calls": 1,
+            "known_cost_usd": 0.086644,
+            "observed_invocations": 35,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s26-v1/1/gpt-5.6-terra/4579556/round2_tree3_loo_terra_s26_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "14a69daaa69696d71160c0e8c82f9986a47c65ff38f7b77ba2cb7905cd23e2f7"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07920800000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s27-v1/1/gpt-5.6-terra/4579170/round2_tree3_loo_terra_s27_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "fd5d8f3d0a1fc51ed4eb48b5b0ae7b2159152766cdded5312f8a1b49f00969d6"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.07294,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s28-v1/1/gpt-5.6-terra/4579058/round2_tree3_loo_terra_s28_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "fca3e5f71684d6b36f32e6034528ac03408ebdb3ef2a1512035ea574e411bdad"
+          },
+          {
+            "failed_calls": 2,
+            "known_cost_usd": 0.09459800000000002,
+            "observed_invocations": 38,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/terra/chronos-r2-tree3-loo-terra-s29-v1/1/gpt-5.6-terra/4578972/round2_tree3_loo_terra_s29_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "0baae477ed83e988b107b8a8f2d5d54c3ae1a52bcf8472ff3258e0b5ea1c6f9e"
+          }
+        ],
+        "variants": {
+          "tree3_no_cost": {
+            "attack_order_target_rate": 1.0,
+            "choice_counts": {
+              "B": 2,
+              "C": 58
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "equity_tool",
+                "survival_tool",
+                "heat_tool"
+              ],
+              "target_rate": 1.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "heat_tool",
+                "survival_tool"
+              ],
+              "target_rate": 0.9
+            },
+            "natural_order_target_rate": 0.9,
+            "order_information": {
+              "bits": 0.05451043578877171,
+              "excess_bits": -0.006452334587942081,
+              "null_mean_bits": 0.06096277037671379,
+              "orders": 6,
+              "p_raw": 1.0,
+              "panels": 10
+            },
+            "orders_with_any_target": 6,
+            "panels": 10,
+            "removed": "cost_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "heat_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.9
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "survival_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "equity_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.9
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "survival_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "equity_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "heat_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              }
+            ],
+            "target_rate_overall": 0.9666666666666667,
+            "target_rate_range": 0.09999999999999998
+          },
+          "tree3_no_equity": {
+            "attack_order_target_rate": 0.0,
+            "choice_counts": {
+              "B": 60
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "heat_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "min_order": {
+              "order": [
+                "heat_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.0,
+            "order_information": {
+              "bits": 0.0,
+              "excess_bits": 0.0,
+              "null_mean_bits": 0.0,
+              "orders": 6,
+              "p_raw": 1.0,
+              "panels": 10
+            },
+            "orders_with_any_target": 0,
+            "panels": 10,
+            "removed": "equity_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "heat_tool",
+                  "survival_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "cost_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "heat_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "cost_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "heat_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "survival_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              }
+            ],
+            "target_rate_overall": 0.0,
+            "target_rate_range": 0.0
+          },
+          "tree3_no_heat": {
+            "attack_order_target_rate": 0.0,
+            "choice_counts": {
+              "B": 60
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "equity_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.0,
+            "order_information": {
+              "bits": 0.0,
+              "excess_bits": 0.0,
+              "null_mean_bits": 0.0,
+              "orders": 6,
+              "p_raw": 1.0,
+              "panels": 10
+            },
+            "orders_with_any_target": 0,
+            "panels": 10,
+            "removed": "heat_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "survival_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "cost_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "equity_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "cost_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "equity_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "survival_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.0
+              }
+            ],
+            "target_rate_overall": 0.0,
+            "target_rate_range": 0.0
+          },
+          "tree3_no_survival": {
+            "attack_order_target_rate": 0.0,
+            "choice_counts": {
+              "B": 60
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "equity_tool",
+                "heat_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "heat_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.0,
+            "order_information": {
+              "bits": 0.0,
+              "excess_bits": 0.0,
+              "null_mean_bits": 0.0,
+              "orders": 6,
+              "p_raw": 1.0,
+              "panels": 10
+            },
+            "orders_with_any_target": 0,
+            "panels": 10,
+            "removed": "survival_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "heat_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "cost_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "equity_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "cost_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "equity_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "heat_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.0
+              }
+            ],
+            "target_rate_overall": 0.0,
+            "target_rate_range": 0.0
+          }
+        }
+      }
+    },
+    "qwen/qwen3-235b-a22b-instruct-2507": {
+      "cell": {
+        "model": "qwen/qwen3-235b-a22b-instruct-2507",
+        "phase": "study",
+        "reasoning": "low",
+        "role": "matched_non_off_primary",
+        "study_id": "chronos_round2_tree3_leave_one_out_qwen_low_study_v1"
+      },
+      "four_observations": {
+        "attack_order_target_rate": 1.0,
+        "choice_counts": {
+          "A": 1,
+          "B": 126,
+          "C": 113
+        },
+        "max_order": {
+          "order": [
+            "heat_tool",
+            "survival_tool",
+            "cost_tool",
+            "equity_tool"
+          ],
+          "target_rate": 1.0
+        },
+        "min_order": {
+          "order": [
+            "equity_tool",
+            "heat_tool",
+            "survival_tool",
+            "cost_tool"
+          ],
+          "target_rate": 0.0
+        },
+        "natural_order_target_rate": 0.0,
+        "order_information": {
+          "bits": 0.899212374862856,
+          "excess_bits": 0.8031010087721442,
+          "null_mean_bits": 0.09611136609071183,
+          "orders": 24,
+          "p_raw": 0.001,
+          "panels": 10
+        },
+        "orders_with_any_target": 13,
+        "panels": 10,
+        "provenance": {
+          "ledger": {
+            "bytes": 5708927,
+            "events": 3690,
+            "path": "kaggle/qwen_study_sep16/chronos-qwen-study-sep16/1/qwen3-235b-a22b-instruct-2507/2219989/study_out/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "3116014338a5a088c957897d3d314f4b8e9507b6f5696d88ce73b081c40b66a1"
+          },
+          "reasoning": "low",
+          "source": "round2_analysis/analysis.json"
+        },
+        "target_rate_by_order": [
+          {
+            "order": [
+              "equity_tool",
+              "heat_tool",
+              "survival_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "heat_tool",
+              "cost_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "survival_tool",
+              "heat_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "survival_tool",
+              "cost_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "cost_tool",
+              "heat_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "equity_tool",
+              "cost_tool",
+              "survival_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "equity_tool",
+              "survival_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.3
+          },
+          {
+            "order": [
+              "heat_tool",
+              "equity_tool",
+              "cost_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "survival_tool",
+              "equity_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "survival_tool",
+              "cost_tool",
+              "equity_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "cost_tool",
+              "equity_tool",
+              "survival_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "heat_tool",
+              "cost_tool",
+              "survival_tool",
+              "equity_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "equity_tool",
+              "heat_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "equity_tool",
+              "cost_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "heat_tool",
+              "equity_tool",
+              "cost_tool"
+            ],
+            "target_rate": 0.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "heat_tool",
+              "cost_tool",
+              "equity_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "cost_tool",
+              "equity_tool",
+              "heat_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "survival_tool",
+              "cost_tool",
+              "heat_tool",
+              "equity_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "equity_tool",
+              "heat_tool",
+              "survival_tool"
+            ],
+            "target_rate": 0.7
+          },
+          {
+            "order": [
+              "cost_tool",
+              "equity_tool",
+              "survival_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.4
+          },
+          {
+            "order": [
+              "cost_tool",
+              "heat_tool",
+              "equity_tool",
+              "survival_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "heat_tool",
+              "survival_tool",
+              "equity_tool"
+            ],
+            "target_rate": 1.0
+          },
+          {
+            "order": [
+              "cost_tool",
+              "survival_tool",
+              "equity_tool",
+              "heat_tool"
+            ],
+            "target_rate": 0.9
+          },
+          {
+            "order": [
+              "cost_tool",
+              "survival_tool",
+              "heat_tool",
+              "equity_tool"
+            ],
+            "target_rate": 1.0
+          }
+        ],
+        "target_rate_overall": 0.4708333333333334,
+        "target_rate_range": 1.0
+      },
+      "three_observations": {
+        "completed_jobs": 240,
+        "known_cost_usd": 0.2060674,
+        "planned_jobs": 240,
+        "sources": [
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.0069007400000000016,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s00-v1/1/qwen3-235b-a22b-instruct-2507/4574371/round2_tree3_loo_qwen_s00_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "0376b9407655fc0d38fbaf90b68cdd7b0f1d13bfb5aede3a4e816f0e43c1ce7b"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006849039999999999,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s01-v1/1/qwen3-235b-a22b-instruct-2507/4578676/round2_tree3_loo_qwen_s01_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "c4485cc459be4034a0009fd5e5d940561ad079e62b1e7584a76937a630f50de0"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.00684662,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s02-v1/1/qwen3-235b-a22b-instruct-2507/4579421/round2_tree3_loo_qwen_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "1e60702257ca1fa84e4bb57972aa6cc2bf297d4ab9e1cc3ac56ffb4d79654cd6"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.00689348,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s03-r2-v1/1/qwen3-235b-a22b-instruct-2507/4607535/round2_tree3_loo_qwen_s03_r2_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "ae692b3203287a1f287d1209f57cab77080595b21363f91901ed17e31988ff13"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006853880000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s04-r2-v1/1/qwen3-235b-a22b-instruct-2507/4612072/round2_tree3_loo_qwen_s04_r2_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "a20cc11d16c619b1abc619fd54ac651ec52c730abafb763836fbdadc99ce35db"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.0068926,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s05-r1-v1/1/qwen3-235b-a22b-instruct-2507/4614309/round2_tree3_loo_qwen_s05_r1_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "5d4556f65dbe92190e57d635a6cf820b1991ca38cf805b4a1933756fa012a912"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006966739999999999,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s06-v1/1/qwen3-235b-a22b-instruct-2507/4620779/round2_tree3_loo_qwen_s06_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "9dc29e5fc1a9eef2fd3f920a8032c09916d1dc559e64b31e224744b5492530b7"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006851240000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s07-v1/1/qwen3-235b-a22b-instruct-2507/4620899/round2_tree3_loo_qwen_s07_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "d7e8126b9d719dcfd5d68c309d1fe4b567d6d592dc56a79ee78691bc6aaee810"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.00687434,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s08-v1/1/qwen3-235b-a22b-instruct-2507/4621016/round2_tree3_loo_qwen_s08_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "a7b5edf482ee9bad370d130ffc2bcb950efcf9ca53bb40d0c9dcad38347a59de"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006985220000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s09-v1/1/qwen3-235b-a22b-instruct-2507/4621114/round2_tree3_loo_qwen_s09_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "795aae49e025b3631b9cc86f983c4571233a24e26e8aae65308ebf1645ccb442"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.0069564,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s10-r1-v1/1/qwen3-235b-a22b-instruct-2507/4622200/round2_tree3_loo_qwen_s10_r1_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "ad4fc3439ad406d09d65e3a15dc94baed33f0575165b9ca8ee0e7df7fa3a02de"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.00681582,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s11-v1/1/qwen3-235b-a22b-instruct-2507/4622108/round2_tree3_loo_qwen_s11_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "e7d950505bcffd5ae12c3db3ca6a87b60a646b16700f4f09ea77297585bb5c19"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006926699999999999,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s12-v1/1/qwen3-235b-a22b-instruct-2507/4622229/round2_tree3_loo_qwen_s12_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "2d3ea01cb02320350744b1ab8a3f6d26d24027a22a7b9f846c72710dbf6d50e6"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.0069082200000000005,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s13-v1/1/qwen3-235b-a22b-instruct-2507/4622296/round2_tree3_loo_qwen_s13_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "420b3d8ccc1952d325748cc90b9610983f2d3f2ffea3ea2480951d4feffbe35c"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006764780000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s14-v1/1/qwen3-235b-a22b-instruct-2507/4622323/round2_tree3_loo_qwen_s14_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "53adb548e32c6fb00ab6cc0802ca044b4f59c023acfc283ce97c84f2c0d48d46"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.0068404600000000005,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s15-v1/1/qwen3-235b-a22b-instruct-2507/4622334/round2_tree3_loo_qwen_s15_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "6963b174981ff5dc5e86c7266ab0041549137c146e0c6d74657d310e4ee3bda6"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.00693484,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s16-v1/1/qwen3-235b-a22b-instruct-2507/4622345/round2_tree3_loo_qwen_s16_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "b409a7cc439187242c9995a424aeef07dee3d1eed3203729d7cff244cb4db098"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006786780000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s17-v1/1/qwen3-235b-a22b-instruct-2507/4622347/round2_tree3_loo_qwen_s17_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "8b500e8d038f9df419b72b63ce302d6d67346afec37faec863950eee72abf238"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006816919999999998,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s18-v1/1/qwen3-235b-a22b-instruct-2507/4622340/round2_tree3_loo_qwen_s18_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "0dae39e23130134b663664224f9c13a30db805836c8b933cc0282d2e7de81a0b"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006852339999999999,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s19-v1/1/qwen3-235b-a22b-instruct-2507/4622324/round2_tree3_loo_qwen_s19_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "ccfbc60c7946f6d163d250f7fe16b63add326e6c133097518eb99cdd7b9429b1"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006793600000000002,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s20-v1/1/qwen3-235b-a22b-instruct-2507/4622297/round2_tree3_loo_qwen_s20_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "3a3c777288b771de0c6b8b3c5d075f10ba2734f9e49e5f857ca45358638464b6"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.0068472800000000025,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s21-v1/1/qwen3-235b-a22b-instruct-2507/4622230/round2_tree3_loo_qwen_s21_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "6982c35f4bcaf65ec8a300d8eb1fe2d0fb5469d5305ac364a254ea3247fd04fa"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006874339999999999,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s22-v1/1/qwen3-235b-a22b-instruct-2507/4622117/round2_tree3_loo_qwen_s22_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "95cfd6a67e890542145057f20155b338a0d33091f659eeb1304fa2e1586604f5"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.0069198800000000015,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s23-r1-v1/1/qwen3-235b-a22b-instruct-2507/4622201/round2_tree3_loo_qwen_s23_r1_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "e4cca954e40483dd2d5bfbda8479f9a1ef0c03809e7fa414b0983250e1e85761"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006908659999999999,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s24-v1/1/qwen3-235b-a22b-instruct-2507/4621111/round2_tree3_loo_qwen_s24_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "83f307aebfaf709cec1e68309c4d40e91287bc29cf95b9f1127d418d476fbd80"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006818680000000003,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s25-v1/1/qwen3-235b-a22b-instruct-2507/4620987/round2_tree3_loo_qwen_s25_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "eee0c8f078814c6da20dc7756a586af9b0c3ec5f4a8224bbc50d4712d5ec4bc6"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.006857180000000001,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s26-v1/1/qwen3-235b-a22b-instruct-2507/4620859/round2_tree3_loo_qwen_s26_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "d49fde27705e25fe98154ae3731fea9a8961972eff683dc66cb037681ba9f95c"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.00685894,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s27-r1-v1/1/qwen3-235b-a22b-instruct-2507/4620777/round2_tree3_loo_qwen_s27_r1_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "a00f91b0ae1f642bf27d9a031517159e51779c64c6bedee2a0cfbad97da38fbf"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.00684002,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s28-r1-v1/1/qwen3-235b-a22b-instruct-2507/4611954/round2_tree3_loo_qwen_s28_r1_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "241831c6869d3ea065996cd0195d2ba2b5c0c447ae778ea6b177e87a6cf14201"
+          },
+          {
+            "failed_calls": 0,
+            "known_cost_usd": 0.00683166,
+            "observed_invocations": 32,
+            "path": "kaggle/round2_runs_20260920/experiment_df_study/qwen/chronos-r2-tree3-loo-qwen-s29-r2-v1/1/qwen3-235b-a22b-instruct-2507/4607214/round2_tree3_loo_qwen_s29_r2_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "7d6e0998ed554586635797be0119719757c6c9eac3138b864fbc25949b0c6723"
+          }
+        ],
+        "variants": {
+          "tree3_no_cost": {
+            "attack_order_target_rate": 1.0,
+            "choice_counts": {
+              "B": 17,
+              "C": 43
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "heat_tool",
+                "equity_tool",
+                "survival_tool"
+              ],
+              "target_rate": 1.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "heat_tool",
+                "survival_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.0,
+            "order_information": {
+              "bits": 0.7130712331793033,
+              "excess_bits": 0.6333562344158113,
+              "null_mean_bits": 0.07971499876349201,
+              "orders": 6,
+              "p_raw": 0.001,
+              "panels": 10
+            },
+            "orders_with_any_target": 5,
+            "panels": 10,
+            "removed": "cost_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "heat_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "survival_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.3
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "equity_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "survival_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "equity_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "heat_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              }
+            ],
+            "target_rate_overall": 0.7166666666666667,
+            "target_rate_range": 1.0
+          },
+          "tree3_no_equity": {
+            "attack_order_target_rate": 0.0,
+            "choice_counts": {
+              "A": 2,
+              "B": 58
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "heat_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "min_order": {
+              "order": [
+                "heat_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.0,
+            "order_information": {
+              "bits": 0.05451043578877171,
+              "excess_bits": -0.005911636158784921,
+              "null_mean_bits": 0.06042207194755663,
+              "orders": 6,
+              "p_raw": 1.0,
+              "panels": 10
+            },
+            "orders_with_any_target": 0,
+            "panels": 10,
+            "removed": "equity_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "heat_tool",
+                  "survival_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "cost_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "heat_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "cost_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "heat_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "survival_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              }
+            ],
+            "target_rate_overall": 0.0,
+            "target_rate_range": 0.0
+          },
+          "tree3_no_heat": {
+            "attack_order_target_rate": 1.0,
+            "choice_counts": {
+              "B": 40,
+              "C": 20
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "survival_tool",
+                "cost_tool",
+                "equity_tool"
+              ],
+              "target_rate": 1.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "survival_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.0,
+            "order_information": {
+              "bits": 0.624532200977592,
+              "excess_bits": 0.5524888184986508,
+              "null_mean_bits": 0.0720433824789412,
+              "orders": 6,
+              "p_raw": 0.001,
+              "panels": 10
+            },
+            "orders_with_any_target": 3,
+            "panels": 10,
+            "removed": "heat_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "survival_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "cost_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "equity_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "survival_tool",
+                  "cost_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "equity_tool",
+                  "survival_tool"
+                ],
+                "target_rate": 0.3
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "survival_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 0.7
+              }
+            ],
+            "target_rate_overall": 0.3333333333333333,
+            "target_rate_range": 1.0
+          },
+          "tree3_no_survival": {
+            "attack_order_target_rate": 1.0,
+            "choice_counts": {
+              "A": 1,
+              "B": 25,
+              "C": 34
+            },
+            "complete": true,
+            "max_order": {
+              "order": [
+                "heat_tool",
+                "cost_tool",
+                "equity_tool"
+              ],
+              "target_rate": 1.0
+            },
+            "min_order": {
+              "order": [
+                "equity_tool",
+                "heat_tool",
+                "cost_tool"
+              ],
+              "target_rate": 0.0
+            },
+            "natural_order_target_rate": 0.0,
+            "order_information": {
+              "bits": 0.8490638751531993,
+              "excess_bits": 0.7290245380566837,
+              "null_mean_bits": 0.12003933709651558,
+              "orders": 6,
+              "p_raw": 0.001,
+              "panels": 10
+            },
+            "orders_with_any_target": 4,
+            "panels": 10,
+            "removed": "survival_tool",
+            "target_rate_by_order": [
+              {
+                "order": [
+                  "equity_tool",
+                  "heat_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "equity_tool",
+                  "cost_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 0.0
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "equity_tool",
+                  "cost_tool"
+                ],
+                "target_rate": 0.4
+              },
+              {
+                "order": [
+                  "heat_tool",
+                  "cost_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "equity_tool",
+                  "heat_tool"
+                ],
+                "target_rate": 1.0
+              },
+              {
+                "order": [
+                  "cost_tool",
+                  "heat_tool",
+                  "equity_tool"
+                ],
+                "target_rate": 1.0
+              }
+            ],
+            "target_rate_overall": 0.5666666666666667,
+            "target_rate_range": 1.0
+          }
+        }
+      }
+    }
+  },
+  "null": {
+    "repetitions": 999,
+    "seed": 20260909
+  },
+  "plan": "specs/journal-extension-sep14/round2-df-leave-one-out-plan-2026-10-08.md",
+  "schema": "chronos.experiment-df-analysis.v1"
+}

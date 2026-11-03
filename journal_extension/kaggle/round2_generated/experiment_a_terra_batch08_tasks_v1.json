@@ -1,0 +1,56 @@
+{
+  "aggregate_incremental_ceiling_usd": 0.67,
+  "batch": "terra_batch08_shard_26",
+  "batch_manifest_sha256": "1077ddffeb01c0ed90acc1b4a0b6c4f2a17b0e4184de5be09a43e26cddf9e749",
+  "batch_shards": [
+    26
+  ],
+  "daily_limit_usd": 10.0,
+  "frozen_at": "2026-09-22T18:48:20.177430+00:00",
+  "incremental_ceiling_per_task_usd": 0.67,
+  "job_count": 23,
+  "launch_policy": "exactly_shard_26_may_run; no_later_Terra_shard_may_launch_before_batch08_is_sealed_and_fresh_quota_is_attested",
+  "maximum_daily_exposure_usd": 9.9391271,
+  "model": "openai/gpt-5.6-terra",
+  "planned_calls": 71,
+  "pre_launch_official_daily_quota_used_usd": 9.2691271,
+  "pre_launch_official_minus_raw_known_usd": 0.0,
+  "pre_launch_raw_known_daily_cost_usd": 9.2691271,
+  "previous_collection_manifest_sha256": "b7e6336bdd8ac00a66e937d16effe4d76fed15dccf5772dab9dbf1d19dde4ed1",
+  "quota_attestation": {
+    "bytes": 900,
+    "path": "kaggle/round2_runs_20260920/experiment_a_terra_batch07/quota_after_terra_batch07_20260922_v1.json",
+    "sha256": "6b5f0ff555151c4816251df5e9549d82e83fdfce19c00a86779ef18d5764bd62"
+  },
+  "quota_attestation_sha256": "7f0abc1bc12abac3aefe14a695ee1cfb4ff90d943d660f13c7267ee6b5e5ff30",
+  "reasoning": "low",
+  "remaining_official_quota_before_launch_usd": 0.7308729,
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-full-batch-tasks.v1",
+  "shard_count_total": 30,
+  "status": "authorized_not_launched",
+  "study_id": "chronos_round2_water4_study_terra_low_v1",
+  "task_count": 1,
+  "tasks": [
+    {
+      "effective_ceiling_usd": 0.67,
+      "identity": "21534df47da40c4661e753d37dd5885a60b7d2f713e4e1ed3bbe68d040f61f01",
+      "incremental_ceiling_usd": 0.67,
+      "job_count": 23,
+      "jobs_sha256": "390789d0b7c4019cb0fab3700f5effb6a5af2887adc5d746734282d46b0dc523",
+      "output_folder": "round2_water4_study_terra_low_s26_v1",
+      "pilot_receipt_sha256": "91e1361a475725b9d75113c986896d2beb8ddede33d2137d2524a092dfa1a3a0",
+      "planned_calls": 71,
+      "scientific_changes_from_frozen_cell": [],
+      "shard_count": 30,
+      "shard_index": 26,
+      "source": {
+        "bytes": 186255,
+        "path": "kaggle/round2_generated/water4_study_terra_low_s26_v1.py",
+        "sha256": "975088031681df65352dc1e36cfdc09fa75700584eb3320c201aba644292e78b"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-terra-low-s26-v1"
+    }
+  ]
+}

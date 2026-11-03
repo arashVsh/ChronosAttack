@@ -1,0 +1,101 @@
+{
+  "attestation_sha256": "67cf7eddae5ed60a5d1b1c49362eac64ac7ef39ff5089ce90617d3ede0abac9d",
+  "frozen_at": "2026-09-22T14:40:01+00:00",
+  "original_execution": {
+    "audit": {
+      "bytes": 3184,
+      "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch06/s21/chronos-r2-water4-study-claude-none-s21-v1/1/claude-sonnet-4-6-default/2779831/round2_water4_study_claude_none_s21_v1/audit.json",
+      "sha256": "6c8a5a068dfd57db2598c22ea1db562a79a6d847d460fc42f0c5af290fc0d4ce"
+    },
+    "platform_status": "completed",
+    "raw_accounting": {
+      "accounting_complete": true,
+      "complete_calls": 10,
+      "completed_jobs": 2,
+      "events": 16,
+      "failed_calls": 0,
+      "invalid_json_lines": 0,
+      "known_cost_usd": 0.045582899999999996,
+      "observed_invocations": 10,
+      "started_attempts": 3,
+      "unknown_cost_calls": 0
+    },
+    "raw_archive": {
+      "bytes": 25441,
+      "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch06/s21/chronos-r2-water4-study-claude-none-s21-v1/1/claude-sonnet-4-6-default/2779831/round2_water4_study_claude_none_s21_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+      "sha256": "2aa83fb2eb39697c2bdec6d0655932af156aa63d3eb8218dfe89c97df3266f00"
+    },
+    "result": {
+      "bytes": 683,
+      "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch06/s21/chronos-r2-water4-study-claude-none-s21-v1/1/claude-sonnet-4-6-default/2779831/chronos-r2-water4-study-claude-none-s21-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.result.json",
+      "sha256": "3edf96201d914f2d73b8287c6e5f692dfb57d63dff87b1cc25dc0c6cf0c8b10c"
+    },
+    "run_id": 2779831,
+    "scientific_status": "incomplete_rejected",
+    "task": "chronos-r2-water4-study-claude-none-s21-v1",
+    "task_version": 1,
+    "terminal": {
+      "bytes": 3753,
+      "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch06/s21/chronos-r2-water4-study-claude-none-s21-v1/1/claude-sonnet-4-6-default/2779831/round2_water4_study_claude_none_s21_v1/terminal.json",
+      "sha256": "6c7a461751d2ead79b482149d64853c71a14d5a155a8ad8fedb1221257f730b9"
+    }
+  },
+  "prelaunch_manifest": {
+    "bytes": 13417,
+    "path": "kaggle/round2_generated/experiment_a_claude_none_batch06_tasks_v1.json",
+    "sha256": "aee024cf6e0d4150e525501d1209fb532b35461e9e82a51e2b16ccdbdd1c7052"
+  },
+  "resume_execution": {
+    "canonical_source": {
+      "bytes": 217367,
+      "path": "kaggle/round2_generated/water4_study_claude_none_s21_resume_v1.py",
+      "sha256": "2cab705d0c78dfbb501871693f27bf1a0521465c3399bec4ec6dbb8b68a7757b"
+    },
+    "effective_ceiling_usd": 1.1171929,
+    "output_folder": "round2_water4_study_claude_none_s21_v1",
+    "parent_seed_sha256": "dcbd13ee4fc6c610c5ad125f0b3b1765a914149f084a6fd6006ade90653b7bcd",
+    "scientific_parameter_changes": [],
+    "task": "chronos-r2-water4-study-claude-none-s21-resume-v1",
+    "technical_changes": [
+      "new_task_slug",
+      "completed_job_projection_embedded_as_resume_seed",
+      "zlib_level9_base85_transport_wrapper"
+    ],
+    "transport_wrapper": {
+      "bytes": 38896,
+      "path": "kaggle/round2_generated/water4_study_claude_none_s21_resume_transport_v1.py",
+      "sha256": "24cb06986110c952b62bfd33b07cbade7eb6f7ba481330670585d0dee22bfa1c"
+    }
+  },
+  "resume_projection": {
+    "excluded_incomplete_tail": {
+      "counted_in_total_accounting": true,
+      "events": 6,
+      "failure": "ValueError: Missing explanation",
+      "job_id": "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|16|4",
+      "known_cost_usd": 0.01839,
+      "observed_invocations": 4,
+      "retained_in_raw_archive": true,
+      "treated_as_valid_scientific_evidence": false
+    },
+    "rule": "retain exact original JSONL lines only for job IDs with job_complete",
+    "seed": {
+      "bytes": 17940,
+      "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch06/s21_completed_projection_seed_v1.jsonl",
+      "sha256": "dcbd13ee4fc6c610c5ad125f0b3b1765a914149f084a6fd6006ade90653b7bcd"
+    },
+    "strict_seed_audit": {
+      "completed_jobs": 2,
+      "events": 10,
+      "failed_calls": 0,
+      "incomplete_jobs": [],
+      "known_cost_usd": 0.0271929,
+      "max_attempt_by_job": {
+        "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|consistency|12|5": 1,
+        "chronos_round2_water4_study_claude_none_v1|study|anthropic/claude-sonnet-4-6@default|water4|permutation_stateful|3|1": 1
+      },
+      "observed_invocations": 6
+    }
+  },
+  "schema": "chronos.experiment-a-invalid-response-resume.v1"
+}

@@ -1,0 +1,52 @@
+{
+  "aggregate_incremental_ceiling_usd": 0.28,
+  "batch": "gemini_batch01_shard_02",
+  "batch_manifest_sha256": "f0b191f8ae23a6b848e69fe5fc9f1272df0b400a40b0e157f55ffb6ed6c345ef",
+  "batch_shards": [
+    2
+  ],
+  "daily_limit_usd": 10.0,
+  "frozen_at": "2026-09-21T00:52:42+03:30",
+  "incremental_ceiling_per_task_usd": 0.28,
+  "job_count": 23,
+  "launch_policy": "exactly_one_shard_may_run_within_sealed_exposure",
+  "maximum_daily_exposure_usd": 9.8336025,
+  "model": "google/gemini-3.6-flash",
+  "planned_calls": 79,
+  "pre_launch_known_daily_cost_usd": 9.5536025,
+  "previous_collection_manifest_sha256": "f20c9301276c24dcee5f1be94f0eab840d5d1aeb5be0532d35e477d047d5b26b",
+  "quota_attestation": {
+    "bytes": 917,
+    "path": "kaggle/round2_runs_20260920/experiment_a_gemini_batch00/quota_after_gemini_batch00_20260921_v1.json",
+    "sha256": "f0f6e723be3d722a79ea8b76be9c1f12fcfab07d2d708f6f4898d18a6ed8383f"
+  },
+  "quota_attestation_sha256": "361759538eaccacbcc2aecaa7a9845e75df6f7bb319c2c1bf10c7b6ea45dac4d",
+  "reasoning": "minimal",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-full-batch-tasks.v1",
+  "shard_count_total": 30,
+  "status": "authorized_not_launched",
+  "study_id": "chronos_round2_water4_study_gemini_minimal_v1",
+  "task_count": 1,
+  "tasks": [
+    {
+      "effective_ceiling_usd": 0.28,
+      "identity": "a58053e9d68f712f6a47e3f954935b4f37a02cafb8b6926ef643e8d77b2c7c19",
+      "incremental_ceiling_usd": 0.28,
+      "job_count": 23,
+      "jobs_sha256": "2866ab8e5c5929a26340da90518b6a7b113cc64191b8c997d5faa7e4752171d3",
+      "output_folder": "round2_water4_study_gemini_minimal_s02_v1",
+      "pilot_receipt_sha256": "63d71b48d26db1a8a9463df9afc23827627d2a0f541cadff8a5029b83c127962",
+      "planned_calls": 79,
+      "shard_count": 30,
+      "shard_index": 2,
+      "source": {
+        "bytes": 191995,
+        "path": "kaggle/round2_generated/water4_study_gemini_minimal_s02_v1.py",
+        "sha256": "2cde9fb02e1cda476c6958258ff7cdd992b737c3bcfde648c26f897db1907ade"
+      },
+      "source_status": "frozen_prelaunch",
+      "task": "chronos-r2-water4-study-gemini-minimal-s02-v1"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "ceiling_usd": 0.6,
+  "fixture_manifest_sha256": "5f1c223fa26680aea2f846aee9af63fa97f355b4673cce1a42d431cf18623eb8",
+  "identity": "32c3897896c618031788d8fd12973980b6a62a8770db060be7ddfc2e29e3f886",
+  "job_count": 14,
+  "jobs": [
+    {
+      "calls": 4,
+      "condition": "2",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|budget|2|10",
+      "mode": "budget",
+      "order": [
+        "reliability_tool",
+        "cost_tool",
+        "security_tool"
+      ],
+      "rep": 10,
+      "scenario": "b3"
+    },
+    {
+      "calls": 1,
+      "condition": "5",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|consistency|5|5",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "resilience_tool",
+        "safety_risk_tool"
+      ],
+      "rep": 5,
+      "scenario": "c1"
+    },
+    {
+      "calls": 1,
+      "condition": "3",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|consistency|2|3",
+      "mode": "consistency",
+      "order": [
+        "resilience_tool",
+        "cost_tool",
+        "safety_risk_tool"
+      ],
+      "rep": 2,
+      "scenario": "c1"
+    },
+    {
+      "calls": 4,
+      "condition": "attack",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|stateful|attack|17",
+      "mode": "stateful",
+      "order": [
+        "resilience_tool",
+        "cost_tool",
+        "safety_risk_tool"
+      ],
+      "rep": 17,
+      "scenario": "c1"
+    },
+    {
+      "calls": 1,
+      "condition": "2",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|consistency|5|2",
+      "mode": "consistency",
+      "order": [
+        "reliability_tool",
+        "security_tool",
+        "cost_tool"
+      ],
+      "rep": 5,
+      "scenario": "b3"
+    },
+    {
+      "calls": 1,
+      "condition": "2",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|consistency|3|2",
+      "mode": "consistency",
+      "order": [
+        "reliability_tool",
+        "security_tool",
+        "cost_tool"
+      ],
+      "rep": 3,
+      "scenario": "b3"
+    },
+    {
+      "calls": 4,
+      "condition": "natural",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|stateful|natural|21",
+      "mode": "stateful",
+      "order": [
+        "safety_risk_tool",
+        "resilience_tool",
+        "cost_tool"
+      ],
+      "rep": 21,
+      "scenario": "c1"
+    },
+    {
+      "calls": 4,
+      "condition": "2",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|budget|2|15",
+      "mode": "budget",
+      "order": [
+        "resilience_tool",
+        "cost_tool",
+        "safety_risk_tool"
+      ],
+      "rep": 15,
+      "scenario": "c1"
+    },
+    {
+      "calls": 4,
+      "condition": "attack",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|stateful|attack|21",
+      "mode": "stateful",
+      "order": [
+        "resilience_tool",
+        "cost_tool",
+        "safety_risk_tool"
+      ],
+      "rep": 21,
+      "scenario": "c1"
+    },
+    {
+      "calls": 1,
+      "condition": "natural",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|stateless|natural|8",
+      "mode": "stateless",
+      "order": [
+        "safety_risk_tool",
+        "resilience_tool",
+        "cost_tool"
+      ],
+      "rep": 8,
+      "scenario": "c1"
+    },
+    {
+      "calls": 4,
+      "condition": "natural",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|stateful|natural|17",
+      "mode": "stateful",
+      "order": [
+        "safety_risk_tool",
+        "resilience_tool",
+        "cost_tool"
+      ],
+      "rep": 17,
+      "scenario": "c1"
+    },
+    {
+      "calls": 4,
+      "condition": "natural",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|stateful|natural|5",
+      "mode": "stateful",
+      "order": [
+        "security_tool",
+        "reliability_tool",
+        "cost_tool"
+      ],
+      "rep": 5,
+      "scenario": "b3"
+    },
+    {
+      "calls": 1,
+      "condition": "0",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|b3|consistency|7|0",
+      "mode": "consistency",
+      "order": [
+        "security_tool",
+        "reliability_tool",
+        "cost_tool"
+      ],
+      "rep": 7,
+      "scenario": "b3"
+    },
+    {
+      "calls": 4,
+      "condition": "0",
+      "id": "chronos_round2_b3c1_terra_low_study_v1|openai/gpt-5.6-terra|c1|budget|0|14",
+      "mode": "budget",
+      "order": [
+        "safety_risk_tool",
+        "resilience_tool",
+        "cost_tool"
+      ],
+      "rep": 14,
+      "scenario": "c1"
+    }
+  ],
+  "jobs_sha256": "8817d9e228589806f2ebee9c8befe3f45734324f6d079e229fdb8991c16c9e79",
+  "model": "openai/gpt-5.6-terra",
+  "parent_ledger_sha256": null,
+  "phase": "study",
+  "planned_calls": 38,
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-g-hosted-cell.v1",
+  "sdk_max_retries": 0,
+  "shard_count": 30,
+  "shard_index": 4,
+  "source_sha256": {
+    "audit_experiment_g.py": "5bdb752413ceeb857e1872ec79dca1b3d246ed21ef7474b8432872686b8833b5",
+    "build_completion_notebook.py": "a3c8995068c1d9c444b415ae7a1f7a95e036c35b68d215377379f33f80e52936",
+    "chronos_microgrid_c1_pair.py": "98072af64f880fde3a8892eb71cd7215288f83a53fe56a6ff0fbad013d41e374",
+    "chronos_software_release_b3_confirmation_batch.py": "e46cbd67cc775b95132b562e7cc8e1ce373c5e35297200cfdd5bf99ee291534d",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_g_protocol.py": "4197d52027d956078d6d54f5ccba34dee7a2a9269bd0e44518a60a4a28eb6b7a",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_b3c1_terra_low_study_v1",
+  "transport_policy": {
+    "initial_delay_seconds": 20,
+    "max_delay_seconds": 300,
+    "max_wait_seconds_per_call": 7200,
+    "procedure": "specs/journal-extension-sep14/round2-g-b3c1-matched-plan-2026-10-08.md",
+    "schema": "chronos.experiment-g-transport-wait.v1",
+    "sdk_max_retries": 0,
+    "wait_on": [
+      "RateLimitError",
+      "APITimeoutError"
+    ]
+  }
+}

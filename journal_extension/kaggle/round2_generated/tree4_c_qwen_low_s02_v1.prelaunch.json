@@ -1,0 +1,15 @@
+{
+  "ceiling_usd": 0.5,
+  "contract_sha256": "86648c5b8a4af1836798669f9931bcbe0425c04846dda3942e5984a208760e50",
+  "experiment_b_analysis_sha256": "05975363060f0b4080bb349303008d194f45f95cd333047a8a6b5b4dfb895dcb",
+  "fresh_quota_attestation_sha256": "a65a5a46402d5e05c51f3aebf9497bfbe151f6c01f0ed1fe74757ad3d34e3b05",
+  "launch_authorized": true,
+  "parent_ledger_sha256": null,
+  "receipt_sha256": "cc8294166a58c805e2b2ac2b8dec1db139a21a00bf543f1d76161140c666f70b",
+  "schema": "chronos.experiment-c-prelaunch-receipt.v1",
+  "selection_manifest_sha256": "e8a935133f7db7414e1885b348c627ce87b6433a75b21f991daf5ac95ed28273",
+  "source_path": "kaggle/round2_generated/tree4_c_qwen_low_s02_v1.py",
+  "source_sha256": "c43d7532a23dfc4df0f1c9b0f00dd0d0680dc0ed2aacb7a10f9aa737858cbf9e",
+  "staged_manifest_sha256": "9039d659777cb14ffe2a72123a17ab68e974d7d90a04e9e89d51886b2446dde8",
+  "task_name": "chronos-r2-tree4-c-qwen-low-s02-v1"
+}

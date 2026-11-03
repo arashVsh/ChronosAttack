@@ -1,0 +1,176 @@
+{
+  "artifacts": {
+    "amendment": {
+      "bytes": 6223,
+      "path": "specs/journal-extension-sep14/round2-experiment-a-availability-amendment-2026-09-20.md",
+      "sha256": "16b473be87357c7f0a181c0b4a3d7d227e87ad30d42a6db58ad982469758c895"
+    },
+    "claude_result": {
+      "bytes": 5720,
+      "path": "kaggle/round2_generated/claude_preflight_retry_result_v1.json",
+      "sha256": "184aef90ac6f466fd6d0e66dbc9364600708eab5dd67abe81d00ed0c6c1b85d7"
+    },
+    "fixture_manifest": {
+      "bytes": 4441,
+      "path": "kaggle/experiment_a_manifest_v1.json",
+      "sha256": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d"
+    },
+    "round2_manifest": {
+      "bytes": 7146,
+      "path": "kaggle/round2_manifest_v1.json",
+      "sha256": "ed050bc39274cabd4f15545bf6078b36aeb0a40930458f12d11bc5e0cfeeb9b2"
+    },
+    "terra_collection": {
+      "bytes": 34689,
+      "path": "kaggle/round2_generated/terra_study_collection_v1.json",
+      "sha256": "30d3af176306eec2256bcb33177f6aa6b4e5bde8f65bf5d6480dc2b301b38747"
+    }
+  },
+  "collection": {
+    "full_cell_status": "not_started",
+    "matched_primary_calls": 6930,
+    "matched_primary_jobs": 2070,
+    "matched_primary_models": [
+      "openai/gpt-5.6-terra",
+      "google/gemini-3.6-flash",
+      "qwen/qwen3-235b-a22b-instruct-2507"
+    ],
+    "maximum_executable_calls": 9240,
+    "maximum_executable_jobs": 2760,
+    "sensitivity_calls": 2310,
+    "sensitivity_jobs": 690,
+    "sensitivity_models": [
+      "anthropic/claude-sonnet-4-6@default"
+    ],
+    "unavailable_matched_models": [
+      "anthropic/claude-sonnet-4-6@default"
+    ]
+  },
+  "collection_status": "not_started",
+  "frozen_at": "2026-09-20T21:28:15+03:30",
+  "guardrails": {
+    "claude_matched_retry_authorized": false,
+    "completed_job_replay_authorized": false,
+    "fixture_changes_authorized": false,
+    "fixture_manifest_sha256": "92b855e78fd338d0f56063b44508d7c45b9d296035094b2b6c6be53fbcfe3af7",
+    "outcome_dependent_stopping": false,
+    "setting_fallback_authorized": false,
+    "task_sources_must_be_pinned_before_upload": true,
+    "unknown_cost_stops": true
+  },
+  "manifest_sha256": "9f4e975c7083ba39adba45dcb76034f526b99cfd32bba36a9aa5563e763355e4",
+  "multiplicity": {
+    "claude_none_in_primary_family": false,
+    "evaluable_matched_hypotheses": 6,
+    "method": "holm",
+    "model_pooling": "none_for_primary_tests",
+    "planned_family_size": 8,
+    "structural_p_one_for_adjustment_only": 2,
+    "unavailable_matched_hypotheses": 2
+  },
+  "pilots": {
+    "aggregate_ceiling_usd": 1.0,
+    "attempts_per_job": 1,
+    "cells": [
+      {
+        "calls": 10,
+        "ceiling_usd": 0.25,
+        "jobs": 2,
+        "model": "openai/gpt-5.6-terra",
+        "reasoning": "low",
+        "role": "matched_non_off_primary"
+      },
+      {
+        "calls": 10,
+        "ceiling_usd": 0.25,
+        "jobs": 2,
+        "model": "google/gemini-3.6-flash",
+        "reasoning": "minimal",
+        "role": "matched_non_off_primary"
+      },
+      {
+        "calls": 10,
+        "ceiling_usd": 0.25,
+        "jobs": 2,
+        "model": "qwen/qwen3-235b-a22b-instruct-2507",
+        "reasoning": "low",
+        "role": "matched_non_off_primary"
+      },
+      {
+        "calls": 10,
+        "ceiling_usd": 0.25,
+        "jobs": 2,
+        "model": "anthropic/claude-sonnet-4-6@default",
+        "reasoning": "none",
+        "role": "reasoning_off_sensitivity"
+      }
+    ],
+    "confirmation_exclusion": "always_excluded",
+    "daily_credit_limit_usd": 10.0,
+    "maximum_daily_exposure_usd": 9.555856,
+    "outcome_bearing": false,
+    "per_cell_ceiling_usd": 0.25,
+    "prior_daily_cost_usd": 8.555856,
+    "sdk_max_retries": 0,
+    "selection": "stateful_natural_rep1_and_stateful_attack_rep1",
+    "status": "not_started",
+    "total_calls": 40,
+    "total_jobs": 8,
+    "transport_wait_seconds": 0
+  },
+  "roles": {
+    "matched_primary": [
+      {
+        "model": "openai/gpt-5.6-terra",
+        "pilot_required": true,
+        "reasoning": "low",
+        "role": "matched_non_off_primary",
+        "study_calls": 2310,
+        "study_jobs": 690
+      },
+      {
+        "model": "google/gemini-3.6-flash",
+        "pilot_required": true,
+        "reasoning": "minimal",
+        "role": "matched_non_off_primary",
+        "study_calls": 2310,
+        "study_jobs": 690
+      },
+      {
+        "model": "qwen/qwen3-235b-a22b-instruct-2507",
+        "pilot_required": true,
+        "reasoning": "low",
+        "role": "matched_non_off_primary",
+        "study_calls": 2310,
+        "study_jobs": 690
+      }
+    ],
+    "sensitivity": {
+      "authorization": "full_cell_requires_passed_excluded_pilot",
+      "model": "anthropic/claude-sonnet-4-6@default",
+      "reasoning": "none",
+      "role": "reasoning_off_sensitivity",
+      "study_calls": 2310,
+      "study_jobs": 690
+    },
+    "unavailable_primary": {
+      "model": "anthropic/claude-sonnet-4-6@default",
+      "required_policy": "lowest_supported_non_off",
+      "status": "operationally_unavailable_after_bounded_retry",
+      "study_calls": 0,
+      "study_jobs": 0
+    }
+  },
+  "schema": "chronos.experiment-a-availability.v1",
+  "status": "availability_frozen_no_calls",
+  "trigger": {
+    "claude_result_manifest_sha256": "f9700806f3009520628aa818114aeaf09b7688ad1054f3e33d14bcef8264cdf9",
+    "claude_retry_run_id": 2671436,
+    "claude_status": "operationally_unavailable_after_bounded_retry",
+    "experiment_a_outcomes_observed": 0,
+    "further_retry_authorized": false,
+    "low_authorized": false,
+    "receipt_issued": false,
+    "resolved_incremental_cost_usd": 0.0
+  }
+}

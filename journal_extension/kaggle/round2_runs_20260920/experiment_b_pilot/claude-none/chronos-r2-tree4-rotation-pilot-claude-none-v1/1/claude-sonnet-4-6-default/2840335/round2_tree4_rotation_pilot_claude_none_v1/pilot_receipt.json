@@ -1,0 +1,23 @@
+{
+  "completed_jobs": 2,
+  "evidence_sha256": "a9dbb6f788bd427528e59ed1fabcb9e00a50e4629cec057e65201fe24966513b",
+  "failed_calls": 0,
+  "fixture_manifest_sha256": "358d2389d8abeb8eadc31fe810c6cf1a1d820f740635224f1402ef7cbe5979fc",
+  "identity": "6856086446b2752473f39c2c31495815250ee854bca2650939649638d9673f4f",
+  "intended_manifest_sha256": "9d4c07e9fee658c6035acc2cf224c0ed07edb1dd117c4626eb4b9b244ed9a1d6",
+  "jobs_sha256": "535601d6345936ad90a1df70c6689b3756d23959d5c2c9f968c67cd0af36a062",
+  "known_cost_usd": 0.048732,
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "observed_invocations": 10,
+  "outcomes_examined_for_authorization": false,
+  "passed": true,
+  "phase": "pilot",
+  "pilot_excluded_from_study": true,
+  "reasoning": "none",
+  "receipt_sha256": "faea08da8da7564b76f9e4e7dcb5c9c18bf817f3a7e2e84d1fbd54042916c395",
+  "role": "reasoning_off_sensitivity",
+  "schema": "chronos.experiment-b-pilot-receipt.v1",
+  "study_id": "chronos_round2_tree4_label_rotation_claude_none_pilot_v1",
+  "terminal_sha256": "a7190aa78bd3b349101825f7e51170139a829ef2528214d1865f5c1cbaf92fb3",
+  "unknown_cost_calls": 0
+}

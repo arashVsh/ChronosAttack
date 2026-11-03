@@ -1,0 +1,27 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "chronos-r2-water4-study-claude-none-s06-repair-v1",
+    "description": ""
+  },
+  "modelVersion": {
+    "slug": "anthropic/claude-sonnet-4-6@default"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-09-21T20:14:35.181479Z",
+  "endTime": "2026-09-21T20:18:15.354654Z",
+  "conversations": [
+    {
+      "id": "chronos-r2-water4-study-claude-none-s06-repair-v1-5c938805",
+      "metrics": {},
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "booleanResult": true
+    }
+  ],
+  "pyRunId": "chronos-r2-water4-study-claude-none-s06-repair-v1-Run #1"
+}

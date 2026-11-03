@@ -1,0 +1,14 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Model & Excess bits 4 & Excess bits 3 & Range 4 & Range 3 & Max 4 & Max 3 & Overall C 4 & Overall C 3 \\
+\midrule
+Terra (low) & 0.07 & 0.00 & 40\% & 2\% & 40\% & 25\% & 7\% & 24\% \\
+Gemini (minimal) & 0.40 & 0.02 & 100\% & 8\% & 100\% & 32\% & 18\% & 28\% \\
+Qwen (low) & 0.80 & 0.48 & 100\% & 75\% & 100\% & 75\% & 47\% & 40\% \\
+Claude (off) & 0.32 & 0.20 & 100\% & 48\% & 100\% & 82\% & 65\% & 53\% \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Experiment F, three versus four observations. ``3'' is the mean over the four leave-one-out variants. Excess bits: order information minus its permutation-null mean. Range: highest minus lowest per-order target rate. Max: highest per-order target rate (the worst case an attacker can reach by choosing the order).\par}

@@ -1,0 +1,36 @@
+{
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "none",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "error": null,
+  "evidence_sha256": "a9dbb6f788bd427528e59ed1fabcb9e00a50e4629cec057e65201fe24966513b",
+  "fixture_manifest_sha256": "358d2389d8abeb8eadc31fe810c6cf1a1d820f740635224f1402ef7cbe5979fc",
+  "identity": "6856086446b2752473f39c2c31495815250ee854bca2650939649638d9673f4f",
+  "job_ids": [
+    "chronos_round2_tree4_label_rotation_claude_none_pilot_v1|pilot|anthropic/claude-sonnet-4-6@default|tree4_rot1|stateful|natural|1",
+    "chronos_round2_tree4_label_rotation_claude_none_pilot_v1|pilot|anthropic/claude-sonnet-4-6@default|tree4_rot1|stateful|attack|1"
+  ],
+  "jobs_sha256": "535601d6345936ad90a1df70c6689b3756d23959d5c2c9f968c67cd0af36a062",
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "parent_ledger_sha256": null,
+  "phase": "pilot",
+  "pilot_receipt_sha256": null,
+  "planned_calls": 10,
+  "reasoning": "none",
+  "role": "reasoning_off_sensitivity",
+  "schema": "chronos.experiment-b-terminal.v1",
+  "source_sha256": {
+    "audit_experiment_b.py": "7453f0f14612007e9ef80a6c7c7dc042f6c8e5f175446f8ee0c7fffb6dc8c4ed",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_b_manifest_v1.json": "aea0abc3698fe959b72716b7d5f587b503f3439de82598b15aed8e782b61ea95",
+    "experiment_b_protocol.py": "9b3c38088a3cc3b762834feeb865aa3782c536e9ad2cfae5163feafa258827a5",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "reasoning_preflight_v1.py": "322480d31cead49e9c4c3b575d367195d550a021c7284f9806ae06e87e2214bb",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_tree4_label_rotation_claude_none_pilot_v1"
+}

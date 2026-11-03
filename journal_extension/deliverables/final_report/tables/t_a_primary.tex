@@ -1,0 +1,14 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Model & Natural & Attack & $\Delta$ pp & 95\% CI & exact $p$ & Holm $p$ & Stateless $\Delta$ & Order info, bits ($p$) \\
+\midrule
+Terra (low) & 100\% & 100\% & +0 & [$-$11, +11] & 1 & 1 & +0 & 0.00 (1) \\
+Gemini (minimal) & 100\% & 100\% & +0 & [$-$11, +11] & 1 & 1 & +0 & 0.00 (1) \\
+Qwen (low) & 0\% & 100\% & +100 & [+84, +100] & $1.9\times10^{-9}$ & $1.5\times10^{-8}$ & +0 & 0.56 (0.001) \\
+Claude (off) & 100\% & 100\% & +0 & [$-$11, +11] & 1 & 1\textsuperscript{r} & +0 & 0.00 (1) \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Experiment A, water-supply scenario, target C, 30 stateful and 10 stateless pairs; CI: Newcombe paired interval. Holm over the frozen eight-slot family. \textsuperscript{r}Claude (off) is outside that family; its raw $p$ is shown.\par}

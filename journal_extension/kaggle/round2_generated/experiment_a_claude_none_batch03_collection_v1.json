@@ -1,0 +1,212 @@
+{
+  "batch": "claude_none_batch03_shards_15_16",
+  "collection_manifest_sha256": "86e6d4efd91ee44f5c2028ee6f9ef208027766c317fe525b640b97dbb606cfc9",
+  "frozen_at": "2026-09-21T22:14:47.851040+00:00",
+  "job_count": 46,
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "planned_calls": 166,
+  "post_batch_quota_attestation": {
+    "bytes": 920,
+    "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/quota_after_claude_none_batch03_20260922_v1.json",
+    "sha256": "277388d32795d6b0a35b71b9acd07a2dde2287fd223038490eab09d50a85572d"
+  },
+  "post_batch_quota_attestation_sha256": "974e5011c20941c2597634f15254120fe06cef4a9edc5a38550d93b929651f5a",
+  "prelaunch_manifest": {
+    "bytes": 4206,
+    "path": "kaggle/round2_generated/experiment_a_claude_none_batch03_tasks_v1.json",
+    "sha256": "e729913c82900552e8c955531d1c01f2300b95982b75e902d6315f967bb76964"
+  },
+  "previous_collection_manifest_sha256": "393f89b2c7168b26d74a8e78ea4f329a62462a4d042e2e78df853eea52fd1bba",
+  "reasoning": "none",
+  "role": "reasoning_off_sensitivity",
+  "schema": "chronos.experiment-a-claude-none-batch03-collection.v1",
+  "shard_count": 2,
+  "shards": [
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 79,
+        "completed_jobs": 23,
+        "events": 125,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.3694356,
+        "observed_invocations": 79,
+        "planned_calls": 79,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 1097,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s15/chronos-r2-water4-study-claude-none-s15-v1/1/claude-sonnet-4-6-default/2741621/chronos-r2-water4-study-claude-none-s15-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.atif.json",
+          "sha256": "5478cd2d8f05c99101df5aca09bf6a5981ec9d42be96b54295ace7cd4ba244f2"
+        },
+        "audit": {
+          "bytes": 86928,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s15/chronos-r2-water4-study-claude-none-s15-v1/1/claude-sonnet-4-6-default/2741621/round2_water4_study_claude_none_s15_v1/audit.json",
+          "sha256": "53260eba69a4c6ffcc786f45b0a0ea668cc06d66e4b8df23139944587091a475"
+        },
+        "evidence": {
+          "bytes": 217586,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s15/chronos-r2-water4-study-claude-none-s15-v1/1/claude-sonnet-4-6-default/2741621/round2_water4_study_claude_none_s15_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "a45fb65eadf5ea1f9ccf66d380799278c9c65665fde860d76681b6fe397d1111"
+        },
+        "intended_manifest": {
+          "bytes": 11435,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s15/chronos-r2-water4-study-claude-none-s15-v1/1/claude-sonnet-4-6-default/2741621/round2_water4_study_claude_none_s15_v1/intended_manifest.json",
+          "sha256": "e9e3f79572beb6c5a4830175242cd55098811e6c1fcf95504cbd691d2914ce29"
+        },
+        "notebook": {
+          "bytes": 431976,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s15/chronos-r2-water4-study-claude-none-s15-v1/1/claude-sonnet-4-6-default/2741621/__notebook__.ipynb",
+          "sha256": "bcd184ea52b6eb3b14b66a02238aee220054787dee846b99200e2ac3ce97578d"
+        },
+        "result": {
+          "bytes": 683,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s15/chronos-r2-water4-study-claude-none-s15-v1/1/claude-sonnet-4-6-default/2741621/chronos-r2-water4-study-claude-none-s15-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.result.json",
+          "sha256": "7753d8b45ef1c63651d9551a0874891933a28bfece7d798051e12ad72300cccf"
+        },
+        "run": {
+          "bytes": 702,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s15/chronos-r2-water4-study-claude-none-s15-v1/1/claude-sonnet-4-6-default/2741621/chronos-r2-water4-study-claude-none-s15-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.run.json",
+          "sha256": "81e0602d31d1473ce79ec291d833f70a65938a3e95c646f1ca86432d5158968a"
+        },
+        "task": {
+          "bytes": 80,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s15/chronos-r2-water4-study-claude-none-s15-v1/1/claude-sonnet-4-6-default/2741621/chronos-r2-water4-study-claude-none-s15-v1.task.json",
+          "sha256": "d065783f70251f0486d3908ea055321351b13aa602950bd07549b7f6644b9784"
+        },
+        "terminal": {
+          "bytes": 3645,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s15/chronos-r2-water4-study-claude-none-s15-v1/1/claude-sonnet-4-6-default/2741621/round2_water4_study_claude_none_s15_v1/terminal.json",
+          "sha256": "d6c74a1a6d8ba97142d87634a1ecfcd3f56aea6fcbe23ac5bd9e3457eaa79d2e"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-21T22:09:54.434330Z",
+      "hosted_audit_passed": true,
+      "model": "anthropic/claude-sonnet-4-6@default",
+      "run_id": 2741621,
+      "shard_index": 15,
+      "source": {
+        "bytes": 198550,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s15_v1.py",
+        "sha256": "102692336813b1f101b671999e19a348e323ce02a548c1ca9bc36279e8199276"
+      },
+      "started_at": "2026-09-21T22:05:47.854183Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-claude-none-s15-v1",
+      "task_version": 1,
+      "transport_source": {
+        "bytes": 34995,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s15_transport_v1.py",
+        "sha256": "c7c8117858e4eb30cc6137532d680c3d1ac988f878a90097005078031b7226d5"
+      }
+    },
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 87,
+        "completed_jobs": 23,
+        "events": 133,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.4162509,
+        "observed_invocations": 87,
+        "planned_calls": 87,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 1097,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s16/chronos-r2-water4-study-claude-none-s16-v1/1/claude-sonnet-4-6-default/2741648/chronos-r2-water4-study-claude-none-s16-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.atif.json",
+          "sha256": "33400488b15627671e5ff7ca180b009a63ea64e458b0181cff26c8b7130e98c5"
+        },
+        "audit": {
+          "bytes": 86928,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s16/chronos-r2-water4-study-claude-none-s16-v1/1/claude-sonnet-4-6-default/2741648/round2_water4_study_claude_none_s16_v1/audit.json",
+          "sha256": "4fe5c66a5e494205d0460dfef96ef18d9a342ead257ad00f36accf447ca27ae5"
+        },
+        "evidence": {
+          "bytes": 231875,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s16/chronos-r2-water4-study-claude-none-s16-v1/1/claude-sonnet-4-6-default/2741648/round2_water4_study_claude_none_s16_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "45b9675c5842a47f4922fbf6e74ef07b943d0ed9301f37e41c02e6beb01f6605"
+        },
+        "intended_manifest": {
+          "bytes": 11411,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s16/chronos-r2-water4-study-claude-none-s16-v1/1/claude-sonnet-4-6-default/2741648/round2_water4_study_claude_none_s16_v1/intended_manifest.json",
+          "sha256": "7478f7eadf9fd41f617c76ca5ef2de853a8c0e86426661034d23beb8a9d5098c"
+        },
+        "notebook": {
+          "bytes": 447748,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s16/chronos-r2-water4-study-claude-none-s16-v1/1/claude-sonnet-4-6-default/2741648/__notebook__.ipynb",
+          "sha256": "22549972a4647a00b94b2e859dd281f855f283d0879c92230672e3115fddd26c"
+        },
+        "result": {
+          "bytes": 683,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s16/chronos-r2-water4-study-claude-none-s16-v1/1/claude-sonnet-4-6-default/2741648/chronos-r2-water4-study-claude-none-s16-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.result.json",
+          "sha256": "79f3d27753d142bb120e359039ce8dd9d3ac3b4f00171496f1e2fd8bcbe569b0"
+        },
+        "run": {
+          "bytes": 702,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s16/chronos-r2-water4-study-claude-none-s16-v1/1/claude-sonnet-4-6-default/2741648/chronos-r2-water4-study-claude-none-s16-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.run.json",
+          "sha256": "1742c1f6193f1a1ef3db96b14f0346bb6874f942dc1d2e4131c6b57bb59f6fb7"
+        },
+        "task": {
+          "bytes": 80,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s16/chronos-r2-water4-study-claude-none-s16-v1/1/claude-sonnet-4-6-default/2741648/chronos-r2-water4-study-claude-none-s16-v1.task.json",
+          "sha256": "5bd0fb39026721747ac598570dd8a4de2287f90eab9513ce29d89653b5054e94"
+        },
+        "terminal": {
+          "bytes": 3633,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch03/s16/chronos-r2-water4-study-claude-none-s16-v1/1/claude-sonnet-4-6-default/2741648/round2_water4_study_claude_none_s16_v1/terminal.json",
+          "sha256": "5bc9bfb00473318a6707a67d46b61868c6ba0823c4717ce8050dc5b873252ec8"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-21T22:10:36.340112Z",
+      "hosted_audit_passed": true,
+      "model": "anthropic/claude-sonnet-4-6@default",
+      "run_id": 2741648,
+      "shard_index": 16,
+      "source": {
+        "bytes": 198526,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s16_v1.py",
+        "sha256": "ee8f77516765b26e70c4350e951bda1d671de19ca20248f0a693bc0cc54d1e46"
+      },
+      "started_at": "2026-09-21T22:05:51.386758Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-claude-none-s16-v1",
+      "task_version": 1,
+      "transport_source": {
+        "bytes": 34988,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s16_transport_v1.py",
+        "sha256": "41db4c0be4bf4fe8656546b30e53736569b44690c23b389446b2b2c014f4099d"
+      }
+    }
+  ],
+  "study_id": "chronos_round2_water4_study_claude_none_v1",
+  "totals": {
+    "batch_known_cost_usd": 0.7856865,
+    "complete_calls": 166,
+    "completed_jobs": 46,
+    "events": 258,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "observed_invocations": 166,
+    "official_delta_minus_batch_known_usd": 0.0,
+    "official_quota_delta_usd": 0.7856865,
+    "planned_calls": 166,
+    "post_batch_official_daily_quota_used_usd": 8.2374975,
+    "post_batch_raw_known_daily_cost_usd": 8.2324605,
+    "post_official_minus_raw_known_usd": 0.005037,
+    "pre_batch_official_daily_quota_used_usd": 7.451811,
+    "pre_batch_raw_known_daily_cost_usd": 7.446774,
+    "started_attempts": 46,
+    "unknown_cost_calls": 0
+  }
+}

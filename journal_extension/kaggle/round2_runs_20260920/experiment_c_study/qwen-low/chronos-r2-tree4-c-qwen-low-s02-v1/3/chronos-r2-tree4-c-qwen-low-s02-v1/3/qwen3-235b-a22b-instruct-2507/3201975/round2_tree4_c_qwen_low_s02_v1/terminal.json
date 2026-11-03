@@ -1,0 +1,117 @@
+{
+  "audit": null,
+  "audit_error": "ValueError('another unknown-cost call remains')",
+  "contract_sha256": "4af189d5fef89cd1db08d645bd5af6e2be1a7e887af175e450f0b408accc708a",
+  "cost_reconciliation": {
+    "failed_event_line_sha256": [
+      "844cc962acb7869864fd636700f0e3a14d712f43cf85f4292d520b9a39d67081",
+      "bb60728e70bb6c19c5543a1e437bf5a09095817053309c0d46b7bebe1c422cfd"
+    ],
+    "pins": [
+      {
+        "attempt": 1,
+        "job_id": "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|undefended_selected_order|0|3",
+        "line_index": 9,
+        "line_sha256": "844cc962acb7869864fd636700f0e3a14d712f43cf85f4292d520b9a39d67081",
+        "step": 2
+      },
+      {
+        "attempt": 1,
+        "job_id": "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|3",
+        "line_index": 33,
+        "line_sha256": "bb60728e70bb6c19c5543a1e437bf5a09095817053309c0d46b7bebe1c422cfd",
+        "step": 12
+      }
+    ],
+    "proofs": [
+      {
+        "claude_known_cost_usd": "0.195744",
+        "claude_raw_sha256": "2e6e3a0fc3aadb281290183caf759245fb3759872a56f13bcbcce6ac0d299d06",
+        "collection_sha256": "41f8b703946d3ea4246575417c7b3bbbbdbca080adeb7201e0d242b081b33cd6",
+        "finding": "account_level_zero_increment_for_one_429",
+        "kind": "legacy",
+        "last_observation_utc": "2026-09-24T08:39:23.660000+00:00",
+        "module": "verify_experiment_c_qwen_s02_reconciliation_v1",
+        "observation_sha256": [
+          "4e868f3542c030cc376a76db41cf67c2191e11c85ace9d501a87e81e9308a8e3",
+          "ec450592e138c97aef6e706290d8cd3d07c6d97e5f542ee6fd6798de25bd45d6",
+          "04a75d07ab7d218376ea2bc0a1ab6ca2688bcd6c5f6ce8bb74311677e4a802b3",
+          "5aa688b7681d9236c8f3e1b4f31cc0d96cf15c37090f125364501f252e9e62da"
+        ],
+        "qwen_failed_event_line_sha256": "844cc962acb7869864fd636700f0e3a14d712f43cf85f4292d520b9a39d67081",
+        "qwen_failure_timestamp_utc": "2026-09-24T07:58:12.177658+00:00",
+        "qwen_known_cost_usd": "0.00135960",
+        "qwen_raw_sha256": "cd6e6cc30cc8497a55d3768438cd54d2faa95d5a036137e837bfa4f746745499",
+        "raw_null_cost_calls": 1,
+        "schema": "chronos.experiment-c-qwen-s02-quota-reconciliation.v1"
+      },
+      {
+        "failed_parent_sha256": "cd6e6cc30cc8497a55d3768438cd54d2faa95d5a036137e837bfa4f746745499",
+        "failed_raw_sha256": "8c1b319d693367dd0e2563c1142e320a89ef7feacbaa1fe59971d7a445de5bf7",
+        "failure_timestamp_utc": "2026-09-25T15:33:58.651841+00:00",
+        "finding": "account_level_zero_increment_for_pinned_429",
+        "kind": "continuity",
+        "last_reading_utc": "2026-09-25T16:51:41.655000+00:00",
+        "pin": {
+          "attempt": 1,
+          "job_id": "chronos_round2_tree4_experiment_c_v1|defense|qwen/qwen3-235b-a22b-instruct-2507|tree4|order_consistency_24|0|3",
+          "line_index": 33,
+          "line_sha256": "bb60728e70bb6c19c5543a1e437bf5a09095817053309c0d46b7bebe1c422cfd",
+          "step": 12
+        },
+        "schema": "chronos.experiment-c-provider-429-settlement.v1",
+        "windows": [
+          {
+            "after": "kaggle/round2_generated/experiment_c_quota_after_qwen_resume_v2_browser_observation_20260925_v1.json",
+            "after_sha256": "3834bd684fe8357444cde86fefe6411cd257d834d11bf5c690505b3c99963c46",
+            "monthly_after": "87.01431164",
+            "monthly_before": "87.01021304",
+            "novel_known_cost_usd": "0.00409860",
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_qwen_resume_v2_browser_observation_20260925_v1.json",
+            "prebuild_sha256": "5350caf80f2abe2bbd1282708f4d5eafe00cd5a09ff95f3a85b2d0c71089d48d",
+            "raw_sha256": "8c1b319d693367dd0e2563c1142e320a89ef7feacbaa1fe59971d7a445de5bf7"
+          },
+          {
+            "after": "kaggle/round2_generated/experiment_c_quota_after_claude_s20_browser_observation_20260925_v1.json",
+            "after_sha256": "d652f8873f169375ee1d186fd2a366f3cb3f08d8fdee44da6d89d092cde7c90a",
+            "monthly_after": "87.19987454",
+            "monthly_before": "87.01431164",
+            "novel_known_cost_usd": "0.1855629",
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_claude_s20_browser_observation_20260925_v1.json",
+            "prebuild_sha256": "ec82e3c6cac2db3a1e154695023799c4f64ff04beb03e3e47d8fe816bd88cb5d",
+            "raw_sha256": "164d4ad8c6b29861adbab9f5297c385cc7c30e40399d025c63729550fff9172a"
+          },
+          {
+            "after": "kaggle/round2_generated/experiment_c_quota_after_gemini_resume_v3_browser_observation_20260925_v1.json",
+            "after_sha256": "53718169572f70fab9e2ce6e5c918a1a1233dcd6bf48a85d2a7d914142a18abc",
+            "monthly_after": "87.23645504",
+            "monthly_before": "87.19987454",
+            "novel_known_cost_usd": "0.03658050",
+            "prebuild": "kaggle/round2_generated/experiment_c_quota_prebuild_gemini_resume_v3_browser_observation_20260925_v1.json",
+            "prebuild_sha256": "2b123b646de91fc87cff4a37faa14a11aa41f2b3e5532bb623a815d7f578c1cc",
+            "raw_sha256": "d02866aab13304e44847a8594c9d59c766ac8dc701239b02c7868520d68099e9"
+          }
+        ]
+      }
+    ],
+    "raw_null_cost_calls": 2,
+    "raw_sha256": "8c1b319d693367dd0e2563c1142e320a89ef7feacbaa1fe59971d7a445de5bf7",
+    "schema": "chronos.experiment-c-provider-429-reconciliation.v1"
+  },
+  "raw_accounting": {
+    "accounting_complete": false,
+    "complete_calls": 31,
+    "completed_jobs": 3,
+    "events": 46,
+    "failed_calls": 3,
+    "invalid_json_lines": 0,
+    "known_cost_usd": 0.00738892,
+    "observed_invocations": 34,
+    "started_attempts": 6,
+    "unknown_cost_calls": 3
+  },
+  "schema": "chronos.experiment-c-hosted-terminal.v1",
+  "status": "stopped",
+  "stopped_early": "RateLimitError(\"Error code: 429 - {'code': '', 'message': 'The model is currently experiencing heavy load. Try again later.', 'param': '', 'type': 'rate_limit_error'}\")",
+  "task": "chronos-r2-tree4-c-qwen-low-s02-v1"
+}

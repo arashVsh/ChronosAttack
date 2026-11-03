@@ -1,0 +1,18 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+Model & Scenario & Natural & Attack & $\Delta$ pp & Stateless N$\to$A & Simultaneous \\
+\midrule
+GPT-5.6 Sol & Cloud backup & 0/30 (0\%) & 25/30 (83\%) & +83 & 1$\to$6 /10 & 0/10 \\
+GPT-5.6 Sol & Shipping partner & 3/30 (10\%) & 20/30 (67\%) & +57 & 0$\to$2 /10 & 2/10 \\
+Gemini 3.6 Flash & Cloud backup & 30/30 (100\%) & 2/30 (7\%) & $-$93 & 10$\to$10 /10 & 10/10 \\
+Gemini 3.6 Flash & Shipping partner & 30/30 (100\%) & 24/30 (80\%) & $-$20 & 6$\to$9 /10 & 10/10 \\
+DeepSeek V4 Flash & Cloud backup & 2/30 (7\%) & 4/30 (13\%) & +7 & 0$\to$5 /10 & 0/10 \\
+DeepSeek V4 Flash & Shipping partner & 4/30 (13\%) & 6/30 (20\%) & +7 & 0$\to$1 /10 & 1/10 \\
+Claude Sonnet 4.6 & Cloud backup & 14/30 (47\%) & 28/30 (93\%) & +47 & 0$\to$10 /10 & 0/10 \\
+Claude Sonnet 4.6 & Shipping partner & 0/30 (0\%) & 0/30 (0\%) & +0 & 0$\to$0 /10 & 0/10 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Original study, target counts. Stateful: 30 trials per schedule; stateless: 10 per serialisation; simultaneous control: 10. From the preprint (DOI 10.21203/rs.3.rs-10854515/v1), not re-run; target A in both scenarios.\par}

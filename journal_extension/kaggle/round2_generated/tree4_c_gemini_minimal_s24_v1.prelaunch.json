@@ -1,0 +1,15 @@
+{
+  "ceiling_usd": 0.5,
+  "contract_sha256": "92e6f8a359085ef3986445bfdbc62f51025c8c582ef3a3f1fe0c1b425d31bef5",
+  "experiment_b_analysis_sha256": "05975363060f0b4080bb349303008d194f45f95cd333047a8a6b5b4dfb895dcb",
+  "fresh_quota_attestation_sha256": "68a705ec2301d60b2a3df59b30399d20f4e3ef340b42eff10bf6d4613a9d2e04",
+  "launch_authorized": true,
+  "parent_ledger_sha256": null,
+  "receipt_sha256": "ad9597b50e8dfb6f9db86b1e900ba654437e3db80cec93d6587f5c7499099460",
+  "schema": "chronos.experiment-c-prelaunch-receipt.v1",
+  "selection_manifest_sha256": "5ed905fabcf299fad407babb9f4e90e9a141ffe8aed004a14bd4488110e6e5bf",
+  "source_path": "kaggle/round2_generated/tree4_c_gemini_minimal_s24_v1.py",
+  "source_sha256": "47b7fecf366c100e192fc743c597cd6f8aa1f101c90d7d6ba1431349dcb9ba17",
+  "staged_manifest_sha256": "9039d659777cb14ffe2a72123a17ab68e974d7d90a04e9e89d51886b2446dde8",
+  "task_name": "chronos-r2-tree4-c-gemini-minimal-s24-v1"
+}

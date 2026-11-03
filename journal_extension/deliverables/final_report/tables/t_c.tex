@@ -1,0 +1,14 @@
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+Model & Worst order & Natural & Worst & Randomised & Barrier & Invariant & 24-order vote \\
+\midrule
+Terra (low) & heat $\to$ survival $\to$ equity $\to$ cost & 0\% & 60\% & 0\% & 0\% & 3\% & 0\% \\
+Gemini (minimal) & heat $\to$ survival $\to$ equity $\to$ cost & 37\% & 100\% & 10\% & 60\% & 3\% & 0\% \\
+Qwen (low) & heat $\to$ survival $\to$ cost $\to$ equity & 0\% & 97\% & 40\% & 0\% & 0\% & 70\% (70\% cov.) \\
+Claude (off) & equity $\to$ heat $\to$ cost $\to$ survival & 90\% & 83\% & 67\% & 0\% & 63\% & 0\% \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+
+\par\smallskip{\footnotesize Experiment C, defenses at each model's worst-case order (selected post hoc from its 24-order panel), target-C rate, 30 trials per arm. Coverage shown where a defense abstained.\par}

@@ -1,0 +1,115 @@
+{
+  "accounting": {
+    "raw": {
+      "accounting_complete": false,
+      "complete_calls": 0,
+      "completed_jobs": 0,
+      "events": 3,
+      "failed_calls": 1,
+      "invalid_json_lines": 0,
+      "known_cost_usd": 0.0,
+      "observed_invocations": 1,
+      "started_attempts": 1,
+      "unknown_cost_calls": 1
+    },
+    "resolved_incremental_cost_usd": 0.0
+  },
+  "artifacts": {
+    "amendment": {
+      "bytes": 5260,
+      "path": "specs/journal-extension-sep14/round2-claude-preflight-retry-amendment-2026-09-20.md",
+      "sha256": "de72d61ca3bcfc05b22699326c6dc03e48913b6309b876b75374730f908fc0e2"
+    },
+    "atif": {
+      "bytes": 7519,
+      "path": "kaggle/round2_runs_20260920/claude_minimal_retry/chronos-r2-claude-preflight-minimal-retry-v1/1/claude-sonnet-4-6-default/2671436/chronos-r2-claude-preflight-minimal-retry-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.atif.json",
+      "sha256": "964b2a8f126cc5719a31dae1c0c7a366258985193c302cfff55af3bc17cdf640"
+    },
+    "audit": {
+      "bytes": 3274,
+      "path": "kaggle/round2_runs_20260920/claude_minimal_retry/chronos-r2-claude-preflight-minimal-retry-v1/1/claude-sonnet-4-6-default/2671436/round2_claude_reasoning_preflight_minimal_retry_v1/audit.json",
+      "sha256": "b976d04bed35b0dcf330140c9e1e75d892e8bc99e0d0e5a9cd693b6e91878419"
+    },
+    "evidence": {
+      "bytes": 2359,
+      "path": "kaggle/round2_runs_20260920/claude_minimal_retry/chronos-r2-claude-preflight-minimal-retry-v1/1/claude-sonnet-4-6-default/2671436/round2_claude_reasoning_preflight_minimal_retry_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+      "sha256": "d2316f8f14a6e010b3693ab196361bbdced9af9f1b74a3df5480673755ee2a20"
+    },
+    "intended_manifest": {
+      "bytes": 2950,
+      "path": "kaggle/round2_runs_20260920/claude_minimal_retry/chronos-r2-claude-preflight-minimal-retry-v1/1/claude-sonnet-4-6-default/2671436/round2_claude_reasoning_preflight_minimal_retry_v1/intended_manifest.json",
+      "sha256": "33f947443d4ddbde9a0545dedc0250fe280d540cc0eb2aa3e71029099efb71b6"
+    },
+    "prelaunch_manifest": {
+      "bytes": 3844,
+      "path": "kaggle/round2_generated/claude_preflight_retry_v1.json",
+      "sha256": "1191d71de4f92d0dc920f21e8c2fa73a81cce79835bcef3aed307b59adf632a2"
+    },
+    "quota_attestation": {
+      "bytes": 940,
+      "path": "kaggle/round2_runs_20260920/claude_minimal_retry/chronos-r2-claude-preflight-minimal-retry-v1/1/claude-sonnet-4-6-default/2671436/round2_claude_reasoning_preflight_minimal_retry_v1/quota_attestation_1.json",
+      "sha256": "cb996de03842877233c07ba709db3b52712f6f81f8f7cd022b4961b1020c9cef"
+    },
+    "result": {
+      "bytes": 687,
+      "path": "kaggle/round2_runs_20260920/claude_minimal_retry/chronos-r2-claude-preflight-minimal-retry-v1/1/claude-sonnet-4-6-default/2671436/chronos-r2-claude-preflight-minimal-retry-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.result.json",
+      "sha256": "979565132963181fea4a6ef33eca35da428b7af533a500960a2717b8328844fb"
+    },
+    "run": {
+      "bytes": 7118,
+      "path": "kaggle/round2_runs_20260920/claude_minimal_retry/chronos-r2-claude-preflight-minimal-retry-v1/1/claude-sonnet-4-6-default/2671436/chronos-r2-claude-preflight-minimal-retry-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.run.json",
+      "sha256": "d4012f735bdffd2a2692e0444209845f69be0ec37a9cf48243c7f1c619aada12"
+    },
+    "source": {
+      "bytes": 88233,
+      "path": "kaggle/round2_generated/claude_reasoning_preflight_minimal_retry_v1.py",
+      "sha256": "7dcb60526a27a208cefb800157844a7be7ba8b1ced6880128d9430de98825a45"
+    },
+    "task": {
+      "bytes": 6490,
+      "path": "kaggle/round2_runs_20260920/claude_minimal_retry/chronos-r2-claude-preflight-minimal-retry-v1/1/claude-sonnet-4-6-default/2671436/chronos-r2-claude-preflight-minimal-retry-v1.task.json",
+      "sha256": "3f9bdd140c1c9c18e34329177733dc4868ab5795bf69bae58082a3ce387da972"
+    },
+    "terminal": {
+      "bytes": 2193,
+      "path": "kaggle/round2_runs_20260920/claude_minimal_retry/chronos-r2-claude-preflight-minimal-retry-v1/1/claude-sonnet-4-6-default/2671436/round2_claude_reasoning_preflight_minimal_retry_v1/reasoning_terminal.json",
+      "sha256": "0ccbb834b4291b103e514963e465e6217dce75318ba161988b4b90793b4af169"
+    }
+  },
+  "frozen_at": "2026-09-20T21:19:19+03:30",
+  "outcome": {
+    "decision_rule": "second_generic_failure_stops_claude_branch",
+    "error_type": "InternalServerError",
+    "further_retry_authorized": false,
+    "low_authorized": false,
+    "minimal_supported": null,
+    "raw_completion": null,
+    "reasoning_setting_resolved": false,
+    "receipt_issued": false,
+    "status_code": 500
+  },
+  "prelaunch_retry_manifest_sha256": "08d9874958ba8a826527dcf3672a46124eb0ee52e13e6a5e9262692b5edcd765",
+  "quota": {
+    "attestation_sha256": "9336763b74510781aa3cf6d8056505aab76828e0522e2087eee29fffd28b1f91",
+    "observed_daily_cost_usd": 8.555856,
+    "prior_known_daily_cost_usd": 8.555856,
+    "resolved_incremental_cost_usd": 0.0
+  },
+  "result_manifest_sha256": "f9700806f3009520628aa818114aeaf09b7688ad1054f3e33d14bcef8264cdf9",
+  "run": {
+    "finished_at": "2026-09-20T17:43:07.158803Z",
+    "id": 2671436,
+    "model": "anthropic/claude-sonnet-4-6@default",
+    "number": 1,
+    "started_at": "2026-09-20T17:43:06.444041Z",
+    "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED"
+  },
+  "schema": "chronos.round2.claude-preflight-retry-result.v1",
+  "status": "operationally_unavailable_after_bounded_retry",
+  "task": {
+    "name": "chronos-r2-claude-preflight-minimal-retry-v1",
+    "owner": "masihmaafi",
+    "url": "https://www.kaggle.com/benchmarks/tasks/masihmaafi/chronos-r2-claude-preflight-minimal-retry-v1/1",
+    "version": 1
+  }
+}

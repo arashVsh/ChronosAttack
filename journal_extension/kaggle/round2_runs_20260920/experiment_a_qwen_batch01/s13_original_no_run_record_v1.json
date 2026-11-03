@@ -1,0 +1,28 @@
+{
+  "browser_heading": "Building your task page...",
+  "browser_pipeline_steps": [
+    "Local source uploaded",
+    "Session in queue",
+    "Executing first task run",
+    "Generating task page"
+  ],
+  "checked_at": "2026-09-20T23:22:49+03:30",
+  "cli_status_conclusion": "No runs yet. Use 'kaggle b t run chronos-r2-water4-study-qwen-low-s13-v1' to start one.",
+  "model_run_observed": false,
+  "original_created_at": "2026-09-20T19:42:23Z",
+  "original_status": "UNSPECIFIED",
+  "original_task": "chronos-r2-water4-study-qwen-low-s13-v1",
+  "original_task_url": "https://www.kaggle.com/benchmarks/tasks/masihmaafi/chronos-r2-water4-study-qwen-low-s13-v1/1",
+  "original_task_version": 1,
+  "recovery_reason": "Kaggle's task-definition build remained unfinished and exposed no runnable model run; the exact scientific shard was relaunched under a new outer task label.",
+  "relaunch_run_id": 2685302,
+  "relaunch_source_sha256": "c742118d23f3a91505d62abf6210f9e7d1bbfd96a3496694a82e0acc0426f82d",
+  "relaunch_task": "chronos-r2-water4-study-qwen-low-s13-relaunch-v1",
+  "relaunch_task_version": 1,
+  "schema": "chronos.kaggle-task-no-run-supersession.v1",
+  "scientific_changes": [],
+  "technical_changes": [
+    "outer Kaggle task label",
+    "output folder label"
+  ]
+}

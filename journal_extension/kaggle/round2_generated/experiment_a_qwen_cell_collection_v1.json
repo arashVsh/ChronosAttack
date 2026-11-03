@@ -1,0 +1,204 @@
+{
+  "batch_count": 5,
+  "batches": [
+    {
+      "collection_manifest": {
+        "bytes": 36917,
+        "path": "kaggle/round2_generated/experiment_a_qwen_batch00_collection_v1.json",
+        "sha256": "583a76d7a4e06e24abf4bb8c9d75e166209a7342acb897724113c6df54d2486f"
+      },
+      "collection_manifest_sha256": "9e9ebdf5a34eaf739b1b08c6a19b038b9e264f9958632b79bff5bbc307fca5e4",
+      "complete_calls": 580,
+      "events": 948,
+      "execution_kinds": {
+        "baseline": 7,
+        "task_relaunch_after_no_run_build_stall": 1
+      },
+      "failed_calls": 0,
+      "invalid_json_lines": 0,
+      "job_count": 184,
+      "known_cost_usd": 0.14562966,
+      "label": "batch00",
+      "observed_invocations": 580,
+      "planned_calls": 580,
+      "post_batch_known_daily_cost_usd": 8.79140383,
+      "pre_batch_known_daily_cost_usd": 8.64577417,
+      "shard_count": 8,
+      "shard_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "started_attempts": 184,
+      "superseded_no_run_count": 1,
+      "unknown_cost_calls": 0
+    },
+    {
+      "collection_manifest": {
+        "bytes": 33199,
+        "path": "kaggle/round2_generated/experiment_a_qwen_batch01_collection_v1.json",
+        "sha256": "237009a4d40964fca00886a4c5ab8e42578f1e4668908f6f240e38c0c0c43752"
+      },
+      "collection_manifest_sha256": "9e53545bddc55bf9e28e8f8fc49ecb40322c4644793edaad3a1956f4c47523ad",
+      "complete_calls": 565,
+      "events": 887,
+      "execution_kinds": {
+        "baseline": 5,
+        "task_relaunch_after_no_run_build_stall": 2
+      },
+      "failed_calls": 0,
+      "invalid_json_lines": 0,
+      "job_count": 161,
+      "known_cost_usd": 0.14147408,
+      "label": "batch01",
+      "observed_invocations": 565,
+      "planned_calls": 565,
+      "post_batch_known_daily_cost_usd": 8.93287791,
+      "pre_batch_known_daily_cost_usd": 8.79140383,
+      "shard_count": 7,
+      "shard_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "started_attempts": 161,
+      "superseded_no_run_count": 2,
+      "unknown_cost_calls": 0
+    },
+    {
+      "collection_manifest": {
+        "bytes": 27556,
+        "path": "kaggle/round2_generated/experiment_a_qwen_batch02_collection_v1.json",
+        "sha256": "c1c01b45db03e763b22f9ed566af94e65c7830457eeb434deb69a3e1a553af1c"
+      },
+      "collection_manifest_sha256": "900d71b04c9f67039c6a2a964d3a8cc0852ec8143f4de7ea4edde282479d9cbe",
+      "complete_calls": 466,
+      "events": 742,
+      "execution_kinds": {
+        "baseline": 6
+      },
+      "failed_calls": 0,
+      "invalid_json_lines": 0,
+      "job_count": 138,
+      "known_cost_usd": 0.11718256,
+      "label": "batch02",
+      "observed_invocations": 466,
+      "planned_calls": 466,
+      "post_batch_known_daily_cost_usd": 9.05006047,
+      "pre_batch_known_daily_cost_usd": 8.93287791,
+      "shard_count": 6,
+      "shard_indices": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "started_attempts": 138,
+      "superseded_no_run_count": 0,
+      "unknown_cost_calls": 0
+    },
+    {
+      "collection_manifest": {
+        "bytes": 23166,
+        "path": "kaggle/round2_generated/experiment_a_qwen_batch03_collection_v1.json",
+        "sha256": "cc0b1545f5532c89f1109a068fadd00e8606869e31605b04ac6a728ec266d1a8"
+      },
+      "collection_manifest_sha256": "817df9cbefb6d0b238f88890f913f1ac09669872faea85914ef01785f671344b",
+      "complete_calls": 391,
+      "events": 621,
+      "execution_kinds": {
+        "baseline": 5
+      },
+      "failed_calls": 0,
+      "invalid_json_lines": 0,
+      "job_count": 115,
+      "known_cost_usd": 0.09811538,
+      "label": "batch03",
+      "observed_invocations": 391,
+      "planned_calls": 391,
+      "post_batch_known_daily_cost_usd": 9.14817585,
+      "pre_batch_known_daily_cost_usd": 9.05006047,
+      "shard_count": 5,
+      "shard_indices": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "started_attempts": 115,
+      "superseded_no_run_count": 0,
+      "unknown_cost_calls": 0
+    },
+    {
+      "collection_manifest": {
+        "bytes": 18773,
+        "path": "kaggle/round2_generated/experiment_a_qwen_batch04_collection_v1.json",
+        "sha256": "68f233af467962c544bbde196b570411784733b70d1f4ce9fd53ea0c2d3302eb"
+      },
+      "collection_manifest_sha256": "a1e7ebce7d17adb119d54476eaf6fca06a27c28ceeed40ffcf707aa2382f6c2c",
+      "complete_calls": 308,
+      "events": 492,
+      "execution_kinds": {
+        "baseline": 4
+      },
+      "failed_calls": 0,
+      "invalid_json_lines": 0,
+      "job_count": 92,
+      "known_cost_usd": 0.0775709,
+      "label": "batch04",
+      "observed_invocations": 308,
+      "planned_calls": 308,
+      "post_batch_known_daily_cost_usd": 9.22574675,
+      "pre_batch_known_daily_cost_usd": 9.14817585,
+      "shard_count": 4,
+      "shard_indices": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "started_attempts": 92,
+      "superseded_no_run_count": 0,
+      "unknown_cost_calls": 0
+    }
+  ],
+  "cell_collection_manifest_sha256": "97c13ab17d09214ad79056354340e4187e7343edc02013527517d18e8ce3ad4a",
+  "deterministic_full_jobs_sha256": "ad84a205295ea03ad761b7cc02015520749c900ac00aaed109372b3cedfa4a80",
+  "frozen_at": "2026-09-21T00:11:24+03:30",
+  "model": "qwen/qwen3-235b-a22b-instruct-2507",
+  "pilot_collection_manifest_sha256": "7a619d747094b83e7eff6a827ee898d412e5d54b0a16e27a77346f4682152766",
+  "reasoning": "low",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-qwen-cell-collection.v1",
+  "status": "sealed_raw_revalidated",
+  "study_id": "chronos_round2_water4_study_qwen_low_v1",
+  "totals": {
+    "complete_calls": 2310,
+    "events": 3690,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "jobs": 690,
+    "known_cost_usd": 0.57997258,
+    "observed_invocations": 2310,
+    "planned_calls": 2310,
+    "post_cell_known_daily_cost_usd": 9.22574675,
+    "pre_cell_known_daily_cost_usd": 8.64577417,
+    "shards": 30,
+    "started_attempts": 690,
+    "superseded_no_run": 3,
+    "technical_relaunches": 3,
+    "unknown_cost_calls": 0
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "batch": "claude_none_batch04_shard_17",
+  "collection_manifest_sha256": "95ee1a732b8e405b18caf0b3128b9a65b50a2a3d93a5f18bf9a62799a455ab15",
+  "frozen_at": "2026-09-21T22:32:39.973761+00:00",
+  "job_count": 23,
+  "model": "anthropic/claude-sonnet-4-6@default",
+  "planned_calls": 91,
+  "post_batch_quota_attestation": {
+    "bytes": 928,
+    "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch04/quota_after_claude_none_batch04_20260922_v1.json",
+    "sha256": "d348f963313a62a12e826838e50bf9ca916163e613b767494cea920062667282"
+  },
+  "post_batch_quota_attestation_sha256": "e915b838777ec62aca99c79a1513a68288498c0822966b29ae98b743be40e838",
+  "prelaunch_manifest": {
+    "bytes": 2883,
+    "path": "kaggle/round2_generated/experiment_a_claude_none_batch04_tasks_v1.json",
+    "sha256": "749fbb6e0a3bb4424b2fbbf67737278c88db9039f1d9c45e61b9d4c71912e95e"
+  },
+  "previous_collection_manifest_sha256": "86e6d4efd91ee44f5c2028ee6f9ef208027766c317fe525b640b97dbb606cfc9",
+  "reasoning": "none",
+  "role": "reasoning_off_sensitivity",
+  "schema": "chronos.experiment-a-claude-none-batch04-collection.v1",
+  "shard_count": 1,
+  "shards": [
+    {
+      "accounting": {
+        "accounting_complete": true,
+        "complete_calls": 91,
+        "completed_jobs": 23,
+        "events": 137,
+        "failed_calls": 0,
+        "invalid_json_lines": 0,
+        "job_count": 23,
+        "known_cost_usd": 0.4198119,
+        "observed_invocations": 91,
+        "planned_calls": 91,
+        "started_attempts": 23,
+        "unknown_cost_calls": 0
+      },
+      "artifacts": {
+        "atif": {
+          "bytes": 1097,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch04/s17/chronos-r2-water4-study-claude-none-s17-v1/1/claude-sonnet-4-6-default/2743753/chronos-r2-water4-study-claude-none-s17-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.atif.json",
+          "sha256": "33e3e99b0d99226422728d57580cffa090de81c4b0868b97abf2a37768fa5492"
+        },
+        "audit": {
+          "bytes": 86883,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch04/s17/chronos-r2-water4-study-claude-none-s17-v1/1/claude-sonnet-4-6-default/2743753/round2_water4_study_claude_none_s17_v1/audit.json",
+          "sha256": "97d58c7bad495583fc450833c5b045bd80177e1c4dd7e3f02327d7b55ff849f4"
+        },
+        "evidence": {
+          "bytes": 237429,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch04/s17/chronos-r2-water4-study-claude-none-s17-v1/1/claude-sonnet-4-6-default/2743753/round2_water4_study_claude_none_s17_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "6f6ced48223e8b47a48f89d4790b7ede10a654a0417ce3f2eb4a1983ade7afd7"
+        },
+        "intended_manifest": {
+          "bytes": 11381,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch04/s17/chronos-r2-water4-study-claude-none-s17-v1/1/claude-sonnet-4-6-default/2743753/round2_water4_study_claude_none_s17_v1/intended_manifest.json",
+          "sha256": "7816305b0a25a2680742e9f24678e0d71f33235a1f27787dde6c5fcbd421597b"
+        },
+        "notebook": {
+          "bytes": 453983,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch04/s17/chronos-r2-water4-study-claude-none-s17-v1/1/claude-sonnet-4-6-default/2743753/__notebook__.ipynb",
+          "sha256": "7f3204e4d2de5ac6d5622a121c1386fc4fb61b89cd17269305a7d5a918672ebe"
+        },
+        "result": {
+          "bytes": 683,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch04/s17/chronos-r2-water4-study-claude-none-s17-v1/1/claude-sonnet-4-6-default/2743753/chronos-r2-water4-study-claude-none-s17-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.result.json",
+          "sha256": "946a36f343c24c193e1ecebc15f9fa7fdee23d547e8cd969ffbdd1b399832952"
+        },
+        "run": {
+          "bytes": 702,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch04/s17/chronos-r2-water4-study-claude-none-s17-v1/1/claude-sonnet-4-6-default/2743753/chronos-r2-water4-study-claude-none-s17-v1-run_id_Run_1_anthropic_claude-sonnet-4-6default.run.json",
+          "sha256": "40c8da860cb930563719c04b8c8bd950837d975d222cd5531ad71ef6027203d3"
+        },
+        "task": {
+          "bytes": 80,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch04/s17/chronos-r2-water4-study-claude-none-s17-v1/1/claude-sonnet-4-6-default/2743753/chronos-r2-water4-study-claude-none-s17-v1.task.json",
+          "sha256": "ff93b74a2c29a7d3d196afb91a1a652cab75553b0ab190efca4bbda5e368f2b3"
+        },
+        "terminal": {
+          "bytes": 3618,
+          "path": "kaggle/round2_runs_20260920/experiment_a_claude_none_batch04/s17/chronos-r2-water4-study-claude-none-s17-v1/1/claude-sonnet-4-6-default/2743753/round2_water4_study_claude_none_s17_v1/terminal.json",
+          "sha256": "256f6dfada5fc75df89b8dd6d21d51dcf559dc9eb50535a5b82b75fe0263095f"
+        }
+      },
+      "execution_kind": "baseline",
+      "finished_at": "2026-09-21T22:30:51.562893Z",
+      "hosted_audit_passed": true,
+      "model": "anthropic/claude-sonnet-4-6@default",
+      "run_id": 2743753,
+      "shard_index": 17,
+      "source": {
+        "bytes": 198496,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s17_v1.py",
+        "sha256": "e82185e1d3f442a8aac4da781d7b618a9cfa7e0cfa165db178ccbb1d70969a2e"
+      },
+      "started_at": "2026-09-21T22:26:00.099364Z",
+      "status": "complete_strictly_verified",
+      "task": "chronos-r2-water4-study-claude-none-s17-v1",
+      "task_version": 1,
+      "transport_source": {
+        "bytes": 34968,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s17_transport_v1.py",
+        "sha256": "91ed7a81e156809827c4a49056912067006c23a1ca5fd4d3c8aed0a675daccb9"
+      }
+    }
+  ],
+  "study_id": "chronos_round2_water4_study_claude_none_v1",
+  "totals": {
+    "batch_known_cost_usd": 0.4198119,
+    "complete_calls": 91,
+    "completed_jobs": 23,
+    "events": 137,
+    "failed_calls": 0,
+    "invalid_json_lines": 0,
+    "observed_invocations": 91,
+    "official_delta_minus_batch_known_usd": 0.0,
+    "official_quota_delta_usd": 0.4198119,
+    "planned_calls": 91,
+    "post_batch_official_daily_quota_used_usd": 8.6573094,
+    "post_batch_raw_known_daily_cost_usd": 8.6522724,
+    "post_official_minus_raw_known_usd": 0.005037,
+    "pre_batch_official_daily_quota_used_usd": 8.2374975,
+    "pre_batch_raw_known_daily_cost_usd": 8.2324605,
+    "started_attempts": 23,
+    "unknown_cost_calls": 0
+  }
+}

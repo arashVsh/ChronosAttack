@@ -1,0 +1,53 @@
+{
+  "attestation_sha256": "f3c2859ac5777fafb4cf333e8816b4ed4a1ceca943dac4c324b9371233eee759",
+  "captured_at_utc": "2026-09-21T19:58:11.684648+00:00",
+  "conclusion": "original_version_created_without_source_kernel_or_run; frozen contract relaunched with only task slug rewritten",
+  "prelaunch_manifest_sha256": "0342e3716f41867df5a46716b5a49bd6d3929d7b38cd7778a48ea1114f38ef81",
+  "repairs": [
+    {
+      "model_run_observed": false,
+      "original_task": "chronos-r2-water4-study-claude-none-s06-v1",
+      "repair_source": {
+        "bytes": 198490,
+        "derived_from_sha256": "151af7b6b622cc27ce9dbd63756425eeb5d4c2c479c37899a7b1c67047cc05a6",
+        "path": "kaggle/round2_generated/water4_study_claude_none_s06_repair_v1.py",
+        "sha256": "971f0fc3901f169e49a9016a5cfeecbc3d179b2eecec3b8a94671497ee953750",
+        "transformation": "replace the sole kbench task decorator slug chronos-r2-water4-study-claude-none-s06-v1 with chronos-r2-water4-study-claude-none-s06-repair-v1; reverse substitution reproduces derived_from_sha256"
+      },
+      "repair_task": "chronos-r2-water4-study-claude-none-s06-repair-v1",
+      "same_slug_repush_attempt": {
+        "error": "Task 'masihmaafi/chronos-r2-water4-study-claude-none-s06-v1' exists but has no source kernel.",
+        "run_created": false
+      },
+      "scientific_changes": [],
+      "shard_index": 6,
+      "task_version_before_repair": {
+        "createTime": "2026-09-21T19:55:42.916Z",
+        "creationErrorMessage": null,
+        "creationState": "BENCHMARK_TASK_VERSION_CREATION_STATE_UNSPECIFIED",
+        "error": null,
+        "isBackingNotebookPublished": null,
+        "isPublic": false,
+        "options": null,
+        "runs": [],
+        "slug": {
+          "ownerSlug": "masihmaafi",
+          "taskSlug": "chronos-r2-water4-study-claude-none-s06-v1",
+          "versionNumber": 1
+        },
+        "source": "BENCHMARK_TASK_VERSION_SOURCE_UNSPECIFIED",
+        "sourceKernelId": null,
+        "url": "/benchmarks/tasks/masihmaafi/chronos-r2-water4-study-claude-none-s06-v1/1"
+      },
+      "transport_wrapper": {
+        "bytes": 34987,
+        "decompressed_payload_sha256": "971f0fc3901f169e49a9016a5cfeecbc3d179b2eecec3b8a94671497ee953750",
+        "path": "kaggle/round2_generated/water4_study_claude_none_s06_repair_transport_v1.py",
+        "sha256": "9c2cee801dd0a70c18cd445cffacef487789c90fc3e88c649e7a003bc569be24"
+      },
+      "unaccounted_quota_usd": 0.0
+    }
+  ],
+  "schema": "chronos.kaggle-task-version-repair-batch-attestation.v1",
+  "transport_attestation_sha256": "1b848cb2a9795355d8dcc3ac00f2bf6c8b518663180d4e28add84c33f1eb34c6"
+}

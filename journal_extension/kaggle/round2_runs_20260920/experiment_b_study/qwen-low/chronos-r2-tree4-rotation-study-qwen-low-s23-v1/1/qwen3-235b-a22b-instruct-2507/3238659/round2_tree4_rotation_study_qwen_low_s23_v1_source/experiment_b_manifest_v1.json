@@ -1,0 +1,109 @@
+{
+  "schema": "chronos.experiment-b-label-rotation.v1",
+  "status": "frozen_no_calls",
+  "classification": "exploratory_descriptive",
+  "parent_round_id": "chronos_journal_round2_20260920_v1",
+  "source_sha256": {
+    "kaggle/completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "kaggle/four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "kaggle/experiment_b_protocol.py": "9b3c38088a3cc3b762834feeb865aa3782c536e9ad2cfae5163feafa258827a5",
+    "kaggle/audit_experiment_b.py": "7453f0f14612007e9ef80a6c7c7dc042f6c8e5f175446f8ee0c7fffb6dc8c4ed",
+    "kaggle/round2_manifest_v1.json": "ed050bc39274cabd4f15545bf6078b36aeb0a40930458f12d11bc5e0cfeeb9b2",
+    "kaggle/experiment_a_availability_v1.json": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943",
+    "specs/journal-extension-sep14/round2-amendment-2026-09-20.md": "5c3fc2b92fcd043efeba0c8e291e2b77e3985f9760df897e8157fcbb673b3ec3",
+    "specs/journal-extension-sep14/round2-experiment-a-availability-amendment-2026-09-20.md": "16b473be87357c7f0a181c0b4a3d7d227e87ad30d42a6db58ad982469758c895",
+    "specs/journal-extension-sep14/round2-bc-availability-amendment-2026-09-23.md": "5ab050c777c309138b811c29f347f75816419d8811df5fc54189d533d7ceb6f5"
+  },
+  "fixtures_sha256": "b4852955da46b35b4be75cdd7446f83b9183960d063f9dbd7d2f67f2abcfed74",
+  "seed": 20260920,
+  "rotations": {
+    "0": {"A": "A", "B": "B", "C": "C"},
+    "1": {"A": "B", "B": "C", "C": "A"},
+    "2": {"A": "C", "B": "A", "C": "B"}
+  },
+  "semantic_target": "C",
+  "conditions": ["natural", "attack"],
+  "mode": "stateful",
+  "repetitions_per_rotation_condition": 30,
+  "calls_per_job": 5,
+  "call_settings": {
+    "temperature": 1,
+    "max_completion_tokens": 256,
+    "timeout": 30,
+    "sdk_max_retries": 0
+  },
+  "cells": [
+    {
+      "model": "openai/gpt-5.6-terra",
+      "reasoning": "low",
+      "role": "matched_non_off_primary",
+      "pilot_id": "chronos_round2_tree4_label_rotation_terra_low_pilot_v1",
+      "pilot_jobs_sha256": "7ad3e5c4492c7cf1be27fc3383f6d77c38d5079929a01fc5597650bd0505b2ad",
+      "study_id": "chronos_round2_tree4_label_rotation_terra_low_study_v1",
+      "jobs_sha256": "963fff5ead03681ebb1f1a6452b787b3f826d166a766db4b2bd1fb4da02836a7",
+      "jobs": 180,
+      "planned_calls": 900
+    },
+    {
+      "model": "google/gemini-3.6-flash",
+      "reasoning": "minimal",
+      "role": "matched_non_off_primary",
+      "pilot_id": "chronos_round2_tree4_label_rotation_gemini_minimal_pilot_v1",
+      "pilot_jobs_sha256": "84cc242f75201ea7e430e8371f91ed039dc5ddec8b70aa0f06762ef6064ced2f",
+      "study_id": "chronos_round2_tree4_label_rotation_gemini_minimal_study_v1",
+      "jobs_sha256": "79845857030cddbdeeb937c198b1e1104985334b2a718c16c84baa7bbb2a3960",
+      "jobs": 180,
+      "planned_calls": 900
+    },
+    {
+      "model": "qwen/qwen3-235b-a22b-instruct-2507",
+      "reasoning": "low",
+      "role": "matched_non_off_primary",
+      "pilot_id": "chronos_round2_tree4_label_rotation_qwen_low_pilot_v1",
+      "pilot_jobs_sha256": "8589eb751f3ef180501f234d8d8f194c579353b804912a21f1a27b7bef41742d",
+      "study_id": "chronos_round2_tree4_label_rotation_qwen_low_study_v1",
+      "jobs_sha256": "6cb9094eced86148fadefdc3d032d51bdb306c7f392714af3cec5dd75a1c30da",
+      "jobs": 180,
+      "planned_calls": 900
+    },
+    {
+      "model": "anthropic/claude-sonnet-4-6@default",
+      "reasoning": "none",
+      "role": "reasoning_off_sensitivity",
+      "pilot_id": "chronos_round2_tree4_label_rotation_claude_none_pilot_v1",
+      "pilot_jobs_sha256": "535601d6345936ad90a1df70c6689b3756d23959d5c2c9f968c67cd0af36a062",
+      "study_id": "chronos_round2_tree4_label_rotation_claude_none_study_v1",
+      "jobs_sha256": "24dd9fb3a93de14cf7b91fd458f008f154da6ca1fad4a72bf409714fcb19f60f",
+      "jobs": 180,
+      "planned_calls": 900
+    }
+  ],
+  "unavailable_primary": {
+    "model": "anthropic/claude-sonnet-4-6@default",
+    "reasoning": "lowest_supported_non_off",
+    "status": "operationally_unavailable_after_bounded_retry",
+    "jobs": 0,
+    "planned_calls": 0
+  },
+  "matched_primary_jobs": 540,
+  "matched_primary_planned_calls": 2700,
+  "sensitivity_jobs": 180,
+  "sensitivity_planned_calls": 900,
+  "excluded_pilot": {
+    "rotation": 1,
+    "conditions": ["natural", "attack"],
+    "repetition": 1,
+    "jobs_per_setting": 2,
+    "calls_per_setting": 10,
+    "total_jobs": 8,
+    "total_planned_calls": 40,
+    "attempts_per_job": 1,
+    "outcome_based_pass": false,
+    "included_in_study": false
+  },
+  "total_executable_jobs": 720,
+  "total_executable_planned_calls": 3600,
+  "prerequisite": "Experiment A executable cells sealed and analyzed before first Experiment B call",
+  "reporting": ["literal_choice", "semantic_choice"],
+  "manifest_sha256": "358d2389d8abeb8eadc31fe810c6cf1a1d820f740635224f1402ef7cbe5979fc"
+}

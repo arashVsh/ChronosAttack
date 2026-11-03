@@ -1,0 +1,59 @@
+[
+  {
+    "label": "current_minimal_256_schema",
+    "reasoning": "minimal",
+    "max_completion_tokens": 256,
+    "structured": true,
+    "ok": false,
+    "error_type": "InternalServerError",
+    "error": "Error code: 500 - {'code': '', 'message': 'An internal server error occurred.', 'param': '', 'type': 'server_error'}",
+    "body": "{'code': '', 'message': 'An internal server error occurred.', 'param': '', 'type': 'server_error'}",
+    "status": 500
+  },
+  {
+    "label": "minimal_4096_schema",
+    "reasoning": "minimal",
+    "max_completion_tokens": 4096,
+    "structured": true,
+    "ok": false,
+    "error_type": "InternalServerError",
+    "error": "Error code: 500 - {'code': '', 'message': 'An internal server error occurred.', 'param': '', 'type': 'server_error'}",
+    "body": "{'code': '', 'message': 'An internal server error occurred.', 'param': '', 'type': 'server_error'}",
+    "status": 500
+  },
+  {
+    "label": "minimal_4096_text",
+    "reasoning": "minimal",
+    "max_completion_tokens": 4096,
+    "structured": false,
+    "ok": false,
+    "error_type": "InternalServerError",
+    "error": "Error code: 500 - {'code': '', 'message': 'An internal server error occurred.', 'param': '', 'type': 'server_error'}",
+    "body": "{'code': '', 'message': 'An internal server error occurred.', 'param': '', 'type': 'server_error'}",
+    "status": 500
+  },
+  {
+    "label": "low_4096_schema",
+    "reasoning": "low",
+    "max_completion_tokens": 4096,
+    "structured": true,
+    "ok": true,
+    "response": "\ud83e\udd16 [anthropic/claude-sonnet-4-6@default]: Decision(final_choice='B', confidence=0.33, brief_reason='Arbitrary selection')"
+  },
+  {
+    "label": "low_4096_text",
+    "reasoning": "low",
+    "max_completion_tokens": 4096,
+    "structured": false,
+    "ok": true,
+    "response": "\ud83e\udd16 [anthropic/claude-sonnet-4-6@default]: {\"final_choice\": \"B\", \"confidence\": 0.33, \"brief_reason\": \"Arbitrary selection as requested.\"}"
+  },
+  {
+    "label": "control_none_256_schema",
+    "reasoning": "none",
+    "max_completion_tokens": 256,
+    "structured": true,
+    "ok": true,
+    "response": "\ud83e\udd16 [anthropic/claude-sonnet-4-6@default]: Decision(final_choice='B', confidence=0.33, brief_reason='Arbitrarily selected with no particular reasoning.')"
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "ceiling_usd": 0.6,
+  "fixture_manifest_sha256": "b3292b6c53b0b3b04fd635c96c30f2569b902221f3c45f7f7c271aed29eca8c1",
+  "identity": "37e8a51d0bc2e4278b9b474a0560d6b808b74f8b324926afe1178cec9c878885",
+  "job_count": 8,
+  "jobs": [
+    {
+      "calls": 4,
+      "condition": "5",
+      "id": "chronos_round2_tree3_leave_one_out_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree3_no_cost|stateful|5|3",
+      "mode": "stateful",
+      "order": [
+        "survival_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "tree3_no_cost"
+    },
+    {
+      "calls": 4,
+      "condition": "3",
+      "id": "chronos_round2_tree3_leave_one_out_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree3_no_survival|stateful|3|8",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree3_no_survival"
+    },
+    {
+      "calls": 4,
+      "condition": "0",
+      "id": "chronos_round2_tree3_leave_one_out_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree3_no_survival|stateful|0|9",
+      "mode": "stateful",
+      "order": [
+        "equity_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree3_no_survival"
+    },
+    {
+      "calls": 4,
+      "condition": "3",
+      "id": "chronos_round2_tree3_leave_one_out_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree3_no_survival|stateful|3|10",
+      "mode": "stateful",
+      "order": [
+        "heat_tool",
+        "cost_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree3_no_survival"
+    },
+    {
+      "calls": 4,
+      "condition": "5",
+      "id": "chronos_round2_tree3_leave_one_out_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree3_no_survival|stateful|5|5",
+      "mode": "stateful",
+      "order": [
+        "cost_tool",
+        "heat_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "tree3_no_survival"
+    },
+    {
+      "calls": 4,
+      "condition": "2",
+      "id": "chronos_round2_tree3_leave_one_out_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree3_no_equity|stateful|2|8",
+      "mode": "stateful",
+      "order": [
+        "survival_tool",
+        "heat_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "tree3_no_equity"
+    },
+    {
+      "calls": 4,
+      "condition": "5",
+      "id": "chronos_round2_tree3_leave_one_out_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree3_no_heat|stateful|5|9",
+      "mode": "stateful",
+      "order": [
+        "cost_tool",
+        "survival_tool",
+        "equity_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "tree3_no_heat"
+    },
+    {
+      "calls": 4,
+      "condition": "3",
+      "id": "chronos_round2_tree3_leave_one_out_gemini_minimal_study_v1|study|google/gemini-3.6-flash|tree3_no_equity|stateful|3|10",
+      "mode": "stateful",
+      "order": [
+        "survival_tool",
+        "cost_tool",
+        "heat_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "tree3_no_equity"
+    }
+  ],
+  "jobs_sha256": "44b5d70a701a97c6b433b22ab05d47eb98ce42838dec5d2cfd92d98f5304ffc7",
+  "model": "google/gemini-3.6-flash",
+  "parent_ledger_sha256": null,
+  "phase": "study",
+  "planned_calls": 32,
+  "reasoning": "minimal",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-df-hosted-cell.v1",
+  "sdk_max_retries": 0,
+  "shard_count": 30,
+  "shard_index": 25,
+  "source_sha256": {
+    "audit_experiment_df.py": "260694fb97c5c765e0a93cbece73ece0ee8161a03fbd63f217552c0dd5475148",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_df_protocol.py": "d7fc06c8191a7491c5cf05cc1594f2d6fd2db76e870ab43c09e0a83a51c0eb7e",
+    "four_observation_protocol.py": "ed9ebea132b67241c1c1e2e55c183c4076a033a3c0f02059aef620ca4a592f40",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_tree3_leave_one_out_gemini_minimal_study_v1",
+  "transport_policy": {
+    "initial_delay_seconds": 20,
+    "max_delay_seconds": 300,
+    "max_wait_seconds_per_call": 7200,
+    "procedure": "specs/journal-extension-sep14/round2-df-leave-one-out-plan-2026-10-08.md",
+    "schema": "chronos.experiment-df-transport-wait.v1",
+    "sdk_max_retries": 0,
+    "wait_on": [
+      "RateLimitError",
+      "APITimeoutError"
+    ]
+  }
+}

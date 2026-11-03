@@ -1,0 +1,401 @@
+{
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "low",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "effective_ceiling_usd": 0.16,
+  "identity": "5c26630a2c5211b39a220d47d9da3096d59c5ecec897088779609ada2f8a3e47",
+  "incremental_ceiling_usd": 0.16,
+  "job_count": 23,
+  "jobs": [
+    {
+      "calls": 5,
+      "condition": "18",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|permutation_stateful|18|1",
+      "mode": "permutation_stateful",
+      "order": [
+        "delivery_tool",
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "3",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|consistency|3|6",
+      "mode": "consistency",
+      "order": [
+        "aquifer_tool",
+        "cost_tool",
+        "delivery_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 6,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "14",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|consistency|14|1",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "yield_tool",
+        "aquifer_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 1,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "16",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|permutation_stateful|16|7",
+      "mode": "permutation_stateful",
+      "order": [
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 7,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "23",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|permutation_stateful|23|10",
+      "mode": "permutation_stateful",
+      "order": [
+        "delivery_tool",
+        "cost_tool",
+        "yield_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|stateful|attack|14",
+      "mode": "stateful",
+      "order": [
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 14,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "6",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|budget|6|12",
+      "mode": "budget",
+      "order": [
+        "delivery_tool",
+        "cost_tool",
+        "yield_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 12,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "6",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|consistency|6|4",
+      "mode": "consistency",
+      "order": [
+        "yield_tool",
+        "aquifer_tool",
+        "cost_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "0",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|consistency|0|10",
+      "mode": "consistency",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 10,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "18",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|consistency|18|3",
+      "mode": "consistency",
+      "order": [
+        "delivery_tool",
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "3",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|budget|3|11",
+      "mode": "budget",
+      "order": [
+        "aquifer_tool",
+        "delivery_tool",
+        "cost_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 11,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "22",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|consistency|22|2",
+      "mode": "consistency",
+      "order": [
+        "delivery_tool",
+        "cost_tool",
+        "aquifer_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "natural",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|stateful|natural|20",
+      "mode": "stateful",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 20,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "1",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|permutation_stateful|1|3",
+      "mode": "permutation_stateful",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "delivery_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 3,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "attack",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|stateful|attack|27",
+      "mode": "stateful",
+      "order": [
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 27,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "18",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|consistency|18|8",
+      "mode": "consistency",
+      "order": [
+        "delivery_tool",
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "15",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|consistency|15|2",
+      "mode": "consistency",
+      "order": [
+        "cost_tool",
+        "yield_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 2,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "natural",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|stateless|natural|9",
+      "mode": "stateless",
+      "order": [
+        "aquifer_tool",
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "9",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|permutation_stateful|9|9",
+      "mode": "permutation_stateful",
+      "order": [
+        "yield_tool",
+        "cost_tool",
+        "delivery_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "3",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|consistency|3|5",
+      "mode": "consistency",
+      "order": [
+        "aquifer_tool",
+        "cost_tool",
+        "delivery_tool",
+        "yield_tool"
+      ],
+      "phase": "study",
+      "rep": 5,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "5",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|budget|5|9",
+      "mode": "budget",
+      "order": [
+        "cost_tool",
+        "delivery_tool",
+        "yield_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 9,
+      "scenario": "water4"
+    },
+    {
+      "calls": 5,
+      "condition": "21",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|permutation_stateful|21|4",
+      "mode": "permutation_stateful",
+      "order": [
+        "delivery_tool",
+        "yield_tool",
+        "cost_tool",
+        "aquifer_tool"
+      ],
+      "phase": "study",
+      "rep": 4,
+      "scenario": "water4"
+    },
+    {
+      "calls": 1,
+      "condition": "4",
+      "id": "chronos_round2_water4_study_qwen_low_v1|study|qwen/qwen3-235b-a22b-instruct-2507|water4|consistency|4|8",
+      "mode": "consistency",
+      "order": [
+        "aquifer_tool",
+        "delivery_tool",
+        "yield_tool",
+        "cost_tool"
+      ],
+      "phase": "study",
+      "rep": 8,
+      "scenario": "water4"
+    }
+  ],
+  "manifest_sha256": "3ca07a4075135cda546056747ab0a4e9a8e9ccb9d94a55f2ff4119c1853bd36d",
+  "model": "qwen/qwen3-235b-a22b-instruct-2507",
+  "parent_ledger_sha256": null,
+  "pilot_collection_manifest_sha256": "7a619d747094b83e7eff6a827ee898d412e5d54b0a16e27a77346f4682152766",
+  "pilot_evidence_sha256": "c0f40a83849052a7d498a976322b0b456d45fbda5cf16d0d9fffaecf9cde512a",
+  "pilot_receipt_sha256": "1a111b5bd545c1bf281096405b0c5fa216835c09a1f168a3fad11564cf7e2fd4",
+  "planned_calls": 71,
+  "protocol_extension_sha256": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190",
+  "reasoning": "low",
+  "resume_ledger": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-a-full-shard-contract.v1",
+  "seed_audit": {
+    "completed_jobs": 0,
+    "events": 0,
+    "failed_calls": 0,
+    "incomplete_jobs": [],
+    "known_cost_usd": 0.0,
+    "max_attempt_by_job": {},
+    "observed_invocations": 0
+  },
+  "shard_count": 30,
+  "shard_index": 10,
+  "source_sha256": {
+    "audit_water_supply.py": "1a36ec625580e5560e0bc2c0913f34a9436a965bb629ea13b763f90abaffc374",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_a_availability_v1.json": "fe40bb830207c0a1652989817f567f98f02fedd7349845fd458c79502c097943",
+    "experiment_a_manifest_v1.json": "81a78601f994c32348b3716749904206da39f11ab0decd14e0fa7ab0e250f92d",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739",
+    "water_supply_protocol.py": "cc7657ee73229eea7d7b265a5fa47d3801b67b596f280b297fd1203525c1e190"
+  },
+  "study_id": "chronos_round2_water4_study_qwen_low_v1",
+  "transport_wait_seconds": 7200
+}

@@ -1,0 +1,66 @@
+{
+  "amendment_sha256": "5ab050c777c309138b811c29f347f75816419d8811df5fc54189d533d7ceb6f5",
+  "condition_target_successes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    10,
+    10,
+    10,
+    0,
+    0,
+    0,
+    10,
+    10,
+    10,
+    7,
+    4,
+    10,
+    10,
+    9,
+    10
+  ],
+  "model": "qwen/qwen3-235b-a22b-instruct-2507",
+  "objective": "target_C_choice_rate",
+  "reasoning": "low",
+  "role": "primary",
+  "schema": "chronos.experiment-c-selection.v1",
+  "selected_condition_index": 9,
+  "selected_order": [
+    "heat_tool",
+    "survival_tool",
+    "cost_tool",
+    "equity_tool"
+  ],
+  "selection_manifest_sha256": "e8a935133f7db7414e1885b348c627ce87b6433a75b21f991daf5ac95ed28273",
+  "selection_repetitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "source_identity": "9b4dad11c8690a91d7064f87802fab5e0e97e40296f3fb2d77a7c583c4890a6a",
+  "source_log_sha256": "3116014338a5a088c957897d3d314f4b8e9507b6f5696d88ce73b081c40b66a1",
+  "source_logs": [
+    {
+      "bytes": 5708927,
+      "path": "kaggle/qwen_study_sep16/chronos-qwen-study-sep16/1/qwen3-235b-a22b-instruct-2507/2219989/study_out/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+      "sha256": "3116014338a5a088c957897d3d314f4b8e9507b6f5696d88ce73b081c40b66a1"
+    }
+  ],
+  "source_study_id": "chronos_independent_tree4_20260909_v1",
+  "target_successes": 10,
+  "tie_break": "lowest_frozen_condition_index"
+}

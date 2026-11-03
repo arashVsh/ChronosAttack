@@ -1,0 +1,2275 @@
+{
+  "aggregate_accounting": {
+    "all_cost_exact_usd": 8.41379074,
+    "all_known_usd_lower_bound": 8.41379074,
+    "attempted_shard_planned_calls": 3600,
+    "completed_study_cells": 4,
+    "completed_study_jobs": 720,
+    "completed_study_trial_calls": 3600,
+    "excluded_pilot_failed_invocations": 0,
+    "excluded_pilot_known_usd_lower_bound": 0.09002387,
+    "excluded_pilot_observed_invocations": 40,
+    "excluded_pilot_unknown_cost_calls": 0,
+    "frozen_executable_planned_calls": 3600,
+    "frozen_executable_study_jobs": 720,
+    "pilot_failed_study_cells": 0,
+    "study_failed_invocations": 46,
+    "study_known_usd_including_failed_attempts": 8.32376687,
+    "study_observed_invocations": 3781,
+    "study_partial_cells": 0,
+    "study_unknown_cost_calls": 0
+  },
+  "amendments": {
+    "cells": [
+      "google/gemini-3.6-flash",
+      "qwen/qwen3-235b-a22b-instruct-2507"
+    ],
+    "disclosure": "Gemini-minimal and Qwen-low ran after Terra-low and Claude-none, from replacement pilots, with provider HTTP 429s waited out below the evidence layer. Qwen-low shard 25 failed once on a truncated provider answer and was rerun from scratch under a written note; the failed run is excluded from outcomes, and its cost, including one call priced only by the quota meter, is listed below.",
+    "procedures": [
+      "specs/journal-extension-sep14/round2-b-gemini-qwen-replacement-pilot-amendment-2026-09-25.md",
+      "specs/journal-extension-sep14/round2-b-gemini-qwen-study-transport-wait-amendment-2026-09-26.md",
+      "specs/journal-extension-sep14/round2-b-qwen-s25-replacement-note-2026-09-26.md"
+    ],
+    "replaced_runs": [
+      {
+        "completed_jobs": 2,
+        "error_type": "ResponseParsingError",
+        "evidence_path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s25-v1/1/qwen3-235b-a22b-instruct-2507/3238977/round2_tree4_rotation_study_qwen_low_s25_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+        "evidence_sha256": "a014e9f2344862029bb64cb418f5957b8af371aadc01b59bb1c4e20e26921cde",
+        "known_cost_usd": "0.00254188",
+        "meter_attributed_unknown_usd": "0.00039622",
+        "observed_invocations": 12,
+        "quota_monthly_delta_usd": "0.00293810",
+        "shard_index": 25,
+        "task_name": "chronos-r2-tree4-rotation-study-qwen-low-s25-v1",
+        "unknown_cost_calls": 1
+      }
+    ]
+  },
+  "analysis_sha256": "e36109ecc9160f084271ab1603e32bf9265ec07a333d657288e30465aa5528cf",
+  "classification": "exploratory_descriptive",
+  "claude_none_sensitivity": {
+    "by_rotation_condition": {
+      "rot0|attack": {
+        "literal_C_rate": 0.7,
+        "literal_choice_counts": {
+          "A": 0,
+          "B": 9,
+          "C": 21
+        },
+        "literal_target_letter": "C",
+        "literal_target_letter_rate": 0.7,
+        "n": 30,
+        "semantic_choice_counts": {
+          "A": 0,
+          "B": 9,
+          "C": 21
+        },
+        "semantic_target_rate": 0.7,
+        "semantic_to_literal": {
+          "A": "A",
+          "B": "B",
+          "C": "C"
+        }
+      },
+      "rot0|natural": {
+        "literal_C_rate": 0.9333333333333333,
+        "literal_choice_counts": {
+          "A": 0,
+          "B": 2,
+          "C": 28
+        },
+        "literal_target_letter": "C",
+        "literal_target_letter_rate": 0.9333333333333333,
+        "n": 30,
+        "semantic_choice_counts": {
+          "A": 0,
+          "B": 2,
+          "C": 28
+        },
+        "semantic_target_rate": 0.9333333333333333,
+        "semantic_to_literal": {
+          "A": "A",
+          "B": "B",
+          "C": "C"
+        }
+      },
+      "rot1|attack": {
+        "literal_C_rate": 0.0,
+        "literal_choice_counts": {
+          "A": 30,
+          "B": 0,
+          "C": 0
+        },
+        "literal_target_letter": "A",
+        "literal_target_letter_rate": 1.0,
+        "n": 30,
+        "semantic_choice_counts": {
+          "A": 0,
+          "B": 0,
+          "C": 30
+        },
+        "semantic_target_rate": 1.0,
+        "semantic_to_literal": {
+          "A": "B",
+          "B": "C",
+          "C": "A"
+        }
+      },
+      "rot1|natural": {
+        "literal_C_rate": 0.3333333333333333,
+        "literal_choice_counts": {
+          "A": 20,
+          "B": 0,
+          "C": 10
+        },
+        "literal_target_letter": "A",
+        "literal_target_letter_rate": 0.6666666666666666,
+        "n": 30,
+        "semantic_choice_counts": {
+          "A": 0,
+          "B": 10,
+          "C": 20
+        },
+        "semantic_target_rate": 0.6666666666666666,
+        "semantic_to_literal": {
+          "A": "B",
+          "B": "C",
+          "C": "A"
+        }
+      },
+      "rot2|attack": {
+        "literal_C_rate": 0.0,
+        "literal_choice_counts": {
+          "A": 12,
+          "B": 18,
+          "C": 0
+        },
+        "literal_target_letter": "B",
+        "literal_target_letter_rate": 0.6,
+        "n": 30,
+        "semantic_choice_counts": {
+          "A": 0,
+          "B": 12,
+          "C": 18
+        },
+        "semantic_target_rate": 0.6,
+        "semantic_to_literal": {
+          "A": "C",
+          "B": "A",
+          "C": "B"
+        }
+      },
+      "rot2|natural": {
+        "literal_C_rate": 0.0,
+        "literal_choice_counts": {
+          "A": 11,
+          "B": 19,
+          "C": 0
+        },
+        "literal_target_letter": "B",
+        "literal_target_letter_rate": 0.6333333333333333,
+        "n": 30,
+        "semantic_choice_counts": {
+          "A": 0,
+          "B": 11,
+          "C": 19
+        },
+        "semantic_target_rate": 0.6333333333333333,
+        "semantic_to_literal": {
+          "A": "C",
+          "B": "A",
+          "C": "B"
+        }
+      }
+    },
+    "cost": {
+      "all_cost_exact_usd": 4.4838789,
+      "all_known_usd_lower_bound": 4.4838789,
+      "amortized_study_usd_per_completed_decision": 0.024639705,
+      "excluded_pilot_failed_invocations": 0,
+      "excluded_pilot_known_usd_lower_bound": 0.048732,
+      "excluded_pilot_observed_invocations": 10,
+      "excluded_pilot_unknown_cost_calls": 0,
+      "study_failed_invocations": 14,
+      "study_job_errors": 14,
+      "study_known_usd_including_failed_attempts": 4.4351469,
+      "study_observed_invocations": 951,
+      "study_unknown_cost_calls": 0
+    },
+    "fresh_paired_semantic_target_effects": {
+      "rot0": {
+        "attack_minus_natural_semantic_target_rate": -0.23333333333333334,
+        "attack_semantic_target_rate": 0.7,
+        "both_target": 20,
+        "classification": "exploratory_descriptive_no_hypothesis_test",
+        "fresh_pairs": 30,
+        "gains": 1,
+        "literal_C_attack_minus_natural_rate": -0.23333333333333334,
+        "literal_C_attack_rate": 0.7,
+        "literal_C_natural_rate": 0.9333333333333333,
+        "literal_choice_transition_counts": {
+          "A": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          "B": {
+            "A": 0,
+            "B": 1,
+            "C": 1
+          },
+          "C": {
+            "A": 0,
+            "B": 8,
+            "C": 20
+          }
+        },
+        "losses": 8,
+        "natural_semantic_target_rate": 0.9333333333333333,
+        "neither_target": 1,
+        "semantic_choice_transition_counts": {
+          "A": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          "B": {
+            "A": 0,
+            "B": 1,
+            "C": 1
+          },
+          "C": {
+            "A": 0,
+            "B": 8,
+            "C": 20
+          }
+        }
+      },
+      "rot1": {
+        "attack_minus_natural_semantic_target_rate": 0.3333333333333333,
+        "attack_semantic_target_rate": 1.0,
+        "both_target": 20,
+        "classification": "exploratory_descriptive_no_hypothesis_test",
+        "fresh_pairs": 30,
+        "gains": 10,
+        "literal_C_attack_minus_natural_rate": -0.3333333333333333,
+        "literal_C_attack_rate": 0.0,
+        "literal_C_natural_rate": 0.3333333333333333,
+        "literal_choice_transition_counts": {
+          "A": {
+            "A": 20,
+            "B": 0,
+            "C": 0
+          },
+          "B": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          "C": {
+            "A": 10,
+            "B": 0,
+            "C": 0
+          }
+        },
+        "losses": 0,
+        "natural_semantic_target_rate": 0.6666666666666666,
+        "neither_target": 0,
+        "semantic_choice_transition_counts": {
+          "A": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          "B": {
+            "A": 0,
+            "B": 0,
+            "C": 10
+          },
+          "C": {
+            "A": 0,
+            "B": 0,
+            "C": 20
+          }
+        }
+      },
+      "rot2": {
+        "attack_minus_natural_semantic_target_rate": -0.03333333333333333,
+        "attack_semantic_target_rate": 0.6,
+        "both_target": 11,
+        "classification": "exploratory_descriptive_no_hypothesis_test",
+        "fresh_pairs": 30,
+        "gains": 7,
+        "literal_C_attack_minus_natural_rate": 0.0,
+        "literal_C_attack_rate": 0.0,
+        "literal_C_natural_rate": 0.0,
+        "literal_choice_transition_counts": {
+          "A": {
+            "A": 4,
+            "B": 7,
+            "C": 0
+          },
+          "B": {
+            "A": 8,
+            "B": 11,
+            "C": 0
+          },
+          "C": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          }
+        },
+        "losses": 8,
+        "natural_semantic_target_rate": 0.6333333333333333,
+        "neither_target": 4,
+        "semantic_choice_transition_counts": {
+          "A": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+          },
+          "B": {
+            "A": 0,
+            "B": 4,
+            "C": 7
+          },
+          "C": {
+            "A": 0,
+            "B": 8,
+            "C": 11
+          }
+        }
+      }
+    },
+    "label_susceptibility": {
+      "attack": {
+        "interpretation": "Independent rotations; between-rotation ranges include sampling variation.",
+        "literal_C_rate_range_across_rotations": 0.7,
+        "literal_letter_rates_by_rotation": {
+          "A": [
+            0.0,
+            1.0,
+            0.4
+          ],
+          "B": [
+            0.3,
+            0.0,
+            0.6
+          ],
+          "C": [
+            0.7,
+            0.0,
+            0.0
+          ]
+        },
+        "semantic_choice_rates_by_rotation": {
+          "A": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "B": [
+            0.3,
+            0.0,
+            0.4
+          ],
+          "C": [
+            0.7,
+            1.0,
+            0.6
+          ]
+        },
+        "semantic_distribution_max_pairwise_total_variation": 0.4,
+        "semantic_target_rate_range_across_rotations": 0.4
+      },
+      "natural": {
+        "interpretation": "Independent rotations; between-rotation ranges include sampling variation.",
+        "literal_C_rate_range_across_rotations": 0.9333333333333333,
+        "literal_letter_rates_by_rotation": {
+          "A": [
+            0.0,
+            0.6666666666666666,
+            0.36666666666666664
+          ],
+          "B": [
+            0.06666666666666667,
+            0.0,
+            0.6333333333333333
+          ],
+          "C": [
+            0.9333333333333333,
+            0.3333333333333333,
+            0.0
+          ]
+        },
+        "semantic_choice_rates_by_rotation": {
+          "A": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "B": [
+            0.06666666666666667,
+            0.3333333333333333,
+            0.36666666666666664
+          ],
+          "C": [
+            0.9333333333333333,
+            0.6666666666666666,
+            0.6333333333333333
+          ]
+        },
+        "semantic_distribution_max_pairwise_total_variation": 0.30000000000000004,
+        "semantic_target_rate_range_across_rotations": 0.30000000000000004
+      }
+    },
+    "model": "anthropic/claude-sonnet-4-6@default",
+    "provenance": {
+      "excluded_pilot_receipt_sha256": "faea08da8da7564b76f9e4e7dcb5c9c18bf817f3a7e2e84d1fbd54042916c395",
+      "identity": "fd962ac0db490c8b125a67ab1e1a61f166a9739ed6b037c5bda27cfb6c41da30",
+      "raw_ledgers": [
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s00-v1/1/claude-sonnet-4-6-default/2840654/round2_tree4_rotation_study_claude_none_s00_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "ed0ee3d543eb25d0711ae2312aab3b67a07f1efd1d1c30284166e288cddb17b4",
+          "shard_index": 0
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s01-v1/1/claude-sonnet-4-6-default/2840826/round2_tree4_rotation_study_claude_none_s01_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "d564f3449b43fac41f3b9edce0f283aa6af7fe3c2d4bd9f01da784bc2eaea458",
+          "shard_index": 1
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s02-v1/1/claude-sonnet-4-6-default/2840913/round2_tree4_rotation_study_claude_none_s02_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "ad4710ad9df2a944c54ef83cd68462380cc400c29a402e675d9b55732dbbf9dc",
+          "shard_index": 2
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s03-v1/1/claude-sonnet-4-6-default/2840914/round2_tree4_rotation_study_claude_none_s03_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "e464adf244a94bcf5a63e76dab672a53792eef0094fa3d0ac71410b0c39563ca",
+          "shard_index": 3
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s04-v1/1/claude-sonnet-4-6-default/2841156/round2_tree4_rotation_study_claude_none_s04_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "f3037151e6055185effb7ba7ff4987b4de02875222c26918a6bb360d28df3d70",
+          "shard_index": 4
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s05-v1/1/claude-sonnet-4-6-default/2841157/round2_tree4_rotation_study_claude_none_s05_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "508fe545dcf1cd5ffe6311980aa5af7b9e18618577a7e8135d29457f8ce665cf",
+          "shard_index": 5
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s06-transport-repair-v1/1/claude-sonnet-4-6-default/2842141/round2_tree4_rotation_study_claude_none_s06_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "52c4ee6dba88a3e505284f80ab417cf10d0fc09ef624a48458ea998402414e19",
+          "shard_index": 6
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s07-v1/1/claude-sonnet-4-6-default/2841366/round2_tree4_rotation_study_claude_none_s07_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "e9263ef6a7e1aa0b32aa982b924bc6ecb1ad1f03f5a66cf2d01bda9e74c2e347",
+          "shard_index": 7
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s08-v1/1/claude-sonnet-4-6-default/2841378/round2_tree4_rotation_study_claude_none_s08_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "2dd2f0e2beac1eaa386ad3e2a3f6adedd08b95a75cf075cb7a9c9393e0293a8c",
+          "shard_index": 8
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s09-v1/1/claude-sonnet-4-6-default/2841379/round2_tree4_rotation_study_claude_none_s09_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "5dabb17908bf7d4ba4b5f27d8158b0bba9f030906396c1ab4c8317eb1a6f5fb1",
+          "shard_index": 9
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s10-v1/1/claude-sonnet-4-6-default/2841375/round2_tree4_rotation_study_claude_none_s10_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "19b491c3f878c40cfc4034b4804d19d443cb1f1fa15dc7570fabd7833c489bee",
+          "shard_index": 10
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s11-v1/1/claude-sonnet-4-6-default/2842892/round2_tree4_rotation_study_claude_none_s11_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "4c1c6e21a5d49775fde7f5706587383408ce19308be6d36736dbf3cf931e18ff",
+          "shard_index": 11
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s12-v1/1/claude-sonnet-4-6-default/2842921/round2_tree4_rotation_study_claude_none_s12_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "8a1720c61433216f8b3469fcbc6d1388d71967eae10faf337ae54f2a7fbcad48",
+          "shard_index": 12
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s13-v1/1/claude-sonnet-4-6-default/2843064/round2_tree4_rotation_study_claude_none_s13_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "6e03ddaa20d854ad9cfb8dc8959c367e8d8459fe58b06b53944167f143efebeb",
+          "shard_index": 13
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s14-v1/1/claude-sonnet-4-6-default/2843063/round2_tree4_rotation_study_claude_none_s14_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "a525cb87a740930d1c8a2976519e90afd743a7d6286662910737e0b1b4e05ec4",
+          "shard_index": 14
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s15-v1/1/claude-sonnet-4-6-default/2844192/round2_tree4_rotation_study_claude_none_s15_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "86a4e0f776a04fd8fe32157ceda3c287056e60de3cd50f209721de6999d5d88b",
+          "shard_index": 15
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s16-v1/1/claude-sonnet-4-6-default/2844749/round2_tree4_rotation_study_claude_none_s16_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "ae3d571a2a8f959b210b66337be487d44db2c4d87d7203ba2328d894eeb07110",
+          "shard_index": 16
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s17-v1/1/claude-sonnet-4-6-default/2844755/round2_tree4_rotation_study_claude_none_s17_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "8a631278743670499d58393939c21cd5434ba499ed2c7683c27975811f4e3015",
+          "shard_index": 17
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s18-transport-repair-v1/1/claude-sonnet-4-6-default/2845354/round2_tree4_rotation_study_claude_none_s18_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "0de60df65f0302d83189240da7434a914cc5f9737669592dff34213f9b7719d1",
+          "shard_index": 18
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s19-transport-repair-v1/1/claude-sonnet-4-6-default/2845662/round2_tree4_rotation_study_claude_none_s19_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "10c07a842345c82fc8c9c4231e9789fce8c019fc9cd29215cd5d28f1f6374c86",
+          "shard_index": 19
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s20-v1/1/claude-sonnet-4-6-default/browser-output-20260923/round2_tree4_rotation_study_claude_none_s20_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "490d96bf16029588188b8937a5b399e68242025936ccd7125e33577d2fe0981c",
+          "shard_index": 20
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s21-v1/1/claude-sonnet-4-6-default/browser-output-20260924/round2_tree4_rotation_study_claude_none_s21_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "6a0a4a1b0fdad158c7ab68f5f85e86a3d0b6403f214da13c512d6bffd21df42b",
+          "shard_index": 21
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s22-v1/1/claude-sonnet-4-6-default/browser-output-20260924/round2_tree4_rotation_study_claude_none_s22_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "8dc59bb1045bd8c2eb0f4b71d7d649167d6c6e94dde34164c9c3f03f53c941ab",
+          "shard_index": 22
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s23-v1/1/claude-sonnet-4-6-default/browser-output-20260924/round2_tree4_rotation_study_claude_none_s23_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "a29d744f120730cf510817c3ec4ebd977d0139679292ad36da08518f1ab57117",
+          "shard_index": 23
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s24-v1/1/claude-sonnet-4-6-default/browser-output-20260924/round2_tree4_rotation_study_claude_none_s24_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "ebe8e851b25557bb4fc0ec36c46f366cd1c94ce2ce11267997bbda7ecda1554a",
+          "shard_index": 24
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s25-v1/1/claude-sonnet-4-6-default/browser-output-20260924/round2_tree4_rotation_study_claude_none_s25_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "7a5e2b1335a2d5b2b39f8bc175c2c5df01b2e97d6685ed91f22fef47b3169ff3",
+          "shard_index": 25
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s26-v1/1/claude-sonnet-4-6-default/browser-output-20260924/round2_tree4_rotation_study_claude_none_s26_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "c05b6a3b978f6c688a59473984b3b92d8b8868e0720f7e87d687a4d1dde35c2e",
+          "shard_index": 26
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s27-v1/1/claude-sonnet-4-6-default/browser-output-20260924/round2_tree4_rotation_study_claude_none_s27_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "e31fd729cb4c5f6da384fbce454953e50a39c3726d052275f2241341d15f4fcc",
+          "shard_index": 27
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s28-v1/1/claude-sonnet-4-6-default/browser-output-20260924/round2_tree4_rotation_study_claude_none_s28_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "6bb24a3d476d6b5d4b39db0d6673a09b75d57fcd987fc64cf8a45c427f2f65f3",
+          "shard_index": 28
+        },
+        {
+          "path": "kaggle/round2_runs_20260920/experiment_b_study/claude-none/chronos-r2-tree4-rotation-study-claude-none-s29-v1/1/claude-sonnet-4-6-default/browser-output-20260924/round2_tree4_rotation_study_claude_none_s29_v1/anthropic_claude-sonnet-4-6@default.jsonl",
+          "sha256": "d4456e91df6a3645fa2488ad5c2550b44f3ce450033148689f43930525d452a6",
+          "shard_index": 29
+        }
+      ],
+      "study_id": "chronos_round2_tree4_label_rotation_claude_none_study_v1"
+    },
+    "raw_audit": {
+      "complete_trial_calls": 900,
+      "completed_jobs": 180,
+      "failed_calls": 14,
+      "job_errors": 14,
+      "observed_invocations": 951,
+      "planned_calls": 900,
+      "planned_jobs": 180,
+      "unknown_cost_calls": 0
+    },
+    "reasoning": "none",
+    "role": "reasoning_off_sensitivity",
+    "status": "complete"
+  },
+  "collection_manifest": {
+    "path": "kaggle/round2_generated/experiment_b_collection_v2.json",
+    "sha256": "020093c4e5677f146836a7f0754fa5a56394a60ce775b7fcdc452886961544c3"
+  },
+  "frozen_manifest_sha256": "358d2389d8abeb8eadc31fe810c6cf1a1d820f740635224f1402ef7cbe5979fc",
+  "matched_non_off_primary": {
+    "google/gemini-3.6-flash": {
+      "by_rotation_condition": {
+        "rot0|attack": {
+          "literal_C_rate": 0.9,
+          "literal_choice_counts": {
+            "A": 0,
+            "B": 3,
+            "C": 27
+          },
+          "literal_target_letter": "C",
+          "literal_target_letter_rate": 0.9,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 3,
+            "C": 27
+          },
+          "semantic_target_rate": 0.9,
+          "semantic_to_literal": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+          }
+        },
+        "rot0|natural": {
+          "literal_C_rate": 0.4666666666666667,
+          "literal_choice_counts": {
+            "A": 0,
+            "B": 16,
+            "C": 14
+          },
+          "literal_target_letter": "C",
+          "literal_target_letter_rate": 0.4666666666666667,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 16,
+            "C": 14
+          },
+          "semantic_target_rate": 0.4666666666666667,
+          "semantic_to_literal": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+          }
+        },
+        "rot1|attack": {
+          "literal_C_rate": 0.0,
+          "literal_choice_counts": {
+            "A": 30,
+            "B": 0,
+            "C": 0
+          },
+          "literal_target_letter": "A",
+          "literal_target_letter_rate": 1.0,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 30
+          },
+          "semantic_target_rate": 1.0,
+          "semantic_to_literal": {
+            "A": "B",
+            "B": "C",
+            "C": "A"
+          }
+        },
+        "rot1|natural": {
+          "literal_C_rate": 0.06666666666666667,
+          "literal_choice_counts": {
+            "A": 28,
+            "B": 0,
+            "C": 2
+          },
+          "literal_target_letter": "A",
+          "literal_target_letter_rate": 0.9333333333333333,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 2,
+            "C": 28
+          },
+          "semantic_target_rate": 0.9333333333333333,
+          "semantic_to_literal": {
+            "A": "B",
+            "B": "C",
+            "C": "A"
+          }
+        },
+        "rot2|attack": {
+          "literal_C_rate": 0.0,
+          "literal_choice_counts": {
+            "A": 29,
+            "B": 1,
+            "C": 0
+          },
+          "literal_target_letter": "B",
+          "literal_target_letter_rate": 0.03333333333333333,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 29,
+            "C": 1
+          },
+          "semantic_target_rate": 0.03333333333333333,
+          "semantic_to_literal": {
+            "A": "C",
+            "B": "A",
+            "C": "B"
+          }
+        },
+        "rot2|natural": {
+          "literal_C_rate": 0.0,
+          "literal_choice_counts": {
+            "A": 25,
+            "B": 5,
+            "C": 0
+          },
+          "literal_target_letter": "B",
+          "literal_target_letter_rate": 0.16666666666666666,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 25,
+            "C": 5
+          },
+          "semantic_target_rate": 0.16666666666666666,
+          "semantic_to_literal": {
+            "A": "C",
+            "B": "A",
+            "C": "B"
+          }
+        }
+      },
+      "cost": {
+        "all_cost_exact_usd": 0.762588,
+        "all_known_usd_lower_bound": 0.762588,
+        "amortized_study_usd_per_completed_decision": 0.0041875624999999994,
+        "excluded_pilot_failed_invocations": 0,
+        "excluded_pilot_known_usd_lower_bound": 0.00882675,
+        "excluded_pilot_observed_invocations": 10,
+        "excluded_pilot_unknown_cost_calls": 0,
+        "study_failed_invocations": 0,
+        "study_job_errors": 0,
+        "study_known_usd_including_failed_attempts": 0.75376125,
+        "study_observed_invocations": 900,
+        "study_unknown_cost_calls": 0
+      },
+      "fresh_paired_semantic_target_effects": {
+        "rot0": {
+          "attack_minus_natural_semantic_target_rate": 0.43333333333333335,
+          "attack_semantic_target_rate": 0.9,
+          "both_target": 12,
+          "classification": "exploratory_descriptive_no_hypothesis_test",
+          "fresh_pairs": 30,
+          "gains": 15,
+          "literal_C_attack_minus_natural_rate": 0.43333333333333335,
+          "literal_C_attack_rate": 0.9,
+          "literal_C_natural_rate": 0.4666666666666667,
+          "literal_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 1,
+              "C": 15
+            },
+            "C": {
+              "A": 0,
+              "B": 2,
+              "C": 12
+            }
+          },
+          "losses": 2,
+          "natural_semantic_target_rate": 0.4666666666666667,
+          "neither_target": 1,
+          "semantic_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 1,
+              "C": 15
+            },
+            "C": {
+              "A": 0,
+              "B": 2,
+              "C": 12
+            }
+          }
+        },
+        "rot1": {
+          "attack_minus_natural_semantic_target_rate": 0.06666666666666667,
+          "attack_semantic_target_rate": 1.0,
+          "both_target": 28,
+          "classification": "exploratory_descriptive_no_hypothesis_test",
+          "fresh_pairs": 30,
+          "gains": 2,
+          "literal_C_attack_minus_natural_rate": -0.06666666666666667,
+          "literal_C_attack_rate": 0.0,
+          "literal_C_natural_rate": 0.06666666666666667,
+          "literal_choice_transition_counts": {
+            "A": {
+              "A": 28,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "C": {
+              "A": 2,
+              "B": 0,
+              "C": 0
+            }
+          },
+          "losses": 0,
+          "natural_semantic_target_rate": 0.9333333333333333,
+          "neither_target": 0,
+          "semantic_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 0,
+              "C": 2
+            },
+            "C": {
+              "A": 0,
+              "B": 0,
+              "C": 28
+            }
+          }
+        },
+        "rot2": {
+          "attack_minus_natural_semantic_target_rate": -0.13333333333333333,
+          "attack_semantic_target_rate": 0.03333333333333333,
+          "both_target": 1,
+          "classification": "exploratory_descriptive_no_hypothesis_test",
+          "fresh_pairs": 30,
+          "gains": 0,
+          "literal_C_attack_minus_natural_rate": 0.0,
+          "literal_C_attack_rate": 0.0,
+          "literal_C_natural_rate": 0.0,
+          "literal_choice_transition_counts": {
+            "A": {
+              "A": 25,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 4,
+              "B": 1,
+              "C": 0
+            },
+            "C": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            }
+          },
+          "losses": 4,
+          "natural_semantic_target_rate": 0.16666666666666666,
+          "neither_target": 25,
+          "semantic_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 25,
+              "C": 0
+            },
+            "C": {
+              "A": 0,
+              "B": 4,
+              "C": 1
+            }
+          }
+        }
+      },
+      "label_susceptibility": {
+        "attack": {
+          "interpretation": "Independent rotations; between-rotation ranges include sampling variation.",
+          "literal_C_rate_range_across_rotations": 0.9,
+          "literal_letter_rates_by_rotation": {
+            "A": [
+              0.0,
+              1.0,
+              0.9666666666666667
+            ],
+            "B": [
+              0.1,
+              0.0,
+              0.03333333333333333
+            ],
+            "C": [
+              0.9,
+              0.0,
+              0.0
+            ]
+          },
+          "semantic_choice_rates_by_rotation": {
+            "A": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "B": [
+              0.1,
+              0.0,
+              0.9666666666666667
+            ],
+            "C": [
+              0.9,
+              1.0,
+              0.03333333333333333
+            ]
+          },
+          "semantic_distribution_max_pairwise_total_variation": 0.9666666666666667,
+          "semantic_target_rate_range_across_rotations": 0.9666666666666667
+        },
+        "natural": {
+          "interpretation": "Independent rotations; between-rotation ranges include sampling variation.",
+          "literal_C_rate_range_across_rotations": 0.4666666666666667,
+          "literal_letter_rates_by_rotation": {
+            "A": [
+              0.0,
+              0.9333333333333333,
+              0.8333333333333334
+            ],
+            "B": [
+              0.5333333333333333,
+              0.0,
+              0.16666666666666666
+            ],
+            "C": [
+              0.4666666666666667,
+              0.06666666666666667,
+              0.0
+            ]
+          },
+          "semantic_choice_rates_by_rotation": {
+            "A": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "B": [
+              0.5333333333333333,
+              0.06666666666666667,
+              0.8333333333333334
+            ],
+            "C": [
+              0.4666666666666667,
+              0.9333333333333333,
+              0.16666666666666666
+            ]
+          },
+          "semantic_distribution_max_pairwise_total_variation": 0.7666666666666667,
+          "semantic_target_rate_range_across_rotations": 0.7666666666666667
+        }
+      },
+      "model": "google/gemini-3.6-flash",
+      "provenance": {
+        "excluded_pilot_receipt_sha256": "143741aa6e6ef31fd94c0083c95928133d9fda8987adf5c6e172799c915830b5",
+        "identity": "1b30211a9927b70736692d3e79b9623e46c45db565f95591f82b1199a8343607",
+        "raw_ledgers": [
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s00-v1/1/gemini-3.6-flash/3230532/round2_tree4_rotation_study_gemini_minimal_s00_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "be30c5e498a4ee2d319c327988967d183fa63b972bac7e7d28abc64689ca1821",
+            "shard_index": 0
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s01-v1/1/gemini-3.6-flash/3230732/round2_tree4_rotation_study_gemini_minimal_s01_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "4bc449e3e54d2b6052fb11f2e8d65d44cd1f7def7c282179ca586603a0c5b14b",
+            "shard_index": 1
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s02-v1/1/gemini-3.6-flash/3231202/round2_tree4_rotation_study_gemini_minimal_s02_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "b6fd5d81af27ff96afb68886189ed4e0be444c8eadcb0f429a55e41c094f3709",
+            "shard_index": 2
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s03-v1/1/gemini-3.6-flash/3231585/round2_tree4_rotation_study_gemini_minimal_s03_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "33e23fa621b6fe41c5d90319964bdaf24361f192aaf79edc34cfc9df5b8b1aa6",
+            "shard_index": 3
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s04-v1/1/gemini-3.6-flash/3232070/round2_tree4_rotation_study_gemini_minimal_s04_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "6360683229ffb1ab3c96303a1547249f01ed6e4bd87e00eeb230653fbad1b905",
+            "shard_index": 4
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s05-v1/1/gemini-3.6-flash/3232585/round2_tree4_rotation_study_gemini_minimal_s05_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "2a4cabbe969182e745ad2e9f458bc44306e107486aed4102155ec5980508fed1",
+            "shard_index": 5
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s06-v1/1/gemini-3.6-flash/3233219/round2_tree4_rotation_study_gemini_minimal_s06_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "45b5b56d7af6d26ec0a8805dcf350dd1f3f180b01fa5ef565a5c7808a997e611",
+            "shard_index": 6
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s07-v1/1/gemini-3.6-flash/3233468/round2_tree4_rotation_study_gemini_minimal_s07_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "2567942590b19bf62d99e49efde04d54f1eee1e64a5c4f3d9d024d0c0b73d46b",
+            "shard_index": 7
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s08-v1/1/gemini-3.6-flash/3233531/round2_tree4_rotation_study_gemini_minimal_s08_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "8c867acd8124269301145fdb3d1fe68b76cc313338ad88b02cda62e9a6bac6b6",
+            "shard_index": 8
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s09-v1/1/gemini-3.6-flash/3233670/round2_tree4_rotation_study_gemini_minimal_s09_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "eb9f7d6bad337673bb725892baabb4ce4f7e228260ab2411e48493591c832e0a",
+            "shard_index": 9
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s10-v1/1/gemini-3.6-flash/3233905/round2_tree4_rotation_study_gemini_minimal_s10_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "e2552637d8afa4f91bd22b06761ac27d7bb6022517c325c7451f8c7c05d844a5",
+            "shard_index": 10
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s11-v1/1/gemini-3.6-flash/3234223/round2_tree4_rotation_study_gemini_minimal_s11_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "9f926475ea84bad18579f23976b568c96cb0e6b3427096687713696fd209207a",
+            "shard_index": 11
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s12-v1/1/gemini-3.6-flash/3234610/round2_tree4_rotation_study_gemini_minimal_s12_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "796fea586821c15cc3031eb6fd437f9dd1c8b429a79eadfffd3c3d56350ffa8d",
+            "shard_index": 12
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s13-v1/1/gemini-3.6-flash/3234987/round2_tree4_rotation_study_gemini_minimal_s13_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "4ccff8428be91cad89ca448db5443d7bb55756982124200accecb48ddb0f7a3f",
+            "shard_index": 13
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s14-v1/1/gemini-3.6-flash/3235394/round2_tree4_rotation_study_gemini_minimal_s14_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "cc46b8d7fdf86bc30865c2a82bb916f1d90be4d7725e701e2db85f4fa3c02641",
+            "shard_index": 14
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s15-v1/1/gemini-3.6-flash/3235729/round2_tree4_rotation_study_gemini_minimal_s15_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "78d66efda6c6b2bc90b74bfcbd9f8eae8acf6be023b33370b078db13308fd2e2",
+            "shard_index": 15
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s16-v1/1/gemini-3.6-flash/3235939/round2_tree4_rotation_study_gemini_minimal_s16_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "e3c8f98fc686f36fce5a67aaf4db7f293a7add15131108f90120177e4691c163",
+            "shard_index": 16
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s17-v1/1/gemini-3.6-flash/3236019/round2_tree4_rotation_study_gemini_minimal_s17_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "b4d9b60275c8d08078ec275a55b6a77d4c415d38e6d4a9e625bce50b474eb015",
+            "shard_index": 17
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s18-v1/1/gemini-3.6-flash/3236410/round2_tree4_rotation_study_gemini_minimal_s18_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "2bcfff4d8d6687b3bcda1c82410c0c280f44bf641c06c875d9f345bd736566a1",
+            "shard_index": 18
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s19-v1/1/gemini-3.6-flash/3236547/round2_tree4_rotation_study_gemini_minimal_s19_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "017f45e7f6bcdbdb333e86660ad0db42f3738d4f8c1965c1544393bcd749f00b",
+            "shard_index": 19
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s20-v1/1/gemini-3.6-flash/3236702/round2_tree4_rotation_study_gemini_minimal_s20_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "03dff21ec0df4557a5ef5c2b3703a452ef2c3df7a38fb01f9ca572c9dc4e1182",
+            "shard_index": 20
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s21-v1/1/gemini-3.6-flash/3236825/round2_tree4_rotation_study_gemini_minimal_s21_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "fafb475b4561014167a561949813a5d73871bc8dbf892700f1e8d73001cd8868",
+            "shard_index": 21
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s22-v1/1/gemini-3.6-flash/3237786/round2_tree4_rotation_study_gemini_minimal_s22_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "15ca576b91a94030ea0ffa1f82a115fd7dc459de27fd166ed07ca9b9c10f3184",
+            "shard_index": 22
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s23-v1/1/gemini-3.6-flash/3238395/round2_tree4_rotation_study_gemini_minimal_s23_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "74b94001175fe97b8a5550bb9f0f9e1f9a4aba4e910a044b04e3512400daf01b",
+            "shard_index": 23
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s24-v1/1/gemini-3.6-flash/3238684/round2_tree4_rotation_study_gemini_minimal_s24_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "c19f71b275ad74ab130633cf68be26613b2f9ce1e40bf36a0d5902a96625b627",
+            "shard_index": 24
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s25-v1/1/gemini-3.6-flash/3238863/round2_tree4_rotation_study_gemini_minimal_s25_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "1f9a8b45da9e91028889bda7615cd1a9145e91ec1fd6b363eb1a421ac36cb619",
+            "shard_index": 25
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s26-v1/1/gemini-3.6-flash/3238978/round2_tree4_rotation_study_gemini_minimal_s26_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "f625d8f619239fcce0d27f183fc07b48a4a6478380c2c97904f2305db8dc1cff",
+            "shard_index": 26
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s27-v1/1/gemini-3.6-flash/3239156/round2_tree4_rotation_study_gemini_minimal_s27_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "d7be3b09737ecc339bcf174eea602a461f6e92c5d9f9638e66432d28f698ad69",
+            "shard_index": 27
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s28-v1/1/gemini-3.6-flash/3240251/round2_tree4_rotation_study_gemini_minimal_s28_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "8934a61529adda76a29542823b2070693ee9fc3e2bced87bae70cd3b6499d36e",
+            "shard_index": 28
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/gemini-minimal/chronos-r2-tree4-rotation-study-gemini-minimal-s29-v1/1/gemini-3.6-flash/3240359/round2_tree4_rotation_study_gemini_minimal_s29_v1/google_gemini-3.6-flash.jsonl",
+            "sha256": "8affa683204ef0af9ca9e047f7aaa0631edea482e2cb0e630b90ca4ea61aaa90",
+            "shard_index": 29
+          }
+        ],
+        "study_id": "chronos_round2_tree4_label_rotation_gemini_minimal_study_v1"
+      },
+      "raw_audit": {
+        "complete_trial_calls": 900,
+        "completed_jobs": 180,
+        "failed_calls": 0,
+        "job_errors": 0,
+        "observed_invocations": 900,
+        "planned_calls": 900,
+        "planned_jobs": 180,
+        "unknown_cost_calls": 0
+      },
+      "reasoning": "minimal",
+      "role": "matched_non_off_primary",
+      "status": "complete"
+    },
+    "openai/gpt-5.6-terra": {
+      "by_rotation_condition": {
+        "rot0|attack": {
+          "literal_C_rate": 0.16666666666666666,
+          "literal_choice_counts": {
+            "A": 0,
+            "B": 25,
+            "C": 5
+          },
+          "literal_target_letter": "C",
+          "literal_target_letter_rate": 0.16666666666666666,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 25,
+            "C": 5
+          },
+          "semantic_target_rate": 0.16666666666666666,
+          "semantic_to_literal": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+          }
+        },
+        "rot0|natural": {
+          "literal_C_rate": 0.03333333333333333,
+          "literal_choice_counts": {
+            "A": 0,
+            "B": 29,
+            "C": 1
+          },
+          "literal_target_letter": "C",
+          "literal_target_letter_rate": 0.03333333333333333,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 29,
+            "C": 1
+          },
+          "semantic_target_rate": 0.03333333333333333,
+          "semantic_to_literal": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+          }
+        },
+        "rot1|attack": {
+          "literal_C_rate": 0.3333333333333333,
+          "literal_choice_counts": {
+            "A": 20,
+            "B": 0,
+            "C": 10
+          },
+          "literal_target_letter": "A",
+          "literal_target_letter_rate": 0.6666666666666666,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 10,
+            "C": 20
+          },
+          "semantic_target_rate": 0.6666666666666666,
+          "semantic_to_literal": {
+            "A": "B",
+            "B": "C",
+            "C": "A"
+          }
+        },
+        "rot1|natural": {
+          "literal_C_rate": 0.8666666666666667,
+          "literal_choice_counts": {
+            "A": 4,
+            "B": 0,
+            "C": 26
+          },
+          "literal_target_letter": "A",
+          "literal_target_letter_rate": 0.13333333333333333,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 26,
+            "C": 4
+          },
+          "semantic_target_rate": 0.13333333333333333,
+          "semantic_to_literal": {
+            "A": "B",
+            "B": "C",
+            "C": "A"
+          }
+        },
+        "rot2|attack": {
+          "literal_C_rate": 0.0,
+          "literal_choice_counts": {
+            "A": 22,
+            "B": 8,
+            "C": 0
+          },
+          "literal_target_letter": "B",
+          "literal_target_letter_rate": 0.26666666666666666,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 22,
+            "C": 8
+          },
+          "semantic_target_rate": 0.26666666666666666,
+          "semantic_to_literal": {
+            "A": "C",
+            "B": "A",
+            "C": "B"
+          }
+        },
+        "rot2|natural": {
+          "literal_C_rate": 0.0,
+          "literal_choice_counts": {
+            "A": 29,
+            "B": 1,
+            "C": 0
+          },
+          "literal_target_letter": "B",
+          "literal_target_letter_rate": 0.03333333333333333,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 29,
+            "C": 1
+          },
+          "semantic_target_rate": 0.03333333333333333,
+          "semantic_to_literal": {
+            "A": "C",
+            "B": "A",
+            "C": "B"
+          }
+        }
+      },
+      "cost": {
+        "all_cost_exact_usd": 2.947572,
+        "all_known_usd_lower_bound": 2.947572,
+        "amortized_study_usd_per_completed_decision": 0.0162086,
+        "excluded_pilot_failed_invocations": 0,
+        "excluded_pilot_known_usd_lower_bound": 0.030024,
+        "excluded_pilot_observed_invocations": 10,
+        "excluded_pilot_unknown_cost_calls": 0,
+        "study_failed_invocations": 32,
+        "study_job_errors": 32,
+        "study_known_usd_including_failed_attempts": 2.917548,
+        "study_observed_invocations": 1030,
+        "study_unknown_cost_calls": 0
+      },
+      "fresh_paired_semantic_target_effects": {
+        "rot0": {
+          "attack_minus_natural_semantic_target_rate": 0.13333333333333333,
+          "attack_semantic_target_rate": 0.16666666666666666,
+          "both_target": 0,
+          "classification": "exploratory_descriptive_no_hypothesis_test",
+          "fresh_pairs": 30,
+          "gains": 5,
+          "literal_C_attack_minus_natural_rate": 0.13333333333333333,
+          "literal_C_attack_rate": 0.16666666666666666,
+          "literal_C_natural_rate": 0.03333333333333333,
+          "literal_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 24,
+              "C": 5
+            },
+            "C": {
+              "A": 0,
+              "B": 1,
+              "C": 0
+            }
+          },
+          "losses": 1,
+          "natural_semantic_target_rate": 0.03333333333333333,
+          "neither_target": 24,
+          "semantic_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 24,
+              "C": 5
+            },
+            "C": {
+              "A": 0,
+              "B": 1,
+              "C": 0
+            }
+          }
+        },
+        "rot1": {
+          "attack_minus_natural_semantic_target_rate": 0.5333333333333333,
+          "attack_semantic_target_rate": 0.6666666666666666,
+          "both_target": 1,
+          "classification": "exploratory_descriptive_no_hypothesis_test",
+          "fresh_pairs": 30,
+          "gains": 19,
+          "literal_C_attack_minus_natural_rate": -0.5333333333333333,
+          "literal_C_attack_rate": 0.3333333333333333,
+          "literal_C_natural_rate": 0.8666666666666667,
+          "literal_choice_transition_counts": {
+            "A": {
+              "A": 1,
+              "B": 0,
+              "C": 3
+            },
+            "B": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "C": {
+              "A": 19,
+              "B": 0,
+              "C": 7
+            }
+          },
+          "losses": 3,
+          "natural_semantic_target_rate": 0.13333333333333333,
+          "neither_target": 7,
+          "semantic_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 7,
+              "C": 19
+            },
+            "C": {
+              "A": 0,
+              "B": 3,
+              "C": 1
+            }
+          }
+        },
+        "rot2": {
+          "attack_minus_natural_semantic_target_rate": 0.23333333333333334,
+          "attack_semantic_target_rate": 0.26666666666666666,
+          "both_target": 0,
+          "classification": "exploratory_descriptive_no_hypothesis_test",
+          "fresh_pairs": 30,
+          "gains": 8,
+          "literal_C_attack_minus_natural_rate": 0.0,
+          "literal_C_attack_rate": 0.0,
+          "literal_C_natural_rate": 0.0,
+          "literal_choice_transition_counts": {
+            "A": {
+              "A": 21,
+              "B": 8,
+              "C": 0
+            },
+            "B": {
+              "A": 1,
+              "B": 0,
+              "C": 0
+            },
+            "C": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            }
+          },
+          "losses": 1,
+          "natural_semantic_target_rate": 0.03333333333333333,
+          "neither_target": 21,
+          "semantic_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 21,
+              "C": 8
+            },
+            "C": {
+              "A": 0,
+              "B": 1,
+              "C": 0
+            }
+          }
+        }
+      },
+      "label_susceptibility": {
+        "attack": {
+          "interpretation": "Independent rotations; between-rotation ranges include sampling variation.",
+          "literal_C_rate_range_across_rotations": 0.3333333333333333,
+          "literal_letter_rates_by_rotation": {
+            "A": [
+              0.0,
+              0.6666666666666666,
+              0.7333333333333333
+            ],
+            "B": [
+              0.8333333333333334,
+              0.0,
+              0.26666666666666666
+            ],
+            "C": [
+              0.16666666666666666,
+              0.3333333333333333,
+              0.0
+            ]
+          },
+          "semantic_choice_rates_by_rotation": {
+            "A": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "B": [
+              0.8333333333333334,
+              0.3333333333333333,
+              0.7333333333333333
+            ],
+            "C": [
+              0.16666666666666666,
+              0.6666666666666666,
+              0.26666666666666666
+            ]
+          },
+          "semantic_distribution_max_pairwise_total_variation": 0.5,
+          "semantic_target_rate_range_across_rotations": 0.5
+        },
+        "natural": {
+          "interpretation": "Independent rotations; between-rotation ranges include sampling variation.",
+          "literal_C_rate_range_across_rotations": 0.8666666666666667,
+          "literal_letter_rates_by_rotation": {
+            "A": [
+              0.0,
+              0.13333333333333333,
+              0.9666666666666667
+            ],
+            "B": [
+              0.9666666666666667,
+              0.0,
+              0.03333333333333333
+            ],
+            "C": [
+              0.03333333333333333,
+              0.8666666666666667,
+              0.0
+            ]
+          },
+          "semantic_choice_rates_by_rotation": {
+            "A": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "B": [
+              0.9666666666666667,
+              0.8666666666666667,
+              0.9666666666666667
+            ],
+            "C": [
+              0.03333333333333333,
+              0.13333333333333333,
+              0.03333333333333333
+            ]
+          },
+          "semantic_distribution_max_pairwise_total_variation": 0.09999999999999999,
+          "semantic_target_rate_range_across_rotations": 0.1
+        }
+      },
+      "model": "openai/gpt-5.6-terra",
+      "provenance": {
+        "excluded_pilot_receipt_sha256": "9c004a112cce460a35e70896766b5173a3c7465c55ea12853379a68f47f13d12",
+        "identity": "ced75ac9db648851214000b40a0240b2246a2c5cbb677db9e93b182299a74544",
+        "raw_ledgers": [
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s00-v1/1/gpt-5.6-terra/2840653/round2_tree4_rotation_study_terra_low_s00_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "051a8dd3252c8487107c47a3f8641f49892b69431325dae1531ff235ade89fc8",
+            "shard_index": 0
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s01-v1/1/gpt-5.6-terra/2840827/round2_tree4_rotation_study_terra_low_s01_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "885ce6d0d668c0c0f8939e03b9b1728a7dd5b64d2350ab36a7aff3bac1abe9c3",
+            "shard_index": 1
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s02-v1/1/gpt-5.6-terra/browser-kernel-352189155/round2_tree4_rotation_study_terra_low_s02_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "fb9a8e5f8c482f71ec04b51620a785a5adcdac85c3b347c53e4b49ad423dd5ec",
+            "shard_index": 2
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s03-v1/1/gpt-5.6-terra/2840915/round2_tree4_rotation_study_terra_low_s03_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "0374baa04e738af1ebb71ce18209cedd070821bef2b577c38e61b9719b44b997",
+            "shard_index": 3
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s04-v1/1/gpt-5.6-terra/2841154/round2_tree4_rotation_study_terra_low_s04_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "fbc67fa74556cd644a13fd951947d8eaa56c6903f7a544ea2ce01c361cd225f8",
+            "shard_index": 4
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s05-v1/1/gpt-5.6-terra/2841153/round2_tree4_rotation_study_terra_low_s05_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "a8fbb8bd60a403dfac8b08dfa2c52544cce62036323e4cdd603bec61ebc8c318",
+            "shard_index": 5
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s06-transport-repair-v1/1/gpt-5.6-terra/2841989/round2_tree4_rotation_study_terra_low_s06_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "c9d014d13a2c2dc5d98b4ecfa6b781527cfded7b691b92d4438f773bbac4ddbe",
+            "shard_index": 6
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s07-transport-repair-v1/1/gpt-5.6-terra/2842218/round2_tree4_rotation_study_terra_low_s07_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "73fbf211398db289288ad5fc16c5329241fe98fe3b5d3ecc52a030932c1b4242",
+            "shard_index": 7
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s08-v1/1/gpt-5.6-terra/2841364/round2_tree4_rotation_study_terra_low_s08_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "44fee9382573222ef39a55d4e9287f681f09e9ab1f4d02a2a35b95c7eacf53b3",
+            "shard_index": 8
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s09-v1/1/gpt-5.6-terra/2841377/round2_tree4_rotation_study_terra_low_s09_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "9bd9ab4f56037f2feb83257c780ca42ae6448425ee2ac22fd7f6afff1cd0bf46",
+            "shard_index": 9
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s10-v1/1/gpt-5.6-terra/2841376/round2_tree4_rotation_study_terra_low_s10_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "d67342cb7100d10072c5f6255788928ba61fe2e8f7b20f1672644fb44763de3d",
+            "shard_index": 10
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s11-v1/1/gpt-5.6-terra/2842884/round2_tree4_rotation_study_terra_low_s11_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "aef35c56215100c3bae7e36216eb1c37f895132b279ac5a3352d2275b51551f3",
+            "shard_index": 11
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s12-v1/1/gpt-5.6-terra/2842885/round2_tree4_rotation_study_terra_low_s12_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "dae552e784d5f69068b13aaf5f2bbf8875263b233a40a9cd0253261755170d59",
+            "shard_index": 12
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s13-v1/1/gpt-5.6-terra/2843099/round2_tree4_rotation_study_terra_low_s13_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "e373c172678044d3381c32558e5e9e811c572e8b2f462dd32eec629ad8299d73",
+            "shard_index": 13
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s14-v1/1/gpt-5.6-terra/2843049/round2_tree4_rotation_study_terra_low_s14_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "cf463e6e99f2d10c3c11be4224f2db7933339214c3f4f7e3f07022736f78e5db",
+            "shard_index": 14
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s15-v1/1/gpt-5.6-terra/2844127/round2_tree4_rotation_study_terra_low_s15_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "db2d4b2a681add4dad12e36d0a6215fed0ad82b113608be827298492db7f4823",
+            "shard_index": 15
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s16-v1/1/gpt-5.6-terra/2844790/round2_tree4_rotation_study_terra_low_s16_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "242ba0cf4999d5d8843f8080724f071e6419ebb48e490685697623e438d8c57b",
+            "shard_index": 16
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s17-v1/1/gpt-5.6-terra/2844772/round2_tree4_rotation_study_terra_low_s17_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "47d430e1abeed24732a13c2a788c390882e4f7be58a8d405cb7915f5c1a2a611",
+            "shard_index": 17
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s18-v1/1/gpt-5.6-terra/2844796/round2_tree4_rotation_study_terra_low_s18_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "7dd9c6c47533e47201b4fad69e5b82b3572b8da034faddb7a84100c21abb369d",
+            "shard_index": 18
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s19-transport-repair-v1/1/gpt-5.6-terra/2845639/round2_tree4_rotation_study_terra_low_s19_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "3e3e8d3234709c4cd755cacde2ce43635ea38ef96a4d20e750a9608ee984c470",
+            "shard_index": 19
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s20-v1/1/gpt-5.6-terra/browser-output-20260923/round2_tree4_rotation_study_terra_low_s20_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "b28de2dee65a048d6fb18ab110b306ab342e9b825d18f4b728d1deda0372371d",
+            "shard_index": 20
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s21-v1/1/gpt-5.6-terra/browser-output-20260924/round2_tree4_rotation_study_terra_low_s21_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "acd118b5ee293574ee0f93f1b993864f7d904ee32370eac1957bf63121719621",
+            "shard_index": 21
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s22-v1/1/gpt-5.6-terra/browser-output-20260924/round2_tree4_rotation_study_terra_low_s22_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "16fa76960c9906c87c3232b1039fd246b98563165bbbb46e5b23f6de28644a7c",
+            "shard_index": 22
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s23-v1/1/gpt-5.6-terra/browser-output-20260924/round2_tree4_rotation_study_terra_low_s23_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "508f627c44bfd339a6c98fbc4d6e2c1466a6b620d83e374a6544f600c80e9dde",
+            "shard_index": 23
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s24-v1/1/gpt-5.6-terra/browser-output-20260924/round2_tree4_rotation_study_terra_low_s24_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "823762a03b454b1c3703b321b9c88bbd670ad367fa64a715c010b844e13dfc35",
+            "shard_index": 24
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s25-v1/1/gpt-5.6-terra/browser-output-20260924/round2_tree4_rotation_study_terra_low_s25_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "ca219be54a0d7b5cf6d419f1123d638ba095cf492c38d6dde485a452ef4ae8b2",
+            "shard_index": 25
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s26-v1/1/gpt-5.6-terra/browser-output-20260924/round2_tree4_rotation_study_terra_low_s26_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "62ee54f82e6812d459e089b40592f1807df7775bdb1e5bd8eb02b5a1a792cabd",
+            "shard_index": 26
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s27-v1/1/gpt-5.6-terra/browser-output-20260924/round2_tree4_rotation_study_terra_low_s27_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "a2542b8c46fb92e643452ac69634607991ad9380bd0fdfd86c41deb8c7b53c75",
+            "shard_index": 27
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s28-v1/1/gpt-5.6-terra/browser-output-20260924/round2_tree4_rotation_study_terra_low_s28_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "d0f13163cccc4add843c9eefc5d23f2afdc6983597449c8b343f6774012884c4",
+            "shard_index": 28
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/terra-low/chronos-r2-tree4-rotation-study-terra-low-s29-v1/1/gpt-5.6-terra/browser-output-20260924/round2_tree4_rotation_study_terra_low_s29_v1/openai_gpt-5.6-terra.jsonl",
+            "sha256": "9444c21a10ccfe7994fca1471356e7f0f4a4af0266278384867763ea289629d5",
+            "shard_index": 29
+          }
+        ],
+        "study_id": "chronos_round2_tree4_label_rotation_terra_low_study_v1"
+      },
+      "raw_audit": {
+        "complete_trial_calls": 900,
+        "completed_jobs": 180,
+        "failed_calls": 32,
+        "job_errors": 32,
+        "observed_invocations": 1030,
+        "planned_calls": 900,
+        "planned_jobs": 180,
+        "unknown_cost_calls": 0
+      },
+      "reasoning": "low",
+      "role": "matched_non_off_primary",
+      "status": "complete"
+    },
+    "qwen/qwen3-235b-a22b-instruct-2507": {
+      "by_rotation_condition": {
+        "rot0|attack": {
+          "literal_C_rate": 1.0,
+          "literal_choice_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 30
+          },
+          "literal_target_letter": "C",
+          "literal_target_letter_rate": 1.0,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 30
+          },
+          "semantic_target_rate": 1.0,
+          "semantic_to_literal": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+          }
+        },
+        "rot0|natural": {
+          "literal_C_rate": 0.0,
+          "literal_choice_counts": {
+            "A": 0,
+            "B": 30,
+            "C": 0
+          },
+          "literal_target_letter": "C",
+          "literal_target_letter_rate": 0.0,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 30,
+            "C": 0
+          },
+          "semantic_target_rate": 0.0,
+          "semantic_to_literal": {
+            "A": "A",
+            "B": "B",
+            "C": "C"
+          }
+        },
+        "rot1|attack": {
+          "literal_C_rate": 0.0,
+          "literal_choice_counts": {
+            "A": 30,
+            "B": 0,
+            "C": 0
+          },
+          "literal_target_letter": "A",
+          "literal_target_letter_rate": 1.0,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 30
+          },
+          "semantic_target_rate": 1.0,
+          "semantic_to_literal": {
+            "A": "B",
+            "B": "C",
+            "C": "A"
+          }
+        },
+        "rot1|natural": {
+          "literal_C_rate": 1.0,
+          "literal_choice_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 30
+          },
+          "literal_target_letter": "A",
+          "literal_target_letter_rate": 0.0,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 30,
+            "C": 0
+          },
+          "semantic_target_rate": 0.0,
+          "semantic_to_literal": {
+            "A": "B",
+            "B": "C",
+            "C": "A"
+          }
+        },
+        "rot2|attack": {
+          "literal_C_rate": 0.0,
+          "literal_choice_counts": {
+            "A": 7,
+            "B": 23,
+            "C": 0
+          },
+          "literal_target_letter": "B",
+          "literal_target_letter_rate": 0.7666666666666667,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 7,
+            "C": 23
+          },
+          "semantic_target_rate": 0.7666666666666667,
+          "semantic_to_literal": {
+            "A": "C",
+            "B": "A",
+            "C": "B"
+          }
+        },
+        "rot2|natural": {
+          "literal_C_rate": 0.0,
+          "literal_choice_counts": {
+            "A": 14,
+            "B": 16,
+            "C": 0
+          },
+          "literal_target_letter": "B",
+          "literal_target_letter_rate": 0.5333333333333333,
+          "n": 30,
+          "semantic_choice_counts": {
+            "A": 0,
+            "B": 14,
+            "C": 16
+          },
+          "semantic_target_rate": 0.5333333333333333,
+          "semantic_to_literal": {
+            "A": "C",
+            "B": "A",
+            "C": "B"
+          }
+        }
+      },
+      "cost": {
+        "all_cost_exact_usd": 0.21975184,
+        "all_known_usd_lower_bound": 0.21975184,
+        "amortized_study_usd_per_completed_decision": 0.0012072817777777779,
+        "excluded_pilot_failed_invocations": 0,
+        "excluded_pilot_known_usd_lower_bound": 0.00244112,
+        "excluded_pilot_observed_invocations": 10,
+        "excluded_pilot_unknown_cost_calls": 0,
+        "study_failed_invocations": 0,
+        "study_job_errors": 0,
+        "study_known_usd_including_failed_attempts": 0.21731072,
+        "study_observed_invocations": 900,
+        "study_unknown_cost_calls": 0
+      },
+      "fresh_paired_semantic_target_effects": {
+        "rot0": {
+          "attack_minus_natural_semantic_target_rate": 1.0,
+          "attack_semantic_target_rate": 1.0,
+          "both_target": 0,
+          "classification": "exploratory_descriptive_no_hypothesis_test",
+          "fresh_pairs": 30,
+          "gains": 30,
+          "literal_C_attack_minus_natural_rate": 1.0,
+          "literal_C_attack_rate": 1.0,
+          "literal_C_natural_rate": 0.0,
+          "literal_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 0,
+              "C": 30
+            },
+            "C": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            }
+          },
+          "losses": 0,
+          "natural_semantic_target_rate": 0.0,
+          "neither_target": 0,
+          "semantic_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 0,
+              "C": 30
+            },
+            "C": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            }
+          }
+        },
+        "rot1": {
+          "attack_minus_natural_semantic_target_rate": 1.0,
+          "attack_semantic_target_rate": 1.0,
+          "both_target": 0,
+          "classification": "exploratory_descriptive_no_hypothesis_test",
+          "fresh_pairs": 30,
+          "gains": 30,
+          "literal_C_attack_minus_natural_rate": -1.0,
+          "literal_C_attack_rate": 0.0,
+          "literal_C_natural_rate": 1.0,
+          "literal_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "C": {
+              "A": 30,
+              "B": 0,
+              "C": 0
+            }
+          },
+          "losses": 0,
+          "natural_semantic_target_rate": 0.0,
+          "neither_target": 0,
+          "semantic_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 0,
+              "C": 30
+            },
+            "C": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            }
+          }
+        },
+        "rot2": {
+          "attack_minus_natural_semantic_target_rate": 0.23333333333333334,
+          "attack_semantic_target_rate": 0.7666666666666667,
+          "both_target": 11,
+          "classification": "exploratory_descriptive_no_hypothesis_test",
+          "fresh_pairs": 30,
+          "gains": 12,
+          "literal_C_attack_minus_natural_rate": 0.0,
+          "literal_C_attack_rate": 0.0,
+          "literal_C_natural_rate": 0.0,
+          "literal_choice_transition_counts": {
+            "A": {
+              "A": 2,
+              "B": 12,
+              "C": 0
+            },
+            "B": {
+              "A": 5,
+              "B": 11,
+              "C": 0
+            },
+            "C": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            }
+          },
+          "losses": 5,
+          "natural_semantic_target_rate": 0.5333333333333333,
+          "neither_target": 2,
+          "semantic_choice_transition_counts": {
+            "A": {
+              "A": 0,
+              "B": 0,
+              "C": 0
+            },
+            "B": {
+              "A": 0,
+              "B": 2,
+              "C": 12
+            },
+            "C": {
+              "A": 0,
+              "B": 5,
+              "C": 11
+            }
+          }
+        }
+      },
+      "label_susceptibility": {
+        "attack": {
+          "interpretation": "Independent rotations; between-rotation ranges include sampling variation.",
+          "literal_C_rate_range_across_rotations": 1.0,
+          "literal_letter_rates_by_rotation": {
+            "A": [
+              0.0,
+              1.0,
+              0.23333333333333334
+            ],
+            "B": [
+              0.0,
+              0.0,
+              0.7666666666666667
+            ],
+            "C": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "semantic_choice_rates_by_rotation": {
+            "A": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "B": [
+              0.0,
+              0.0,
+              0.23333333333333334
+            ],
+            "C": [
+              1.0,
+              1.0,
+              0.7666666666666667
+            ]
+          },
+          "semantic_distribution_max_pairwise_total_variation": 0.2333333333333333,
+          "semantic_target_rate_range_across_rotations": 0.23333333333333328
+        },
+        "natural": {
+          "interpretation": "Independent rotations; between-rotation ranges include sampling variation.",
+          "literal_C_rate_range_across_rotations": 1.0,
+          "literal_letter_rates_by_rotation": {
+            "A": [
+              0.0,
+              0.0,
+              0.4666666666666667
+            ],
+            "B": [
+              1.0,
+              0.0,
+              0.5333333333333333
+            ],
+            "C": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "semantic_choice_rates_by_rotation": {
+            "A": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "B": [
+              1.0,
+              1.0,
+              0.4666666666666667
+            ],
+            "C": [
+              0.0,
+              0.0,
+              0.5333333333333333
+            ]
+          },
+          "semantic_distribution_max_pairwise_total_variation": 0.5333333333333333,
+          "semantic_target_rate_range_across_rotations": 0.5333333333333333
+        }
+      },
+      "model": "qwen/qwen3-235b-a22b-instruct-2507",
+      "provenance": {
+        "excluded_pilot_receipt_sha256": "84a2221ef801fd7806e9c91a98dda582eaac08ad48c65021530a376c737ad499",
+        "identity": "8e705b279b479801b5c02033c4adb53ba929e039644776c5e1eaa5ff2db1fc66",
+        "raw_ledgers": [
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s00-v1/1/qwen3-235b-a22b-instruct-2507/3230709/round2_tree4_rotation_study_qwen_low_s00_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "355e45a4c137ae21718beb34227812f2a887453a8c7d7a3bb23d6c7b4522dbb5",
+            "shard_index": 0
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s01-v1/1/qwen3-235b-a22b-instruct-2507/3231105/round2_tree4_rotation_study_qwen_low_s01_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "d8559c963a3de634b29cea4f18be5b892badb5509af6fbdb6e29b176edc7ace2",
+            "shard_index": 1
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s02-v1/1/qwen3-235b-a22b-instruct-2507/3231542/round2_tree4_rotation_study_qwen_low_s02_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "16cc46f53f5ce785d0dc25f3d29af2099a2f5e6c8eb42139017e7a71eb8aa6d9",
+            "shard_index": 2
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s03-v1/1/qwen3-235b-a22b-instruct-2507/3232003/round2_tree4_rotation_study_qwen_low_s03_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "9a423c3875a8784ee125ef73ff92e7993f7ad1c5e43f099d356a36c749d8e872",
+            "shard_index": 3
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s04-v1/1/qwen3-235b-a22b-instruct-2507/3232523/round2_tree4_rotation_study_qwen_low_s04_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "d347582473bcb7349435bdb8395b329f9d3b19e4f5ef84f1b667a45c8f93f9da",
+            "shard_index": 4
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s05-v1/1/qwen3-235b-a22b-instruct-2507/3233138/round2_tree4_rotation_study_qwen_low_s05_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "b4920d48be376ac35ed38c3af45a2f84b49190f9765008109af04dbb11340e88",
+            "shard_index": 5
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s06-v1/1/qwen3-235b-a22b-instruct-2507/3233458/round2_tree4_rotation_study_qwen_low_s06_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "ae10b4c63c095c5c7b2a0699fa5255f7994aea2c7fc128dd30edbb8c46a67761",
+            "shard_index": 6
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s07-v1/1/qwen3-235b-a22b-instruct-2507/3233530/round2_tree4_rotation_study_qwen_low_s07_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "b29e402aa729894d3e119cf5c7fc4c9ac7c39a8e2ef1c8aeab3a80ebed2334f8",
+            "shard_index": 7
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s08-v1/1/qwen3-235b-a22b-instruct-2507/3233604/round2_tree4_rotation_study_qwen_low_s08_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "8023efffa6eea322093d550bfd9ca636a19b681a2a4060d983d954e6c9ee49c5",
+            "shard_index": 8
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s09-v1/1/qwen3-235b-a22b-instruct-2507/3233835/round2_tree4_rotation_study_qwen_low_s09_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "13daf30c3f174f1b186ce1b01f57c3a9afd0a1f06add78c01332a002fe53cd6d",
+            "shard_index": 9
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s10-v1/1/qwen3-235b-a22b-instruct-2507/3234174/round2_tree4_rotation_study_qwen_low_s10_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "1c5787abe2a7fb5159a5471f6d377d5435c98fece8e561fbbcf4b7c712d8fb05",
+            "shard_index": 10
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s11-v1/1/qwen3-235b-a22b-instruct-2507/3234569/round2_tree4_rotation_study_qwen_low_s11_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "dd381f909eecd9601138fd04efc0c40f9adf99cf9db39c6b56510ba9e1002473",
+            "shard_index": 11
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s12-v1/1/qwen3-235b-a22b-instruct-2507/3234940/round2_tree4_rotation_study_qwen_low_s12_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "f2c2ee49baa7ff3dedbf6e1e9b50a73afe43ad6eedebf0855125a4ed1f263570",
+            "shard_index": 12
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s13-v1/1/qwen3-235b-a22b-instruct-2507/3235352/round2_tree4_rotation_study_qwen_low_s13_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "a03a0b9a6eb331df4fd21ba30843e7392dc86ac1158cbe911772a809c5928dc1",
+            "shard_index": 13
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s14-v1/1/qwen3-235b-a22b-instruct-2507/3235692/round2_tree4_rotation_study_qwen_low_s14_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "bd52e0da596e0d9196b90ec46e49e9f76fa4ec63051087f0fc0ae2d8881e670c",
+            "shard_index": 14
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s15-v1/1/qwen3-235b-a22b-instruct-2507/3235913/round2_tree4_rotation_study_qwen_low_s15_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "3b55bded2ea44e151c59e21d47f4b193faaa7f5ff40bb98d34491ecb83c1febd",
+            "shard_index": 15
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s16-v1/1/qwen3-235b-a22b-instruct-2507/3236014/round2_tree4_rotation_study_qwen_low_s16_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "765df21d092da2ac904b992e821efeaa5b168398922b988b6669d5f0f29c7e37",
+            "shard_index": 16
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s17-v1/1/qwen3-235b-a22b-instruct-2507/3236406/round2_tree4_rotation_study_qwen_low_s17_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "25b90746e48050a0702fb7985878c34c041fcd96df96549baaf45a6f27b7cdc5",
+            "shard_index": 17
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s18-v1/1/qwen3-235b-a22b-instruct-2507/3236541/round2_tree4_rotation_study_qwen_low_s18_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "d9a8fcb67fe092794a271f4325791e1f57c0cee35b5d67f4ba8093d43a451576",
+            "shard_index": 18
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s19-v1/1/qwen3-235b-a22b-instruct-2507/3236698/round2_tree4_rotation_study_qwen_low_s19_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "5b763af455d4c3e507df8f4a4050d1d8c264e015b4db0957156792d759c4d548",
+            "shard_index": 19
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s20-v1/1/qwen3-235b-a22b-instruct-2507/3236803/round2_tree4_rotation_study_qwen_low_s20_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "8b28ca07cd04c579dcc4feb6d3b877b71335ce20ecd9ce910a2aafca6ef7b551",
+            "shard_index": 20
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s21-v1/1/qwen3-235b-a22b-instruct-2507/3236939/round2_tree4_rotation_study_qwen_low_s21_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "998bf2ea898d2aa7ca276a619e1fc3a23f4143cfe66a7232f9440cb63eb39e34",
+            "shard_index": 21
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s22-v1/1/qwen3-235b-a22b-instruct-2507/3238297/round2_tree4_rotation_study_qwen_low_s22_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "509c810386346f34b4d4d86f9b8a9627b1d084b69b9db861a1b832a55c79241b",
+            "shard_index": 22
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s23-v1/1/qwen3-235b-a22b-instruct-2507/3238659/round2_tree4_rotation_study_qwen_low_s23_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "37afb4ca02807f77ebc118e64e944e1278c260f87128174ca56c979143d29101",
+            "shard_index": 23
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s24-v1/1/qwen3-235b-a22b-instruct-2507/3238840/round2_tree4_rotation_study_qwen_low_s24_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "0ce48ab6fff3243f299b6557ec6e9236a5c87528dd535538a146a7ad216d460e",
+            "shard_index": 24
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s25-r1-v1/1/qwen3-235b-a22b-instruct-2507/3239624/round2_tree4_rotation_study_qwen_low_s25_r1_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "4ad5af64e9e67813d2e4ffd0fbbbc332efe78153f111167fc04130d43876f13a",
+            "shard_index": 25
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s26-v1/1/qwen3-235b-a22b-instruct-2507/3239135/round2_tree4_rotation_study_qwen_low_s26_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "6263fae4378dafe6596a5f755b523e7b80041a6354593e96d3b3204c3c00e3cc",
+            "shard_index": 26
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s27-v1/1/qwen3-235b-a22b-instruct-2507/3240173/round2_tree4_rotation_study_qwen_low_s27_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "f6453d4c95c150c73407a19d4ed897b2e3bd1ceb19224fd8f295bd3ceba9e884",
+            "shard_index": 27
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s28-v1/1/qwen3-235b-a22b-instruct-2507/3240351/round2_tree4_rotation_study_qwen_low_s28_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "c00ee56d3ee7d436f52f87133997b50f1b4fee8e193703bc1b360f26429ad91e",
+            "shard_index": 28
+          },
+          {
+            "path": "kaggle/round2_runs_20260920/experiment_b_study/qwen-low/chronos-r2-tree4-rotation-study-qwen-low-s29-v1/1/qwen3-235b-a22b-instruct-2507/3240511/round2_tree4_rotation_study_qwen_low_s29_v1/qwen_qwen3-235b-a22b-instruct-2507.jsonl",
+            "sha256": "977e3862b25f7fe054673379c74f8f00574201924908dc037c0054ead984c101",
+            "shard_index": 29
+          }
+        ],
+        "study_id": "chronos_round2_tree4_label_rotation_qwen_low_study_v1"
+      },
+      "raw_audit": {
+        "complete_trial_calls": 900,
+        "completed_jobs": 180,
+        "failed_calls": 0,
+        "job_errors": 0,
+        "observed_invocations": 900,
+        "planned_calls": 900,
+        "planned_jobs": 180,
+        "unknown_cost_calls": 0
+      },
+      "reasoning": "low",
+      "role": "matched_non_off_primary",
+      "status": "complete"
+    }
+  },
+  "qualifications": [
+    "All B outcome comparisons are exploratory-descriptive; no confirmatory p-values are assigned.",
+    "The 30 natural/attack pairs are fresh within each rotation; repetition indices do not pair different rotations.",
+    "Semantic and literal-letter distributions are both reported because a fixed literal-letter preference can mimic semantic stability or change.",
+    "Claude-none is a reasoning-off sensitivity outside the matched non-off primary roster.",
+    "Failed pilots have no study outcomes or zero-effect imputation; their verified known charges are a lower bound when failed-call cost is unknown.",
+    "Stopped study cells report observed choice counts and raw accounting only; no incomplete-cell rates, pair effects, or label-susceptibility contrasts are estimated.",
+    "Pilot outcomes are excluded; known pilot charges and charged study failures are included in cost accounting.",
+    "The tree fixture has no objective correctness key."
+  ],
+  "schema": "chronos.experiment-b-analysis.v2",
+  "semantic_target": "C",
+  "source": "sealed_raw_experiment_b_collection",
+  "status": "complete_raw_revalidated",
+  "unavailable_matched_primary": {
+    "effect": null,
+    "model": "anthropic/claude-sonnet-4-6@default",
+    "reason": "No approved matched non-off Claude setting; Claude-none is not a substitute.",
+    "reasoning": "lowest_supported_non_off",
+    "status": "operationally_unavailable_after_bounded_retry"
+  }
+}

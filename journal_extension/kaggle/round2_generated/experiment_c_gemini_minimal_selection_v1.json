@@ -1,0 +1,66 @@
+{
+  "amendment_sha256": "5ab050c777c309138b811c29f347f75816419d8811df5fc54189d533d7ceb6f5",
+  "condition_target_successes": [
+    3,
+    0,
+    0,
+    1,
+    0,
+    0,
+    9,
+    7,
+    10,
+    9,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "model": "google/gemini-3.6-flash",
+  "objective": "target_C_choice_rate",
+  "reasoning": "minimal",
+  "role": "primary",
+  "schema": "chronos.experiment-c-selection.v1",
+  "selected_condition_index": 8,
+  "selected_order": [
+    "heat_tool",
+    "survival_tool",
+    "equity_tool",
+    "cost_tool"
+  ],
+  "selection_manifest_sha256": "5ed905fabcf299fad407babb9f4e90e9a141ffe8aed004a14bd4488110e6e5bf",
+  "selection_repetitions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "source_identity": "8c05af3cc75582549e49ed1f872ac8f1dcc5d81f6b0067140ec695215e49887f",
+  "source_log_sha256": "b6894e01a36f9b6baf94d886cb75fa0a2567635cbf3763022beb5c07adc86965",
+  "source_logs": [
+    {
+      "bytes": 5803944,
+      "path": "kaggle/journal_gemini_study_20260914/output/journal_gemini_study_minimal/google_gemini-3.6-flash.jsonl",
+      "sha256": "b6894e01a36f9b6baf94d886cb75fa0a2567635cbf3763022beb5c07adc86965"
+    }
+  ],
+  "source_study_id": "chronos_independent_tree4_20260909_v1",
+  "target_successes": 10,
+  "tie_break": "lowest_frozen_condition_index"
+}

@@ -1,0 +1,28 @@
+{
+  "taskVersion": {
+    "versionNumber": 1,
+    "name": "chronos-r2-tree4-c-gemini-minimal-s15-v1",
+    "description": "",
+    "definition": "@kbench.task(name='chronos-r2-tree4-c-gemini-minimal-s15-v1')\ndef experiment_c(llm):\n    if llm.model != MODEL:\n        raise ValueError('unexpected selected model')\n    llm.client = llm.client.with_options(max_retries=0)\n    _policy = CONTRACT['transport_policy']\n    _waits = dict(schema=_policy['schema'], count=0, seconds=0)\n    _waits_path = OUTPUT / 'transient_waits.json'\n    _waits_path.write_text(json.dumps(_waits, sort_keys=True) + '\\n')\n    _original_respond = llm.respond\n    def _respond(**kwargs):\n        waited, delay = 0, _policy['initial_delay_seconds']\n        while True:\n            try:\n                return _original_respond(**kwargs)\n            except Exception as error:\n                if type(error).__name__ not in _policy['wait_on']:\n                    raise\n                remaining = _policy['max_wait_seconds_per_call'] - waited\n                if remaining <= 0:\n                    raise\n                pause = min(delay, remaining)\n                print('TRANSIENT', type(error).__name__, 'waiting', pause, 's', flush=True)\n                time.sleep(pause)\n                waited += pause\n                _waits['count'] += 1\n                _waits['seconds'] += pause\n                _waits_path.write_text(json.dumps(_waits, sort_keys=True) + '\\n')\n                delay = min(delay * 2, _policy['max_delay_seconds'])\n    llm.respond = _respond\n    stopped = None\n    try:\n        protocol.engine.run_jobs(kbench, llm, FIXTURES, JOBS, OUTPUT, CONTRACT['ceiling_usd'])\n    except Exception as error:\n        # Do not raise: errored Kaggle tasks can discard paid raw evidence.\n        stopped = repr(error)\n    events, invalid_lines = parse_jsonl_best_effort(EVIDENCE.read_bytes() if EVIDENCE.exists() else b'')\n    report, audit_error = None, None\n    if invalid_lines:\n        audit_error = 'malformed raw JSONL; inspect preserved evidence'\n    else:\n        try:\n            report = auditor.audit(events, MODEL, SELECTION, require_complete=False, expected_job_ids=set(CONTRACT['expected_job_ids']))\n        except Exception as error:\n            audit_error = repr(error)\n    raw = raw_event_summary(events, invalid_json_lines=len(invalid_lines))\n    terminal = dict(schema='chronos.experiment-c-hosted-terminal.v1', task=TASK,\n        contract_sha256=CONTRACT['contract_sha256'], status='complete' if report and report['complete'] and not stopped else 'stopped',\n        stopped_early=stopped, audit_error=audit_error, audit=report, raw_accounting=raw)\n    (OUTPUT / 'terminal.json').write_text(json.dumps(terminal, indent=2, sort_keys=True) + '\\n')\n    print('EXPERIMENT_C_TERMINAL', json.dumps(terminal, sort_keys=True), flush=True)\n"
+  },
+  "modelVersion": {
+    "slug": "google/gemini-3.6-flash"
+  },
+  "state": "BENCHMARK_TASK_RUN_STATE_COMPLETED",
+  "startTime": "2026-09-26T06:46:52.599030Z",
+  "endTime": "2026-09-26T06:47:59.496461Z",
+  "conversations": [
+    {
+      "id": "chronos-r2-tree4-c-gemini-minimal-s15-v1-3dcc473e",
+      "metrics": {},
+      "modelVersionSlug": "model_version_slug for conversation is DEPRECATED"
+    }
+  ],
+  "results": [
+    {
+      "type": "AGGREGATED",
+      "booleanResult": true
+    }
+  ],
+  "pyRunId": "chronos-r2-tree4-c-gemini-minimal-s15-v1-Run #1"
+}

@@ -1,0 +1,118 @@
+{
+  "attestation_sha256": "1b848cb2a9795355d8dcc3ac00f2bf6c8b518663180d4e28add84c33f1eb34c6",
+  "canonical_task_source_status": "frozen_prelaunch",
+  "frozen_at": "2026-09-21T19:45:48.859187+00:00",
+  "prelaunch_manifest": {
+    "bytes": 7368,
+    "path": "kaggle/round2_generated/experiment_a_claude_none_batch00_tasks_v1.json",
+    "sha256": "fb3e35bf5b0fd0c0dd51cacfb567150c7d43211574e7b1cdc088660dacff2c07"
+  },
+  "prelaunch_manifest_sha256": "0342e3716f41867df5a46716b5a49bd6d3929d7b38cd7778a48ea1114f38ef81",
+  "reason": "Kaggle CreateBenchmarkTask returned HTTP 499 with an empty body for the canonical approximately-198-KiB sources",
+  "schema": "chronos.experiment-a-transport-wrapper-batch.v1",
+  "wrapper_count": 6,
+  "wrappers": [
+    {
+      "canonical_source": {
+        "bytes": 198463,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s00_v1.py",
+        "sha256": "9264d91b5f960dc2be56b271f554262ea087ff230530a83263e4534ac9a1b11c"
+      },
+      "decompressed_payload_sha256": "9264d91b5f960dc2be56b271f554262ea087ff230530a83263e4534ac9a1b11c",
+      "scientific_changes": [],
+      "shard_index": 0,
+      "task": "chronos-r2-water4-study-claude-none-s00-v1",
+      "transport_change": "zlib_level9_base85_wrapper_with_pre_execution_sha256_check",
+      "wrapper_source": {
+        "bytes": 35127,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s00_transport_v1.py",
+        "sha256": "944057e128bfccb9d92ed8557b5f8f7cfd5cf02c1709f7034c9415cc391adde3"
+      }
+    },
+    {
+      "canonical_source": {
+        "bytes": 198429,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s01_v1.py",
+        "sha256": "a865578403f8ef57941e41f30d7b3a00a6f149ccd867b4ca9bc80ac2fe812e4e"
+      },
+      "decompressed_payload_sha256": "a865578403f8ef57941e41f30d7b3a00a6f149ccd867b4ca9bc80ac2fe812e4e",
+      "scientific_changes": [],
+      "shard_index": 1,
+      "task": "chronos-r2-water4-study-claude-none-s01-v1",
+      "transport_change": "zlib_level9_base85_wrapper_with_pre_execution_sha256_check",
+      "wrapper_source": {
+        "bytes": 35107,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s01_transport_v1.py",
+        "sha256": "a09ed98d0ed133b954eb5c8a241684ae09e38f2838b5f353a9b98be2fc02bf5a"
+      }
+    },
+    {
+      "canonical_source": {
+        "bytes": 198487,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s03_v1.py",
+        "sha256": "50a114b2693fa2f4e35446c63718de3eb40996598b6a9a3dbb9f96b69b69ba5c"
+      },
+      "decompressed_payload_sha256": "50a114b2693fa2f4e35446c63718de3eb40996598b6a9a3dbb9f96b69b69ba5c",
+      "scientific_changes": [],
+      "shard_index": 3,
+      "task": "chronos-r2-water4-study-claude-none-s03-v1",
+      "transport_change": "zlib_level9_base85_wrapper_with_pre_execution_sha256_check",
+      "wrapper_source": {
+        "bytes": 35125,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s03_transport_v1.py",
+        "sha256": "44fb1344c22b9c731988cbf6743a232fa9e3e264e0d711346de2909ab4f3aee3"
+      }
+    },
+    {
+      "canonical_source": {
+        "bytes": 198517,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s04_v1.py",
+        "sha256": "a0799ec59a211cc9a050094647330ddb85a81718904aa2e7c60d20df5c2c9303"
+      },
+      "decompressed_payload_sha256": "a0799ec59a211cc9a050094647330ddb85a81718904aa2e7c60d20df5c2c9303",
+      "scientific_changes": [],
+      "shard_index": 4,
+      "task": "chronos-r2-water4-study-claude-none-s04-v1",
+      "transport_change": "zlib_level9_base85_wrapper_with_pre_execution_sha256_check",
+      "wrapper_source": {
+        "bytes": 35071,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s04_transport_v1.py",
+        "sha256": "e5ac707939ef43e0d847bdc66a574fc670db680585b09c0cacb1ce0f32be74b5"
+      }
+    },
+    {
+      "canonical_source": {
+        "bytes": 198479,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s05_v1.py",
+        "sha256": "6b0880badbbf6cf65882924d598dad9e480cc0b6a3636fdf6aceecb800924a10"
+      },
+      "decompressed_payload_sha256": "6b0880badbbf6cf65882924d598dad9e480cc0b6a3636fdf6aceecb800924a10",
+      "scientific_changes": [],
+      "shard_index": 5,
+      "task": "chronos-r2-water4-study-claude-none-s05-v1",
+      "transport_change": "zlib_level9_base85_wrapper_with_pre_execution_sha256_check",
+      "wrapper_source": {
+        "bytes": 35110,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s05_transport_v1.py",
+        "sha256": "fc60833271e72df22c502d2b9f8d20fe978791e0822354255e366f5ac1aead73"
+      }
+    },
+    {
+      "canonical_source": {
+        "bytes": 198483,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s06_v1.py",
+        "sha256": "151af7b6b622cc27ce9dbd63756425eeb5d4c2c479c37899a7b1c67047cc05a6"
+      },
+      "decompressed_payload_sha256": "151af7b6b622cc27ce9dbd63756425eeb5d4c2c479c37899a7b1c67047cc05a6",
+      "scientific_changes": [],
+      "shard_index": 6,
+      "task": "chronos-r2-water4-study-claude-none-s06-v1",
+      "transport_change": "zlib_level9_base85_wrapper_with_pre_execution_sha256_check",
+      "wrapper_source": {
+        "bytes": 35140,
+        "path": "kaggle/round2_generated/water4_study_claude_none_s06_transport_v1.py",
+        "sha256": "e2e1d3c16b85d09d180dc61ff8849d2c19dc9d3231b3198705e33ca1e0898109"
+      }
+    }
+  ]
+}

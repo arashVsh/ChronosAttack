@@ -1,0 +1,46 @@
+{
+  "call_settings": {
+    "max_completion_tokens": 256,
+    "reasoning": "minimal",
+    "sdk_max_retries": 0,
+    "temperature": 1,
+    "timeout": 30
+  },
+  "error": null,
+  "evidence_sha256": "c878c402dc0ca113e8b9b49d07c23338bd67fda86ef6ab5cc1966c38c2467c06",
+  "fixture_manifest_sha256": "5f1c223fa26680aea2f846aee9af63fa97f355b4673cce1a42d431cf18623eb8",
+  "identity": "7fa3ddb4f7b50f2ecd115b2b6d7b3457054689befa7417ba49cde23f145426e6",
+  "job_ids": [
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|stateful|natural|25",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|stateless|attack|3",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|control|simultaneous|4",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|consistency|10|4",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|consistency|8|0",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|consistency|8|0",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|stateful|attack|8",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|c1|budget|2|10",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|consistency|9|4",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|stateful|attack|19",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|budget|0|13",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|budget|0|14",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|control|simultaneous|8",
+    "chronos_round2_b3c1_gemini_minimal_study_v1|google/gemini-3.6-flash|b3|budget|1|1"
+  ],
+  "jobs_sha256": "cf686777f8302051c549ed0836b880b305f78c632b7655398e0e967da108bb25",
+  "model": "google/gemini-3.6-flash",
+  "parent_ledger_sha256": null,
+  "planned_calls": 35,
+  "reasoning": "minimal",
+  "role": "matched_non_off_primary",
+  "schema": "chronos.experiment-g-terminal.v1",
+  "source_sha256": {
+    "audit_experiment_g.py": "5bdb752413ceeb857e1872ec79dca1b3d246ed21ef7474b8432872686b8833b5",
+    "build_completion_notebook.py": "a3c8995068c1d9c444b415ae7a1f7a95e036c35b68d215377379f33f80e52936",
+    "chronos_microgrid_c1_pair.py": "98072af64f880fde3a8892eb71cd7215288f83a53fe56a6ff0fbad013d41e374",
+    "chronos_software_release_b3_confirmation_batch.py": "e46cbd67cc775b95132b562e7cc8e1ce373c5e35297200cfdd5bf99ee291534d",
+    "completion_protocol.py": "616f6d0a7ecd1cb7b23b0258a780aa6529e25354ec924367ae86556778694821",
+    "experiment_g_protocol.py": "4197d52027d956078d6d54f5ccba34dee7a2a9269bd0e44518a60a4a28eb6b7a",
+    "round2_hosted.py": "29e6e064a33f00cd31007b36b9b8fa40eb6b5bc7186269580c2468ff7af9b739"
+  },
+  "study_id": "chronos_round2_b3c1_gemini_minimal_study_v1"
+}
